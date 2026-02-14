@@ -11,7 +11,7 @@ class FeedingGuideScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: const <Widget>[
           _GuideCard(
-            title: 'Phase 1 종 그룹',
+            title: '기본 종 그룹',
             lines: <String>['소형 앵무', '중형 앵무', '대형 앵무'],
           ),
           _GuideCard(
@@ -37,7 +37,7 @@ class FeedingGuideScreen extends StatelessWidget {
             lines: <String>[
               '본 가이드는 입문자를 위한 일반 원칙입니다.',
               '종/연령/질환/개체차에 따라 달라질 수 있습니다.',
-              '로리/로리킷 등 식성이 뚜렷한 그룹은 Phase 2 확장 대상입니다.',
+              '로리/로리킷 등 식성이 뚜렷한 그룹은 별도 가이드가 필요합니다.',
             ],
           ),
           _GuideCard(
@@ -50,7 +50,7 @@ class FeedingGuideScreen extends StatelessWidget {
           ),
           SizedBox(height: 8),
           Text(
-            '정량(그램/체중 기반/용량 계산)은 Phase 1에서 제공하지 않습니다.',
+            '정량(그램/체중 기반/용량 계산)은 현재 제공하지 않습니다.',
             style: TextStyle(fontWeight: FontWeight.w700),
           ),
         ],
