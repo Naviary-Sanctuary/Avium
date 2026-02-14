@@ -214,7 +214,7 @@ class _ConditionSelector extends StatelessWidget {
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 8),
-        Text('부위(part)', style: Theme.of(context).textTheme.labelLarge),
+        Text('부위', style: Theme.of(context).textTheme.labelLarge),
         const SizedBox(height: 6),
         Wrap(
           spacing: 8,
@@ -222,7 +222,7 @@ class _ConditionSelector extends StatelessWidget {
           children: partOptions
               .map(
                 (part) => ChoiceChip(
-                  label: Text(_partLabel(part)),
+                  label: Text(part.labelKo),
                   selected: selectedPart == part,
                   onSelected: (selected) {
                     onPartSelected(selected ? part : null);
@@ -232,7 +232,7 @@ class _ConditionSelector extends StatelessWidget {
               .toList(growable: false),
         ),
         const SizedBox(height: 10),
-        Text('형태·조리(prep)', style: Theme.of(context).textTheme.labelLarge),
+        Text('형태·조리', style: Theme.of(context).textTheme.labelLarge),
         const SizedBox(height: 6),
         Wrap(
           spacing: 8,
@@ -240,7 +240,7 @@ class _ConditionSelector extends StatelessWidget {
           children: prepOptions
               .map(
                 (prep) => ChoiceChip(
-                  label: Text(_prepLabel(prep)),
+                  label: Text(prep.labelKo),
                   selected: selectedPrep == prep,
                   onSelected: (selected) {
                     onPrepSelected(selected ? prep : null);
@@ -251,29 +251,6 @@ class _ConditionSelector extends StatelessWidget {
         ),
       ],
     );
-  }
-
-  String _partLabel(PartType part) {
-    return switch (part) {
-      PartType.flesh => '과육',
-      PartType.seeds => '씨앗',
-      PartType.peel => '껍질',
-      PartType.pit => '씨',
-      PartType.leaf => '잎',
-      PartType.stem => '줄기',
-      PartType.sprout => '새싹',
-      PartType.unknown => '기타',
-    };
-  }
-
-  String _prepLabel(PrepType prep) {
-    return switch (prep) {
-      PrepType.raw => '생',
-      PrepType.cooked => '익힘',
-      PrepType.dried => '건조',
-      PrepType.juice => '주스',
-      PrepType.any => '모든 형태',
-    };
   }
 }
 
@@ -325,16 +302,28 @@ class _EvidenceSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ExpansionTile(
-      title: const Text('근거/검토 정보'),
-      childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('evidenceLevel: ${food.evidenceLevel.name}'),
-        Text('reviewedAt: ${food.reviewedAt}'),
-        const SizedBox(height: 6),
-        ...food.sources.map((source) {
-          return Text('• ${source.title} (${source.year})');
-        }),
+        ExpansionTile(
+          title: const Text('근거/검토 정보'),
+          childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+          children: <Widget>[
+            Text('evidenceLevel: ${food.evidenceLevel.name}'),
+            Text('reviewedAt: ${food.reviewedAt}'),
+            const SizedBox(height: 6),
+            ...food.sources.map((source) {
+              return Text('• ${source.title} (${source.year})');
+            }),
+          ],
+        ),
+        Padding(
+          padding: const EdgeInsets.only(top: 4, bottom: 8),
+          child: Text(
+            '본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.',
+            style: Theme.of(context).textTheme.bodySmall,
+          ),
+        ),
       ],
     );
   }

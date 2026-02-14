@@ -5,6 +5,7 @@ class SearchService {
   const SearchService({this.fuzzyCandidateLimit = 30});
 
   final int fuzzyCandidateLimit;
+  static final RegExp _singleJamoPattern = RegExp(r'^[ㄱ-ㅎㅏ-ㅣ]+$');
 
   List<FoodItem> search(List<FoodItem> foods, String query) {
     final normalized = StringNormalizer.normalize(query);
@@ -29,8 +30,14 @@ class SearchService {
     }
 
     if (scored.isEmpty) {
+      if (!_shouldUseFuzzy(noSpace)) {
+        return const <FoodItem>[];
+      }
       final fuzzy = _fuzzyCandidates(foods, noSpace);
-      return fuzzy.take(fuzzyCandidateLimit).map((entry) => entry.food).toList();
+      return fuzzy
+          .take(fuzzyCandidateLimit)
+          .map((entry) => entry.food)
+          .toList();
     }
 
     scored.sort(_sortByBucket);
@@ -46,18 +53,34 @@ class SearchService {
           .toList(growable: false);
     }
 
-    final fuzzy = _fuzzyCandidates(foods, StringNormalizer.normalizeNoSpace(query));
+    final queryNoSpace = StringNormalizer.normalizeNoSpace(query);
+    if (!_shouldUseFuzzy(queryNoSpace)) {
+      return const <String>[];
+    }
+    final fuzzy = _fuzzyCandidates(foods, queryNoSpace);
     return fuzzy.take(limit).map((entry) => entry.food.nameKo).toList();
   }
 
-  List<_FuzzyEntry> _fuzzyCandidates(List<FoodItem> foods, String queryNoSpace) {
+  bool _shouldUseFuzzy(String queryNoSpace) {
+    if (queryNoSpace.length < 2) {
+      return false;
+    }
+    if (_singleJamoPattern.hasMatch(queryNoSpace)) {
+      return false;
+    }
+    return true;
+  }
+
+  List<_FuzzyEntry> _fuzzyCandidates(
+      List<FoodItem> foods, String queryNoSpace) {
     final candidates = <_FuzzyEntry>[];
     for (final food in foods) {
       final tokens = _collectTokens(food);
       final bestDistance = tokens
           .map((token) => _levenshtein(queryNoSpace, token))
           .reduce((a, b) => a < b ? a : b);
-      final maxDistance = queryNoSpace.length <= 3 ? 1 : queryNoSpace.length ~/ 3;
+      final maxDistance =
+          queryNoSpace.length <= 3 ? 1 : queryNoSpace.length ~/ 3;
       if (bestDistance <= maxDistance) {
         candidates.add(_FuzzyEntry(food, bestDistance));
       }
@@ -73,6 +96,13 @@ class SearchService {
   }
 
   Set<String> _collectTokens(FoodItem food) {
+    final initialTokens = <String>{
+      StringNormalizer.toInitialConsonants(food.nameKo),
+      StringNormalizer.toInitialConsonants(food.nameEn),
+      ...food.aliases.map(StringNormalizer.toInitialConsonants),
+      ...food.searchTokens.map(StringNormalizer.toInitialConsonants),
+    }..removeWhere((value) => value.isEmpty);
+
     return <String>{
       StringNormalizer.normalize(food.nameKo),
       StringNormalizer.normalizeNoSpace(food.nameKo),
@@ -82,6 +112,7 @@ class SearchService {
       ...food.aliases.map(StringNormalizer.normalizeNoSpace),
       ...food.searchTokens.map(StringNormalizer.normalize),
       ...food.searchTokens.map(StringNormalizer.normalizeNoSpace),
+      ...initialTokens,
     }..removeWhere((value) => value.isEmpty);
   }
 
@@ -89,7 +120,8 @@ class SearchService {
     int? best;
     for (final token in tokens) {
       final tokenNoSpace = StringNormalizer.normalizeNoSpace(token);
-      final startsWith = token.startsWith(query) || tokenNoSpace.startsWith(queryNoSpace);
+      final startsWith =
+          token.startsWith(query) || tokenNoSpace.startsWith(queryNoSpace);
       if (!startsWith) {
         continue;
       }
@@ -105,7 +137,8 @@ class SearchService {
     int? best;
     for (final token in tokens) {
       final tokenNoSpace = StringNormalizer.normalizeNoSpace(token);
-      final contains = token.contains(query) || tokenNoSpace.contains(queryNoSpace);
+      final contains =
+          token.contains(query) || tokenNoSpace.contains(queryNoSpace);
       if (!contains) {
         continue;
       }

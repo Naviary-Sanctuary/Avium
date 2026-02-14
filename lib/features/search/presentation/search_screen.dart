@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../core/state/app_state.dart';
 import '../../../core/state/app_state_scope.dart';
 import '../../../core/widgets/safety_badge.dart';
 import '../../../data/models/food_item.dart';
@@ -35,7 +36,13 @@ class _SearchScreenState extends State<SearchScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Avium'),
+        title: Text(
+          'Avium',
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.primary,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
         actions: <Widget>[
           IconButton(
             onPressed: () => context.pushNamed('guide'),
@@ -78,6 +85,7 @@ class _SearchScreenState extends State<SearchScreen> {
           final query = appState.query;
           final results = appState.searchResults;
           final isZeroResult = query.isNotEmpty && results.isEmpty;
+          _showInitialDisclaimerIfNeeded(context, appState);
 
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -88,38 +96,68 @@ class _SearchScreenState extends State<SearchScreen> {
                   onChanged: appState.setQuery,
                 ),
                 const SizedBox(height: 12),
-                if (isZeroResult)
-                  ZeroResultNotice(
-                    onOpenEmergencyUnknown: () {
-                      context.pushNamed('emergency');
-                    },
-                    onOpenRequestTemplate: () {
-                      _openMailTemplate(context, query);
-                    },
-                    suggestions: appState.suggestions,
-                    onSuggestionTap: (word) {
-                      _controller.text = word;
-                      appState.setQuery(word);
-                    },
-                  )
-                else
-                  Expanded(
-                    child: _ResultList(
-                      foods: results,
-                      onTapFood: (food) {
-                        context.pushNamed(
-                          'food-detail',
-                          pathParameters: <String, String>{'id': food.id},
-                        );
-                      },
-                    ),
-                  ),
+                Expanded(
+                  child: isZeroResult
+                      ? SingleChildScrollView(
+                          child: ZeroResultNotice(
+                            onOpenEmergencyUnknown: () {
+                              context.pushNamed('emergency');
+                            },
+                            onOpenRequestTemplate: () {
+                              _openMailTemplate(context, query);
+                            },
+                            suggestions: appState.suggestions,
+                            onSuggestionTap: (word) {
+                              _controller.text = word;
+                              appState.setQuery(word);
+                            },
+                          ),
+                        )
+                      : _ResultList(
+                          foods: results,
+                          onTapFood: (food) {
+                            context.pushNamed(
+                              'food-detail',
+                              pathParameters: <String, String>{'id': food.id},
+                            );
+                          },
+                        ),
+                ),
               ],
             ),
           );
         },
       ),
     );
+  }
+
+  void _showInitialDisclaimerIfNeeded(BuildContext context, AppState appState) {
+    if (appState.hasSeenInitialDisclaimer) {
+      return;
+    }
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (!mounted || appState.hasSeenInitialDisclaimer) {
+        return;
+      }
+      appState.markInitialDisclaimerSeen();
+      await showDialog<void>(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text('안내'),
+            content: const Text(
+              '본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.',
+            ),
+            actions: <Widget>[
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('확인'),
+              ),
+            ],
+          );
+        },
+      );
+    });
   }
 
   Future<void> _openMailTemplate(BuildContext context, String query) async {
@@ -153,14 +191,17 @@ class _SearchField extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return TextField(
-      controller: controller,
-      onChanged: onChanged,
-      textInputAction: TextInputAction.search,
-      decoration: InputDecoration(
-        hintText: '음식 이름(한글/영문/별칭)',
-        prefixIcon: const Icon(Icons.search),
-        border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+    return Semantics(
+      label: '음식 검색 입력',
+      child: TextField(
+        controller: controller,
+        onChanged: onChanged,
+        textInputAction: TextInputAction.search,
+        decoration: InputDecoration(
+          hintText: '음식 이름(한글/영문/별칭)',
+          prefixIcon: const Icon(Icons.search),
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
+        ),
       ),
     );
   }

@@ -3,7 +3,7 @@
     "dataVersion": "1.2.0",
     "reviewedAt": "2026-02-14",
     "distributionPolicyKo": [
-      "Phase 1에서는 서버 동기화가 없습니다.",
+      "현재 버전에서는 서버 동기화가 없습니다.",
       "DB는 앱 번들에 포함되며 변경은 앱 업데이트로 배포됩니다.",
       "사용자는 설정 화면에서 dataVersion/reviewedAt을 확인할 수 있습니다."
     ]
@@ -13,13 +13,15 @@
       "id": "foodAvocado",
       "nameKo": "아보카도",
       "nameEn": "Avocado",
-      "aliases": ["avocado", "아보카도"],
+      "aliases": ["avocado", "아보카도", "아보카토"],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "danger",
       "oneLinerKo": "조류에서 독성 위험이 보고됩니다.",
       "reasonKo": ["특정 성분이 조류에 해로울 수 있다는 보고가 있습니다."],
-      "riskNotesKo": ["소량이라도 문제가 될 수 있어 급여하지 않는 것을 기본으로 합니다."],
+      "riskNotesKo": [
+        "소량이라도 문제가 될 수 있어 급여하지 않는 것을 기본으로 합니다."
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
@@ -31,13 +33,23 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Avian Medicine", "year": 2020}],
-      "search": {"tokens": ["avocado", "아보카도"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Avian Medicine",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["avocado", "아보카도"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
         "watchForKo": ["무기력", "호흡 이상", "경련"],
-        "escalationTriggersKo": ["호흡 이상/경련 시 즉시 진료기관 문의를 권장합니다."]
+        "escalationTriggersKo": [
+          "호흡 이상/경련 시 즉시 진료기관 문의를 권장합니다."
+        ]
       }
     },
     {
@@ -77,13 +89,23 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Avian Nutrition", "year": 2021}],
-      "search": {"tokens": ["apple", "사과"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Avian Nutrition",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["apple", "사과"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["씨앗 섭취 가능성이 있으면 관찰 강도를 높이세요."],
         "watchForKo": ["구토/역류", "무기력"],
-        "escalationTriggersKo": ["이상 증상이 지속되면 진료기관 문의를 권장합니다."]
+        "escalationTriggersKo": [
+          "이상 증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
       }
     },
     {
@@ -103,13 +125,21 @@
         "avoidParts": ["껍질"],
         "frequency": "가끔 소량",
         "notes": [],
-        "examplesKo": ["잘게 잘라 소량 제공" ]
+        "examplesKo": ["잘게 잘라 소량 제공"]
       },
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "paper", "title": "Companion Bird Diet", "year": 2019}],
-      "search": {"tokens": ["banana", "바나나"]},
+      "sources": [
+        {
+          "type": "paper",
+          "title": "Companion Bird Diet",
+          "year": 2019
+        }
+      ],
+      "search": {
+        "tokens": ["banana", "바나나"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["급격한 변화를 관찰하세요."],
@@ -139,8 +169,16 @@
       "confusables": [],
       "evidenceLevel": "high",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Bird Care Guide", "year": 2022}],
-      "search": {"tokens": ["carrot", "당근"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Bird Care Guide",
+          "year": 2022
+        }
+      ],
+      "search": {
+        "tokens": ["carrot", "당근"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["대부분 경과 관찰이 가능합니다."],
@@ -170,8 +208,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Leafy Greens in Birds", "year": 2021}],
-      "search": {"tokens": ["spinach", "시금치"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Leafy Greens in Birds",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["spinach", "시금치"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["수분 섭취와 활력을 관찰하세요."],
@@ -201,8 +247,16 @@
       "confusables": [],
       "evidenceLevel": "high",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Toxic Foods", "year": 2023}],
-      "search": {"tokens": ["chocolate", "초콜릿"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Toxic Foods",
+          "year": 2023
+        }
+      ],
+      "search": {
+        "tokens": ["chocolate", "초콜릿"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["추가 섭취를 즉시 차단하세요."],
@@ -232,13 +286,23 @@
       "confusables": [],
       "evidenceLevel": "high",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Avian Toxicology", "year": 2018}],
-      "search": {"tokens": ["onion", "양파"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Avian Toxicology",
+          "year": 2018
+        }
+      ],
+      "search": {
+        "tokens": ["onion", "양파"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["즉시 상태를 확인하고 문의를 준비하세요."],
         "watchForKo": ["무기력", "호흡 변화"],
-        "escalationTriggersKo": ["증상이 보이면 즉시 진료기관 문의를 권장합니다."]
+        "escalationTriggersKo": [
+          "증상이 보이면 즉시 진료기관 문의를 권장합니다."
+        ]
       }
     },
     {
@@ -263,8 +327,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "paper", "title": "Allium and Birds", "year": 2020}],
-      "search": {"tokens": ["garlic", "마늘"]},
+      "sources": [
+        {
+          "type": "paper",
+          "title": "Allium and Birds",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["garlic", "마늘"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["추가 노출을 막고 즉시 관찰하세요."],
@@ -294,8 +366,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "caseReport", "title": "Grape Cases", "year": 2017}],
-      "search": {"tokens": ["grape", "포도"]},
+      "sources": [
+        {
+          "type": "caseReport",
+          "title": "Grape Cases",
+          "year": 2017
+        }
+      ],
+      "search": {
+        "tokens": ["grape", "포도"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["상태 변화를 세밀하게 확인하세요."],
@@ -325,8 +405,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Fruit Acidity", "year": 2021}],
-      "search": {"tokens": ["kiwi", "키위"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Fruit Acidity",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["kiwi", "키위"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["소화기 증상을 관찰하세요."],
@@ -371,13 +459,23 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Parrot Nutrition", "year": 2020}],
-      "search": {"tokens": ["pear", "배"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Parrot Nutrition",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["pear", "배"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["씨앗 섭취 여부를 우선 확인하세요."],
         "watchForKo": ["무기력", "구토/역류"],
-        "escalationTriggersKo": ["증상 또는 씨앗 섭취 확실 시 문의를 권장합니다."]
+        "escalationTriggersKo": [
+          "증상 또는 씨앗 섭취 확실 시 문의를 권장합니다."
+        ]
       }
     },
     {
@@ -417,8 +515,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Companion Bird Feeding", "year": 2022}],
-      "search": {"tokens": ["rice", "쌀"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Companion Bird Feeding",
+          "year": 2022
+        }
+      ],
+      "search": {
+        "tokens": ["rice", "쌀"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["양념 포함 여부를 먼저 확인하세요."],
@@ -448,8 +554,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Processed Foods", "year": 2020}],
-      "search": {"tokens": ["bread", "빵"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Processed Foods",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["bread", "빵"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["성분표를 확인하고 상태를 관찰하세요."],
@@ -479,8 +593,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "paper", "title": "Nut Intake", "year": 2018}],
-      "search": {"tokens": ["almond", "아몬드"]},
+      "sources": [
+        {
+          "type": "paper",
+          "title": "Nut Intake",
+          "year": 2018
+        }
+      ],
+      "search": {
+        "tokens": ["almond", "아몬드"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["지속적인 소화 반응을 관찰하세요."],
@@ -510,8 +632,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "caseReport", "title": "Stored Nut Issues", "year": 2016}],
-      "search": {"tokens": ["peanut", "땅콩"]},
+      "sources": [
+        {
+          "type": "caseReport",
+          "title": "Stored Nut Issues",
+          "year": 2016
+        }
+      ],
+      "search": {
+        "tokens": ["peanut", "땅콩"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["오염 가능성을 고려해 관찰 강도를 높이세요."],
@@ -541,8 +671,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Dairy and Birds", "year": 2019}],
-      "search": {"tokens": ["yogurt", "요거트"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Dairy and Birds",
+          "year": 2019
+        }
+      ],
+      "search": {
+        "tokens": ["yogurt", "요거트"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["소화기 반응을 확인하세요."],
@@ -572,8 +710,16 @@
       "confusables": [],
       "evidenceLevel": "high",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Caffeine Warning", "year": 2024}],
-      "search": {"tokens": ["coffee", "커피"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Caffeine Warning",
+          "year": 2024
+        }
+      ],
+      "search": {
+        "tokens": ["coffee", "커피"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["즉시 추가 섭취를 차단하세요."],
@@ -603,8 +749,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Bird Drink Safety", "year": 2023}],
-      "search": {"tokens": ["tea", "차", "홍차", "녹차"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Bird Drink Safety",
+          "year": 2023
+        }
+      ],
+      "search": {
+        "tokens": ["tea", "녹차", "차", "홍차"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["음용량을 기억하고 즉시 문의를 준비하세요."],
@@ -634,8 +788,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "paper", "title": "Sugar Intake", "year": 2018}],
-      "search": {"tokens": ["honey", "꿀"]},
+      "sources": [
+        {
+          "type": "paper",
+          "title": "Sugar Intake",
+          "year": 2018
+        }
+      ],
+      "search": {
+        "tokens": ["honey", "꿀"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["과섭취 여부를 관찰하세요."],
@@ -665,8 +827,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Bird Food List", "year": 2022}],
-      "search": {"tokens": ["corn", "옥수수"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Bird Food List",
+          "year": 2022
+        }
+      ],
+      "search": {
+        "tokens": ["corn", "옥수수"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["양념 포함 여부를 확인하세요."],
@@ -711,8 +881,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Root Vegetables", "year": 2020}],
-      "search": {"tokens": ["sweet potato", "고구마"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Root Vegetables",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["sweet potato", "sweetpotato", "고구마"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["소화 반응을 관찰하세요."],
@@ -764,8 +942,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Parrot Plant Safety", "year": 2021}],
-      "search": {"tokens": ["tomato", "토마토"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Parrot Plant Safety",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["tomato", "토마토"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["잎/줄기 섭취 여부를 먼저 확인하세요."],
@@ -795,8 +981,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "caseReport", "title": "Mushroom Confusion", "year": 2015}],
-      "search": {"tokens": ["mushroom", "버섯"]},
+      "sources": [
+        {
+          "type": "caseReport",
+          "title": "Mushroom Confusion",
+          "year": 2015
+        }
+      ],
+      "search": {
+        "tokens": ["mushroom", "버섯"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["종을 확신하기 어렵다면 즉시 문의를 준비하세요."],
@@ -826,8 +1020,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Vegetable Snacks", "year": 2019}],
-      "search": {"tokens": ["celery", "셀러리"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Vegetable Snacks",
+          "year": 2019
+        }
+      ],
+      "search": {
+        "tokens": ["celery", "셀러리"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["일반적으로 경과 관찰이 가능합니다."],
@@ -857,8 +1059,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Fruit Snacks", "year": 2022}],
-      "search": {"tokens": ["blueberry", "블루베리"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Fruit Snacks",
+          "year": 2022
+        }
+      ],
+      "search": {
+        "tokens": ["blueberry", "블루베리"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["변 상태를 관찰하세요."],
@@ -888,8 +1098,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Safe Fruit List", "year": 2022}],
-      "search": {"tokens": ["strawberry", "딸기"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Safe Fruit List",
+          "year": 2022
+        }
+      ],
+      "search": {
+        "tokens": ["strawberry", "딸기"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["대부분 경과 관찰이 가능합니다."],
@@ -941,8 +1159,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Tropical Fruits", "year": 2019}],
-      "search": {"tokens": ["mango", "망고"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Tropical Fruits",
+          "year": 2019
+        }
+      ],
+      "search": {
+        "tokens": ["mango", "망고"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["씨/껍질 섭취 여부를 확인하세요."],
@@ -980,8 +1206,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Vegetable Feeding", "year": 2021}],
-      "search": {"tokens": ["pumpkin", "호박"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Vegetable Feeding",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["pumpkin", "호박"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["양념 여부를 확인하세요."],
@@ -1011,8 +1245,16 @@
       "confusables": [],
       "evidenceLevel": "high",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Processed Snack Warning", "year": 2024}],
-      "search": {"tokens": ["chips", "potatochips", "감자칩"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Processed Snack Warning",
+          "year": 2024
+        }
+      ],
+      "search": {
+        "tokens": ["chips", "potato chips", "potatochips", "감자칩"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["소금/양념 섭취 가능성을 고려하세요."],
@@ -1042,8 +1284,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Mixed Snack Risks", "year": 2020}],
-      "search": {"tokens": ["mixednuts", "mixed nuts", "믹스넛"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Mixed Snack Risks",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["mixed nuts", "mixednuts", "믹스넛"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["성분표 확인이 어려우면 보수적으로 대응하세요."],
@@ -1073,8 +1323,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Vegetable List", "year": 2021}],
-      "search": {"tokens": ["broccoli", "브로콜리"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Vegetable List",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["broccoli", "브로콜리"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["일반적으로 경과 관찰이 가능합니다."],
@@ -1104,8 +1362,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Hydrating Foods", "year": 2018}],
-      "search": {"tokens": ["cucumber", "오이"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Hydrating Foods",
+          "year": 2018
+        }
+      ],
+      "search": {
+        "tokens": ["cucumber", "오이"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["대부분 경과 관찰로 충분합니다."],
@@ -1135,8 +1401,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "paper", "title": "Citrus Intake", "year": 2017}],
-      "search": {"tokens": ["orange", "오렌지"]},
+      "sources": [
+        {
+          "type": "paper",
+          "title": "Citrus Intake",
+          "year": 2017
+        }
+      ],
+      "search": {
+        "tokens": ["orange", "오렌지"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["소화기 증상을 관찰하세요."],
@@ -1181,8 +1455,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Tropical Fruit", "year": 2020}],
-      "search": {"tokens": ["papaya", "파파야"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Tropical Fruit",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["papaya", "파파야"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["반응을 관찰하세요."],
@@ -1227,8 +1509,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Alternative Grains", "year": 2021}],
-      "search": {"tokens": ["quinoa", "퀴노아"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Alternative Grains",
+          "year": 2021
+        }
+      ],
+      "search": {
+        "tokens": ["quinoa", "퀴노아"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["소화 반응을 관찰하세요."],
@@ -1258,8 +1548,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Leafy Greens", "year": 2020}],
-      "search": {"tokens": ["lettuce", "상추"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Leafy Greens",
+          "year": 2020
+        }
+      ],
+      "search": {
+        "tokens": ["lettuce", "상추"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["대부분 경과 관찰이 가능합니다."],
@@ -1289,8 +1587,16 @@
       "confusables": [],
       "evidenceLevel": "medium",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "textbook", "title": "Seed-heavy Diet Risk", "year": 2019}],
-      "search": {"tokens": ["sunflowerseed", "sunflower seed", "해바라기씨"]},
+      "sources": [
+        {
+          "type": "textbook",
+          "title": "Seed-heavy Diet Risk",
+          "year": 2019
+        }
+      ],
+      "search": {
+        "tokens": ["sunflower seed", "sunflowerseed", "해바라기씨"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["지속 과섭취 여부를 확인하세요."],
@@ -1335,8 +1641,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "vetReview", "title": "Protein Supplements", "year": 2018}],
-      "search": {"tokens": ["egg", "달걀"]},
+      "sources": [
+        {
+          "type": "vetReview",
+          "title": "Protein Supplements",
+          "year": 2018
+        }
+      ],
+      "search": {
+        "tokens": ["egg", "달걀"]
+      },
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["소화 반응을 관찰하세요."],
@@ -1366,8 +1680,16 @@
       "confusables": [],
       "evidenceLevel": "low",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "caseReport", "title": "High-fat Snacks", "year": 2016}],
-      "search": {"tokens": ["cheese", "치즈"]},
+      "sources": [
+        {
+          "type": "caseReport",
+          "title": "High-fat Snacks",
+          "year": 2016
+        }
+      ],
+      "search": {
+        "tokens": ["cheese", "치즈"]
+      },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": ["섭취량과 증상을 함께 관찰하세요."],
@@ -1397,8 +1719,16 @@
       "confusables": [],
       "evidenceLevel": "high",
       "reviewedAt": "2026-02-01",
-      "sources": [{"type": "institution", "title": "Caffeine Products", "year": 2024}],
-      "search": {"tokens": ["energydrink", "energy drink", "에너지드링크"]},
+      "sources": [
+        {
+          "type": "institution",
+          "title": "Caffeine Products",
+          "year": 2024
+        }
+      ],
+      "search": {
+        "tokens": ["energy drink", "energydrink", "에너지드링크"]
+      },
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": ["즉시 추가 노출을 차단하세요."],

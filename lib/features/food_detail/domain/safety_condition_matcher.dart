@@ -26,8 +26,8 @@ class SafetyConditionMatcher {
   }) {
     final isComplete = selectedPart != null && selectedPrep != null;
     if (!isComplete) {
-      final partLabel = selectedPart?.name ?? '미선택';
-      final prepLabel = selectedPrep?.name ?? '미선택';
+      final partLabel = selectedPart?.labelKo ?? '미선택';
+      final prepLabel = selectedPrep?.labelKo ?? '미선택';
       return SafetyConditionMatchResult(
         resolvedLevel: representativeLevel,
         isComplete: false,
