@@ -4398,6 +4398,23 @@
           "title": "What Do Parrots Eat?",
           "publisher": "Chewy",
           "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
         }
       ],
       "search": {
@@ -4844,6 +4861,23 @@
           "title": "What Do Parrots Eat?",
           "publisher": "Chewy",
           "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
         }
       ],
       "search": {
@@ -4942,6 +4976,2837 @@
         ],
         "escalationTriggersKo": [
           "증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPineapple",
+      "nameKo": "파인애플",
+      "nameEn": "Pineapple",
+      "aliases": [
+        "pineapple",
+        "파인애플"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "산도와 당분을 고려해 소량만 급여하세요.",
+      "reasonKo": [
+        "과일은 간식 수준으로 제한하는 것이 안전합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "껍질",
+          "심지"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pineapple",
+          "파인애플"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPomegranate",
+      "nameKo": "석류",
+      "nameEn": "Pomegranate",
+      "aliases": [
+        "pomegranate",
+        "석류"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "당분이 높아 소량 간식으로만 고려하세요.",
+      "reasonKo": [
+        "과일 급여는 소량 원칙이 필요합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "껍질"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pomegranate",
+          "석류"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodGuava",
+      "nameKo": "구아바",
+      "nameEn": "Guava",
+      "aliases": [
+        "guava",
+        "구아바"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과일 간식으로 소량만 제공하세요.",
+      "reasonKo": [
+        "고당도 과일은 소량 급여가 권장됩니다."
+      ],
+      "riskNotesKo": [
+        "주식 대체 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "껍질"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "guava",
+          "구아바"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodRaspberry",
+      "nameKo": "라즈베리",
+      "nameEn": "Raspberry",
+      "aliases": [
+        "raspberry",
+        "라즈베리"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 간식으로 활용 가능합니다.",
+      "reasonKo": [
+        "과일은 소량 급여 시 다양성에 도움이 됩니다."
+      ],
+      "riskNotesKo": [
+        "신선도 확인"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "가공 시럽 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "raspberry",
+          "라즈베리"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBlackberry",
+      "nameKo": "블랙베리",
+      "nameEn": "Blackberry",
+      "aliases": [
+        "blackberry",
+        "블랙베리"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 간식으로 활용 가능합니다.",
+      "reasonKo": [
+        "다양한 과일 소량 급여는 보완식으로 사용할 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "가공잼 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "blackberry",
+          "블랙베리"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCranberry",
+      "nameKo": "크랜베리",
+      "nameEn": "Cranberry",
+      "aliases": [
+        "cranberry",
+        "크랜베리"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "산도가 있어 소량만 고려하세요.",
+      "reasonKo": [
+        "산도가 높은 과일은 주의 급여가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "처음에는 소량 테스트"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "당첨가 건조 제품"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cranberry",
+          "크랜베리"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodFig",
+      "nameKo": "무화과",
+      "nameEn": "Fig",
+      "aliases": [
+        "fig",
+        "무화과"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "당분을 고려해 소량만 급여하세요.",
+      "reasonKo": [
+        "과일은 소량 간식 원칙이 필요합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "건조가공 제품"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "fig",
+          "무화과"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodDate",
+      "nameKo": "대추야자",
+      "nameEn": "Date",
+      "aliases": [
+        "date",
+        "dates",
+        "대추야자"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "고당도 식품으로 극소량만 고려하세요.",
+      "reasonKo": [
+        "당분이 매우 높아 과량 급여를 피해야 합니다."
+      ],
+      "riskNotesKo": [
+        "고당도 주의"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(극소량)"
+        ],
+        "avoidParts": [
+          "씨"
+        ],
+        "frequency": "드물게 극소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "date",
+          "dates",
+          "대추야자"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPersimmon",
+      "nameKo": "감",
+      "nameEn": "Persimmon",
+      "aliases": [
+        "persimmon",
+        "감"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 소량만 제공하세요.",
+      "reasonKo": [
+        "과일 간식은 소량 급여가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "씨 제거 후 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "껍질"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "persimmon",
+          "감"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodMandarin",
+      "nameKo": "만다린",
+      "nameEn": "Mandarin",
+      "aliases": [
+        "mandarin",
+        "만다린"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "감귤류는 소량으로 제한하세요.",
+      "reasonKo": [
+        "감귤류는 산도와 당분을 함께 고려해야 합니다."
+      ],
+      "riskNotesKo": [
+        "소량 테스트"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "껍질",
+          "씨"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "mandarin",
+          "만다린"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodTangerine",
+      "nameKo": "귤",
+      "nameEn": "Tangerine",
+      "aliases": [
+        "tangerine",
+        "귤"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "감귤류는 소량만 급여하세요.",
+      "reasonKo": [
+        "감귤류는 과량 급여를 피하는 것이 안전합니다."
+      ],
+      "riskNotesKo": [
+        "소량 급여"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "껍질",
+          "씨"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "tangerine",
+          "귤"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCoconut",
+      "nameKo": "코코넛",
+      "nameEn": "Coconut",
+      "aliases": [
+        "coconut",
+        "코코넛"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "지방 함량을 고려해 소량만 급여하세요.",
+      "reasonKo": [
+        "고지방 식품은 과량 급여를 피해야 합니다."
+      ],
+      "riskNotesKo": [
+        "고지방 주의"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "가당 가공품"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "coconut",
+          "코코넛"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCantaloupe",
+      "nameKo": "캔털루프",
+      "nameEn": "Cantaloupe",
+      "aliases": [
+        "cantaloupe",
+        "멜론",
+        "캔털루프"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "과육을 소량 간식으로 활용할 수 있습니다.",
+      "reasonKo": [
+        "수분 많은 과일은 소량 급여가 적절합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "껍질"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cantaloupe",
+          "멜론",
+          "캔털루프"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodMelon",
+      "nameKo": "멜론",
+      "nameEn": "Melon",
+      "aliases": [
+        "melon",
+        "멜론"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "과육을 소량 간식으로 활용할 수 있습니다.",
+      "reasonKo": [
+        "과일군은 소량 급여 원칙이 필요합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "껍질"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "melon",
+          "멜론"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodMulberry",
+      "nameKo": "오디",
+      "nameEn": "Mulberry",
+      "aliases": [
+        "mulberry",
+        "오디"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 간식으로 활용 가능합니다.",
+      "reasonKo": [
+        "과일은 소량 급여 시 다양성에 도움이 됩니다."
+      ],
+      "riskNotesKo": [
+        "가공 시럽 형태 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "가당 가공품"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "mulberry",
+          "오디"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCauliflower",
+      "nameKo": "콜리플라워",
+      "nameEn": "Cauliflower",
+      "aliases": [
+        "cauliflower",
+        "콜리플라워"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "대체로 안전한 채소군입니다.",
+      "reasonKo": [
+        "채소 다양성 급여에 활용 가능합니다."
+      ],
+      "riskNotesKo": [
+        "양념 없이 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "꽃",
+          "줄기(소량)"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cauliflower",
+          "콜리플라워"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodKale",
+      "nameKo": "케일",
+      "nameEn": "Kale",
+      "aliases": [
+        "kale",
+        "케일"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "녹색 채소군은 보완식으로 사용됩니다."
+      ],
+      "riskNotesKo": [
+        "세척 후 소량 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "kale",
+          "케일"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCabbage",
+      "nameKo": "양배추",
+      "nameEn": "Cabbage",
+      "aliases": [
+        "cabbage",
+        "양배추"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "채소군 다양성 확보에 도움이 됩니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cabbage",
+          "양배추"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBokChoy",
+      "nameKo": "청경채",
+      "nameEn": "Bok Choy",
+      "aliases": [
+        "bok choy",
+        "bokchoy",
+        "청경채"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "녹색 채소군으로 보완식에 활용됩니다."
+      ],
+      "riskNotesKo": [
+        "세척 후 급여"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎",
+          "줄기(소량)"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "bok choy",
+          "bokchoy",
+          "청경채"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodAsparagus",
+      "nameKo": "아스파라거스",
+      "nameEn": "Asparagus",
+      "aliases": [
+        "asparagus",
+        "아스파라거스"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "채소군 다양성 급여에 포함할 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "양념 없이 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "줄기(소량)"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "asparagus",
+          "아스파라거스"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodRadish",
+      "nameKo": "무",
+      "nameEn": "Radish",
+      "aliases": [
+        "radish",
+        "무"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "채소군 다양성 확보에 활용됩니다."
+      ],
+      "riskNotesKo": [
+        "생식은 소량부터"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "뿌리"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "radish",
+          "무"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodTurnip",
+      "nameKo": "순무",
+      "nameEn": "Turnip",
+      "aliases": [
+        "turnip",
+        "순무"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "채소군 보완식에 포함할 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "처음엔 소량"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "뿌리"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "turnip",
+          "순무"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodZucchini",
+      "nameKo": "주키니",
+      "nameEn": "Zucchini",
+      "aliases": [
+        "zucchini",
+        "주키니"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "대체로 안전한 채소군입니다.",
+      "reasonKo": [
+        "채소 다양성 급여에 활용 가능합니다."
+      ],
+      "riskNotesKo": [
+        "양념 없이 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "zucchini",
+          "주키니"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBrusselsSprout",
+      "nameKo": "방울양배추",
+      "nameEn": "Brussels Sprout",
+      "aliases": [
+        "brussels sprout",
+        "브뤼셀스프라우트",
+        "방울양배추"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "reasonKo": [
+        "채소군 다양성 확보에 유용합니다."
+      ],
+      "riskNotesKo": [
+        "처음엔 소량 급여"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "brussels sprout",
+          "brusselssprout",
+          "방울양배추",
+          "브뤼셀스프라우트"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodButternutSquash",
+      "nameKo": "버터넛 스쿼시",
+      "nameEn": "Butternut Squash",
+      "aliases": [
+        "butternut squash",
+        "버터넛 스쿼시"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "대체로 안전한 채소군입니다.",
+      "reasonKo": [
+        "호박류 채소로 소량 급여가 가능합니다."
+      ],
+      "riskNotesKo": [
+        "양념 형태 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "butternut squash",
+          "butternutsquash",
+          "버터넛 스쿼시",
+          "버터넛스쿼시"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodOats",
+      "nameKo": "귀리",
+      "nameEn": "Oats",
+      "aliases": [
+        "oats",
+        "oat",
+        "귀리"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "곡물 보완식으로 소량 활용 가능합니다.",
+      "reasonKo": [
+        "곡물군은 균형 급여에서 소량 보완 용도로 사용됩니다."
+      ],
+      "riskNotesKo": [
+        "가공 당첨가 제품 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "플레인 귀리(소량)"
+        ],
+        "avoidParts": [
+          "가당 시리얼"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "oat",
+          "oats",
+          "귀리"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBarley",
+      "nameKo": "보리",
+      "nameEn": "Barley",
+      "aliases": [
+        "barley",
+        "보리"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "곡물 보완식으로 소량 활용 가능합니다.",
+      "reasonKo": [
+        "곡물군은 소량 보완식으로 사용됩니다."
+      ],
+      "riskNotesKo": [
+        "가공 당첨가 제품 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "익힌 보리(소량)"
+        ],
+        "avoidParts": [
+          "가공 과자류"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "barley",
+          "보리"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodMillet",
+      "nameKo": "기장",
+      "nameEn": "Millet",
+      "aliases": [
+        "millet",
+        "기장"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "선호도가 높아 과량 급여를 피하세요.",
+      "reasonKo": [
+        "특정 곡물 편식은 영양 불균형 위험이 있습니다."
+      ],
+      "riskNotesKo": [
+        "단일 곡물 위주 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "플레인 기장(소량)"
+        ],
+        "avoidParts": [
+          "가당 시리얼"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "millet",
+          "기장"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBuckwheat",
+      "nameKo": "메밀",
+      "nameEn": "Buckwheat",
+      "aliases": [
+        "buckwheat",
+        "메밀"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "곡물 보완식으로 소량 활용 가능합니다.",
+      "reasonKo": [
+        "곡물군 보완식으로 소량 사용이 가능합니다."
+      ],
+      "riskNotesKo": [
+        "양념/가공 형태 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "익힌 메밀(소량)"
+        ],
+        "avoidParts": [
+          "양념면"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "buckwheat",
+          "메밀"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBrownRice",
+      "nameKo": "현미",
+      "nameEn": "Brown Rice",
+      "aliases": [
+        "brown rice",
+        "brownrice",
+        "현미"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "익힌 곡물을 소량 보완식으로 사용할 수 있습니다.",
+      "reasonKo": [
+        "곡물군은 소량 보완식으로 활용됩니다."
+      ],
+      "riskNotesKo": [
+        "익힌 형태로만 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "익힌 현미(소량)"
+        ],
+        "avoidParts": [
+          "양념 볶음밥"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "brown rice",
+          "brownrice",
+          "현미"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPasta",
+      "nameKo": "파스타",
+      "nameEn": "Pasta",
+      "aliases": [
+        "pasta",
+        "파스타"
+      ],
+      "category": "grain",
+      "foodType": "processed",
+      "safetyLevel": "caution",
+      "oneLinerKo": "무염·무양념일 때만 극소량 고려하세요.",
+      "reasonKo": [
+        "가공 곡물은 양념/염분 노출 위험이 있습니다."
+      ],
+      "riskNotesKo": [
+        "양념 파스타 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "플레인 익힌 파스타(극소량)"
+        ],
+        "avoidParts": [
+          "소스/양념 포함 형태"
+        ],
+        "frequency": "드물게 극소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pasta",
+          "파스타"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCookedChicken",
+      "nameKo": "익힌 닭고기",
+      "nameEn": "Cooked Chicken",
+      "aliases": [
+        "cooked chicken",
+        "chicken",
+        "익힌 닭고기",
+        "닭고기"
+      ],
+      "category": "other",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "양념 없는 살코기만 극소량 가능할 수 있습니다.",
+      "reasonKo": [
+        "단백질 보충은 보조 수준으로만 사용합니다."
+      ],
+      "riskNotesKo": [
+        "양념/기름/뼈 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "익힌 살코기(극소량)"
+        ],
+        "avoidParts": [
+          "뼈",
+          "양념육"
+        ],
+        "frequency": "드물게 극소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "chicken",
+          "cooked chicken",
+          "cookedchicken",
+          "닭고기",
+          "익힌 닭고기",
+          "익힌닭고기"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCookedTurkey",
+      "nameKo": "익힌 칠면조고기",
+      "nameEn": "Cooked Turkey",
+      "aliases": [
+        "cooked turkey",
+        "turkey",
+        "익힌 칠면조고기",
+        "칠면조고기"
+      ],
+      "category": "other",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "양념 없는 살코기만 극소량 고려하세요.",
+      "reasonKo": [
+        "단백질 식품은 보조 수준 급여가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "양념/가공육 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "익힌 살코기(극소량)"
+        ],
+        "avoidParts": [
+          "가공 햄/훈제 형태"
+        ],
+        "frequency": "드물게 극소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cooked turkey",
+          "cookedturkey",
+          "turkey",
+          "익힌 칠면조고기",
+          "익힌칠면조고기",
+          "칠면조고기"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodLentils",
+      "nameKo": "렌틸콩",
+      "nameEn": "Lentils",
+      "aliases": [
+        "lentils",
+        "lentil",
+        "렌틸콩"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "익힌 형태로만 소량 고려하세요.",
+      "reasonKo": [
+        "콩류는 조리 상태와 양 조절이 중요합니다."
+      ],
+      "riskNotesKo": [
+        "생콩 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "충분히 익힌 렌틸콩(소량)"
+        ],
+        "avoidParts": [
+          "생 렌틸콩"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lentil",
+          "lentils",
+          "렌틸콩"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodChickpeas",
+      "nameKo": "병아리콩",
+      "nameEn": "Chickpeas",
+      "aliases": [
+        "chickpeas",
+        "chickpea",
+        "병아리콩"
+      ],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "익힌 형태로만 소량 고려하세요.",
+      "reasonKo": [
+        "콩류는 소화 부담을 고려해 소량 급여가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "생콩/양념형태 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "충분히 익힌 병아리콩(소량)"
+        ],
+        "avoidParts": [
+          "생 병아리콩",
+          "양념 후무스"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "소량부터 시작해 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "chickpea",
+          "chickpeas",
+          "병아리콩"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 지속되면 진료기관 문의를 권장합니다."
         ]
       }
     }
