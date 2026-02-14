@@ -13,22 +13,32 @@
       "id": "foodAvocado",
       "nameKo": "아보카도",
       "nameEn": "Avocado",
-      "aliases": ["avocado", "아보카도", "아보카토"],
+      "aliases": [
+        "avocado",
+        "아보카도",
+        "아보카토"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "danger",
       "oneLinerKo": "조류에서 독성 위험이 보고됩니다.",
-      "reasonKo": ["특정 성분이 조류에 해로울 수 있다는 보고가 있습니다."],
+      "reasonKo": [
+        "특정 성분이 조류에 해로울 수 있다는 보고가 있습니다."
+      ],
       "riskNotesKo": [
         "소량이라도 문제가 될 수 있어 급여하지 않는 것을 기본으로 합니다."
       ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": ["실수 섭취 시 응급 모드를 확인하세요."]
+        "examplesKo": [
+          "실수 섭취 시 응급 모드를 확인하세요."
+        ]
       },
       "confusables": [],
       "evidenceLevel": "medium",
@@ -41,12 +51,22 @@
         }
       ],
       "search": {
-        "tokens": ["avocado", "아보카도"]
+        "tokens": [
+          "avocado",
+          "아보카도",
+          "아보카토"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
-        "watchForKo": ["무기력", "호흡 이상", "경련"],
+        "whatToDoKo": [
+          "추가 섭취를 막고 상태를 관찰하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "호흡 이상",
+          "경련"
+        ],
         "escalationTriggersKo": [
           "호흡 이상/경련 시 즉시 진료기관 문의를 권장합니다."
         ]
@@ -56,13 +76,20 @@
       "id": "foodApple",
       "nameKo": "사과",
       "nameEn": "Apple",
-      "aliases": ["apple", "사과"],
+      "aliases": [
+        "apple",
+        "사과"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "과육은 대체로 안전하지만 씨앗은 제거가 권장됩니다.",
-      "reasonKo": ["부위별 위험도가 다를 수 있습니다."],
-      "riskNotesKo": ["씨앗/심지 제거 권장"],
+      "reasonKo": [
+        "부위별 위험도가 다를 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "씨앗/심지 제거 권장"
+      ],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -80,11 +107,20 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["씨앗", "심지"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨앗",
+          "심지"
+        ],
         "frequency": "가끔 소량",
-        "notes": ["첫 급여는 한 입 이하로 시작"],
-        "examplesKo": ["껍질 상태는 개체별 반응을 확인하세요."]
+        "notes": [
+          "첫 급여는 한 입 이하로 시작"
+        ],
+        "examplesKo": [
+          "껍질 상태는 개체별 반응을 확인하세요."
+        ]
       },
       "confusables": [],
       "evidenceLevel": "medium",
@@ -97,12 +133,20 @@
         }
       ],
       "search": {
-        "tokens": ["apple", "사과"]
+        "tokens": [
+          "apple",
+          "사과"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["씨앗 섭취 가능성이 있으면 관찰 강도를 높이세요."],
-        "watchForKo": ["구토/역류", "무기력"],
+        "whatToDoKo": [
+          "씨앗 섭취 가능성이 있으면 관찰 강도를 높이세요."
+        ],
+        "watchForKo": [
+          "구토/역류",
+          "무기력"
+        ],
         "escalationTriggersKo": [
           "이상 증상이 지속되면 진료기관 문의를 권장합니다."
         ]
@@ -112,20 +156,33 @@
       "id": "foodBanana",
       "nameKo": "바나나",
       "nameEn": "Banana",
-      "aliases": ["banana", "바나나"],
+      "aliases": [
+        "banana",
+        "바나나"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "대체로 안전하나 간식으로만 제공하세요.",
-      "reasonKo": ["당분이 높아 과잉 급여는 피해야 합니다."],
-      "riskNotesKo": ["주식 대체 금지"],
+      "reasonKo": [
+        "당분이 높아 과잉 급여는 피해야 합니다."
+      ],
+      "riskNotesKo": [
+        "주식 대체 금지"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["껍질"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "껍질"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
-        "examplesKo": ["잘게 잘라 소량 제공"]
+        "examplesKo": [
+          "잘게 잘라 소량 제공"
+        ]
       },
       "confusables": [],
       "evidenceLevel": "medium",
@@ -138,33 +195,54 @@
         }
       ],
       "search": {
-        "tokens": ["banana", "바나나"]
+        "tokens": [
+          "banana",
+          "바나나"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["급격한 변화를 관찰하세요."],
-        "watchForKo": ["설사", "식욕 저하"],
-        "escalationTriggersKo": ["증상이 반복되면 진료기관 문의를 권장합니다."]
+        "whatToDoKo": [
+          "급격한 변화를 관찰하세요."
+        ],
+        "watchForKo": [
+          "설사",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상이 반복되면 진료기관 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodCarrot",
       "nameKo": "당근",
       "nameEn": "Carrot",
-      "aliases": ["carrot", "당근"],
+      "aliases": [
+        "carrot",
+        "당근"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "소량의 생/익힌 당근은 대체로 안전합니다.",
-      "reasonKo": ["섬유질 식품으로 보조 간식에 적합합니다."],
-      "riskNotesKo": ["과량 급여는 피하세요."],
+      "reasonKo": [
+        "섬유질 식품으로 보조 간식에 적합합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여는 피하세요."
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["뿌리"],
+        "allowedParts": [
+          "뿌리"
+        ],
         "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
-        "examplesKo": ["가늘게 채 썰어 제공"]
+        "examplesKo": [
+          "가늘게 채 썰어 제공"
+        ]
       },
       "confusables": [],
       "evidenceLevel": "high",
@@ -177,33 +255,57 @@
         }
       ],
       "search": {
-        "tokens": ["carrot", "당근"]
+        "tokens": [
+          "carrot",
+          "당근"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["대부분 경과 관찰이 가능합니다."],
-        "watchForKo": ["식욕 저하"],
-        "escalationTriggersKo": ["비정상 반응이 지속되면 문의를 권장합니다."]
+        "whatToDoKo": [
+          "대부분 경과 관찰이 가능합니다."
+        ],
+        "watchForKo": [
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "비정상 반응이 지속되면 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodSpinach",
       "nameKo": "시금치",
       "nameEn": "Spinach",
-      "aliases": ["spinach", "시금치"],
+      "aliases": [
+        "spinach",
+        "시금치"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "소량은 가능하나 빈도 관리가 중요합니다.",
-      "reasonKo": ["성분 특성상 과다 급여를 피해야 합니다."],
-      "riskNotesKo": ["연속 급여 지양"],
+      "reasonKo": [
+        "성분 특성상 과다 급여를 피해야 합니다."
+      ],
+      "riskNotesKo": [
+        "연속 급여 지양"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["잎"],
-        "avoidParts": ["대량 급여"],
+        "allowedParts": [
+          "잎"
+        ],
+        "avoidParts": [
+          "대량 급여"
+        ],
         "frequency": "가끔 소량",
-        "notes": ["다른 채소와 번갈아 제공"],
-        "examplesKo": ["주 1회 이하 소량"]
+        "notes": [
+          "다른 채소와 번갈아 제공"
+        ],
+        "examplesKo": [
+          "주 1회 이하 소량"
+        ]
       },
       "confusables": [],
       "evidenceLevel": "medium",
@@ -216,33 +318,54 @@
         }
       ],
       "search": {
-        "tokens": ["spinach", "시금치"]
+        "tokens": [
+          "spinach",
+          "시금치"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["수분 섭취와 활력을 관찰하세요."],
-        "watchForKo": ["식욕 저하", "변 상태 변화"],
-        "escalationTriggersKo": ["이상 반응이 누적되면 문의를 권장합니다."]
+        "whatToDoKo": [
+          "수분 섭취와 활력을 관찰하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하",
+          "변 상태 변화"
+        ],
+        "escalationTriggersKo": [
+          "이상 반응이 누적되면 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodChocolate",
       "nameKo": "초콜릿",
       "nameEn": "Chocolate",
-      "aliases": ["chocolate", "초콜릿"],
+      "aliases": [
+        "chocolate",
+        "초콜릿"
+      ],
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "danger",
       "oneLinerKo": "조류에게 급여하면 안 되는 대표 식품입니다.",
-      "reasonKo": ["독성 위험 성분이 포함될 수 있습니다."],
-      "riskNotesKo": ["가공식품 주의"],
+      "reasonKo": [
+        "독성 위험 성분이 포함될 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "가공식품 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": ["실수 섭취 시 즉시 응급 모드 확인"]
+        "examplesKo": [
+          "실수 섭취 시 즉시 응급 모드 확인"
+        ]
       },
       "confusables": [],
       "evidenceLevel": "high",
@@ -255,30 +378,50 @@
         }
       ],
       "search": {
-        "tokens": ["chocolate", "초콜릿"]
+        "tokens": [
+          "chocolate",
+          "초콜릿"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["추가 섭취를 즉시 차단하세요."],
-        "watchForKo": ["흥분", "호흡 이상", "경련"],
-        "escalationTriggersKo": ["즉시 진료기관 문의를 권장합니다."]
+        "whatToDoKo": [
+          "추가 섭취를 즉시 차단하세요."
+        ],
+        "watchForKo": [
+          "흥분",
+          "호흡 이상",
+          "경련"
+        ],
+        "escalationTriggersKo": [
+          "즉시 진료기관 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodOnion",
       "nameKo": "양파",
       "nameEn": "Onion",
-      "aliases": ["onion", "양파"],
+      "aliases": [
+        "onion",
+        "양파"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "danger",
       "oneLinerKo": "급여하지 않는 것을 기본으로 합니다.",
-      "reasonKo": ["조류에 해로운 반응 가능성이 보고됩니다."],
-      "riskNotesKo": ["소량도 주의"],
+      "reasonKo": [
+        "조류에 해로운 반응 가능성이 보고됩니다."
+      ],
+      "riskNotesKo": [
+        "소량도 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
@@ -294,12 +437,20 @@
         }
       ],
       "search": {
-        "tokens": ["onion", "양파"]
+        "tokens": [
+          "onion",
+          "양파"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["즉시 상태를 확인하고 문의를 준비하세요."],
-        "watchForKo": ["무기력", "호흡 변화"],
+        "whatToDoKo": [
+          "즉시 상태를 확인하고 문의를 준비하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "호흡 변화"
+        ],
         "escalationTriggersKo": [
           "증상이 보이면 즉시 진료기관 문의를 권장합니다."
         ]
@@ -309,17 +460,26 @@
       "id": "foodGarlic",
       "nameKo": "마늘",
       "nameEn": "Garlic",
-      "aliases": ["garlic", "마늘"],
+      "aliases": [
+        "garlic",
+        "마늘"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "danger",
       "oneLinerKo": "양파류와 같이 급여하지 않는 것을 기본으로 합니다.",
-      "reasonKo": ["조류에서 문제를 일으킬 수 있는 보고가 있습니다."],
-      "riskNotesKo": ["조리 여부와 무관하게 주의"],
+      "reasonKo": [
+        "조류에서 문제를 일으킬 수 있는 보고가 있습니다."
+      ],
+      "riskNotesKo": [
+        "조리 여부와 무관하게 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
@@ -335,30 +495,49 @@
         }
       ],
       "search": {
-        "tokens": ["garlic", "마늘"]
+        "tokens": [
+          "garlic",
+          "마늘"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["추가 노출을 막고 즉시 관찰하세요."],
-        "watchForKo": ["무기력", "호흡 이상"],
-        "escalationTriggersKo": ["증상 확인 시 즉시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "추가 노출을 막고 즉시 관찰하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "호흡 이상"
+        ],
+        "escalationTriggersKo": [
+          "증상 확인 시 즉시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodGrape",
       "nameKo": "포도",
       "nameEn": "Grape",
-      "aliases": ["grape", "포도"],
+      "aliases": [
+        "grape",
+        "포도"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "개체별 반응 차이가 있어 보수적으로 접근하세요.",
-      "reasonKo": ["조건에 따라 반응이 다를 수 있습니다."],
-      "riskNotesKo": ["처음 급여는 지양"],
+      "reasonKo": [
+        "조건에 따라 반응이 다를 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "처음 급여는 지양"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["초기 급여"],
+        "avoidParts": [
+          "초기 급여"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -374,30 +553,51 @@
         }
       ],
       "search": {
-        "tokens": ["grape", "포도"]
+        "tokens": [
+          "grape",
+          "포도"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["상태 변화를 세밀하게 확인하세요."],
-        "watchForKo": ["구토/역류", "무기력"],
-        "escalationTriggersKo": ["이상 반응 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "상태 변화를 세밀하게 확인하세요."
+        ],
+        "watchForKo": [
+          "구토/역류",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "이상 반응 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodKiwi",
       "nameKo": "키위",
       "nameEn": "Kiwi",
-      "aliases": ["kiwi", "키위"],
+      "aliases": [
+        "kiwi",
+        "키위"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "소량은 가능하나 산도가 높아 주의가 필요합니다.",
-      "reasonKo": ["개체별 소화 반응 차이가 있습니다."],
-      "riskNotesKo": ["처음 급여 소량"],
+      "reasonKo": [
+        "개체별 소화 반응 차이가 있습니다."
+      ],
+      "riskNotesKo": [
+        "처음 급여 소량"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["껍질"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "껍질"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -413,26 +613,42 @@
         }
       ],
       "search": {
-        "tokens": ["kiwi", "키위"]
+        "tokens": [
+          "kiwi",
+          "키위"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["소화기 증상을 관찰하세요."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소화기 증상을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodPear",
       "nameKo": "배",
       "nameEn": "Pear",
-      "aliases": ["pear", "배"],
+      "aliases": [
+        "pear",
+        "배"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "과육은 가능하지만 씨앗은 제거해야 합니다.",
-      "reasonKo": ["씨앗/심지는 위험 가능성이 있습니다."],
-      "riskNotesKo": ["씨앗 제거"],
+      "reasonKo": [
+        "씨앗/심지는 위험 가능성이 있습니다."
+      ],
+      "riskNotesKo": [
+        "씨앗 제거"
+      ],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -450,8 +666,13 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["씨앗", "심지"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨앗",
+          "심지"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -467,12 +688,20 @@
         }
       ],
       "search": {
-        "tokens": ["pear", "배"]
+        "tokens": [
+          "pear",
+          "배"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["씨앗 섭취 여부를 우선 확인하세요."],
-        "watchForKo": ["무기력", "구토/역류"],
+        "whatToDoKo": [
+          "씨앗 섭취 여부를 우선 확인하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토/역류"
+        ],
         "escalationTriggersKo": [
           "증상 또는 씨앗 섭취 확실 시 문의를 권장합니다."
         ]
@@ -482,13 +711,20 @@
       "id": "foodRice",
       "nameKo": "쌀",
       "nameEn": "Rice",
-      "aliases": ["rice", "쌀"],
+      "aliases": [
+        "rice",
+        "쌀"
+      ],
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "익힌 쌀은 소량 보조 급여가 가능합니다.",
-      "reasonKo": ["조리 상태가 중요합니다."],
-      "riskNotesKo": ["양념 금지"],
+      "reasonKo": [
+        "조리 상태가 중요합니다."
+      ],
+      "riskNotesKo": [
+        "양념 금지"
+      ],
       "safetyConditions": [
         {
           "labelKo": "익힘",
@@ -506,8 +742,12 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["익힌 쌀"],
-        "avoidParts": ["양념된 형태"],
+        "allowedParts": [
+          "익힌 쌀"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -523,30 +763,48 @@
         }
       ],
       "search": {
-        "tokens": ["rice", "쌀"]
+        "tokens": [
+          "rice",
+          "쌀"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["양념 포함 여부를 먼저 확인하세요."],
-        "watchForKo": ["소화 불편"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "양념 포함 여부를 먼저 확인하세요."
+        ],
+        "watchForKo": [
+          "소화 불편"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodBread",
       "nameKo": "빵",
       "nameEn": "Bread",
-      "aliases": ["bread", "빵"],
+      "aliases": [
+        "bread",
+        "빵"
+      ],
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "caution",
       "oneLinerKo": "가공식품으로 성분 확인이 어려워 주의가 필요합니다.",
-      "reasonKo": ["염분/첨가물 변동 가능성이 큽니다."],
-      "riskNotesKo": ["혼합/가공식품 경고 대상"],
+      "reasonKo": [
+        "염분/첨가물 변동 가능성이 큽니다."
+      ],
+      "riskNotesKo": [
+        "혼합/가공식품 경고 대상"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["가공 빵류"],
+        "avoidParts": [
+          "가공 빵류"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -562,30 +820,51 @@
         }
       ],
       "search": {
-        "tokens": ["bread", "빵"]
+        "tokens": [
+          "bread",
+          "빵"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["성분표를 확인하고 상태를 관찰하세요."],
-        "watchForKo": ["설사", "무기력"],
-        "escalationTriggersKo": ["증상 확인 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "성분표를 확인하고 상태를 관찰하세요."
+        ],
+        "watchForKo": [
+          "설사",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 확인 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodAlmond",
       "nameKo": "아몬드",
       "nameEn": "Almond",
-      "aliases": ["almond", "아몬드"],
+      "aliases": [
+        "almond",
+        "아몬드"
+      ],
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "고지방 식품으로 빈도 제한이 필요합니다.",
-      "reasonKo": ["지방 함량이 높습니다."],
-      "riskNotesKo": ["과량 급여 주의"],
+      "reasonKo": [
+        "지방 함량이 높습니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["무염, 생 아몬드"],
-        "avoidParts": ["가염, 가공 코팅"],
+        "allowedParts": [
+          "무염, 생 아몬드"
+        ],
+        "avoidParts": [
+          "가염, 가공 코팅"
+        ],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": []
@@ -601,30 +880,50 @@
         }
       ],
       "search": {
-        "tokens": ["almond", "아몬드"]
+        "tokens": [
+          "almond",
+          "아몬드"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["지속적인 소화 반응을 관찰하세요."],
-        "watchForKo": ["구토/역류"],
-        "escalationTriggersKo": ["반복 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "지속적인 소화 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "반복 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodPeanut",
       "nameKo": "땅콩",
       "nameEn": "Peanut",
-      "aliases": ["peanut", "땅콩"],
+      "aliases": [
+        "peanut",
+        "땅콩"
+      ],
       "category": "nut",
       "foodType": "processed",
       "safetyLevel": "caution",
       "oneLinerKo": "보관 상태/가공 형태에 따라 위험이 달라질 수 있습니다.",
-      "reasonKo": ["곰팡이 오염 등 보관 이슈가 있습니다."],
-      "riskNotesKo": ["품질 불명 제품 주의"],
+      "reasonKo": [
+        "곰팡이 오염 등 보관 이슈가 있습니다."
+      ],
+      "riskNotesKo": [
+        "품질 불명 제품 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["신선한 무염 제품"],
-        "avoidParts": ["가염/조미 제품"],
+        "allowedParts": [
+          "신선한 무염 제품"
+        ],
+        "avoidParts": [
+          "가염/조미 제품"
+        ],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": []
@@ -640,30 +939,49 @@
         }
       ],
       "search": {
-        "tokens": ["peanut", "땅콩"]
+        "tokens": [
+          "peanut",
+          "땅콩"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["오염 가능성을 고려해 관찰 강도를 높이세요."],
-        "watchForKo": ["무기력", "호흡 변화"],
-        "escalationTriggersKo": ["호흡 이상 시 즉시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "오염 가능성을 고려해 관찰 강도를 높이세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "호흡 변화"
+        ],
+        "escalationTriggersKo": [
+          "호흡 이상 시 즉시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodYogurt",
       "nameKo": "요거트",
       "nameEn": "Yogurt",
-      "aliases": ["yogurt", "요거트"],
+      "aliases": [
+        "yogurt",
+        "요거트"
+      ],
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "caution",
       "oneLinerKo": "유제품은 개체별 반응 차이가 커서 주의가 필요합니다.",
-      "reasonKo": ["소화 반응이 다를 수 있습니다."],
-      "riskNotesKo": ["당분/첨가물 확인"],
+      "reasonKo": [
+        "소화 반응이 다를 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "당분/첨가물 확인"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["가당 제품"],
+        "avoidParts": [
+          "가당 제품"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -679,30 +997,48 @@
         }
       ],
       "search": {
-        "tokens": ["yogurt", "요거트"]
+        "tokens": [
+          "yogurt",
+          "요거트"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["소화기 반응을 확인하세요."],
-        "watchForKo": ["설사"],
-        "escalationTriggersKo": ["지속 반응 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소화기 반응을 확인하세요."
+        ],
+        "watchForKo": [
+          "설사"
+        ],
+        "escalationTriggersKo": [
+          "지속 반응 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodCoffee",
       "nameKo": "커피",
       "nameEn": "Coffee",
-      "aliases": ["coffee", "커피"],
+      "aliases": [
+        "coffee",
+        "커피"
+      ],
       "category": "drink",
       "foodType": "processed",
       "safetyLevel": "danger",
       "oneLinerKo": "카페인 음료는 급여하지 않아야 합니다.",
-      "reasonKo": ["카페인 성분은 조류에 위험할 수 있습니다."],
-      "riskNotesKo": ["즉시 차단"],
+      "reasonKo": [
+        "카페인 성분은 조류에 위험할 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "즉시 차단"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
@@ -718,30 +1054,51 @@
         }
       ],
       "search": {
-        "tokens": ["coffee", "커피"]
+        "tokens": [
+          "coffee",
+          "커피"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["즉시 추가 섭취를 차단하세요."],
-        "watchForKo": ["흥분", "호흡 이상", "경련"],
-        "escalationTriggersKo": ["즉시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "즉시 추가 섭취를 차단하세요."
+        ],
+        "watchForKo": [
+          "흥분",
+          "호흡 이상",
+          "경련"
+        ],
+        "escalationTriggersKo": [
+          "즉시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodTea",
       "nameKo": "차",
       "nameEn": "Tea",
-      "aliases": ["tea", "홍차", "녹차"],
+      "aliases": [
+        "tea",
+        "홍차",
+        "녹차"
+      ],
       "category": "drink",
       "foodType": "processed",
       "safetyLevel": "danger",
       "oneLinerKo": "카페인 함유 가능성이 있어 급여하지 않는 것을 기본으로 합니다.",
-      "reasonKo": ["음료 성분이 다양해 위험 판단이 어렵습니다."],
-      "riskNotesKo": ["불명 음료 주의"],
+      "reasonKo": [
+        "음료 성분이 다양해 위험 판단이 어렵습니다."
+      ],
+      "riskNotesKo": [
+        "불명 음료 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
@@ -757,30 +1114,51 @@
         }
       ],
       "search": {
-        "tokens": ["tea", "녹차", "차", "홍차"]
+        "tokens": [
+          "tea",
+          "녹차",
+          "차",
+          "홍차"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["음용량을 기억하고 즉시 문의를 준비하세요."],
-        "watchForKo": ["흥분", "호흡 이상"],
-        "escalationTriggersKo": ["이상 증상 시 즉시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "음용량을 기억하고 즉시 문의를 준비하세요."
+        ],
+        "watchForKo": [
+          "흥분",
+          "호흡 이상"
+        ],
+        "escalationTriggersKo": [
+          "이상 증상 시 즉시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodHoney",
       "nameKo": "꿀",
       "nameEn": "Honey",
-      "aliases": ["honey", "꿀"],
+      "aliases": [
+        "honey",
+        "꿀"
+      ],
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "caution",
       "oneLinerKo": "당분 농도가 높아 일반 급여는 권장하지 않습니다.",
-      "reasonKo": ["영양 균형을 깨뜨릴 수 있습니다."],
-      "riskNotesKo": ["상시 급여 금지"],
+      "reasonKo": [
+        "영양 균형을 깨뜨릴 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "상시 급여 금지"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["상시 급여"],
+        "avoidParts": [
+          "상시 급여"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -796,30 +1174,50 @@
         }
       ],
       "search": {
-        "tokens": ["honey", "꿀"]
+        "tokens": [
+          "honey",
+          "꿀"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["과섭취 여부를 관찰하세요."],
-        "watchForKo": ["설사"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "과섭취 여부를 관찰하세요."
+        ],
+        "watchForKo": [
+          "설사"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodCorn",
       "nameKo": "옥수수",
       "nameEn": "Corn",
-      "aliases": ["corn", "옥수수"],
+      "aliases": [
+        "corn",
+        "옥수수"
+      ],
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "무염/무가공 상태의 옥수수는 소량 급여가 가능합니다.",
-      "reasonKo": ["조리/양념 여부가 중요합니다."],
-      "riskNotesKo": ["버터/소금 첨가 금지"],
+      "reasonKo": [
+        "조리/양념 여부가 중요합니다."
+      ],
+      "riskNotesKo": [
+        "버터/소금 첨가 금지"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["알갱이"],
-        "avoidParts": ["가공 양념 제품"],
+        "allowedParts": [
+          "알갱이"
+        ],
+        "avoidParts": [
+          "가공 양념 제품"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -835,26 +1233,42 @@
         }
       ],
       "search": {
-        "tokens": ["corn", "옥수수"]
+        "tokens": [
+          "corn",
+          "옥수수"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["양념 포함 여부를 확인하세요."],
-        "watchForKo": ["소화 불편"],
-        "escalationTriggersKo": ["증상 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "양념 포함 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "소화 불편"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodSweetPotato",
       "nameKo": "고구마",
       "nameEn": "Sweet Potato",
-      "aliases": ["sweet potato", "고구마"],
+      "aliases": [
+        "sweet potato",
+        "고구마"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "익힌 형태는 비교적 안전하지만 조리 상태 확인이 필요합니다.",
-      "reasonKo": ["생 상태는 소화 부담 가능성이 있습니다."],
-      "riskNotesKo": ["익힘 권장"],
+      "reasonKo": [
+        "생 상태는 소화 부담 가능성이 있습니다."
+      ],
+      "riskNotesKo": [
+        "익힘 권장"
+      ],
       "safetyConditions": [
         {
           "labelKo": "익힘",
@@ -872,8 +1286,12 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["익힌 과육"],
-        "avoidParts": ["양념된 형태"],
+        "allowedParts": [
+          "익힌 과육"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -889,26 +1307,43 @@
         }
       ],
       "search": {
-        "tokens": ["sweet potato", "sweetpotato", "고구마"]
+        "tokens": [
+          "sweet potato",
+          "sweetpotato",
+          "고구마"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["식욕 저하"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소화 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodTomato",
       "nameKo": "토마토",
       "nameEn": "Tomato",
-      "aliases": ["tomato", "토마토"],
+      "aliases": [
+        "tomato",
+        "토마토"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "익은 과육은 가능하지만 잎/줄기는 피해야 합니다.",
-      "reasonKo": ["부위별 안전도가 다릅니다."],
-      "riskNotesKo": ["잎/줄기 금지"],
+      "reasonKo": [
+        "부위별 안전도가 다릅니다."
+      ],
+      "riskNotesKo": [
+        "잎/줄기 금지"
+      ],
       "safetyConditions": [
         {
           "labelKo": "익은 과육",
@@ -933,8 +1368,13 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["익은 과육"],
-        "avoidParts": ["잎", "줄기"],
+        "allowedParts": [
+          "익은 과육"
+        ],
+        "avoidParts": [
+          "잎",
+          "줄기"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -950,30 +1390,51 @@
         }
       ],
       "search": {
-        "tokens": ["tomato", "토마토"]
+        "tokens": [
+          "tomato",
+          "토마토"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["잎/줄기 섭취 여부를 먼저 확인하세요."],
-        "watchForKo": ["무기력", "구토/역류"],
-        "escalationTriggersKo": ["위험 부위 섭취 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "잎/줄기 섭취 여부를 먼저 확인하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "위험 부위 섭취 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodMushroom",
       "nameKo": "버섯",
       "nameEn": "Mushroom",
-      "aliases": ["mushroom", "버섯"],
+      "aliases": [
+        "mushroom",
+        "버섯"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "종 구분이 어려워 보수적으로 접근하세요.",
-      "reasonKo": ["종별 안전도 차이가 큽니다."],
-      "riskNotesKo": ["야생 버섯 금지"],
+      "reasonKo": [
+        "종별 안전도 차이가 큽니다."
+      ],
+      "riskNotesKo": [
+        "야생 버섯 금지"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["식용종 소량"],
-        "avoidParts": ["종 미확인 버섯"],
+        "allowedParts": [
+          "식용종 소량"
+        ],
+        "avoidParts": [
+          "종 미확인 버섯"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -989,33 +1450,54 @@
         }
       ],
       "search": {
-        "tokens": ["mushroom", "버섯"]
+        "tokens": [
+          "mushroom",
+          "버섯"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["종을 확신하기 어렵다면 즉시 문의를 준비하세요."],
-        "watchForKo": ["무기력", "구토/역류"],
-        "escalationTriggersKo": ["종 미상 섭취 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "종을 확신하기 어렵다면 즉시 문의를 준비하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "종 미상 섭취 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodCelery",
       "nameKo": "셀러리",
       "nameEn": "Celery",
-      "aliases": ["celery", "셀러리"],
+      "aliases": [
+        "celery",
+        "셀러리"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "소량의 신선한 셀러리는 보조 급여가 가능합니다.",
-      "reasonKo": ["섬유질 특성상 소량 급여가 적절합니다."],
-      "riskNotesKo": ["질긴 섬유는 작게 절단"],
+      "reasonKo": [
+        "섬유질 특성상 소량 급여가 적절합니다."
+      ],
+      "riskNotesKo": [
+        "질긴 섬유는 작게 절단"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["줄기"],
+        "allowedParts": [
+          "줄기"
+        ],
         "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
-        "examplesKo": ["잘게 썰어 제공"]
+        "examplesKo": [
+          "잘게 썰어 제공"
+        ]
       },
       "confusables": [],
       "evidenceLevel": "low",
@@ -1028,29 +1510,47 @@
         }
       ],
       "search": {
-        "tokens": ["celery", "셀러리"]
+        "tokens": [
+          "celery",
+          "셀러리"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["일반적으로 경과 관찰이 가능합니다."],
-        "watchForKo": ["식욕 저하"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "일반적으로 경과 관찰이 가능합니다."
+        ],
+        "watchForKo": [
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodBlueberry",
       "nameKo": "블루베리",
       "nameEn": "Blueberry",
-      "aliases": ["blueberry", "블루베리"],
+      "aliases": [
+        "blueberry",
+        "블루베리"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "소량의 신선한 블루베리는 대체로 안전합니다.",
-      "reasonKo": ["간식으로 소량이 적절합니다."],
-      "riskNotesKo": ["당분 과다 주의"],
+      "reasonKo": [
+        "간식으로 소량이 적절합니다."
+      ],
+      "riskNotesKo": [
+        "당분 과다 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["과육"],
+        "allowedParts": [
+          "과육"
+        ],
         "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
@@ -1067,30 +1567,50 @@
         }
       ],
       "search": {
-        "tokens": ["blueberry", "블루베리"]
+        "tokens": [
+          "blueberry",
+          "블루베리"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["변 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "변 상태를 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodStrawberry",
       "nameKo": "딸기",
       "nameEn": "Strawberry",
-      "aliases": ["strawberry", "딸기"],
+      "aliases": [
+        "strawberry",
+        "딸기"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "신선한 과육은 소량 급여가 가능합니다.",
-      "reasonKo": ["과일은 간식 비율 내에서 제공합니다."],
-      "riskNotesKo": ["세척 후 제공"],
+      "reasonKo": [
+        "과일은 간식 비율 내에서 제공합니다."
+      ],
+      "riskNotesKo": [
+        "세척 후 제공"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["가당 가공품"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "가당 가공품"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1106,26 +1626,42 @@
         }
       ],
       "search": {
-        "tokens": ["strawberry", "딸기"]
+        "tokens": [
+          "strawberry",
+          "딸기"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["대부분 경과 관찰이 가능합니다."],
-        "watchForKo": ["소화 불편"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "대부분 경과 관찰이 가능합니다."
+        ],
+        "watchForKo": [
+          "소화 불편"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodMango",
       "nameKo": "망고",
       "nameEn": "Mango",
-      "aliases": ["mango", "망고"],
+      "aliases": [
+        "mango",
+        "망고"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "과육은 가능하나 씨/껍질은 피하는 것이 좋습니다.",
-      "reasonKo": ["부위별로 반응이 달라질 수 있습니다."],
-      "riskNotesKo": ["씨/껍질 제거"],
+      "reasonKo": [
+        "부위별로 반응이 달라질 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "씨/껍질 제거"
+      ],
       "safetyConditions": [
         {
           "labelKo": "과육",
@@ -1150,8 +1686,13 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["씨", "껍질"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "껍질"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1167,26 +1708,42 @@
         }
       ],
       "search": {
-        "tokens": ["mango", "망고"]
+        "tokens": [
+          "mango",
+          "망고"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["씨/껍질 섭취 여부를 확인하세요."],
-        "watchForKo": ["구토/역류"],
-        "escalationTriggersKo": ["증상 발생 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "씨/껍질 섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "증상 발생 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodPumpkin",
       "nameKo": "호박",
       "nameEn": "Pumpkin",
-      "aliases": ["pumpkin", "호박"],
+      "aliases": [
+        "pumpkin",
+        "호박"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "익힌 호박은 소량 급여가 가능합니다.",
-      "reasonKo": ["조리 상태와 양념 여부가 중요합니다."],
-      "riskNotesKo": ["무염 조리"],
+      "reasonKo": [
+        "조리 상태와 양념 여부가 중요합니다."
+      ],
+      "riskNotesKo": [
+        "무염 조리"
+      ],
       "safetyConditions": [
         {
           "labelKo": "익힘",
@@ -1197,8 +1754,12 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["익힌 과육"],
-        "avoidParts": ["양념된 제품"],
+        "allowedParts": [
+          "익힌 과육"
+        ],
+        "avoidParts": [
+          "양념된 제품"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1214,30 +1775,49 @@
         }
       ],
       "search": {
-        "tokens": ["pumpkin", "호박"]
+        "tokens": [
+          "pumpkin",
+          "호박"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["양념 여부를 확인하세요."],
-        "watchForKo": ["소화 불편"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "양념 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "소화 불편"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodChips",
       "nameKo": "감자칩",
       "nameEn": "Potato Chips",
-      "aliases": ["chips", "potato chips", "감자칩"],
+      "aliases": [
+        "chips",
+        "potato chips",
+        "감자칩"
+      ],
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "danger",
       "oneLinerKo": "고염/고지방 가공식품으로 급여하지 않는 것을 기본으로 합니다.",
-      "reasonKo": ["첨가물과 염분이 높습니다."],
-      "riskNotesKo": ["혼합/가공식품 고위험"],
+      "reasonKo": [
+        "첨가물과 염분이 높습니다."
+      ],
+      "riskNotesKo": [
+        "혼합/가공식품 고위험"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
@@ -1253,30 +1833,51 @@
         }
       ],
       "search": {
-        "tokens": ["chips", "potato chips", "potatochips", "감자칩"]
+        "tokens": [
+          "chips",
+          "potato chips",
+          "potatochips",
+          "감자칩"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["소금/양념 섭취 가능성을 고려하세요."],
-        "watchForKo": ["무기력", "갈증 증가"],
-        "escalationTriggersKo": ["증상 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소금/양념 섭취 가능성을 고려하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "갈증 증가"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodMixedNuts",
       "nameKo": "믹스넛",
       "nameEn": "Mixed Nuts",
-      "aliases": ["mixed nuts", "믹스넛"],
+      "aliases": [
+        "mixed nuts",
+        "믹스넛"
+      ],
       "category": "nut",
       "foodType": "mixed",
       "safetyLevel": "caution",
       "oneLinerKo": "혼합식품은 성분 구성이 불명확해 보수적으로 판단해야 합니다.",
-      "reasonKo": ["가염/첨가 성분 포함 가능성이 큽니다."],
-      "riskNotesKo": ["혼합/가공식품 경고 대상"],
+      "reasonKo": [
+        "가염/첨가 성분 포함 가능성이 큽니다."
+      ],
+      "riskNotesKo": [
+        "혼합/가공식품 경고 대상"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["성분 미확인 혼합 제품"],
+        "avoidParts": [
+          "성분 미확인 혼합 제품"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -1292,29 +1893,50 @@
         }
       ],
       "search": {
-        "tokens": ["mixed nuts", "mixednuts", "믹스넛"]
+        "tokens": [
+          "mixed nuts",
+          "mixednuts",
+          "믹스넛"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["성분표 확인이 어려우면 보수적으로 대응하세요."],
-        "watchForKo": ["무기력", "호흡 이상"],
-        "escalationTriggersKo": ["증상 확인 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "성분표 확인이 어려우면 보수적으로 대응하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "호흡 이상"
+        ],
+        "escalationTriggersKo": [
+          "증상 확인 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodBroccoli",
       "nameKo": "브로콜리",
       "nameEn": "Broccoli",
-      "aliases": ["broccoli", "브로콜리"],
+      "aliases": [
+        "broccoli",
+        "브로콜리"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "신선한 브로콜리는 소량 급여가 가능합니다.",
-      "reasonKo": ["보조 채소로 활용 가능합니다."],
-      "riskNotesKo": ["과량 급여 주의"],
+      "reasonKo": [
+        "보조 채소로 활용 가능합니다."
+      ],
+      "riskNotesKo": [
+        "과량 급여 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["꽃봉오리", "줄기"],
+        "allowedParts": [
+          "꽃봉오리",
+          "줄기"
+        ],
         "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
@@ -1331,29 +1953,47 @@
         }
       ],
       "search": {
-        "tokens": ["broccoli", "브로콜리"]
+        "tokens": [
+          "broccoli",
+          "브로콜리"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["일반적으로 경과 관찰이 가능합니다."],
-        "watchForKo": ["소화 불편"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "일반적으로 경과 관찰이 가능합니다."
+        ],
+        "watchForKo": [
+          "소화 불편"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodCucumber",
       "nameKo": "오이",
       "nameEn": "Cucumber",
-      "aliases": ["cucumber", "오이"],
+      "aliases": [
+        "cucumber",
+        "오이"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "수분 보충용으로 소량 급여가 가능합니다.",
-      "reasonKo": ["간식 비율 내에서 제공하세요."],
-      "riskNotesKo": ["과량 급여 주의"],
+      "reasonKo": [
+        "간식 비율 내에서 제공하세요."
+      ],
+      "riskNotesKo": [
+        "과량 급여 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["과육"],
+        "allowedParts": [
+          "과육"
+        ],
         "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
@@ -1370,30 +2010,50 @@
         }
       ],
       "search": {
-        "tokens": ["cucumber", "오이"]
+        "tokens": [
+          "cucumber",
+          "오이"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["대부분 경과 관찰로 충분합니다."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "대부분 경과 관찰로 충분합니다."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodOrange",
       "nameKo": "오렌지",
       "nameEn": "Orange",
-      "aliases": ["orange", "오렌지"],
+      "aliases": [
+        "orange",
+        "오렌지"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "산도가 높아 소량만 권장됩니다.",
-      "reasonKo": ["소화기 민감 개체는 주의가 필요합니다."],
-      "riskNotesKo": ["처음 급여 소량"],
+      "reasonKo": [
+        "소화기 민감 개체는 주의가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "처음 급여 소량"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["껍질"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "껍질"
+        ],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": []
@@ -1409,26 +2069,42 @@
         }
       ],
       "search": {
-        "tokens": ["orange", "오렌지"]
+        "tokens": [
+          "orange",
+          "오렌지"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["소화기 증상을 관찰하세요."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소화기 증상을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodPapaya",
       "nameKo": "파파야",
       "nameEn": "Papaya",
-      "aliases": ["papaya", "파파야"],
+      "aliases": [
+        "papaya",
+        "파파야"
+      ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "과육은 소량 급여가 가능합니다.",
-      "reasonKo": ["신선한 과육 기준으로만 제공합니다."],
-      "riskNotesKo": ["씨는 제거"],
+      "reasonKo": [
+        "신선한 과육 기준으로만 제공합니다."
+      ],
+      "riskNotesKo": [
+        "씨는 제거"
+      ],
       "safetyConditions": [
         {
           "labelKo": "과육",
@@ -1446,8 +2122,12 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["씨"],
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1463,26 +2143,42 @@
         }
       ],
       "search": {
-        "tokens": ["papaya", "파파야"]
+        "tokens": [
+          "papaya",
+          "파파야"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["반응을 관찰하세요."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodQuinoa",
       "nameKo": "퀴노아",
       "nameEn": "Quinoa",
-      "aliases": ["quinoa", "퀴노아"],
+      "aliases": [
+        "quinoa",
+        "퀴노아"
+      ],
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "충분히 익힌 형태에서만 소량 급여를 고려하세요.",
-      "reasonKo": ["생/불충분 조리는 소화 부담 가능성이 있습니다."],
-      "riskNotesKo": ["익힘 필수"],
+      "reasonKo": [
+        "생/불충분 조리는 소화 부담 가능성이 있습니다."
+      ],
+      "riskNotesKo": [
+        "익힘 필수"
+      ],
       "safetyConditions": [
         {
           "labelKo": "익힘",
@@ -1500,8 +2196,12 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["익힌 형태"],
-        "avoidParts": ["생"],
+        "allowedParts": [
+          "익힌 형태"
+        ],
+        "avoidParts": [
+          "생"
+        ],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1517,29 +2217,47 @@
         }
       ],
       "search": {
-        "tokens": ["quinoa", "퀴노아"]
+        "tokens": [
+          "quinoa",
+          "퀴노아"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["식욕 저하"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소화 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodLettuce",
       "nameKo": "상추",
       "nameEn": "Lettuce",
-      "aliases": ["lettuce", "상추"],
+      "aliases": [
+        "lettuce",
+        "상추"
+      ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "수분이 많은 채소로 소량 급여가 가능합니다.",
-      "reasonKo": ["영양 균형을 위해 단독 과다 급여는 피하세요."],
-      "riskNotesKo": ["다양한 채소와 교차 급여"],
+      "reasonKo": [
+        "영양 균형을 위해 단독 과다 급여는 피하세요."
+      ],
+      "riskNotesKo": [
+        "다양한 채소와 교차 급여"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["잎"],
+        "allowedParts": [
+          "잎"
+        ],
         "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
@@ -1556,30 +2274,50 @@
         }
       ],
       "search": {
-        "tokens": ["lettuce", "상추"]
+        "tokens": [
+          "lettuce",
+          "상추"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["대부분 경과 관찰이 가능합니다."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "대부분 경과 관찰이 가능합니다."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodSunflowerSeed",
       "nameKo": "해바라기씨",
       "nameEn": "Sunflower Seed",
-      "aliases": ["sunflower seed", "해바라기씨"],
+      "aliases": [
+        "sunflower seed",
+        "해바라기씨"
+      ],
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "지방 함량이 높아 간식 비율 관리가 중요합니다.",
-      "reasonKo": ["과다 급여 시 영양 불균형 위험"],
-      "riskNotesKo": ["빈도 제한"],
+      "reasonKo": [
+        "과다 급여 시 영양 불균형 위험"
+      ],
+      "riskNotesKo": [
+        "빈도 제한"
+      ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["소량"],
-        "avoidParts": ["가염 제품"],
+        "allowedParts": [
+          "소량"
+        ],
+        "avoidParts": [
+          "가염 제품"
+        ],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": []
@@ -1595,26 +2333,44 @@
         }
       ],
       "search": {
-        "tokens": ["sunflower seed", "sunflowerseed", "해바라기씨"]
+        "tokens": [
+          "sunflower seed",
+          "sunflowerseed",
+          "해바라기씨"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["지속 과섭취 여부를 확인하세요."],
-        "watchForKo": ["체중 증가", "활력 저하"],
-        "escalationTriggersKo": ["장기 이상 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "지속 과섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "체중 증가",
+          "활력 저하"
+        ],
+        "escalationTriggersKo": [
+          "장기 이상 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodEgg",
       "nameKo": "달걀",
       "nameEn": "Egg",
-      "aliases": ["egg", "달걀"],
+      "aliases": [
+        "egg",
+        "달걀"
+      ],
       "category": "other",
       "foodType": "whole",
       "safetyLevel": "caution",
       "oneLinerKo": "익힌 형태로 드물게 소량 급여를 고려할 수 있습니다.",
-      "reasonKo": ["조리 상태와 위생 관리가 중요합니다."],
-      "riskNotesKo": ["생식 지양"],
+      "reasonKo": [
+        "조리 상태와 위생 관리가 중요합니다."
+      ],
+      "riskNotesKo": [
+        "생식 지양"
+      ],
       "safetyConditions": [
         {
           "labelKo": "익힘",
@@ -1632,8 +2388,12 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": ["완숙 형태"],
-        "avoidParts": ["생"],
+        "allowedParts": [
+          "완숙 형태"
+        ],
+        "avoidParts": [
+          "생"
+        ],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": []
@@ -1649,30 +2409,48 @@
         }
       ],
       "search": {
-        "tokens": ["egg", "달걀"]
+        "tokens": [
+          "egg",
+          "달걀"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["구토/역류"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "소화 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodCheese",
       "nameKo": "치즈",
       "nameEn": "Cheese",
-      "aliases": ["cheese", "치즈"],
+      "aliases": [
+        "cheese",
+        "치즈"
+      ],
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "caution",
       "oneLinerKo": "염분/지방이 높아 일반 급여는 권장하지 않습니다.",
-      "reasonKo": ["가공 유제품의 성분 변동 폭이 큽니다."],
-      "riskNotesKo": ["혼합/가공식품 주의"],
+      "reasonKo": [
+        "가공 유제품의 성분 변동 폭이 큽니다."
+      ],
+      "riskNotesKo": [
+        "혼합/가공식품 주의"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
@@ -1688,30 +2466,49 @@
         }
       ],
       "search": {
-        "tokens": ["cheese", "치즈"]
+        "tokens": [
+          "cheese",
+          "치즈"
+        ]
       },
       "emergency": {
         "baseRisk": "medium",
-        "whatToDoKo": ["섭취량과 증상을 함께 관찰하세요."],
-        "watchForKo": ["무기력", "설사"],
-        "escalationTriggersKo": ["증상 발생 시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "섭취량과 증상을 함께 관찰하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "설사"
+        ],
+        "escalationTriggersKo": [
+          "증상 발생 시 문의를 권장합니다."
+        ]
       }
     },
     {
       "id": "foodEnergyDrink",
       "nameKo": "에너지드링크",
       "nameEn": "Energy Drink",
-      "aliases": ["energy drink", "에너지드링크"],
+      "aliases": [
+        "energy drink",
+        "에너지드링크"
+      ],
       "category": "drink",
       "foodType": "processed",
       "safetyLevel": "danger",
       "oneLinerKo": "카페인/첨가물 고함량 음료로 급여 금지 대상입니다.",
-      "reasonKo": ["고위험 성분군이 복합 포함될 수 있습니다."],
-      "riskNotesKo": ["즉시 차단"],
+      "reasonKo": [
+        "고위험 성분군이 복합 포함될 수 있습니다."
+      ],
+      "riskNotesKo": [
+        "즉시 차단"
+      ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["전체"],
+        "avoidParts": [
+          "전체"
+        ],
         "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
@@ -1727,13 +2524,25 @@
         }
       ],
       "search": {
-        "tokens": ["energy drink", "energydrink", "에너지드링크"]
+        "tokens": [
+          "energy drink",
+          "energydrink",
+          "에너지드링크"
+        ]
       },
       "emergency": {
         "baseRisk": "high",
-        "whatToDoKo": ["즉시 추가 노출을 차단하세요."],
-        "watchForKo": ["흥분", "호흡 이상", "경련"],
-        "escalationTriggersKo": ["즉시 문의를 권장합니다."]
+        "whatToDoKo": [
+          "즉시 추가 노출을 차단하세요."
+        ],
+        "watchForKo": [
+          "흥분",
+          "호흡 이상",
+          "경련"
+        ],
+        "escalationTriggersKo": [
+          "즉시 문의를 권장합니다."
+        ]
       }
     }
   ]
