@@ -22,6 +22,11 @@ void main() {
     );
 
     expect(find.text('조류 진료 가능 병원/수의사 연락을 권장합니다.'), findsOneWidget);
+    await tester.scrollUntilVisible(
+      find.text('가정 처치/투약/구토 유도/치료법 안내는 제공하지 않습니다.'),
+      200,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text('가정 처치/투약/구토 유도/치료법 안내는 제공하지 않습니다.'), findsOneWidget);
   });
 }
