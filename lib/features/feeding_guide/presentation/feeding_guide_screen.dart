@@ -15,7 +15,7 @@ class FeedingGuideScreen extends StatelessWidget {
             lines: <String>['소형 앵무', '중형 앵무', '대형 앵무'],
           ),
           _GuideCard(
-            title: '기본 비율',
+            title: '권장 비율(입문 기준)',
             lines: <String>[
               '펠렛 60~80%',
               '신선식 15~30%',
@@ -23,7 +23,7 @@ class FeedingGuideScreen extends StatelessWidget {
             ],
           ),
           _GuideCard(
-            title: '초보자 5가지 원칙',
+            title: '초보자 5가지 기본 원칙',
             lines: <String>[
               '주식은 펠렛 중심으로 유지하세요.',
               '새 식품은 한 번에 하나씩 소량 도입하세요.',
@@ -32,13 +32,27 @@ class FeedingGuideScreen extends StatelessWidget {
               '불안하거나 증상이 있으면 진료기관 문의를 권장합니다.',
             ],
           ),
+          _GuideCard(
+            title: '오해 방지 안내',
+            lines: <String>[
+              '본 가이드는 입문자를 위한 일반 원칙입니다.',
+              '종/연령/질환/개체차에 따라 달라질 수 있습니다.',
+              '로리/로리킷 등 식성이 뚜렷한 그룹은 Phase 2 확장 대상입니다.',
+            ],
+          ),
+          _GuideCard(
+            title: '행동 가이드 예시(정량 아님)',
+            lines: <String>[
+              '간식으로만(주식 대체 X)',
+              '처음 급여는 한 입 이하로 시작',
+              '이상 반응 시 중단 및 문의 권장',
+            ],
+          ),
           SizedBox(height: 8),
           Text(
-            '본 가이드는 입문자를 위한 일반 원칙이며, '
-            '종/연령/질환/개체차에 따라 달라질 수 있습니다.',
+            '정량(그램/체중 기반/용량 계산)은 Phase 1에서 제공하지 않습니다.',
+            style: TextStyle(fontWeight: FontWeight.w700),
           ),
-          SizedBox(height: 6),
-          Text('정량(그램/체중 기반/용량 계산)은 Phase 1에서 제공하지 않습니다.'),
         ],
       ),
     );

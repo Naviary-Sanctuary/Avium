@@ -32,4 +32,10 @@ void main() {
 
     expect(results.map((food) => food.id), contains('foodAvocado'));
   });
+
+  test('does not return random fuzzy matches for single jamo query', () {
+    final results = service.search(db.foods, 'ㅇ');
+
+    expect(results, isEmpty);
+  });
 }
