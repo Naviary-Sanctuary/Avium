@@ -27,6 +27,7 @@ class ZeroResultNotice extends StatelessWidget {
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),
+              semanticsLabel: '중요 경고: 데이터베이스에 없는 음식은 안전을 의미하지 않습니다.',
             ),
             const SizedBox(height: 12),
             const Text(
