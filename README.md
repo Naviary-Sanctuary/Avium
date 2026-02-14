@@ -31,7 +31,7 @@ Check mode:
 dart run tool/generate_search_tokens.dart --check
 ```
 
-## Benchmark
+## Benchmark (Local only)
 
 ```bash
 dart run tool/search_benchmark.dart --input assets/data/foods.v1_2_0.json
@@ -39,8 +39,9 @@ dart run tool/search_benchmark.dart --input assets/data/foods.v1_2_0.json
 
 The benchmark exits with code `1` when average query time exceeds
 `300ms`.
+This check is intentionally run locally, not in GitHub Actions CI.
 
-## Search quality report
+## Search quality report (Local only)
 
 ```bash
 dart run tool/search_quality_report.dart --input assets/data/foods.v1_2_0.json
@@ -54,6 +55,8 @@ dart run tool/search_quality_report.dart \
   --min-top1 0.80 \
   --min-top3 0.95
 ```
+
+This report is intentionally run locally, not in GitHub Actions CI.
 
 ## Docs
 
