@@ -105,7 +105,7 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
             _PortionSection(food: food),
             if (food.confusables.isNotEmpty)
               _Section(
-                title: '혼동 주의(confusables)',
+                title: '헷갈리기 쉬운 음식',
                 lines: food.confusables
                     .map((item) => '${item.nameKo}: ${item.noteKo}')
                     .toList(growable: false),
@@ -309,8 +309,8 @@ class _EvidenceSection extends StatelessWidget {
           title: const Text('근거/검토 정보'),
           childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
           children: <Widget>[
-            Text('evidenceLevel: ${food.evidenceLevel.name}'),
-            Text('reviewedAt: ${food.reviewedAt}'),
+            Text('근거 수준: ${food.evidenceLevel.name}'),
+            Text('검토일: ${food.reviewedAt}'),
             const SizedBox(height: 6),
             ...food.sources.map((source) {
               return Text('• ${source.title} (${source.year})');

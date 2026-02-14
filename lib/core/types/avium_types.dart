@@ -49,6 +49,28 @@ enum EmergencyRiskLevel {
         return 'High';
     }
   }
+
+  String get labelKo {
+    switch (this) {
+      case EmergencyRiskLevel.low:
+        return '낮음';
+      case EmergencyRiskLevel.medium:
+        return '보통';
+      case EmergencyRiskLevel.high:
+        return '높음';
+    }
+  }
+
+  int get severity {
+    switch (this) {
+      case EmergencyRiskLevel.low:
+        return 0;
+      case EmergencyRiskLevel.medium:
+        return 1;
+      case EmergencyRiskLevel.high:
+        return 2;
+    }
+  }
 }
 
 enum FoodType {

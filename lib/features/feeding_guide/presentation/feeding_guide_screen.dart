@@ -33,7 +33,7 @@ class FeedingGuideScreen extends StatelessWidget {
             ],
           ),
           _GuideCard(
-            title: '오해 방지 안내',
+            title: '이용 안내',
             lines: <String>[
               '본 가이드는 입문자를 위한 일반 원칙입니다.',
               '종/연령/질환/개체차에 따라 달라질 수 있습니다.',

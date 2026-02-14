@@ -4,7 +4,9 @@ import 'package:url_launcher/url_launcher.dart';
 
 import '../../../core/state/app_state.dart';
 import '../../../core/state/app_state_scope.dart';
+import '../../../core/types/avium_types.dart';
 import '../../../core/widgets/safety_badge.dart';
+import '../../../data/models/food_db.dart';
 import '../../../data/models/food_item.dart';
 import '../widgets/zero_result_notice.dart';
 
@@ -17,6 +19,9 @@ class SearchScreen extends StatefulWidget {
 
 class _SearchScreenState extends State<SearchScreen> {
   late final TextEditingController _controller;
+  int _tabIndex = 0;
+  bool _isShowingInitialDisclaimer = false;
+  _RiskFilterOption _riskFilter = _RiskFilterOption.all;
 
   @override
   void initState() {
@@ -43,18 +48,6 @@ class _SearchScreenState extends State<SearchScreen> {
             fontWeight: FontWeight.w700,
           ),
         ),
-        actions: <Widget>[
-          IconButton(
-            onPressed: () => context.pushNamed('guide'),
-            icon: const Icon(Icons.menu_book_outlined),
-            tooltip: '기본 급여 가이드',
-          ),
-          IconButton(
-            onPressed: () => context.pushNamed('settings'),
-            icon: const Icon(Icons.settings_outlined),
-            tooltip: '설정',
-          ),
-        ],
       ),
       body: ListenableBuilder(
         listenable: appState,
@@ -83,48 +76,156 @@ class _SearchScreenState extends State<SearchScreen> {
           }
 
           final query = appState.query;
+          final hasQuery = query.trim().isNotEmpty;
           final results = appState.searchResults;
-          final isZeroResult = query.isNotEmpty && results.isEmpty;
+          final filteredResults = _filterByRisk(results);
+          final isZeroResult = hasQuery && results.isEmpty;
+          final isFilterZeroResult =
+              results.isNotEmpty && filteredResults.isEmpty;
           _showInitialDisclaimerIfNeeded(context, appState);
 
-          return Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-            child: Column(
-              children: <Widget>[
-                _SearchField(
-                  controller: _controller,
-                  onChanged: appState.setQuery,
-                ),
-                const SizedBox(height: 12),
-                Expanded(
-                  child: isZeroResult
-                      ? SingleChildScrollView(
-                          child: ZeroResultNotice(
-                            onOpenEmergencyUnknown: () {
-                              context.pushNamed('emergency');
-                            },
-                            onOpenRequestTemplate: () {
-                              _openMailTemplate(context, query);
-                            },
-                            suggestions: appState.suggestions,
-                            onSuggestionTap: (word) {
-                              _controller.text = word;
-                              appState.setQuery(word);
-                            },
+          return Column(
+            children: <Widget>[
+              Expanded(
+                child: _tabIndex == 0
+                    ? _HomeLanding(
+                        foods: appState.allFoods,
+                        onGoSearch: () {
+                          setState(() {
+                            _tabIndex = 1;
+                          });
+                        },
+                        onOpenFood: (food) {
+                          context.pushNamed(
+                            'food-detail',
+                            pathParameters: <String, String>{'id': food.id},
+                          );
+                        },
+                      )
+                    : _tabIndex == 1
+                        ? Padding(
+                            padding: const EdgeInsets.symmetric(
+                              horizontal: 16,
+                              vertical: 12,
+                            ),
+                            child: Column(
+                              children: <Widget>[
+                                _SearchField(
+                                  controller: _controller,
+                                  onChanged: appState.setQuery,
+                                ),
+                                const SizedBox(height: 10),
+                                _RiskFilterBar(
+                                  selected: _riskFilter,
+                                  onSelected: (option) {
+                                    setState(() {
+                                      _riskFilter = option;
+                                    });
+                                  },
+                                ),
+                                if (_riskFilter != _RiskFilterOption.all)
+                                  Align(
+                                    alignment: Alignment.centerLeft,
+                                    child: Padding(
+                                      padding: const EdgeInsets.only(top: 8),
+                                      child: Wrap(
+                                        crossAxisAlignment:
+                                            WrapCrossAlignment.center,
+                                        spacing: 8,
+                                        children: <Widget>[
+                                          Text(
+                                            '현재 필터: ${_riskFilter.label}',
+                                            style: Theme.of(context)
+                                                .textTheme
+                                                .labelLarge
+                                                ?.copyWith(
+                                                  fontWeight: FontWeight.w700,
+                                                ),
+                                          ),
+                                          TextButton(
+                                            onPressed: () {
+                                              setState(() {
+                                                _riskFilter =
+                                                    _RiskFilterOption.all;
+                                              });
+                                            },
+                                            child: const Text('필터 해제'),
+                                          ),
+                                        ],
+                                      ),
+                                    ),
+                                  ),
+                                const SizedBox(height: 12),
+                                Expanded(
+                                  child: isZeroResult
+                                      ? SingleChildScrollView(
+                                          child: ZeroResultNotice(
+                                            onOpenEmergencyUnknown: () {
+                                              context.pushNamed('emergency');
+                                            },
+                                            onOpenRequestTemplate: () {
+                                              _openMailTemplate(
+                                                context,
+                                                query,
+                                              );
+                                            },
+                                            suggestions: appState.suggestions,
+                                            onSuggestionTap: (word) {
+                                              _controller.text = word;
+                                              appState.setQuery(word);
+                                            },
+                                          ),
+                                        )
+                                      : isFilterZeroResult
+                                          ? const _RiskFilterEmptyState()
+                                          : _ResultList(
+                                              foods: filteredResults,
+                                              onTapFood: (food) {
+                                                context.pushNamed(
+                                                  'food-detail',
+                                                  pathParameters: <String,
+                                                      String>{
+                                                    'id': food.id,
+                                                  },
+                                                );
+                                              },
+                                            ),
+                                ),
+                              ],
+                            ),
+                          )
+                        : _InfoTab(
+                            meta: appState.meta,
+                            onOpenGuide: () => context.pushNamed('guide'),
+                            onOpenAppInfo: () => context.pushNamed('settings'),
                           ),
-                        )
-                      : _ResultList(
-                          foods: results,
-                          onTapFood: (food) {
-                            context.pushNamed(
-                              'food-detail',
-                              pathParameters: <String, String>{'id': food.id},
-                            );
-                          },
-                        ),
-                ),
-              ],
-            ),
+              ),
+              NavigationBar(
+                selectedIndex: _tabIndex,
+                onDestinationSelected: (index) {
+                  setState(() {
+                    _tabIndex = index;
+                  });
+                },
+                destinations: const <Widget>[
+                  NavigationDestination(
+                    icon: Icon(Icons.home_outlined),
+                    selectedIcon: Icon(Icons.home),
+                    label: '홈',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.search_outlined),
+                    selectedIcon: Icon(Icons.search),
+                    label: '검색',
+                  ),
+                  NavigationDestination(
+                    icon: Icon(Icons.info_outline),
+                    selectedIcon: Icon(Icons.info),
+                    label: '정보',
+                  ),
+                ],
+              ),
+            ],
           );
         },
       ),
@@ -132,11 +233,13 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   void _showInitialDisclaimerIfNeeded(BuildContext context, AppState appState) {
-    if (appState.hasSeenInitialDisclaimer) {
+    if (appState.hasSeenInitialDisclaimer || _isShowingInitialDisclaimer) {
       return;
     }
+    _isShowingInitialDisclaimer = true;
     WidgetsBinding.instance.addPostFrameCallback((_) async {
       if (!mounted || appState.hasSeenInitialDisclaimer) {
+        _isShowingInitialDisclaimer = false;
         return;
       }
       appState.markInitialDisclaimerSeen();
@@ -157,6 +260,7 @@ class _SearchScreenState extends State<SearchScreen> {
           );
         },
       );
+      _isShowingInitialDisclaimer = false;
     });
   }
 
@@ -169,7 +273,7 @@ class _SearchScreenState extends State<SearchScreen> {
       '추가 메모: \n',
     );
     final uri = Uri.parse(
-      'mailto:support@naviary.app?subject=$subject&body=$body',
+      'mailto:window95pill@gmail.com?subject=$subject&body=$body',
     );
 
     if (!await launchUrl(uri)) {
@@ -180,6 +284,471 @@ class _SearchScreenState extends State<SearchScreen> {
         const SnackBar(content: Text('메일 앱을 열 수 없습니다.')),
       );
     }
+  }
+
+  List<FoodItem> _filterByRisk(List<FoodItem> foods) {
+    final level = _riskFilter.level;
+    if (level == null) {
+      return foods;
+    }
+    return foods
+        .where((food) => food.safetyLevel == level)
+        .toList(growable: false);
+  }
+}
+
+class _RiskFilterEmptyState extends StatelessWidget {
+  const _RiskFilterEmptyState();
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(16),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: const <Widget>[
+            Text(
+              '선택한 위험도에 맞는 결과가 없습니다.',
+              style: TextStyle(fontWeight: FontWeight.w700),
+            ),
+            SizedBox(height: 6),
+            Text('위험도 필터를 변경하거나 전체로 돌려보세요.'),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _RiskFilterBar extends StatelessWidget {
+  const _RiskFilterBar({
+    required this.selected,
+    required this.onSelected,
+  });
+
+  final _RiskFilterOption selected;
+  final ValueChanged<_RiskFilterOption> onSelected;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      children: <Widget>[
+        Text(
+          '위험도',
+          style: Theme.of(context)
+              .textTheme
+              .labelLarge
+              ?.copyWith(fontWeight: FontWeight.w700),
+        ),
+        const SizedBox(width: 8),
+        Expanded(
+          child: SingleChildScrollView(
+            scrollDirection: Axis.horizontal,
+            child: Row(
+              children: _RiskFilterOption.values.map((option) {
+                return Padding(
+                  padding: const EdgeInsets.only(right: 8),
+                  child: ChoiceChip(
+                    selected: option == selected,
+                    label: Text(option.label),
+                    tooltip: '${option.label} 위험도만 보기',
+                    onSelected: (_) => onSelected(option),
+                  ),
+                );
+              }).toList(growable: false),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+}
+
+enum _RiskFilterOption {
+  all(null, '전체'),
+  safe(SafetyLevel.safe, '안전'),
+  caution(SafetyLevel.caution, '주의'),
+  danger(SafetyLevel.danger, '위험');
+
+  const _RiskFilterOption(this.level, this.label);
+
+  final SafetyLevel? level;
+  final String label;
+}
+
+class _HomeLanding extends StatelessWidget {
+  const _HomeLanding({
+    required this.foods,
+    required this.onGoSearch,
+    required this.onOpenFood,
+  });
+
+  final List<FoodItem> foods;
+  final VoidCallback onGoSearch;
+  final ValueChanged<FoodItem> onOpenFood;
+
+  @override
+  Widget build(BuildContext context) {
+    if (foods.isEmpty) {
+      return const Center(child: CircularProgressIndicator());
+    }
+
+    final today = DateTime.now();
+    final recommendFoods = _pickDailyItems(
+      foods.where((food) => food.safetyLevel == SafetyLevel.safe).toList(),
+      today,
+      count: 2,
+    );
+    final riskyFoods = _pickDailyItems(
+      foods.where((food) => food.safetyLevel == SafetyLevel.danger).toList(),
+      today,
+      count: 2,
+    );
+
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final isWide = constraints.maxWidth >= 640;
+
+        return Padding(
+          padding: const EdgeInsets.all(12),
+          child: Column(
+            children: <Widget>[
+              Card(
+                child: Padding(
+                  padding: const EdgeInsets.all(14),
+                  child: Row(
+                    children: <Widget>[
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          mainAxisSize: MainAxisSize.min,
+                          children: <Widget>[
+                            Text(
+                              '매일 급여 전, 먼저 확인하세요',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                              style: Theme.of(context)
+                                  .textTheme
+                                  .titleMedium
+                                  ?.copyWith(fontWeight: FontWeight.w800),
+                            ),
+                            const SizedBox(height: 4),
+                            const Text(
+                              '추천/위험 음식은 매일 바뀝니다.',
+                              maxLines: 1,
+                              overflow: TextOverflow.ellipsis,
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(width: 10),
+                      FilledButton.icon(
+                        onPressed: onGoSearch,
+                        icon: const Icon(Icons.search),
+                        label: const Text('검색 시작'),
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+              const SizedBox(height: 10),
+              Expanded(
+                child: isWide
+                    ? Row(
+                        children: <Widget>[
+                          Expanded(
+                            child: _DailyFoodSectionCard(
+                              title: '오늘의 추천 음식',
+                              foods: recommendFoods,
+                              onOpenFood: onOpenFood,
+                            ),
+                          ),
+                          const SizedBox(width: 10),
+                          Expanded(
+                            child: _DailyFoodSectionCard(
+                              title: '오늘의 위험 음식',
+                              foods: riskyFoods,
+                              onOpenFood: onOpenFood,
+                            ),
+                          ),
+                        ],
+                      )
+                    : Column(
+                        children: <Widget>[
+                          Expanded(
+                            child: _DailyFoodSectionCard(
+                              title: '오늘의 추천 음식',
+                              foods: recommendFoods,
+                              onOpenFood: onOpenFood,
+                            ),
+                          ),
+                          const SizedBox(height: 10),
+                          Expanded(
+                            child: _DailyFoodSectionCard(
+                              title: '오늘의 위험 음식',
+                              foods: riskyFoods,
+                              onOpenFood: onOpenFood,
+                            ),
+                          ),
+                        ],
+                      ),
+              ),
+            ],
+          ),
+        );
+      },
+    );
+  }
+
+  List<FoodItem> _pickDailyItems(
+    List<FoodItem> candidates,
+    DateTime dateTime, {
+    required int count,
+  }) {
+    if (candidates.isEmpty) {
+      return const <FoodItem>[];
+    }
+
+    final dayKey = dateTime.year * 400 +
+        dateTime.difference(DateTime(dateTime.year)).inDays;
+    final selected = <FoodItem>[];
+    final usedIndexes = <int>{};
+
+    var offset = 0;
+    while (selected.length < count && usedIndexes.length < candidates.length) {
+      final index = (dayKey + offset) % candidates.length;
+      if (usedIndexes.add(index)) {
+        selected.add(candidates[index]);
+      }
+      offset++;
+    }
+
+    return selected;
+  }
+}
+
+class _DailyFoodSectionCard extends StatelessWidget {
+  const _DailyFoodSectionCard({
+    required this.title,
+    required this.foods,
+    required this.onOpenFood,
+  });
+
+  final String title;
+  final List<FoodItem> foods;
+  final ValueChanged<FoodItem> onOpenFood;
+
+  @override
+  Widget build(BuildContext context) {
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              title,
+              style: Theme.of(context)
+                  .textTheme
+                  .titleSmall
+                  ?.copyWith(fontWeight: FontWeight.w800),
+            ),
+            const SizedBox(height: 8),
+            Expanded(
+              child: Column(
+                children: foods
+                    .map(
+                      (food) => _CompactFoodTile(
+                        food: food,
+                        onTap: () => onOpenFood(food),
+                      ),
+                    )
+                    .toList(growable: false),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _CompactFoodTile extends StatelessWidget {
+  const _CompactFoodTile({
+    required this.food,
+    required this.onTap,
+  });
+
+  final FoodItem food;
+  final VoidCallback onTap;
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Padding(
+        padding: const EdgeInsets.only(bottom: 8),
+        child: Semantics(
+          button: true,
+          label: '${food.nameKo} 상세 보기',
+          child: InkWell(
+            borderRadius: BorderRadius.circular(12),
+            onTap: onTap,
+            child: Container(
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
+              decoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(12),
+                border:
+                    Border.all(color: Theme.of(context).colorScheme.outline),
+              ),
+              child: Row(
+                children: <Widget>[
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text(
+                          food.nameKo,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                          style: const TextStyle(fontWeight: FontWeight.w700),
+                        ),
+                        const SizedBox(height: 2),
+                        Text(
+                          food.oneLinerKo,
+                          maxLines: 1,
+                          overflow: TextOverflow.ellipsis,
+                        ),
+                      ],
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  SafetyBadge(level: food.safetyLevel),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _InfoTab extends StatelessWidget {
+  const _InfoTab({
+    required this.meta,
+    required this.onOpenGuide,
+    required this.onOpenAppInfo,
+  });
+
+  final FoodDbMeta? meta;
+  final VoidCallback onOpenGuide;
+  final VoidCallback onOpenAppInfo;
+
+  @override
+  Widget build(BuildContext context) {
+    return ListView(
+      padding: const EdgeInsets.all(16),
+      children: <Widget>[
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  '앱 정보',
+                  style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                        fontWeight: FontWeight.w800,
+                      ),
+                ),
+                const SizedBox(height: 8),
+                const Text('Avium은 Naviary에서 제공하는 오프라인 참고 앱입니다.'),
+                const SizedBox(height: 10),
+                FilledButton.icon(
+                  onPressed: _openNaviarySite,
+                  icon: const Icon(Icons.open_in_new),
+                  label: const Text('naviary.io 방문'),
+                ),
+                const SizedBox(height: 10),
+                OutlinedButton.icon(
+                  onPressed: _openHospitalFinderSite,
+                  icon: const Icon(Icons.local_hospital_outlined),
+                  label: const Text('주변 앵무새 병원 찾기'),
+                ),
+                const SizedBox(height: 10),
+                OutlinedButton.icon(
+                  onPressed: onOpenGuide,
+                  icon: const Icon(Icons.menu_book_outlined),
+                  label: const Text('기본 급여 가이드 열기'),
+                ),
+                const SizedBox(height: 10),
+                OutlinedButton.icon(
+                  onPressed: onOpenAppInfo,
+                  icon: const Icon(Icons.info_outline),
+                  label: const Text('앱 정보 자세히'),
+                ),
+              ],
+            ),
+          ),
+        ),
+        const SizedBox(height: 12),
+        Card(
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: const <Widget>[
+                Text(
+                  '이용 안내',
+                  style: TextStyle(fontWeight: FontWeight.w800),
+                ),
+                SizedBox(height: 8),
+                Text('• 이 앱은 의료 앱이 아니며 진단/치료를 제공하지 않습니다.'),
+                Text('• 절대적인 판단 기준으로 사용하지 마세요.'),
+                Text('• 불안하거나 증상이 있으면 즉시 진료기관에 문의하세요.'),
+              ],
+            ),
+          ),
+        ),
+        if (meta != null) ...<Widget>[
+          const SizedBox(height: 12),
+          Card(
+            child: Padding(
+              padding: const EdgeInsets.all(16),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Text(
+                    '콘텐츠 기준 정보',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                  const SizedBox(height: 8),
+                  Text('콘텐츠 버전: ${meta!.dataVersion}'),
+                  Text('마지막 검토일: ${meta!.reviewedAt}'),
+                  const SizedBox(height: 8),
+                  const Text('• 이 정보는 앱에 포함된 기준 데이터입니다.'),
+                  const Text('• 최신 상황은 진료기관 안내를 우선해 주세요.'),
+                ],
+              ),
+            ),
+          ),
+        ],
+      ],
+    );
+  }
+
+  Future<void> _openNaviarySite() async {
+    final uri = Uri.parse('https://naviary.io');
+    await launchUrl(uri, mode: LaunchMode.externalApplication);
+  }
+
+  Future<void> _openHospitalFinderSite() async {
+    final uri = Uri.parse('https://www.angmorning.com/hospitals/');
+    await launchUrl(uri, mode: LaunchMode.externalApplication);
   }
 }
 
@@ -198,7 +767,7 @@ class _SearchField extends StatelessWidget {
         onChanged: onChanged,
         textInputAction: TextInputAction.search,
         decoration: InputDecoration(
-          hintText: '음식 이름(한글/영문/별칭)',
+          hintText: '검색 (예: 사과, banana, ㅅㄱ)',
           prefixIcon: const Icon(Icons.search),
           border: OutlineInputBorder(borderRadius: BorderRadius.circular(12)),
         ),

@@ -17,7 +17,10 @@ void main() {
   testWidgets('shows mixed warning and incomplete-selection warning', (
     WidgetTester tester,
   ) async {
-    final appState = AppState(repository: _FakeFoodRepository());
+    final appState = AppState(
+      repository: _FakeFoodRepository(),
+      preferencesLoader: () async => null,
+    );
     await appState.initialize();
 
     await tester.pumpWidget(

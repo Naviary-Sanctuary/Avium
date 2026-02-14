@@ -12,6 +12,7 @@ void main() {
     await tester.pumpWidget(const AviumApp());
     await tester.pumpAndSettle();
     await _dismissInitialNotice(tester);
+    await _goToSearchTab(tester);
 
     await tester.enterText(find.byType(TextField), '사과');
     await tester.pumpAndSettle();
@@ -30,6 +31,7 @@ void main() {
     await tester.pumpWidget(const AviumApp());
     await tester.pumpAndSettle();
     await _dismissInitialNotice(tester);
+    await _goToSearchTab(tester);
 
     await tester.enterText(find.byType(TextField), '사과');
     await tester.pumpAndSettle();
@@ -55,13 +57,17 @@ void main() {
     await tester.pumpWidget(const AviumApp());
     await tester.pumpAndSettle();
     await _dismissInitialNotice(tester);
+    await _goToSearchTab(tester);
 
     await tester.enterText(find.byType(TextField), '없는음식이름');
     await tester.pumpAndSettle();
 
-    expect(find.text('DB에 없는 음식은 안전하다는 뜻이 아닙니다.'), findsOneWidget);
+    expect(find.text('검색 결과에 없는 음식이 안전하다는 뜻은 아닙니다.'), findsOneWidget);
 
-    await tester.tap(find.text('응급 모드 열기(음식 미상)'));
+    final emergencyButton = find.text('섭취 후 긴급 대응 확인');
+    await tester.ensureVisible(emergencyButton);
+    await tester.pumpAndSettle();
+    await tester.tap(emergencyButton, warnIfMissed: false);
     await tester.pumpAndSettle();
 
     expect(find.text('조류 진료 가능 병원/수의사 연락을 권장합니다.'), findsOneWidget);
@@ -74,5 +80,10 @@ Future<void> _dismissInitialNotice(WidgetTester tester) async {
     return;
   }
   await tester.tap(find.text('확인'));
+  await tester.pumpAndSettle();
+}
+
+Future<void> _goToSearchTab(WidgetTester tester) async {
+  await tester.tap(find.text('검색'));
   await tester.pumpAndSettle();
 }
