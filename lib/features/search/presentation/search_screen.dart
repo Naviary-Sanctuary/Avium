@@ -88,32 +88,33 @@ class _SearchScreenState extends State<SearchScreen> {
                   onChanged: appState.setQuery,
                 ),
                 const SizedBox(height: 12),
-                if (isZeroResult)
-                  ZeroResultNotice(
-                    onOpenEmergencyUnknown: () {
-                      context.pushNamed('emergency');
-                    },
-                    onOpenRequestTemplate: () {
-                      _openMailTemplate(context, query);
-                    },
-                    suggestions: appState.suggestions,
-                    onSuggestionTap: (word) {
-                      _controller.text = word;
-                      appState.setQuery(word);
-                    },
-                  )
-                else
-                  Expanded(
-                    child: _ResultList(
-                      foods: results,
-                      onTapFood: (food) {
-                        context.pushNamed(
-                          'food-detail',
-                          pathParameters: <String, String>{'id': food.id},
-                        );
-                      },
-                    ),
-                  ),
+                Expanded(
+                  child: isZeroResult
+                      ? SingleChildScrollView(
+                          child: ZeroResultNotice(
+                            onOpenEmergencyUnknown: () {
+                              context.pushNamed('emergency');
+                            },
+                            onOpenRequestTemplate: () {
+                              _openMailTemplate(context, query);
+                            },
+                            suggestions: appState.suggestions,
+                            onSuggestionTap: (word) {
+                              _controller.text = word;
+                              appState.setQuery(word);
+                            },
+                          ),
+                        )
+                      : _ResultList(
+                          foods: results,
+                          onTapFood: (food) {
+                            context.pushNamed(
+                              'food-detail',
+                              pathParameters: <String, String>{'id': food.id},
+                            );
+                          },
+                        ),
+                ),
               ],
             ),
           );

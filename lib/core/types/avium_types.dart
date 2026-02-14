@@ -84,6 +84,19 @@ enum PartType {
   static PartType fromJson(String raw) {
     return values.firstWhere((type) => type.name == raw);
   }
+
+  String get labelKo {
+    return switch (this) {
+      PartType.flesh => '과육',
+      PartType.seeds => '씨앗',
+      PartType.peel => '껍질',
+      PartType.pit => '씨',
+      PartType.leaf => '잎',
+      PartType.stem => '줄기',
+      PartType.sprout => '새싹',
+      PartType.unknown => '기타',
+    };
+  }
 }
 
 enum PrepType {
@@ -95,6 +108,16 @@ enum PrepType {
 
   static PrepType fromJson(String raw) {
     return values.firstWhere((type) => type.name == raw);
+  }
+
+  String get labelKo {
+    return switch (this) {
+      PrepType.raw => '생',
+      PrepType.cooked => '익힘',
+      PrepType.dried => '건조',
+      PrepType.juice => '주스',
+      PrepType.any => '조리/형태 무관',
+    };
   }
 }
 

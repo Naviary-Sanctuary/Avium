@@ -36,7 +36,8 @@ class _EmergencyScreenState extends State<EmergencyScreen> {
   Widget build(BuildContext context) {
     final selectedFood = _resolveFood();
 
-    final baseRisk = selectedFood?.emergency.baseRisk ?? EmergencyRiskLevel.medium;
+    final baseRisk =
+        selectedFood?.emergency.baseRisk ?? EmergencyRiskLevel.medium;
     final assessment = _engine.evaluate(
       baseRisk: baseRisk,
       timeBucket: _timeBucket,
@@ -217,7 +218,7 @@ class _ConditionInput extends StatelessWidget {
                 .map(
                   (part) => DropdownMenuItem<PartType>(
                     value: part,
-                    child: Text(part.name),
+                    child: Text(part.labelKo),
                   ),
                 )
                 .toList(growable: false),
@@ -231,7 +232,7 @@ class _ConditionInput extends StatelessWidget {
                 .map(
                   (prep) => DropdownMenuItem<PrepType>(
                     value: prep,
-                    child: Text(prep.name),
+                    child: Text(prep.labelKo),
                   ),
                 )
                 .toList(growable: false),
