@@ -45,14 +45,11 @@
       "reviewedAt": "2026-02-01",
       "sources": [
         {
-          "type": "guideline",
-          "title": "Food Hazards in Birds",
-          "year": 2025,
+          "type": "reference",
+          "title": "Avocado (Persea spp) Toxicosis in Animals",
+          "year": 2024,
           "publisher": "Merck Veterinary Manual",
-          "authors": [
-            "Jaime Samour"
-          ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Food-Hazards_v3191064"
+          "url": "https://www.merckvetmanual.com/toxicology/food-hazards/avocado-persea-spp-toxicosis-in-animals"
         },
         {
           "type": "veterinary-article",
@@ -62,13 +59,13 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         }
       ],
       "search": {
@@ -162,13 +159,13 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         }
       ],
       "search": {
@@ -235,7 +232,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -301,9 +298,9 @@
       "sources": [
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -313,7 +310,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -381,7 +378,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -446,16 +443,6 @@
       "reviewedAt": "2026-02-01",
       "sources": [
         {
-          "type": "guideline",
-          "title": "Food Hazards in Birds",
-          "year": 2025,
-          "publisher": "Merck Veterinary Manual",
-          "authors": [
-            "Jaime Samour"
-          ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Food-Hazards_v3191064"
-        },
-        {
           "type": "veterinary-article",
           "title": "Toxic Foods for Birds",
           "year": 2023,
@@ -463,7 +450,7 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "veterinary-article",
@@ -473,7 +460,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
@@ -531,10 +518,10 @@
       "sources": [
         {
           "type": "reference",
-          "title": "Allium spp Toxicosis in Animals",
+          "title": "Garlic and Onion (Allium spp) Toxicosis in Animals",
           "year": 2024,
           "publisher": "Merck Veterinary Manual",
-          "url": "https://www.merckvetmanual.com/toxicology/food-hazards/allium-spp-toxicosis-in-animals"
+          "url": "https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals"
         },
         {
           "type": "hospital-guide",
@@ -551,7 +538,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
@@ -608,10 +595,10 @@
       "sources": [
         {
           "type": "reference",
-          "title": "Allium spp Toxicosis in Animals",
+          "title": "Garlic and Onion (Allium spp) Toxicosis in Animals",
           "year": 2024,
           "publisher": "Merck Veterinary Manual",
-          "url": "https://www.merckvetmanual.com/toxicology/food-hazards/allium-spp-toxicosis-in-animals"
+          "url": "https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals"
         },
         {
           "type": "veterinary-article",
@@ -621,7 +608,7 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "veterinary-article",
@@ -631,7 +618,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
@@ -688,9 +675,9 @@
       "sources": [
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -700,7 +687,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -765,7 +752,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -852,7 +839,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -939,7 +926,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -1015,7 +1002,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
@@ -1074,9 +1061,9 @@
       "sources": [
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -1086,7 +1073,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1150,13 +1137,13 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -1166,7 +1153,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1229,7 +1216,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "hospital-guide",
@@ -1305,7 +1292,7 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "veterinary-article",
@@ -1315,7 +1302,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
@@ -1387,7 +1374,7 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "veterinary-article",
@@ -1397,7 +1384,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
@@ -1462,7 +1449,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "guideline",
@@ -1472,7 +1459,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1536,7 +1523,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "guideline",
@@ -1546,7 +1533,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1625,7 +1612,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -1720,7 +1707,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "guideline",
@@ -1730,7 +1717,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1795,7 +1782,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "guideline",
@@ -1805,7 +1792,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1877,7 +1864,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -1933,9 +1920,9 @@
       "sources": [
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -1945,7 +1932,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -2009,7 +1996,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2103,7 +2090,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2182,7 +2169,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2259,7 +2246,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "veterinary-article",
@@ -2269,7 +2256,7 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         }
       ],
       "search": {
@@ -2328,9 +2315,9 @@
       "sources": [
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -2340,7 +2327,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -2399,9 +2386,9 @@
       "sources": [
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -2411,7 +2398,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -2473,7 +2460,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2544,7 +2531,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2630,13 +2617,13 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         }
       ],
       "search": {
@@ -2715,7 +2702,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2784,7 +2771,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
           "type": "hospital-guide",
@@ -2855,13 +2842,13 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "welfare-guide",
-          "title": "What should I feed my parrot?",
+          "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-parrot/"
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         },
         {
           "type": "guideline",
@@ -2871,7 +2858,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -2959,7 +2946,7 @@
           "authors": [
             "Brian Speer"
           ],
-          "url": "https://www.merckvetmanual.com/all-other-pets/birds/management-of-pet-birds#Feeding-a-Pet-Bird_v3191064"
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         }
       ],
       "search": {
@@ -3021,7 +3008,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         },
         {
           "type": "hospital-guide",
@@ -3098,7 +3085,7 @@
           "authors": [
             "Catherine Barnette, DVM"
           ],
-          "url": "https://www.petmd.com/bird/nutrition/evr_bd_toxic_foods"
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
         },
         {
           "type": "veterinary-article",
@@ -3108,7 +3095,7 @@
           "authors": [
             "Rebecca Sweeney, DVM"
           ],
-          "url": "https://lafeber.com/pet-birds/foods-toxic-to-pet-birds/"
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
         }
       ],
       "search": {
