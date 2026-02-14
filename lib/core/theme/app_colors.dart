@@ -50,7 +50,7 @@ final class AppColors {
   static const Color error500 = Color(0xFFFF3333);
 
   /// Shared semantic neutrals.
-  static const Color lightBackground = Color(0xFFFFFFFF);
+  static const Color lightBackground = Color(0xFFFAFAFA);
   static const Color lightForeground = Color(0xFF020617);
   static const Color lightBorder = Color(0xFFE5E7EB);
   static const Color lightMuted = Color(0xFFF6F6F7);

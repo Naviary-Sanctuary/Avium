@@ -3,7 +3,7 @@
     "dataVersion": "1.2.0",
     "reviewedAt": "2026-02-14",
     "distributionPolicyKo": [
-      "Phase 1에서는 서버 동기화가 없습니다.",
+      "현재 버전에서는 서버 동기화가 없습니다.",
       "DB는 앱 번들에 포함되며 변경은 앱 업데이트로 배포됩니다.",
       "사용자는 설정 화면에서 dataVersion/reviewedAt을 확인할 수 있습니다."
     ]
