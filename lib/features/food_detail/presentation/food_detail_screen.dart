@@ -313,7 +313,24 @@ class _EvidenceSection extends StatelessWidget {
             Text('검토일: ${food.reviewedAt}'),
             const SizedBox(height: 6),
             ...food.sources.map((source) {
-              return Text('• ${source.title} (${source.year})');
+              final yearLabel = source.year == null ? '' : ' (${source.year})';
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Text('• ${source.title}$yearLabel'),
+                    if (source.url != null)
+                      Padding(
+                        padding: const EdgeInsets.only(left: 10, top: 2),
+                        child: SelectableText(
+                          source.url!,
+                          style: Theme.of(context).textTheme.bodySmall,
+                        ),
+                      ),
+                  ],
+                ),
+              );
             }),
           ],
         ),
