@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import '../theme/app_colors.dart';
 import '../types/avium_types.dart';
 
 class SafetyBadge extends StatelessWidget {
@@ -11,9 +12,12 @@ class SafetyBadge extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final (icon, color) = switch (level) {
-      SafetyLevel.safe => (Icons.shield_outlined, Colors.green),
-      SafetyLevel.caution => (Icons.warning_amber_rounded, Colors.amber),
-      SafetyLevel.danger => (Icons.dangerous_outlined, Colors.red),
+      SafetyLevel.safe => (Icons.shield_outlined, AppColors.success500),
+      SafetyLevel.caution => (
+          Icons.warning_amber_rounded,
+          AppColors.warning500,
+        ),
+      SafetyLevel.danger => (Icons.dangerous_outlined, AppColors.error500),
     };
 
     final label = level.label;
