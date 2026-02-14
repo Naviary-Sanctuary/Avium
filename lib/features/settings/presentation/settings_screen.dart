@@ -10,7 +10,7 @@ class SettingsScreen extends StatelessWidget {
     final appState = AppStateScope.of(context);
 
     return Scaffold(
-      appBar: AppBar(title: const Text('설정')),
+      appBar: AppBar(title: const Text('앱 정보')),
       body: ListenableBuilder(
         listenable: appState,
         builder: (context, _) {
@@ -28,21 +28,22 @@ class SettingsScreen extends StatelessWidget {
             children: <Widget>[
               ListTile(
                 contentPadding: EdgeInsets.zero,
-                title: const Text('dataVersion'),
+                title: const Text('콘텐츠 버전'),
                 subtitle: Text(meta.dataVersion),
               ),
               ListTile(
                 contentPadding: EdgeInsets.zero,
-                title: const Text('reviewedAt'),
+                title: const Text('마지막 검토일'),
                 subtitle: Text(meta.reviewedAt),
               ),
               const SizedBox(height: 8),
               Text(
-                '배포 정책',
+                '안내',
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 6),
-              ...meta.distributionPolicyKo.map((line) => Text('• $line')),
+              const Text('• 이 앱은 참고용 정보 앱입니다.'),
+              const Text('• 증상이 있거나 불안하면 바로 진료기관에 문의하세요.'),
             ],
           );
         },

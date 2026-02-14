@@ -19,8 +19,8 @@ void main() {
       ),
     );
 
-    expect(find.text('DB에 없는 음식은 안전하다는 뜻이 아닙니다.'), findsOneWidget);
-    expect(find.text('응급 모드 열기(음식 미상)'), findsOneWidget);
+    expect(find.text('검색 결과에 없는 음식이 안전하다는 뜻은 아닙니다.'), findsOneWidget);
+    expect(find.text('섭취 후 긴급 대응 확인'), findsOneWidget);
     expect(find.text('정보 요청 템플릿(메일)'), findsOneWidget);
     expect(find.byType(FilledButton), findsOneWidget);
     expect(find.byType(OutlinedButton), findsOneWidget);

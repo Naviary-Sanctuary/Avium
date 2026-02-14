@@ -11,10 +11,6 @@ class FeedingGuideScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: const <Widget>[
           _GuideCard(
-            title: '기본 종 그룹',
-            lines: <String>['소형 앵무', '중형 앵무', '대형 앵무'],
-          ),
-          _GuideCard(
             title: '권장 비율(입문 기준)',
             lines: <String>[
               '펠렛 60~80%',
@@ -33,7 +29,7 @@ class FeedingGuideScreen extends StatelessWidget {
             ],
           ),
           _GuideCard(
-            title: '오해 방지 안내',
+            title: '이용 안내',
             lines: <String>[
               '본 가이드는 입문자를 위한 일반 원칙입니다.',
               '종/연령/질환/개체차에 따라 달라질 수 있습니다.',

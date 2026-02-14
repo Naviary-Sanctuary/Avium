@@ -23,16 +23,16 @@ class ZeroResultNotice extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              'DB에 없는 음식은 안전하다는 뜻이 아닙니다.',
+              '검색 결과에 없는 음식이 안전하다는 뜻은 아닙니다.',
               style: Theme.of(context).textTheme.titleMedium?.copyWith(
                     fontWeight: FontWeight.w700,
                   ),
-              semanticsLabel: '중요 경고: 데이터베이스에 없는 음식은 안전을 의미하지 않습니다.',
+              semanticsLabel: '중요 경고: 검색 결과에 없어도 안전을 의미하지 않습니다.',
             ),
             const SizedBox(height: 12),
             const Text(
               '성분/가공/첨가물/급여량을 확신하기 어렵다면 '
-              'caution으로 간주하세요.\n'
+              '안전하다고 단정하지 말고 주의 깊게 살펴봐 주세요.\n'
               '불안하거나 증상이 있으면 진료기관 문의를 권장합니다.',
             ),
             const SizedBox(height: 16),
@@ -41,7 +41,7 @@ class ZeroResultNotice extends StatelessWidget {
               child: FilledButton.icon(
                 onPressed: onOpenEmergencyUnknown,
                 icon: const Icon(Icons.local_hospital_outlined),
-                label: const Text('응급 모드 열기(음식 미상)'),
+                label: const Text('섭취 후 긴급 대응 확인'),
               ),
             ),
             const SizedBox(height: 8),
