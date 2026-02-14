@@ -11,10 +11,6 @@ class FeedingGuideScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: const <Widget>[
           _GuideCard(
-            title: '기본 종 그룹',
-            lines: <String>['소형 앵무', '중형 앵무', '대형 앵무'],
-          ),
-          _GuideCard(
             title: '권장 비율(입문 기준)',
             lines: <String>[
               '펠렛 60~80%',
