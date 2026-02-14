@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../core/state/app_state.dart';
 import '../../../core/state/app_state_scope.dart';
 import '../../../core/widgets/safety_badge.dart';
 import '../../../data/models/food_item.dart';
@@ -78,6 +79,7 @@ class _SearchScreenState extends State<SearchScreen> {
           final query = appState.query;
           final results = appState.searchResults;
           final isZeroResult = query.isNotEmpty && results.isEmpty;
+          _showInitialDisclaimerIfNeeded(context, appState);
 
           return Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
@@ -121,6 +123,35 @@ class _SearchScreenState extends State<SearchScreen> {
         },
       ),
     );
+  }
+
+  void _showInitialDisclaimerIfNeeded(BuildContext context, AppState appState) {
+    if (appState.hasSeenInitialDisclaimer) {
+      return;
+    }
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+      if (!mounted || appState.hasSeenInitialDisclaimer) {
+        return;
+      }
+      appState.markInitialDisclaimerSeen();
+      await showDialog<void>(
+        context: context,
+        builder: (context) {
+          return AlertDialog(
+            title: const Text('안내'),
+            content: const Text(
+              '본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.',
+            ),
+            actions: <Widget>[
+              TextButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('확인'),
+              ),
+            ],
+          );
+        },
+      );
+    });
   }
 
   Future<void> _openMailTemplate(BuildContext context, String query) async {

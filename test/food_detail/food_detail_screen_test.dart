@@ -31,6 +31,7 @@ void main() {
 
     expect(find.text('혼합/가공식품 주의'), findsOneWidget);
     expect(find.text('조건 선택이 완전하지 않아 보수적으로 표시됩니다.'), findsOneWidget);
+    expect(find.text('본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.'), findsOneWidget);
   });
 }
 

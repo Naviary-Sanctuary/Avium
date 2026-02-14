@@ -14,12 +14,14 @@ class AppState extends ChangeNotifier {
   FoodDb? _db;
   String _query = '';
   bool _isInitializing = false;
+  bool _hasSeenInitialDisclaimer = false;
   Object? _error;
 
   bool get isInitializing => _isInitializing;
   Object? get error => _error;
   String get query => _query;
   FoodDbMeta? get meta => _db?.meta;
+  bool get hasSeenInitialDisclaimer => _hasSeenInitialDisclaimer;
 
   List<FoodItem> get searchResults {
     final db = _db;
@@ -66,6 +68,14 @@ class AppState extends ChangeNotifier {
       return;
     }
     _query = value;
+    notifyListeners();
+  }
+
+  void markInitialDisclaimerSeen() {
+    if (_hasSeenInitialDisclaimer) {
+      return;
+    }
+    _hasSeenInitialDisclaimer = true;
     notifyListeners();
   }
 

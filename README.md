@@ -40,6 +40,21 @@ dart run tool/search_benchmark.dart --input assets/data/foods.v1_2_0.json
 The benchmark exits with code `1` when average query time exceeds
 `300ms`.
 
+## Search quality report
+
+```bash
+dart run tool/search_quality_report.dart --input assets/data/foods.v1_2_0.json
+```
+
+Optional thresholds:
+
+```bash
+dart run tool/search_quality_report.dart \
+  --input assets/data/foods.v1_2_0.json \
+  --min-top1 0.80 \
+  --min-top3 0.95
+```
+
 ## Docs
 
 - Architecture: `docs/architecture.md`
