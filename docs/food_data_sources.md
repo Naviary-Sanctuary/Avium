@@ -1,0 +1,1014 @@
+# Avium Food Data Sources
+
+> License notice: This file is part of Avium curated data assets and follows
+> `LICENSE_DATA.md` (not MIT).
+
+- 데이터 파일: `assets/data/foods.v1_2_0.json`
+- 기준일: 2026-02-14
+
+## 출처 목록(중복 제거)
+
+1. What should I feed my birds?
+   - 기관: RSPCA Australia
+   - 연도: 연도 미기재
+   - 링크: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+
+2. Foods Toxic To Pet Birds
+   - 기관: Lafeber
+   - 연도: 2013
+   - 링크: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+
+3. Cockatiels - Feeding
+   - 기관: VCA Animal Hospitals
+   - 연도: 2024
+   - 링크: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+
+4. Lovebirds - Feeding
+   - 기관: VCA Animal Hospitals
+   - 연도: 2024
+   - 링크: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+
+5. Seeds vs Pellets: Which Is Better for Your Pet Bird?
+   - 기관: Chewy
+   - 연도: 연도 미기재
+   - 링크: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+
+6. 16 Foods That Are Harmful or Poisonous to Pet Birds
+   - 기관: Chewy
+   - 연도: 2025
+   - 링크: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+
+7. What Do Parrots Eat?
+   - 기관: Chewy
+   - 연도: 연도 미기재
+   - 링크: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+
+8. Feeding a Pet Bird
+   - 기관: Merck Veterinary Manual
+   - 연도: 2025
+   - 링크: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+
+9. Avocado (Persea spp) Toxicosis in Animals
+   - 기관: Merck Veterinary Manual
+   - 연도: 2024
+   - 링크: https://www.merckvetmanual.com/toxicology/food-hazards/avocado-persea-spp-toxicosis-in-animals
+
+10. Garlic and Onion (Allium spp) Toxicosis in Animals
+   - 기관: Merck Veterinary Manual
+   - 연도: 2024
+   - 링크: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+
+11. Toxic Foods for Birds
+   - 기관: PetMD
+   - 연도: 2023
+   - 링크: https://www.petmd.com/bird/foods-are-toxic-birds
+
+## 음식별 출처 매핑
+
+- 가지 (`foodEggplant`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 간장 (`foodSoySauce`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 감 (`foodPersimmon`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 감자칩 (`foodChips`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+- 강낭콩 (`foodKidneyBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 건포도 (`foodRaisin`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 검은콩 (`foodBlackBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 겨자잎 (`foodMustardGreens`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 고구마 (`foodSweetPotato`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 고수 (`foodCilantro`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 고추 (`foodChiliPepper`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 구기자 (`foodGojiBerry`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 구스베리 (`foodGooseberry`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 구아바 (`foodGuava`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 귀리 (`foodOats`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 귤 (`foodTangerine`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 그린빈 (`foodGreenBean`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 근대 (`foodSilverBeet`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 금귤 (`foodKumquat`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 기장 (`foodMillet`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 껍질째 땅콩 (`foodPeanutInShell`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 꿀 (`foodHoney`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 네이비콩 (`foodNavyBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 녹두 (`foodMungBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 달걀 (`foodEgg`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 당근 (`foodCarrot`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 대두 (`foodSoybean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 대추야자 (`foodDate`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 대파 (`foodLeek`)
+  - Garlic and Onion (Allium spp) Toxicosis in Animals: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 도토리호박 (`foodAcornSquash`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 두리안 (`foodDurian`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 두부 (`foodTofu`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 딸기 (`foodStrawberry`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 땅콩 (`foodPeanut`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 라디키오 (`foodRadicchio`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 라면 (`foodInstantNoodle`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 라임 (`foodLime`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 라즈베리 (`foodRaspberry`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 람부탄 (`foodRambutan`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 레드커런트 (`foodRedCurrant`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 레몬 (`foodLemon`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 렌틸콩 (`foodLentils`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 로메인상추 (`foodRomaineLettuce`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 로즈마리 (`foodRosemary`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 롱안 (`foodLongan`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 루꼴라 (`foodArugula`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 리마콩 (`foodLimaBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 리치 (`foodLychee`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 마늘 (`foodGarlic`)
+  - Garlic and Onion (Allium spp) Toxicosis in Animals: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 만다린 (`foodMandarin`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 말차 (`foodMatcha`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 망고 (`foodMango`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 망고스틴 (`foodMangosteen`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 메밀 (`foodBuckwheat`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 멜론 (`foodMelon`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 무 (`foodRadish`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 무화과 (`foodFig`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 물냉이 (`foodWatercress`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 미강 (`foodRiceBran`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 믹스넛 (`foodMixedNuts`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 민들레 (`foodDandelion`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 민트 (`foodMint`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 밀크시슬 (`foodMilkThistle`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 바나나 (`foodBanana`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 바질 (`foodBasil`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 방울양배추 (`foodBrusselsSprout`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 배 (`foodPear`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 배추 (`foodNapaCabbage`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 버블티 (`foodBubbleTea`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 버섯 (`foodMushroom`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 버터넛 스쿼시 (`foodButternutSquash`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 병아리콩 (`foodChickpeas`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 보리 (`foodBarley`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 보이젠베리 (`foodBoysenberry`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 복숭아 (`foodPeach`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+- 불구르 (`foodBulgur`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 브로콜리 (`foodBroccoli`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 브로콜리니 (`foodBroccolini`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 블랙베리 (`foodBlackberry`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 블랙커런트 (`foodBlackCurrant`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 블러드오렌지 (`foodBloodOrange`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 블루베리 (`foodBlueberry`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 비트 (`foodBeetroot`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 비트잎 (`foodBeetGreens`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 비파 (`foodLoquat`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 빵 (`foodBread`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 사과 (`foodApple`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 사과주스 (`foodAppleJuice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 사워솝 (`foodSoursop`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 사탕 (`foodCandy`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 사포딜라 (`foodSapodilla`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 살구 (`foodApricot`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+- 상추 (`foodLettuce`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 생콩 (`foodUncookedBeans`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 석류 (`foodPomegranate`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 세몰리나 (`foodSemolina`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 셀러리 (`foodCelery`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 셀러리악 (`foodCeleriac`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 수박 (`foodWatermelon`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 수수 (`foodSorghum`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 순무 (`foodTurnip`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 순무잎 (`foodTurnipGreens`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스냅완두 (`foodSnapPea`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스노우피 (`foodSnowPea`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스웨덴순무 (`foodRutabaga`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스타프루트 (`foodStarFruit`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스파게티호박 (`foodSpaghettiSquash`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스펠트 (`foodSpelt`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 스포츠음료 (`foodSportsDrink`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 시금치 (`foodSpinach`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 쌀 (`foodRice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 아마란스 (`foodAmaranth`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 아몬드 (`foodAlmond`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 아보카도 (`foodAvocado`)
+  - Avocado (Persea spp) Toxicosis in Animals: https://www.merckvetmanual.com/toxicology/food-hazards/avocado-persea-spp-toxicosis-in-animals
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 아스파라거스 (`foodAsparagus`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 아이스버그상추 (`foodIcebergLettuce`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 아티초크 (`foodArtichoke`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 알코올 (`foodAlcohol`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 액젓 (`foodFishSauce`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 앤다이브 (`foodEndive`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 야생쌀 (`foodWildRice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 얌 (`foodYam`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 양배추 (`foodCabbage`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 양파 (`foodOnion`)
+  - Garlic and Onion (Allium spp) Toxicosis in Animals: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 어글리프룻 (`foodUgliFruit`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 에너지드링크 (`foodEnergyDrink`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 에다마메 (`foodEdamame`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 에스카롤 (`foodEscarole`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 엘더베리 (`foodElderberry`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 연근 (`foodLotusRoot`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 오디 (`foodMulberry`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 오레가노 (`foodOregano`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 오렌지 (`foodOrange`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 오렌지주스 (`foodOrangeJuice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 오이 (`foodCucumber`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 오트브랜 (`foodOatBran`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 옥수수 (`foodCorn`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 옥수수가루 (`foodCornmeal`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 완두순 (`foodPeaShoot`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 완두콩 (`foodPeas`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 요거트 (`foodYogurt`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 용과 (`foodDragonFruit`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 유자 (`foodYuzu`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 익힌 닭고기 (`foodCookedChicken`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 익힌 연어 (`foodCookedSalmon`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 익힌 참치 (`foodCookedTuna`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 익힌 칠면조고기 (`foodCookedTurkey`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 자두 (`foodPlum`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+- 자몽 (`foodGrapefruit`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 자일리톨 (`foodXylitol`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+- 잭프루트 (`foodJackfruit`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 잼 (`foodJam`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 전해질음료 (`foodElectrolyteDrink`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 주키니 (`foodZucchini`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 죽순 (`foodBambooShoot`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 쪽파 (`foodScallion`)
+  - Garlic and Onion (Allium spp) Toxicosis in Animals: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 차 (`foodTea`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 차이브 (`foodChive`)
+  - Garlic and Onion (Allium spp) Toxicosis in Animals: https://www.merckvetmanual.com/toxicology/food-hazards/garlic-and-onion-allium-spp-toxicosis-in-animals
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 천도복숭아 (`foodNectarine`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 청경채 (`foodBokChoy`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 체리 (`foodCherry`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 체리모야 (`foodCherimoya`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 초콜릿 (`foodChocolate`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 치아씨 (`foodChiaSeed`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 치즈 (`foodCheese`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 치커리 (`foodChicory`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 카나리아멜론 (`foodCanaryMelon`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 카사바 (`foodCassava`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 칼라만시 (`foodCalamansi`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 캐슈넛 (`foodCashew`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 캔털루프 (`foodCantaloupe`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 커런트 (`foodCurrant`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 커피 (`foodCoffee`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+- 케일 (`foodKale`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 코코넛 (`foodCoconut`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 코코넛워터 (`foodCoconutWater`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 코코아 (`foodCocoa`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 콜라드그린 (`foodCollardGreens`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 콜라비 (`foodKohlrabi`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 콜리플라워 (`foodCauliflower`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 콤부차 (`foodKombucha`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 쿠스쿠스 (`foodCouscous`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 쿠키 (`foodCookie`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 퀴노아 (`foodQuinoa`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 크래커 (`foodCracker`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+- 크랜베리 (`foodCranberry`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 클레멘타인 (`foodClementine`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 키위 (`foodKiwi`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+- 타마린드 (`foodTamarind`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 타임 (`foodThyme`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 탄산음료 (`foodSoda`)
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+- 테프 (`foodTeff`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 템페 (`foodTempeh`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 토란 (`foodTaro`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 토마토 (`foodTomato`)
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 토마토주스 (`foodTomatoJuice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 파로 (`foodFarro`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 파스닙 (`foodParsnip`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 파스타 (`foodPasta`)
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 파슬리 (`foodParsley`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 파인애플 (`foodPineapple`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 파파야 (`foodPapaya`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 파프리카 (`foodBellPepper`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - 16 Foods That Are Harmful or Poisonous to Pet Birds: https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods
+- 팥 (`foodAdzukiBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 패션프루트 (`foodPassionFruit`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 페이조아 (`foodFeijoa`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 펜넬 (`foodFennel`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 포니오 (`foodFonio`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 포도 (`foodGrape`)
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 포도주스 (`foodGrapeJuice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 포멜로 (`foodPomelo`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 폴렌타 (`foodPolenta`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 푸룬 (`foodPrune`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 플랜테인 (`foodPlantain`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 피스타치오 (`foodPistachio`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 피칸 (`foodPecan`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 핀토콩 (`foodPintoBean`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 핫초코 (`foodHotChocolate`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 해바라기씨 (`foodSunflowerSeed`)
+  - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 허니듀 (`foodHoneydew`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 허브티 (`foodHerbalTea`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 헤이즐넛 (`foodHazelnut`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 현미 (`foodBrownRice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 호두 (`foodWalnut`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 호밀 (`foodRye`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 호박 (`foodPumpkin`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 홍미 (`foodRedRice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 화이트커런트 (`foodWhiteCurrant`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 흑미 (`foodBlackRice`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 히카마 (`foodJicama`)
+  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
+  - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/

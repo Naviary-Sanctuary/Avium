@@ -6,6 +6,15 @@ practices. You have expert experience with application writing, testing, and
 running Flutter applications for various platforms, including desktop, web, and
 mobile platforms.
 
+## Required First Read
+
+Before starting any task in this repository, you must read:
+
+- `docs/ai_agent_onboarding.md`
+
+The onboarding document defines project-specific priorities, safety UX rules,
+data update workflow, license boundaries, and PR expectations.
+
 ## Interaction Guidelines
 
 - **User Persona:** Assume the user is familiar with programming concepts but

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../core/state/app_state_scope.dart';
 import '../../../core/types/avium_types.dart';
@@ -8,6 +9,7 @@ import '../../../core/widgets/mixed_processed_warning_banner.dart';
 import '../../../core/widgets/safety_badge.dart';
 import '../../../data/models/food_item.dart';
 import '../../../data/models/safety_condition.dart';
+import '../../../data/models/source_reference.dart';
 import '../domain/safety_condition_matcher.dart';
 
 class FoodDetailScreen extends StatefulWidget {
@@ -302,29 +304,178 @@ class _EvidenceSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: <Widget>[
-        ExpansionTile(
-          title: const Text('근거/검토 정보'),
-          childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+    final scheme = Theme.of(context).colorScheme;
+    return Card(
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(14, 14, 14, 12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
-            Text('근거 수준: ${food.evidenceLevel.name}'),
-            Text('검토일: ${food.reviewedAt}'),
-            const SizedBox(height: 6),
+            Row(
+              children: <Widget>[
+                Icon(Icons.fact_check_outlined, color: scheme.primary),
+                const SizedBox(width: 8),
+                Text(
+                  '근거/검토 정보',
+                  style: Theme.of(context).textTheme.titleMedium,
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
+            Wrap(
+              spacing: 8,
+              runSpacing: 8,
+              children: <Widget>[
+                Chip(
+                  avatar: const Icon(Icons.shield_outlined, size: 16),
+                  label: Text('근거 수준 ${_evidenceLabelKo(food.evidenceLevel)}'),
+                ),
+                Chip(
+                  avatar: const Icon(Icons.event_note_outlined, size: 16),
+                  label: Text('검토일 ${food.reviewedAt}'),
+                ),
+              ],
+            ),
+            const SizedBox(height: 10),
             ...food.sources.map((source) {
-              return Text('• ${source.title} (${source.year})');
+              return Padding(
+                padding: const EdgeInsets.only(bottom: 10),
+                child: _SourceItem(
+                  source: source,
+                  onOpen: source.url == null
+                      ? null
+                      : () => _openSourceUrl(context, source.url!),
+                ),
+              );
             }),
+            const SizedBox(height: 2),
+            Text(
+              '본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.',
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
           ],
         ),
-        Padding(
-          padding: const EdgeInsets.only(top: 4, bottom: 8),
-          child: Text(
-            '본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.',
-            style: Theme.of(context).textTheme.bodySmall,
-          ),
-        ),
-      ],
+      ),
     );
+  }
+
+  String _evidenceLabelKo(EvidenceLevel level) {
+    return switch (level) {
+      EvidenceLevel.high => '높음',
+      EvidenceLevel.medium => '보통',
+      EvidenceLevel.low => '낮음',
+    };
+  }
+
+  Future<void> _openSourceUrl(BuildContext context, String rawUrl) async {
+    final uri = Uri.tryParse(rawUrl);
+    if (uri == null) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('원문 주소가 올바르지 않습니다.')),
+      );
+      return;
+    }
+
+    final opened = await launchUrl(uri, mode: LaunchMode.externalApplication);
+    if (opened || !context.mounted) {
+      return;
+    }
+    ScaffoldMessenger.of(context).showSnackBar(
+      const SnackBar(content: Text('원문 링크를 열 수 없습니다.')),
+    );
+  }
+}
+
+class _SourceItem extends StatelessWidget {
+  const _SourceItem({required this.source, required this.onOpen});
+
+  final SourceReference source;
+  final VoidCallback? onOpen;
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final yearLabel = source.year == null ? '' : ' (${source.year})';
+    return Container(
+      width: double.infinity,
+      padding: const EdgeInsets.all(12),
+      decoration: BoxDecoration(
+        color: scheme.surfaceContainerHighest.withValues(alpha: 0.5),
+        borderRadius: BorderRadius.circular(12),
+        border: Border.all(color: scheme.outlineVariant),
+      ),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: <Widget>[
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              Icon(
+                Icons.menu_book_outlined,
+                size: 18,
+                color: scheme.onSurfaceVariant,
+              ),
+              const SizedBox(width: 8),
+              Expanded(
+                child: Text(
+                  '${source.title}$yearLabel',
+                  style: Theme.of(context).textTheme.bodyMedium?.copyWith(
+                        fontWeight: FontWeight.w600,
+                      ),
+                ),
+              ),
+            ],
+          ),
+          if (source.publisher != null ||
+              source.authors.isNotEmpty) ...<Widget>[
+            const SizedBox(height: 6),
+            Text(
+              _publisherLine(source),
+              style: Theme.of(context).textTheme.bodySmall,
+            ),
+          ],
+          const SizedBox(height: 8),
+          Wrap(
+            spacing: 6,
+            runSpacing: 6,
+            children: <Widget>[
+              Chip(
+                materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
+                visualDensity: VisualDensity.compact,
+                label: Text(_sourceTypeLabel(source.type)),
+              ),
+              if (source.url != null)
+                ActionChip(
+                  avatar: const Icon(Icons.open_in_new, size: 16),
+                  label: const Text('원문 보기'),
+                  onPressed: onOpen,
+                ),
+            ],
+          ),
+        ],
+      ),
+    );
+  }
+
+  String _sourceTypeLabel(String rawType) {
+    return switch (rawType) {
+      'reference' => '참고문헌',
+      'hospital-guide' => '동물병원 가이드',
+      'education-guide' => '교육 가이드',
+      'veterinary-article' => '수의학 아티클',
+      'welfare-guide' => '복지기관 가이드',
+      _ => '참고 자료',
+    };
+  }
+
+  String _publisherLine(SourceReference source) {
+    final authorLabel = source.authors.isEmpty ? '' : source.authors.join(', ');
+    if (source.publisher == null || source.publisher!.trim().isEmpty) {
+      return authorLabel;
+    }
+    if (authorLabel.isEmpty) {
+      return source.publisher!;
+    }
+    return '${source.publisher!} · $authorLabel';
   }
 }
