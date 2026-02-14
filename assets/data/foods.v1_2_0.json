@@ -4200,32 +4200,58 @@
       ],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "개체 반응 차이가 있어 보수적으로 소량만 고려하세요.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "과육 기준으로 대체로 안전하며 채소 보완식으로 활용 가능합니다.",
       "reasonKo": [
-        "고추는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 과량/고농도 형태 금지."
+        "고추 과육은 조류 식단에서 채소 보완식으로 자주 활용되며, 수의학 급여 가이드에서도 red/green/hot peppers가 권장 목록에 포함됩니다.",
+        "고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. 운영 원칙: 잎/줄기·양념/고농도 분말 금지."
       ],
       "riskNotesKo": [
-        "과량/고농도 형태 금지"
+        "잎/줄기·양념/고농도 분말 금지"
       ],
-      "safetyConditions": [],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "safe",
+          "noteKo": "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다."
+        },
+        {
+          "labelKo": "잎/줄기(모든 형태)",
+          "part": "leaf",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "잎/줄기는 급여하지 마세요."
+        },
+        {
+          "labelKo": "줄기(모든 형태)",
+          "part": "stem",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "줄기는 급여하지 마세요."
+        }
+      ],
       "portionsKo": {
         "allowedParts": [
-          "과육(소량)"
+          "과육"
         ],
         "avoidParts": [
+          "잎",
+          "줄기",
           "양념된 형태",
           "고농도 분말"
         ],
-        "frequency": "드물게 소량",
-        "notes": [],
+        "frequency": "매일 소량 가능",
+        "notes": [
+          "채소 편식 방지를 위해 다른 채소와 교차 급여"
+        ],
         "examplesKo": [
-          "처음에는 아주 소량만 제공"
+          "생과육 기준, 손톱 크기 조각부터 시작"
         ]
       },
       "confusables": [],
-      "evidenceLevel": "low",
+      "evidenceLevel": "medium",
       "reviewedAt": "2026-02-14",
       "sources": [
         {
@@ -4239,6 +4265,13 @@
           "title": "What Do Parrots Eat?",
           "publisher": "Chewy",
           "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Fruits and Vegetables in Bird Diets",
+          "year": 2021,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/fruits-and-vegetables-in-bird-diets"
         }
       ],
       "search": {
@@ -4251,16 +4284,16 @@
         ]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "low",
         "whatToDoKo": [
-          "급여 후 이상 반응을 관찰하세요."
+          "양념/분말 형태가 아니라면 우선 과도한 추가 급여만 피하고 관찰하세요."
         ],
         "watchForKo": [
-          "구강 자극",
+          "구토/역류",
           "묽은 변"
         ],
         "escalationTriggersKo": [
-          "증상 지속 시 문의를 권장합니다."
+          "증상이 반복되거나 기력 저하가 동반되면 진료기관 문의를 권장합니다."
         ]
       }
     },

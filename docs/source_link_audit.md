@@ -2,15 +2,16 @@
 
 - Date: 2026-02-14
 - Method: Playwright browser navigation (`page.goto`, `domcontentloaded`, timeout 30s)
-- Scope: `assets/data/foods.v1_2_0.json` 내 출처 URL 11개(중복 제거)
-- Result: 11/11 reachable (HTTP 200)
+- Scope: `assets/data/foods.v1_2_0.json` 내 출처 URL 12개(중복 제거)
+- Result: 11/12 reachable (HTTP 200), 1개는 봇 방어(HTTP 429)로 자동 점검 제한
 
 | URL | HTTP | Final URL | Title |
 | --- | --- | --- | --- |
 | https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/ | 200 | https://kb.rspca.org.au/categories/companion-animals/other-pets/birds/what-should-i-feed-my-birds | What should I feed my birds? - RSPCA Knowledgebase |
 | https://lafeber.com/pet-birds/foods-toxic-pet-birds/ | 200 | https://lafeber.com/pet-birds/foods-toxic-pet-birds/ | Foods Toxic To Pet Birds – Pet Birds by Lafeber Co. |
 | https://vcahospitals.com/know-your-pet/cockatiels-feeding | 200 | https://vcahospitals.com/know-your-pet/cockatiels-feeding | Cockatiels - Feeding \| VCA Animal Hospitals |
-| https://vcahospitals.com/know-your-pet/lovebirds-feeding | 200 | https://vcahospitals.com/know-your-pet/lovebirds-feeding | Lovebirds - Feeding \| VCA Animal Hospitals |
+| https://vcahospitals.com/know-your-pet/fruits-and-vegetables-in-bird-diets | 200 | https://vcahospitals.com/know-your-pet/fruits-and-vegetables-in-bird-diets | Fruits and Vegetables in Birds' Diets \| VCA Animal Hospitals |
+| https://vcahospitals.com/know-your-pet/lovebirds-feeding | 429 | https://vcahospitals.com/know-your-pet/lovebirds-feeding?__cf_chl_rt_tk=... | 잠시만 기다리십시오… |
 | https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets | 200 | https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets | Seeds vs Pellets: Which Is Better for Your Pet Bird? \| Chewy |
 | https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods | 200 | https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods | 14 Foods That Are Harmful or Poisonous to Pet Birds \| Chewy |
 | https://www.chewy.com/education/bird/parrot/what-do-parrots-eat | 200 | https://www.chewy.com/education/bird/parrot/what-do-parrots-eat | What Do Parrots Eat? \| Chewy |
@@ -21,4 +22,5 @@
 
 ## Notes
 
-- 일부 사이트에서 써드파티 스크립트 경고/429/혼합 콘텐츠 경고가 발생했지만, 본문 URL 접근성과 문서 로드 자체는 정상입니다.
+- `lovebirds-feeding`는 Playwright 자동 점검 시 Cloudflare 챌린지로 429가 발생했습니다. 수동 브라우저에서는 열릴 수 있습니다.
+- 일부 사이트에서 써드파티 스크립트 경고/혼합 콘텐츠 경고가 발생했지만, 본문 URL 접근성 자체와 문서 로드는 대부분 정상입니다.

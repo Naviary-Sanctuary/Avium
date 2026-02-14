@@ -43,6 +43,17 @@ List<String> _buildReasonKo(Map<String, dynamic> food) {
   final note = _normalizeSentence(
       riskNotes.isEmpty ? '첫 급여는 매우 소량으로 시작하세요' : riskNotes.first);
 
+  if (id == 'foodChiliPepper') {
+    return <String>[
+      '고추 과육은 조류 식단에서 채소 보완식으로 자주 활용되며, '
+          '수의학 급여 가이드에서도 red/green/hot peppers가 '
+          '권장 목록에 포함됩니다.',
+      '고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 '
+          '양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. '
+          '운영 원칙: $note.',
+    ];
+  }
+
   final dangerSpecific = _dangerSpecificReason(id, nameKo, note);
   if (dangerSpecific != null) {
     return dangerSpecific;
