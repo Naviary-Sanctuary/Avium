@@ -36,3 +36,6 @@ jobs:
 
       - name: Search benchmark
         run: dart run tool/search_benchmark.dart --input assets/data/foods.v1_2_0.json
+
+      - name: Search quality report
+        run: dart run tool/search_quality_report.dart --input assets/data/foods.v1_2_0.json --min-top1 0.80 --min-top3 0.95

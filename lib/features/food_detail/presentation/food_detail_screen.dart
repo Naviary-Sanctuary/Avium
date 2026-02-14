@@ -302,16 +302,28 @@ class _EvidenceSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ExpansionTile(
-      title: const Text('근거/검토 정보'),
-      childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
-        Text('evidenceLevel: ${food.evidenceLevel.name}'),
-        Text('reviewedAt: ${food.reviewedAt}'),
-        const SizedBox(height: 6),
-        ...food.sources.map((source) {
-          return Text('• ${source.title} (${source.year})');
-        }),
+        ExpansionTile(
+          title: const Text('근거/검토 정보'),
+          childrenPadding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
+          children: <Widget>[
+            Text('evidenceLevel: ${food.evidenceLevel.name}'),
+            Text('reviewedAt: ${food.reviewedAt}'),
+            const SizedBox(height: 6),
+            ...food.sources.map((source) {
+              return Text('• ${source.title} (${source.year})');
+            }),
+          ],
+        ),
+        Padding(
+          padding: const EdgeInsets.only(top: 4, bottom: 8),
+          child: Text(
+            '본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.',
+            style: Theme.of(context).textTheme.bodySmall,
+          ),
+        ),
       ],
     );
   }
