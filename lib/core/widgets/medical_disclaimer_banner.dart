@@ -7,21 +7,56 @@ class MedicalDisclaimerBanner extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Row(
+    return Wrap(
+      crossAxisAlignment: WrapCrossAlignment.center,
+      spacing: 8,
+      runSpacing: 8,
       children: <Widget>[
         Text('검토: $reviewedAt'),
-        const SizedBox(width: 8),
         Tooltip(
-          message: '본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.',
-          child: const Row(
-            children: <Widget>[
-              Icon(Icons.info_outline, size: 16),
-              SizedBox(width: 4),
-              Text('참고 정보'),
-            ],
+          message: '탭하면 참고 안내를 확인할 수 있습니다.',
+          child: OutlinedButton.icon(
+            style: OutlinedButton.styleFrom(
+              visualDensity: VisualDensity.compact,
+              tapTargetSize: MaterialTapTargetSize.shrinkWrap,
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+            ),
+            onPressed: () => _showDisclaimerBottomSheet(context),
+            icon: const Icon(Icons.info_outline, size: 16),
+            label: const Text('참고정보 보기'),
           ),
         ),
       ],
+    );
+  }
+
+  Future<void> _showDisclaimerBottomSheet(BuildContext context) {
+    return showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (sheetContext) {
+        return SafeArea(
+          child: Padding(
+            padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Text(
+                  '참고 안내',
+                  style: Theme.of(sheetContext).textTheme.titleMedium,
+                ),
+                const SizedBox(height: 8),
+                Text('콘텐츠 마지막 검토일: $reviewedAt'),
+                const SizedBox(height: 8),
+                const Text('• 이 정보는 보호자 참고용입니다.'),
+                const Text('• 진단/치료/처방을 대신하지 않습니다.'),
+                const Text('• 이상 증상이 있으면 즉시 진료기관에 문의하세요.'),
+              ],
+            ),
+          ),
+        );
+      },
     );
   }
 }
