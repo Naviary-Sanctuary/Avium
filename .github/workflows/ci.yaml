@@ -24,5 +24,14 @@ jobs:
       - name: Analyze
         run: flutter analyze
 
+      - name: Validate search tokens
+        run: dart run tool/generate_search_tokens.dart --check
+
       - name: Test
         run: flutter test
+
+      - name: Integration Test
+        run: flutter test integration_test
+
+      - name: Search benchmark
+        run: dart run tool/search_benchmark.dart --input assets/data/foods.v1_2_0.json
