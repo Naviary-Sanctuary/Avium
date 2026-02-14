@@ -149,7 +149,7 @@ class _TimeBucketField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return DropdownButtonFormField<TimeBucket>(
-      value: value,
+      initialValue: value,
       decoration: const InputDecoration(
         labelText: '섭취 시간(선택)',
         border: OutlineInputBorder(),
@@ -211,7 +211,7 @@ class _ConditionInput extends StatelessWidget {
       child: Column(
         children: <Widget>[
           DropdownButtonFormField<PartType>(
-            value: selectedPart,
+            initialValue: selectedPart,
             hint: const Text('부위 선택(선택)'),
             items: parts
                 .map(
@@ -225,7 +225,7 @@ class _ConditionInput extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           DropdownButtonFormField<PrepType>(
-            value: selectedPrep,
+            initialValue: selectedPrep,
             hint: const Text('형태·조리 선택(선택)'),
             items: preps
                 .map(

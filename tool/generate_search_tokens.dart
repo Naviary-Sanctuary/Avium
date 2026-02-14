@@ -19,6 +19,7 @@ Future<void> main(List<String> args) async {
   final foods = (root['foods'] as List<dynamic>).map((item) {
     return Map<String, dynamic>.from(item as Map<dynamic, dynamic>);
   }).toList();
+  root['foods'] = foods;
 
   var changed = false;
   for (final food in foods) {
