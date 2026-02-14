@@ -36,7 +36,13 @@ class _SearchScreenState extends State<SearchScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Avium'),
+        title: Text(
+          'Avium',
+          style: TextStyle(
+            color: Theme.of(context).colorScheme.primary,
+            fontWeight: FontWeight.w700,
+          ),
+        ),
         actions: <Widget>[
           IconButton(
             onPressed: () => context.pushNamed('guide'),
