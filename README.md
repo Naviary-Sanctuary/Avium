@@ -62,3 +62,8 @@ This report is intentionally run locally, not in GitHub Actions CI.
 
 - Architecture: `docs/architecture.md`
 - Draft release notes: `docs/release_notes_phase1_draft.md`
+
+## License
+
+- Code: MIT (`LICENSE`)
+- Curated data and source-mapping docs: proprietary (`LICENSE_DATA.md`)

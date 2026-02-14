@@ -1,5 +1,8 @@
 # Avium Food Data Sources
 
+> License notice: This file is part of Avium curated data assets and follows
+> `LICENSE_DATA.md` (not MIT).
+
 - 데이터 파일: `assets/data/foods.v1_2_0.json`
 - 기준일: 2026-02-14
 

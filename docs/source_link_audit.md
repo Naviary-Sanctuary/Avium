@@ -1,5 +1,8 @@
 # Source Link Audit (Playwright)
 
+> License notice: This file is part of Avium curated data assets and follows
+> `LICENSE_DATA.md` (not MIT).
+
 - Date: 2026-02-14
 - Method: Playwright browser navigation (`page.goto`, `domcontentloaded`, timeout 30s)
 - Scope: `assets/data/foods.v1_2_0.json` 내 출처 URL 12개(중복 제거)
