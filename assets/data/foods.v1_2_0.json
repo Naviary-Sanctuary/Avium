@@ -3119,6 +3119,1831 @@
           "즉시 문의를 권장합니다."
         ]
       }
+    },
+    {
+      "id": "foodApricot",
+      "nameKo": "살구",
+      "nameEn": "Apricot",
+      "aliases": [
+        "apricot",
+        "살구"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 소량 가능하나 씨는 피하세요.",
+      "reasonKo": [
+        "장미과 과일의 씨/핵은 피하는 것이 안전합니다."
+      ],
+      "riskNotesKo": [
+        "씨/핵 제거 후 소량만 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "핵"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨를 완전히 제거한 뒤 잘게 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "apricot",
+          "살구"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨/핵 섭취 여부를 우선 확인하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPeach",
+      "nameKo": "복숭아",
+      "nameEn": "Peach",
+      "aliases": [
+        "peach",
+        "복숭아"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 소량 가능하나 씨는 피하세요.",
+      "reasonKo": [
+        "씨/핵 관련 위험을 줄이기 위해 제거가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "씨/핵 제거 후 소량만 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "핵"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "잘 익은 과육만 소량 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "peach",
+          "복숭아"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨/핵 섭취가 의심되면 관찰을 강화하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하",
+          "구토"
+        ],
+        "escalationTriggersKo": [
+          "이상 증상 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPlum",
+      "nameKo": "자두",
+      "nameEn": "Plum",
+      "aliases": [
+        "plum",
+        "자두"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 소량 가능하나 씨는 피하세요.",
+      "reasonKo": [
+        "씨/핵 제거가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "씨/핵 제거 후 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "핵"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨 제거 후 작게 잘라 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "plum",
+          "자두"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨/핵 섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodNectarine",
+      "nameKo": "천도복숭아",
+      "nameEn": "Nectarine",
+      "aliases": [
+        "nectarine",
+        "천도복숭아"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 가능하지만 핵 제거가 필요합니다.",
+      "reasonKo": [
+        "핵을 피하는 것이 안전합니다."
+      ],
+      "riskNotesKo": [
+        "핵 제거 필수"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "핵"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "껍질 세척 후 과육만 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "nectarine",
+          "천도복숭아"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "핵 섭취 여부를 점검하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "활동 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCherry",
+      "nameKo": "체리",
+      "nameEn": "Cherry",
+      "aliases": [
+        "cherry",
+        "체리"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 가능하지만 씨는 피하세요.",
+      "reasonKo": [
+        "장미과 과일 씨/핵은 피하는 보수적 원칙을 적용합니다."
+      ],
+      "riskNotesKo": [
+        "씨 제거 후 소량"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨를 제거한 과육만 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cherry",
+          "체리"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨 섭취가 의심되면 상태를 관찰하세요."
+        ],
+        "watchForKo": [
+          "활동 저하",
+          "구토"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodWatermelon",
+      "nameKo": "수박",
+      "nameEn": "Watermelon",
+      "aliases": [
+        "watermelon",
+        "수박"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "당분이 높아 간식으로만 제한하세요.",
+      "reasonKo": [
+        "고당도 과일은 소량 원칙이 필요합니다."
+      ],
+      "riskNotesKo": [
+        "주식 대체 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "씨",
+          "껍질"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨 제거 후 아주 소량"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "watermelon",
+          "수박"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "과량 급여 후 배변 변화를 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodGrapefruit",
+      "nameKo": "자몽",
+      "nameEn": "Grapefruit",
+      "aliases": [
+        "grapefruit",
+        "자몽"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "산도가 높은 감귤류로 보수적으로 제한하세요.",
+      "reasonKo": [
+        "일부 조류에서 감귤류 제한 권고가 있습니다."
+      ],
+      "riskNotesKo": [
+        "감귤류는 과량 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "껍질",
+          "씨"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨 제거 후 소량 테스트"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "grapefruit",
+          "자몽"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "위장 자극 증상을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 급여 중단 후 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodLemon",
+      "nameKo": "레몬",
+      "nameEn": "Lemon",
+      "aliases": [
+        "lemon",
+        "레몬"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "산도가 높아 보수적으로 제한하세요.",
+      "reasonKo": [
+        "감귤류는 위장 자극 가능성을 고려합니다."
+      ],
+      "riskNotesKo": [
+        "소량 테스트 후 판단"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(아주 소량)"
+        ],
+        "avoidParts": [
+          "껍질",
+          "씨"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "필요 시 소량만"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lemon",
+          "레몬"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "급여 후 배변/식욕 변화를 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "거부 반응"
+        ],
+        "escalationTriggersKo": [
+          "지속 증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodLime",
+      "nameKo": "라임",
+      "nameEn": "Lime",
+      "aliases": [
+        "lime",
+        "라임"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "산도가 높아 보수적으로 제한하세요.",
+      "reasonKo": [
+        "감귤류 과량 급여는 피합니다."
+      ],
+      "riskNotesKo": [
+        "아주 소량 원칙"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(아주 소량)"
+        ],
+        "avoidParts": [
+          "껍질",
+          "씨"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨 제거 후 소량"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lime",
+          "라임"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "위장 자극 징후를 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPeas",
+      "nameKo": "완두콩",
+      "nameEn": "Peas",
+      "aliases": [
+        "peas",
+        "pea",
+        "완두콩"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "대체로 안전하며 소량 간식으로 활용할 수 있습니다.",
+      "reasonKo": [
+        "채소군으로 다양성 급여에 활용됩니다."
+      ],
+      "riskNotesKo": [
+        "신선도 유지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "콩알"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "삶아 식힌 완두콩 소량 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pea",
+          "peas",
+          "완두콩"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "과량 급여만 피하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodGreenBean",
+      "nameKo": "그린빈",
+      "nameEn": "Green Bean",
+      "aliases": [
+        "green bean",
+        "greenbean",
+        "그린빈",
+        "강낭콩꼬투리"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "대체로 안전한 채소군입니다.",
+      "reasonKo": [
+        "다양한 채소 급여에 활용 가능합니다."
+      ],
+      "riskNotesKo": [
+        "양념/가공 형태 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "꼬투리"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "잘게 썰어 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "green bean",
+          "greenbean",
+          "강낭콩꼬투리",
+          "그린빈"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량으로 시작하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodSilverBeet",
+      "nameKo": "근대",
+      "nameEn": "Silver Beet",
+      "aliases": [
+        "silver beet",
+        "silverbeet",
+        "chard",
+        "근대"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 급여로 활용 가능합니다.",
+      "reasonKo": [
+        "채소 다양성 확보에 도움됩니다."
+      ],
+      "riskNotesKo": [
+        "깨끗이 세척 후 제공"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "잘게 썰어 소량 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "chard",
+          "silver beet",
+          "silverbeet",
+          "근대"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "새 음식은 소량부터 시작하세요."
+        ],
+        "watchForKo": [
+          "변 상태 변화"
+        ],
+        "escalationTriggersKo": [
+          "이상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBeetroot",
+      "nameKo": "비트",
+      "nameEn": "Beetroot",
+      "aliases": [
+        "beetroot",
+        "beet",
+        "비트"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 채소 간식으로 활용 가능합니다.",
+      "reasonKo": [
+        "채소군 다양성 급여에 포함됩니다."
+      ],
+      "riskNotesKo": [
+        "처음엔 매우 소량"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "뿌리"
+        ],
+        "avoidParts": [
+          "양념된 형태"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "익혀서 잘게 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "beet",
+          "beetroot",
+          "비트"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "과량 급여를 피하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodBellPepper",
+      "nameKo": "파프리카",
+      "nameEn": "Bell Pepper",
+      "aliases": [
+        "bell pepper",
+        "capsicum",
+        "파프리카",
+        "피망"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "과육은 대체로 안전한 채소입니다.",
+      "reasonKo": [
+        "채소군 급여에 활용 가능합니다."
+      ],
+      "riskNotesKo": [
+        "식물 잎/줄기 부분은 피하세요."
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [
+          "잎",
+          "줄기"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "씨와 꼭지를 제거해 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "bell pepper",
+          "bellpepper",
+          "capsicum",
+          "파프리카",
+          "피망"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "잎/줄기 섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodChiliPepper",
+      "nameKo": "고추",
+      "nameEn": "Chili Pepper",
+      "aliases": [
+        "chili pepper",
+        "chili",
+        "pepper",
+        "고추"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "개체 반응 차이가 있어 보수적으로 소량만 고려하세요.",
+      "reasonKo": [
+        "자극 가능성을 고려해 주의 급여를 권장합니다."
+      ],
+      "riskNotesKo": [
+        "과량/고농도 형태 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "양념된 형태",
+          "고농도 분말"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "처음에는 아주 소량만 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "chili",
+          "chili pepper",
+          "chilipepper",
+          "pepper",
+          "고추"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "급여 후 이상 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "구강 자극",
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodDandelion",
+      "nameKo": "민들레",
+      "nameEn": "Dandelion",
+      "aliases": [
+        "dandelion",
+        "민들레"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "safe",
+      "oneLinerKo": "채소 다양성 관점에서 소량 활용 가능합니다.",
+      "reasonKo": [
+        "녹색 채소군으로 분류됩니다."
+      ],
+      "riskNotesKo": [
+        "세척 상태 확인"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎(소량)"
+        ],
+        "avoidParts": [
+          "오염 가능 부위"
+        ],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "세척 후 잘게 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "dandelion",
+          "민들레"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "처음 급여 시 소량부터 시작하세요."
+        ],
+        "watchForKo": [
+          "변 상태 변화"
+        ],
+        "escalationTriggersKo": [
+          "지속 증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodMilkThistle",
+      "nameKo": "밀크시슬",
+      "nameEn": "Milk Thistle",
+      "aliases": [
+        "milk thistle",
+        "milkthistle",
+        "밀크시슬"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "채소군으로 언급되지만 개체별 반응 확인이 필요합니다.",
+      "reasonKo": [
+        "일반 급여 식품으로는 근거가 제한적입니다."
+      ],
+      "riskNotesKo": [
+        "소량 테스트 원칙"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "잎(소량)"
+        ],
+        "avoidParts": [
+          "가공 추출물"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "처음엔 아주 소량만 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "milk thistle",
+          "milkthistle",
+          "밀크시슬"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "급여 후 반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하",
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodEggplant",
+      "nameKo": "가지",
+      "nameEn": "Eggplant",
+      "aliases": [
+        "eggplant",
+        "aubergine",
+        "가지"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 제한적으로 가능하나 식물체 부위는 피하세요.",
+      "reasonKo": [
+        "나이트셰이드 식물체 부위 섭취를 피하는 원칙을 적용합니다."
+      ],
+      "riskNotesKo": [
+        "잎/줄기 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "과육(소량)"
+        ],
+        "avoidParts": [
+          "잎",
+          "줄기"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "익힌 과육 소량 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "aubergine",
+          "eggplant",
+          "가지"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "식물체 부위 섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodAlcohol",
+      "nameKo": "알코올",
+      "nameEn": "Alcohol",
+      "aliases": [
+        "alcohol",
+        "wine",
+        "beer",
+        "술",
+        "알코올"
+      ],
+      "category": "drink",
+      "foodType": "processed",
+      "safetyLevel": "danger",
+      "oneLinerKo": "절대 급여 금지입니다.",
+      "reasonKo": [
+        "조류에서 치명적 위험이 보고됩니다."
+      ],
+      "riskNotesKo": [
+        "소량도 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "전체"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "실수 섭취 시 즉시 응급 모드 확인"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "high",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "veterinary-article",
+          "title": "Toxic Foods for Birds",
+          "year": 2023,
+          "publisher": "PetMD",
+          "authors": [
+            "Catherine Barnette, DVM"
+          ],
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
+        },
+        {
+          "type": "veterinary-article",
+          "title": "Foods Toxic To Pet Birds",
+          "year": 2013,
+          "publisher": "Lafeber",
+          "authors": [
+            "Rebecca Sweeney, DVM"
+          ],
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "alcohol",
+          "beer",
+          "wine",
+          "술",
+          "알코올"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "high",
+        "whatToDoKo": [
+          "추가 섭취를 즉시 차단하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "실조",
+          "호흡 이상"
+        ],
+        "escalationTriggersKo": [
+          "즉시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodSoda",
+      "nameKo": "탄산음료",
+      "nameEn": "Soda",
+      "aliases": [
+        "soda",
+        "cola",
+        "탄산",
+        "탄산음료"
+      ],
+      "category": "drink",
+      "foodType": "processed",
+      "safetyLevel": "danger",
+      "oneLinerKo": "카페인/당분 위험으로 급여 금지입니다.",
+      "reasonKo": [
+        "카페인 함유 가능 음료는 조류에 위험합니다."
+      ],
+      "riskNotesKo": [
+        "가공 음료 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "전체"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "실수 섭취 시 응급 모드 확인"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "veterinary-article",
+          "title": "Toxic Foods for Birds",
+          "year": 2023,
+          "publisher": "PetMD",
+          "authors": [
+            "Catherine Barnette, DVM"
+          ],
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cola",
+          "soda",
+          "탄산",
+          "탄산음료"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "high",
+        "whatToDoKo": [
+          "추가 섭취를 차단하고 증상을 관찰하세요."
+        ],
+        "watchForKo": [
+          "흥분",
+          "호흡 이상",
+          "경련"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 즉시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCookie",
+      "nameKo": "쿠키",
+      "nameEn": "Cookie",
+      "aliases": [
+        "cookie",
+        "쿠키"
+      ],
+      "category": "grain",
+      "foodType": "processed",
+      "safetyLevel": "caution",
+      "oneLinerKo": "가공 간식으로 권장하지 않습니다.",
+      "reasonKo": [
+        "당/지방/첨가물이 높아 주식/간식으로 부적절합니다."
+      ],
+      "riskNotesKo": [
+        "가공식품 회피 권장"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "전체"
+        ],
+        "frequency": "가능하면 피함",
+        "notes": [],
+        "examplesKo": [
+          "대체 간식으로 채소/과일 소량 사용"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cookie",
+          "쿠키"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "소량 섭취 시 과잉 급여를 중단하세요."
+        ],
+        "watchForKo": [
+          "묽은 변",
+          "식욕 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상 지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodCracker",
+      "nameKo": "크래커",
+      "nameEn": "Cracker",
+      "aliases": [
+        "cracker",
+        "크래커"
+      ],
+      "category": "grain",
+      "foodType": "processed",
+      "safetyLevel": "caution",
+      "oneLinerKo": "가공 간식으로 권장하지 않습니다.",
+      "reasonKo": [
+        "염분/첨가물 과다 가능성이 있습니다."
+      ],
+      "riskNotesKo": [
+        "가공식품 회피 권장"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "전체"
+        ],
+        "frequency": "가능하면 피함",
+        "notes": [],
+        "examplesKo": [
+          "간식 대체 식품 권장"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "cracker",
+          "크래커"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "추가 급여를 중단하세요."
+        ],
+        "watchForKo": [
+          "갈증 증가",
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodXylitol",
+      "nameKo": "자일리톨",
+      "nameEn": "Xylitol",
+      "aliases": [
+        "xylitol",
+        "자일리톨"
+      ],
+      "category": "other",
+      "foodType": "processed",
+      "safetyLevel": "danger",
+      "oneLinerKo": "첨가감미료 형태라도 급여 금지입니다.",
+      "reasonKo": [
+        "반려동물 독성 위험 성분으로 보수적으로 금지합니다."
+      ],
+      "riskNotesKo": [
+        "무설탕 제품 확인 필요"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "전체"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "무설탕 껌/간식 노출 주의"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "veterinary-article",
+          "title": "Toxic Foods for Birds",
+          "year": 2023,
+          "publisher": "PetMD",
+          "authors": [
+            "Catherine Barnette, DVM"
+          ],
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "xylitol",
+          "자일리톨"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "high",
+        "whatToDoKo": [
+          "제품 성분표를 확인하고 추가 노출을 차단하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토",
+          "떨림"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 즉시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodUncookedBeans",
+      "nameKo": "생콩",
+      "nameEn": "Uncooked Beans",
+      "aliases": [
+        "uncooked beans",
+        "raw beans",
+        "생콩"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "생콩은 급여 금지입니다.",
+      "reasonKo": [
+        "독성/소화 문제 가능성이 있어 금지합니다."
+      ],
+      "riskNotesKo": [
+        "익힌 형태만 제한적으로 고려"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "생콩 전체"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "실수 섭취 시 증상 관찰"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "raw beans",
+          "rawbeans",
+          "uncooked beans",
+          "uncookedbeans",
+          "생콩"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "high",
+        "whatToDoKo": [
+          "추가 섭취를 차단하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "설사",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 즉시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPeanutInShell",
+      "nameKo": "껍질째 땅콩",
+      "nameEn": "Peanut in Shell",
+      "aliases": [
+        "peanut in shell",
+        "shelled peanut",
+        "껍질째 땅콩"
+      ],
+      "category": "nut",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "곰팡이 오염 위험 때문에 피하는 것이 좋습니다.",
+      "reasonKo": [
+        "껍질 내부 곰팡이 오염 가능성이 있습니다."
+      ],
+      "riskNotesKo": [
+        "껍질째 급여 금지"
+      ],
+      "safetyConditions": [],
+      "portionsKo": {
+        "allowedParts": [
+          "껍질 제거된 소량"
+        ],
+        "avoidParts": [
+          "껍질째 형태"
+        ],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": [
+          "껍질 제거 후 극소량"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "peanut in shell",
+          "peanutinshell",
+          "shelled peanut",
+          "shelledpeanut",
+          "껍질째 땅콩",
+          "껍질째땅콩"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "곰팡이 냄새/변색 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 문의를 권장합니다."
+        ]
+      }
     }
   ]
 }
