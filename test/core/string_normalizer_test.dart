@@ -13,4 +13,16 @@ void main() {
 
     expect(normalized, '고구마');
   });
+
+  test('extracts initial consonants from hangul syllables', () {
+    final initials = StringNormalizer.toInitialConsonants('사 과');
+
+    expect(initials, 'ㅅㄱ');
+  });
+
+  test('keeps only consonant jamo for jamo input', () {
+    final initials = StringNormalizer.toInitialConsonants('ㅇㅂㅋㄷ');
+
+    expect(initials, 'ㅇㅂㅋㄷ');
+  });
 }

@@ -33,9 +33,18 @@ void main() {
     expect(results.map((food) => food.id), contains('foodAvocado'));
   });
 
-  test('does not return random fuzzy matches for single jamo query', () {
+  test('initial consonant query matches relevant foods', () {
     final results = service.search(db.foods, 'ㅇ');
+    final ids = results.map((food) => food.id).toList(growable: false);
 
-    expect(results, isEmpty);
+    expect(ids, contains('foodAvocado'));
+    expect(ids, isNot(contains('foodHoney')));
+    expect(ids, isNot(contains('foodRice')));
+  });
+
+  test('multi consonant query ranks closest initial match first', () {
+    final results = service.search(db.foods, 'ㅅㄱ');
+
+    expect(results.first.id, 'foodApple');
   });
 }

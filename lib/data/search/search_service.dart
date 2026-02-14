@@ -96,6 +96,13 @@ class SearchService {
   }
 
   Set<String> _collectTokens(FoodItem food) {
+    final initialTokens = <String>{
+      StringNormalizer.toInitialConsonants(food.nameKo),
+      StringNormalizer.toInitialConsonants(food.nameEn),
+      ...food.aliases.map(StringNormalizer.toInitialConsonants),
+      ...food.searchTokens.map(StringNormalizer.toInitialConsonants),
+    }..removeWhere((value) => value.isEmpty);
+
     return <String>{
       StringNormalizer.normalize(food.nameKo),
       StringNormalizer.normalizeNoSpace(food.nameKo),
@@ -105,6 +112,7 @@ class SearchService {
       ...food.aliases.map(StringNormalizer.normalizeNoSpace),
       ...food.searchTokens.map(StringNormalizer.normalize),
       ...food.searchTokens.map(StringNormalizer.normalizeNoSpace),
+      ...initialTokens,
     }..removeWhere((value) => value.isEmpty);
   }
 
