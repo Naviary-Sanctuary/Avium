@@ -31,3 +31,11 @@ doc/api/
 # IDE
 .idea/
 *.iml
+
+# Signing secrets (never commit)
+android/key.properties
+**/*.jks
+**/*.keystore
+**/*.p12
+**/*.mobileprovision
+**/*.cer
