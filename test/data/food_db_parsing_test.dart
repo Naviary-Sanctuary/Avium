@@ -18,6 +18,14 @@ void main() {
       db.foods.where((food) => food.id.startsWith('foodApple__')).length,
       greaterThanOrEqualTo(1),
     );
+    expect(
+      db.foods.where((food) => food.id.startsWith('foodApricot__')).length,
+      greaterThanOrEqualTo(2),
+    );
+    expect(
+      db.foods.where((food) => food.id.startsWith('foodPlum__')).length,
+      greaterThanOrEqualTo(2),
+    );
   });
 
   test('every food has at least one traceable source url', () async {
