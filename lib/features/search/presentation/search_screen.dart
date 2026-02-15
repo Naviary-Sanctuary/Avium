@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -243,18 +244,56 @@ class _SearchScreenState extends State<SearchScreen> {
         return;
       }
       appState.markInitialDisclaimerSeen();
+      final isMobileWeb = kIsWeb &&
+          (defaultTargetPlatform == TargetPlatform.iOS ||
+              defaultTargetPlatform == TargetPlatform.android);
       await showDialog<void>(
         context: context,
         builder: (context) {
           return AlertDialog(
-            title: const Text('안내'),
-            content: const Text(
-              '본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.',
+            title: const Text('처음 방문 안내'),
+            content: SingleChildScrollView(
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  const Text(
+                    'Avium은 앵무새 급여 안전을 빠르게 확인하는 참고 앱입니다.',
+                  ),
+                  const SizedBox(height: 12),
+                  const Text(
+                    '사용 가이드',
+                    style: TextStyle(fontWeight: FontWeight.w700),
+                  ),
+                  const SizedBox(height: 6),
+                  const Text('• 검색 탭에서 음식명/자음으로 바로 찾을 수 있습니다.'),
+                  const Text('• 상세에서 부위·형태를 선택하면 결과가 더 정확해집니다.'),
+                  const Text('• 증상이 있으면 긴급 대응 확인으로 바로 이동하세요.'),
+                  if (isMobileWeb) ...<Widget>[
+                    const SizedBox(height: 12),
+                    Text(
+                      '모바일 브라우저에서는 홈 화면에 추가해 사용하면 '
+                      '앱처럼 더 편리합니다.',
+                      style: TextStyle(
+                        fontWeight: FontWeight.w600,
+                        color: Theme.of(context).colorScheme.primary,
+                      ),
+                    ),
+                  ],
+                  const SizedBox(height: 12),
+                  const Text(
+                    '면책 안내',
+                    style: TextStyle(fontWeight: FontWeight.w700),
+                  ),
+                  const SizedBox(height: 6),
+                  const Text('본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.'),
+                ],
+              ),
             ),
             actions: <Widget>[
               TextButton(
                 onPressed: () => Navigator.of(context).pop(),
-                child: const Text('확인'),
+                child: const Text('시작하기'),
               ),
             ],
           );
