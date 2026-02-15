@@ -15,7 +15,7 @@ class AppState extends ChangeNotifier {
   })  : _repository = repository ?? AssetFoodRepository(),
         _preferencesLoader = preferencesLoader ?? _defaultPreferencesLoader;
 
-  static const String _disclaimerSeenKey = 'has_seen_initial_disclaimer_v1';
+  static const String _disclaimerSeenKey = 'has_seen_initial_disclaimer_v2';
 
   final FoodRepository _repository;
   final PreferencesLoader _preferencesLoader;
