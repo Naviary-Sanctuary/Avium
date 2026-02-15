@@ -5,9 +5,9 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  test('loads and expands foods with part-based ids', () async {
+  test('loads pre-expanded data and resolves by id', () async {
     final repository = AssetFoodRepository(
-      assetBundle: _FakeAssetBundle(_sampleDbJson),
+      assetBundle: _FakeAssetBundle(_expandedDbJson),
     );
 
     final db = await repository.loadDb();
@@ -41,7 +41,7 @@ class _FakeAssetBundle extends CachingAssetBundle {
   }
 }
 
-final String _sampleDbJson = jsonEncode(
+final String _expandedDbJson = jsonEncode(
   <String, dynamic>{
     'meta': <String, dynamic>{
       'dataVersion': '1.2.0',
@@ -50,14 +50,14 @@ final String _sampleDbJson = jsonEncode(
     },
     'foods': <Map<String, dynamic>>[
       <String, dynamic>{
-        'id': 'foodApple',
-        'nameKo': '사과',
-        'nameEn': 'Apple',
-        'aliases': <String>['apple', '사과'],
+        'id': 'foodApple__flesh',
+        'nameKo': '사과 (과육)',
+        'nameEn': 'Apple (Flesh)',
+        'aliases': <String>['apple', '사과', '사과 과육'],
         'category': 'fruit',
         'foodType': 'whole',
-        'safetyLevel': 'caution',
-        'oneLinerKo': '사과 테스트',
+        'safetyLevel': 'safe',
+        'oneLinerKo': '과육은 소량 급여 가능',
         'reasonKo': <String>['테스트 이유'],
         'riskNotesKo': <String>['테스트 주의'],
         'safetyConditions': <Map<String, dynamic>>[
@@ -67,18 +67,12 @@ final String _sampleDbJson = jsonEncode(
             'prep': 'raw',
             'level': 'safe',
             'noteKo': '과육은 소량 급여 가능',
-          },
-          <String, dynamic>{
-            'labelKo': '씨앗(모든 형태)',
-            'part': 'seeds',
-            'prep': 'any',
-            'level': 'danger',
-            'noteKo': '씨앗은 급여 금지',
+            'sourceIndexes': <int>[0],
           },
         ],
         'portionsKo': <String, dynamic>{
           'allowedParts': <String>['과육'],
-          'avoidParts': <String>['씨앗'],
+          'avoidParts': <String>[],
           'frequency': '가끔 소량',
           'notes': <String>[],
           'examplesKo': <String>[],
@@ -89,16 +83,65 @@ final String _sampleDbJson = jsonEncode(
         'sources': <Map<String, dynamic>>[
           <String, dynamic>{
             'type': 'test',
-            'title': 'test',
+            'title': 'flesh source',
             'year': 2026,
-            'url': 'https://example.com',
+            'url': 'https://example.com/flesh',
           },
         ],
         'search': <String, dynamic>{
-          'tokens': <String>['사과', 'apple'],
+          'tokens': <String>['사과', '사과 과육', 'apple'],
         },
         'emergency': <String, dynamic>{
           'baseRisk': 'medium',
+          'whatToDoKo': <String>['테스트'],
+          'watchForKo': <String>['테스트'],
+          'escalationTriggersKo': <String>['테스트'],
+        },
+      },
+      <String, dynamic>{
+        'id': 'foodApple__seeds',
+        'nameKo': '사과 (씨앗)',
+        'nameEn': 'Apple (Seeds)',
+        'aliases': <String>['apple', '사과', '사과 씨앗'],
+        'category': 'fruit',
+        'foodType': 'whole',
+        'safetyLevel': 'danger',
+        'oneLinerKo': '씨앗은 급여 금지',
+        'reasonKo': <String>['테스트 이유'],
+        'riskNotesKo': <String>['테스트 주의'],
+        'safetyConditions': <Map<String, dynamic>>[
+          <String, dynamic>{
+            'labelKo': '씨앗(모든 형태)',
+            'part': 'seeds',
+            'prep': 'any',
+            'level': 'danger',
+            'noteKo': '씨앗은 급여 금지',
+            'sourceIndexes': <int>[0],
+          },
+        ],
+        'portionsKo': <String, dynamic>{
+          'allowedParts': <String>[],
+          'avoidParts': <String>['씨앗'],
+          'frequency': '급여 금지',
+          'notes': <String>[],
+          'examplesKo': <String>[],
+        },
+        'confusables': <Map<String, dynamic>>[],
+        'evidenceLevel': 'medium',
+        'reviewedAt': '2026-02-15',
+        'sources': <Map<String, dynamic>>[
+          <String, dynamic>{
+            'type': 'test',
+            'title': 'seed source',
+            'year': 2026,
+            'url': 'https://example.com/seed',
+          },
+        ],
+        'search': <String, dynamic>{
+          'tokens': <String>['사과', '사과 씨앗', 'apple'],
+        },
+        'emergency': <String, dynamic>{
+          'baseRisk': 'high',
           'whatToDoKo': <String>['테스트'],
           'watchForKo': <String>['테스트'],
           'escalationTriggersKo': <String>['테스트'],

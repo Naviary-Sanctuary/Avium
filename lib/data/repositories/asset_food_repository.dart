@@ -5,24 +5,19 @@ import 'package:flutter/services.dart';
 import '../models/food_db.dart';
 import '../models/food_item.dart';
 import '../search/search_service.dart';
-import '../transform/food_part_variant_builder.dart';
 import 'food_repository.dart';
 
 class AssetFoodRepository implements FoodRepository {
   AssetFoodRepository({
-    this.assetPath = 'assets/data/foods.v1_2_0.json',
+    this.assetPath = 'assets/data/foods.v1_2_0.expanded.json',
     AssetBundle? assetBundle,
     SearchService? searchService,
-    FoodPartVariantBuilder? partVariantBuilder,
   })  : _assetBundle = assetBundle ?? rootBundle,
-        _searchService = searchService ?? const SearchService(),
-        _partVariantBuilder =
-            partVariantBuilder ?? const FoodPartVariantBuilder();
+        _searchService = searchService ?? const SearchService();
 
   final String assetPath;
   final AssetBundle _assetBundle;
   final SearchService _searchService;
-  final FoodPartVariantBuilder _partVariantBuilder;
 
   FoodDb? _db;
 
@@ -34,7 +29,7 @@ class AssetFoodRepository implements FoodRepository {
 
     final rawJson = await _assetBundle.loadString(assetPath);
     final map = jsonDecode(rawJson) as Map<String, dynamic>;
-    _db = _partVariantBuilder.build(FoodDb.fromJson(map));
+    _db = FoodDb.fromJson(map);
     return _db!;
   }
 

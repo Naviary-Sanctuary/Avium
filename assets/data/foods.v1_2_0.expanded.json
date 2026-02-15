@@ -92,23 +92,28 @@
       }
     },
     {
-      "id": "foodApple",
-      "nameKo": "사과",
-      "nameEn": "Apple",
+      "id": "foodApple__flesh",
+      "nameKo": "사과 (과육)",
+      "nameEn": "Apple (Flesh)",
       "aliases": [
         "apple",
-        "사과"
+        "사과",
+        "사과 과육",
+        "사과과육"
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "과육은 대체로 안전하지만 씨앗은 제거가 권장됩니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "깨끗한 과육을 소량 제공하세요.",
       "reasonKo": [
         "사과 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗/심지 제거 권장."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗/심지 제거 권장.",
+        "과육 기준으로 분리된 항목입니다.",
+        "깨끗한 과육을 소량 제공하세요."
       ],
       "riskNotesKo": [
-        "씨앗/심지 제거 권장"
+        "씨앗/심지 제거 권장",
+        "깨끗한 과육을 소량 제공하세요."
       ],
       "safetyConditions": [
         {
@@ -117,23 +122,13 @@
           "prep": "raw",
           "level": "safe",
           "noteKo": "깨끗한 과육을 소량 제공하세요."
-        },
-        {
-          "labelKo": "씨앗(모든 형태)",
-          "part": "seeds",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "씨앗은 제거하고 급여하지 마세요."
         }
       ],
       "portionsKo": {
         "allowedParts": [
           "과육"
         ],
-        "avoidParts": [
-          "씨앗",
-          "심지"
-        ],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [
           "첫 급여는 한 입 이하로 시작"
@@ -173,7 +168,107 @@
       "search": {
         "tokens": [
           "apple",
-          "사과"
+          "사과",
+          "과육",
+          "사과 과육",
+          "사과(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨앗 섭취 가능성이 있으면 관찰 강도를 높이세요."
+        ],
+        "watchForKo": [
+          "구토/역류",
+          "무기력"
+        ],
+        "escalationTriggersKo": [
+          "이상 증상이 지속되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodApple__seeds",
+      "nameKo": "사과 (씨앗)",
+      "nameEn": "Apple (Seeds)",
+      "aliases": [
+        "apple",
+        "사과",
+        "사과 씨앗",
+        "사과씨앗"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "씨앗은 제거하고 급여하지 마세요.",
+      "reasonKo": [
+        "사과 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗/심지 제거 권장.",
+        "씨앗 기준으로 분리된 항목입니다.",
+        "씨앗은 제거하고 급여하지 마세요."
+      ],
+      "riskNotesKo": [
+        "씨앗/심지 제거 권장",
+        "씨앗은 제거하고 급여하지 마세요."
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "씨앗(모든 형태)",
+          "part": "seeds",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "씨앗은 제거하고 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "씨앗"
+        ],
+        "frequency": "급여 금지",
+        "notes": [
+          "첫 급여는 한 입 이하로 시작"
+        ],
+        "examplesKo": [
+          "껍질 상태는 개체별 반응을 확인하세요."
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "veterinary-article",
+          "title": "Toxic Foods for Birds",
+          "year": 2023,
+          "publisher": "PetMD",
+          "authors": [
+            "Catherine Barnette, DVM"
+          ],
+          "url": "https://www.petmd.com/bird/foods-are-toxic-birds"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "apple",
+          "사과",
+          "씨앗",
+          "사과 씨앗",
+          "사과(씨앗)"
         ]
       },
       "emergency": {
@@ -792,23 +887,28 @@
       }
     },
     {
-      "id": "foodPear",
-      "nameKo": "배",
-      "nameEn": "Pear",
+      "id": "foodPear__flesh",
+      "nameKo": "배 (과육)",
+      "nameEn": "Pear (Flesh)",
       "aliases": [
         "pear",
-        "배"
+        "배",
+        "배 과육",
+        "배과육"
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "과육은 가능하지만 씨앗은 제거해야 합니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "과육은 소량 제공하세요.",
       "reasonKo": [
         "배 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗 제거."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗 제거.",
+        "과육 기준으로 분리된 항목입니다.",
+        "과육은 소량 제공하세요."
       ],
       "riskNotesKo": [
-        "씨앗 제거"
+        "씨앗 제거",
+        "과육은 소량 제공하세요."
       ],
       "safetyConditions": [
         {
@@ -817,23 +917,13 @@
           "prep": "raw",
           "level": "safe",
           "noteKo": "과육은 소량 제공하세요."
-        },
-        {
-          "labelKo": "씨앗(모든 형태)",
-          "part": "seeds",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "씨앗은 제거가 필요합니다."
         }
       ],
       "portionsKo": {
         "allowedParts": [
           "과육"
         ],
-        "avoidParts": [
-          "씨앗",
-          "심지"
-        ],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -863,7 +953,10 @@
       "search": {
         "tokens": [
           "pear",
-          "배"
+          "배",
+          "과육",
+          "배 과육",
+          "배(과육)"
         ]
       },
       "emergency": {
@@ -881,23 +974,117 @@
       }
     },
     {
-      "id": "foodRice",
-      "nameKo": "쌀",
-      "nameEn": "Rice",
+      "id": "foodPear__seeds",
+      "nameKo": "배 (씨앗)",
+      "nameEn": "Pear (Seeds)",
+      "aliases": [
+        "pear",
+        "배",
+        "배 씨앗",
+        "배씨앗"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "씨앗은 제거가 필요합니다.",
+      "reasonKo": [
+        "배 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗 제거.",
+        "씨앗 기준으로 분리된 항목입니다.",
+        "씨앗은 제거가 필요합니다."
+      ],
+      "riskNotesKo": [
+        "씨앗 제거",
+        "씨앗은 제거가 필요합니다."
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "씨앗(모든 형태)",
+          "part": "seeds",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "씨앗은 제거가 필요합니다."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "씨앗"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pear",
+          "배",
+          "씨앗",
+          "배 씨앗",
+          "배(씨앗)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨앗 섭취 여부를 우선 확인하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "증상 또는 씨앗 섭취 확실 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodRice__unknown",
+      "nameKo": "쌀 (기타)",
+      "nameEn": "Rice (Other)",
       "aliases": [
         "rice",
-        "쌀"
+        "쌀",
+        "쌀 기타",
+        "쌀기타"
       ],
       "category": "grain",
       "foodType": "whole",
-      "safetyLevel": "safe",
-      "oneLinerKo": "익힌 쌀은 소량 보조 급여가 가능합니다.",
+      "safetyLevel": "caution",
+      "oneLinerKo": "무염/무양념으로 소량 제공",
       "reasonKo": [
         "쌀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 양념 금지."
+        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 양념 금지.",
+        "기타 기준으로 분리된 항목입니다.",
+        "무염/무양념으로 소량 제공",
+        "소화 부담 가능성으로 주의"
       ],
       "riskNotesKo": [
-        "양념 금지"
+        "양념 금지",
+        "무염/무양념으로 소량 제공",
+        "소화 부담 가능성으로 주의"
       ],
       "safetyConditions": [
         {
@@ -916,12 +1103,8 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": [
-          "익힌 쌀"
-        ],
-        "avoidParts": [
-          "양념된 형태"
-        ],
+        "allowedParts": [],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -951,7 +1134,10 @@
       "search": {
         "tokens": [
           "rice",
-          "쌀"
+          "쌀",
+          "기타",
+          "쌀 기타",
+          "쌀(기타)"
         ]
       },
       "emergency": {
@@ -1576,23 +1762,30 @@
       }
     },
     {
-      "id": "foodSweetPotato",
-      "nameKo": "고구마",
-      "nameEn": "Sweet Potato",
+      "id": "foodSweetPotato__flesh",
+      "nameKo": "고구마 (과육)",
+      "nameEn": "Sweet Potato (Flesh)",
       "aliases": [
         "sweet potato",
-        "고구마"
+        "고구마",
+        "고구마 과육",
+        "고구마과육"
       ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "익힌 형태는 비교적 안전하지만 조리 상태 확인이 필요합니다.",
+      "oneLinerKo": "무염으로 충분히 익혀 제공",
       "reasonKo": [
         "고구마는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 익힘 권장."
+        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 익힘 권장.",
+        "과육 기준으로 분리된 항목입니다.",
+        "무염으로 충분히 익혀 제공",
+        "생 급여는 권장하지 않음"
       ],
       "riskNotesKo": [
-        "익힘 권장"
+        "익힘 권장",
+        "무염으로 충분히 익혀 제공",
+        "생 급여는 권장하지 않음"
       ],
       "safetyConditions": [
         {
@@ -1614,9 +1807,7 @@
         "allowedParts": [
           "익힌 과육"
         ],
-        "avoidParts": [
-          "양념된 형태"
-        ],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1647,7 +1838,10 @@
         "tokens": [
           "sweet potato",
           "sweetpotato",
-          "고구마"
+          "고구마",
+          "과육",
+          "고구마 과육",
+          "고구마(과육)"
         ]
       },
       "emergency": {
@@ -1664,23 +1858,28 @@
       }
     },
     {
-      "id": "foodTomato",
-      "nameKo": "토마토",
-      "nameEn": "Tomato",
+      "id": "foodTomato__flesh",
+      "nameKo": "토마토 (과육)",
+      "nameEn": "Tomato (Flesh)",
       "aliases": [
         "tomato",
-        "토마토"
+        "토마토",
+        "토마토 과육",
+        "토마토과육"
       ],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "익은 과육은 가능하지만 잎/줄기는 피해야 합니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "소량 제공",
       "reasonKo": [
         "토마토는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지."
+        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
+        "과육 기준으로 분리된 항목입니다.",
+        "소량 제공"
       ],
       "riskNotesKo": [
-        "잎/줄기 금지"
+        "잎/줄기 금지",
+        "소량 제공"
       ],
       "safetyConditions": [
         {
@@ -1689,30 +1888,13 @@
           "prep": "raw",
           "level": "safe",
           "noteKo": "소량 제공"
-        },
-        {
-          "labelKo": "잎",
-          "part": "leaf",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "급여 금지"
-        },
-        {
-          "labelKo": "줄기",
-          "part": "stem",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "급여 금지"
         }
       ],
       "portionsKo": {
         "allowedParts": [
           "익은 과육"
         ],
-        "avoidParts": [
-          "잎",
-          "줄기"
-        ],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1745,7 +1927,190 @@
       "search": {
         "tokens": [
           "tomato",
-          "토마토"
+          "토마토",
+          "과육",
+          "토마토 과육",
+          "토마토(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "잎/줄기 섭취 여부를 먼저 확인하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "위험 부위 섭취 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodTomato__leaf",
+      "nameKo": "토마토 (잎)",
+      "nameEn": "Tomato (Leaf)",
+      "aliases": [
+        "tomato",
+        "토마토",
+        "토마토 잎",
+        "토마토잎"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "급여 금지",
+      "reasonKo": [
+        "토마토는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
+        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
+        "잎 기준으로 분리된 항목입니다.",
+        "급여 금지"
+      ],
+      "riskNotesKo": [
+        "잎/줄기 금지",
+        "급여 금지"
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "잎",
+          "part": "leaf",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "급여 금지"
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "잎"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "veterinary-article",
+          "title": "Foods Toxic To Pet Birds",
+          "year": 2013,
+          "publisher": "Lafeber",
+          "authors": [
+            "Rebecca Sweeney, DVM"
+          ],
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "tomato",
+          "토마토",
+          "잎",
+          "토마토 잎",
+          "토마토(잎)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "잎/줄기 섭취 여부를 먼저 확인하세요."
+        ],
+        "watchForKo": [
+          "무기력",
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "위험 부위 섭취 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodTomato__stem",
+      "nameKo": "토마토 (줄기)",
+      "nameEn": "Tomato (Stem)",
+      "aliases": [
+        "tomato",
+        "토마토",
+        "토마토 줄기",
+        "토마토줄기"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "급여 금지",
+      "reasonKo": [
+        "토마토는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
+        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
+        "줄기 기준으로 분리된 항목입니다.",
+        "급여 금지"
+      ],
+      "riskNotesKo": [
+        "잎/줄기 금지",
+        "급여 금지"
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "줄기",
+          "part": "stem",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "급여 금지"
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "줄기"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "veterinary-article",
+          "title": "Foods Toxic To Pet Birds",
+          "year": 2013,
+          "publisher": "Lafeber",
+          "authors": [
+            "Rebecca Sweeney, DVM"
+          ],
+          "url": "https://lafeber.com/pet-birds/foods-toxic-pet-birds/"
+        },
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "tomato",
+          "토마토",
+          "줄기",
+          "토마토 줄기",
+          "토마토(줄기)"
         ]
       },
       "emergency": {
@@ -2052,23 +2417,28 @@
       }
     },
     {
-      "id": "foodMango",
-      "nameKo": "망고",
-      "nameEn": "Mango",
+      "id": "foodMango__flesh",
+      "nameKo": "망고 (과육)",
+      "nameEn": "Mango (Flesh)",
       "aliases": [
         "mango",
-        "망고"
+        "망고",
+        "망고 과육",
+        "망고과육"
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "과육은 가능하나 씨/껍질은 피하는 것이 좋습니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "신선한 과육 소량 제공",
       "reasonKo": [
         "망고 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거.",
+        "과육 기준으로 분리된 항목입니다.",
+        "신선한 과육 소량 제공"
       ],
       "riskNotesKo": [
-        "씨/껍질 제거"
+        "씨/껍질 제거",
+        "신선한 과육 소량 제공"
       ],
       "safetyConditions": [
         {
@@ -2077,14 +2447,86 @@
           "prep": "raw",
           "level": "safe",
           "noteKo": "신선한 과육 소량 제공"
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
         {
-          "labelKo": "씨",
-          "part": "pit",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "급여 금지"
-        },
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "mango",
+          "망고",
+          "과육",
+          "망고 과육",
+          "망고(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨/껍질 섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "증상 발생 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodMango__peel",
+      "nameKo": "망고 (껍질)",
+      "nameEn": "Mango (Peel)",
+      "aliases": [
+        "mango",
+        "망고",
+        "망고 껍질",
+        "망고껍질"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "잔류물 가능성으로 주의",
+      "reasonKo": [
+        "망고 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거.",
+        "껍질 기준으로 분리된 항목입니다.",
+        "잔류물 가능성으로 주의"
+      ],
+      "riskNotesKo": [
+        "씨/껍질 제거",
+        "잔류물 가능성으로 주의"
+      ],
+      "safetyConditions": [
         {
           "labelKo": "껍질",
           "part": "peel",
@@ -2094,11 +2536,8 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": [
-          "과육"
-        ],
+        "allowedParts": [],
         "avoidParts": [
-          "씨",
           "껍질"
         ],
         "frequency": "가끔 소량",
@@ -2130,7 +2569,10 @@
       "search": {
         "tokens": [
           "mango",
-          "망고"
+          "망고",
+          "껍질",
+          "망고 껍질",
+          "망고(껍질)"
         ]
       },
       "emergency": {
@@ -2147,23 +2589,114 @@
       }
     },
     {
-      "id": "foodPumpkin",
-      "nameKo": "호박",
-      "nameEn": "Pumpkin",
+      "id": "foodMango__pit",
+      "nameKo": "망고 (씨)",
+      "nameEn": "Mango (Pit)",
+      "aliases": [
+        "mango",
+        "망고",
+        "망고 씨",
+        "망고씨"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "급여 금지",
+      "reasonKo": [
+        "망고 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거.",
+        "씨 기준으로 분리된 항목입니다.",
+        "급여 금지"
+      ],
+      "riskNotesKo": [
+        "씨/껍질 제거",
+        "급여 금지"
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "씨",
+          "part": "pit",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "급여 금지"
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "씨"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "mango",
+          "망고",
+          "씨",
+          "망고 씨",
+          "망고(씨)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨/껍질 섭취 여부를 확인하세요."
+        ],
+        "watchForKo": [
+          "구토/역류"
+        ],
+        "escalationTriggersKo": [
+          "증상 발생 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPumpkin__flesh",
+      "nameKo": "호박 (과육)",
+      "nameEn": "Pumpkin (Flesh)",
       "aliases": [
         "pumpkin",
-        "호박"
+        "호박",
+        "호박 과육",
+        "호박과육"
       ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "익힌 호박은 소량 급여가 가능합니다.",
+      "oneLinerKo": "충분히 익힌 과육 제공",
       "reasonKo": [
         "호박은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 무염 조리."
+        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 무염 조리.",
+        "과육 기준으로 분리된 항목입니다.",
+        "충분히 익힌 과육 제공"
       ],
       "riskNotesKo": [
-        "무염 조리"
+        "무염 조리",
+        "충분히 익힌 과육 제공"
       ],
       "safetyConditions": [
         {
@@ -2178,9 +2711,7 @@
         "allowedParts": [
           "익힌 과육"
         ],
-        "avoidParts": [
-          "양념된 제품"
-        ],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -2210,7 +2741,10 @@
       "search": {
         "tokens": [
           "pumpkin",
-          "호박"
+          "호박",
+          "과육",
+          "호박 과육",
+          "호박(과육)"
         ]
       },
       "emergency": {
@@ -2594,23 +3128,28 @@
       }
     },
     {
-      "id": "foodPapaya",
-      "nameKo": "파파야",
-      "nameEn": "Papaya",
+      "id": "foodPapaya__flesh",
+      "nameKo": "파파야 (과육)",
+      "nameEn": "Papaya (Flesh)",
       "aliases": [
         "papaya",
-        "파파야"
+        "파파야",
+        "파파야 과육",
+        "파파야과육"
       ],
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육은 소량 급여가 가능합니다.",
+      "oneLinerKo": "신선한 과육 소량 제공",
       "reasonKo": [
         "파파야는 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
-        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 씨는 제거."
+        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 씨는 제거.",
+        "과육 기준으로 분리된 항목입니다.",
+        "신선한 과육 소량 제공"
       ],
       "riskNotesKo": [
-        "씨는 제거"
+        "씨는 제거",
+        "신선한 과육 소량 제공"
       ],
       "safetyConditions": [
         {
@@ -2619,7 +3158,85 @@
           "prep": "raw",
           "level": "safe",
           "noteKo": "신선한 과육 소량 제공"
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-01",
+      "sources": [
+        {
+          "type": "guideline",
+          "title": "Feeding a Pet Bird",
+          "year": 2025,
+          "publisher": "Merck Veterinary Manual",
+          "authors": [
+            "Brian Speer"
+          ],
+          "url": "https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird"
         },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "papaya",
+          "파파야",
+          "과육",
+          "파파야 과육",
+          "파파야(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "반응을 관찰하세요."
+        ],
+        "watchForKo": [
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "지속 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPapaya__seeds",
+      "nameKo": "파파야 (씨앗)",
+      "nameEn": "Papaya (Seeds)",
+      "aliases": [
+        "papaya",
+        "파파야",
+        "파파야 씨앗",
+        "파파야씨앗"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "씨는 제거를 권장",
+      "reasonKo": [
+        "파파야는 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
+        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 씨는 제거.",
+        "씨앗 기준으로 분리된 항목입니다.",
+        "씨는 제거를 권장"
+      ],
+      "riskNotesKo": [
+        "씨는 제거",
+        "씨는 제거를 권장"
+      ],
+      "safetyConditions": [
         {
           "labelKo": "씨",
           "part": "seeds",
@@ -2629,9 +3246,7 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": [
-          "과육"
-        ],
+        "allowedParts": [],
         "avoidParts": [
           "씨"
         ],
@@ -2663,7 +3278,10 @@
       "search": {
         "tokens": [
           "papaya",
-          "파파야"
+          "파파야",
+          "씨앗",
+          "파파야 씨앗",
+          "파파야(씨앗)"
         ]
       },
       "emergency": {
@@ -2680,23 +3298,30 @@
       }
     },
     {
-      "id": "foodQuinoa",
-      "nameKo": "퀴노아",
-      "nameEn": "Quinoa",
+      "id": "foodQuinoa__unknown",
+      "nameKo": "퀴노아 (기타)",
+      "nameEn": "Quinoa (Other)",
       "aliases": [
         "quinoa",
-        "퀴노아"
+        "퀴노아",
+        "퀴노아 기타",
+        "퀴노아기타"
       ],
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "충분히 익힌 형태에서만 소량 급여를 고려하세요.",
+      "oneLinerKo": "충분히 익힌 후 소량 제공",
       "reasonKo": [
         "퀴노아는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 익힘 필수."
+        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 익힘 필수.",
+        "기타 기준으로 분리된 항목입니다.",
+        "충분히 익힌 후 소량 제공",
+        "생 급여 지양"
       ],
       "riskNotesKo": [
-        "익힘 필수"
+        "익힘 필수",
+        "충분히 익힌 후 소량 제공",
+        "생 급여 지양"
       ],
       "safetyConditions": [
         {
@@ -2715,12 +3340,8 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": [
-          "익힌 형태"
-        ],
-        "avoidParts": [
-          "생"
-        ],
+        "allowedParts": [],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -2750,7 +3371,10 @@
       "search": {
         "tokens": [
           "quinoa",
-          "퀴노아"
+          "퀴노아",
+          "기타",
+          "퀴노아 기타",
+          "퀴노아(기타)"
         ]
       },
       "emergency": {
@@ -2920,23 +3544,30 @@
       }
     },
     {
-      "id": "foodEgg",
-      "nameKo": "달걀",
-      "nameEn": "Egg",
+      "id": "foodEgg__unknown",
+      "nameKo": "달걀 (기타)",
+      "nameEn": "Egg (Other)",
       "aliases": [
         "egg",
-        "달걀"
+        "달걀",
+        "달걀 기타",
+        "달걀기타"
       ],
       "category": "other",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "익힌 형태로 드물게 소량 급여를 고려할 수 있습니다.",
+      "oneLinerKo": "완전히 익힌 형태만 소량",
       "reasonKo": [
         "달걀은 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 생식 지양."
+        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 생식 지양.",
+        "기타 기준으로 분리된 항목입니다.",
+        "완전히 익힌 형태만 소량",
+        "생 급여는 지양"
       ],
       "riskNotesKo": [
-        "생식 지양"
+        "생식 지양",
+        "완전히 익힌 형태만 소량",
+        "생 급여는 지양"
       ],
       "safetyConditions": [
         {
@@ -2955,12 +3586,8 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": [
-          "완숙 형태"
-        ],
-        "avoidParts": [
-          "생"
-        ],
+        "allowedParts": [],
+        "avoidParts": [],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": []
@@ -2990,7 +3617,10 @@
       "search": {
         "tokens": [
           "egg",
-          "달걀"
+          "달걀",
+          "기타",
+          "달걀 기타",
+          "달걀(기타)"
         ]
       },
       "emergency": {
@@ -3233,23 +3863,28 @@
       }
     },
     {
-      "id": "foodPeach",
-      "nameKo": "복숭아",
-      "nameEn": "Peach",
+      "id": "foodPeach__flesh",
+      "nameKo": "복숭아 (과육)",
+      "nameEn": "Peach (Flesh)",
       "aliases": [
         "peach",
-        "복숭아"
+        "복숭아",
+        "복숭아 과육",
+        "복숭아과육"
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "과육은 소량 가능하나 씨는 피하세요.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "세척한 과육만 소량 급여하세요.",
       "reasonKo": [
         "복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공.",
+        "과육 기준으로 분리된 항목입니다.",
+        "세척한 과육만 소량 급여하세요."
       ],
       "riskNotesKo": [
-        "씨/핵 제거 후 소량만 제공"
+        "씨/핵 제거 후 소량만 제공",
+        "세척한 과육만 소량 급여하세요."
       ],
       "safetyConditions": [
         {
@@ -3261,26 +3896,13 @@
           "sourceIndexes": [
             0
           ]
-        },
-        {
-          "labelKo": "씨/핵(모든 형태)",
-          "part": "pit",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "씨/핵은 급여하지 마세요.",
-          "sourceIndexes": [
-            1
-          ]
         }
       ],
       "portionsKo": {
         "allowedParts": [
           "과육"
         ],
-        "avoidParts": [
-          "씨",
-          "핵"
-        ],
+        "avoidParts": [],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": [
@@ -3296,7 +3918,82 @@
           "title": "What should I feed my birds?",
           "publisher": "RSPCA Australia",
           "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        },
+        }
+      ],
+      "search": {
+        "tokens": [
+          "peach",
+          "복숭아",
+          "과육",
+          "복숭아 과육",
+          "복숭아(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "씨/핵 섭취가 의심되면 관찰을 강화하세요."
+        ],
+        "watchForKo": [
+          "식욕 저하",
+          "구토"
+        ],
+        "escalationTriggersKo": [
+          "이상 증상 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodPeach__pit",
+      "nameKo": "복숭아 (씨)",
+      "nameEn": "Peach (Pit)",
+      "aliases": [
+        "peach",
+        "복숭아",
+        "복숭아 씨",
+        "복숭아씨"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "씨/핵은 급여하지 마세요.",
+      "reasonKo": [
+        "복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공.",
+        "씨 기준으로 분리된 항목입니다.",
+        "씨/핵은 급여하지 마세요."
+      ],
+      "riskNotesKo": [
+        "씨/핵 제거 후 소량만 제공",
+        "씨/핵은 급여하지 마세요."
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "씨/핵(모든 형태)",
+          "part": "pit",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "씨/핵은 급여하지 마세요.",
+          "sourceIndexes": [
+            1
+          ]
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "씨"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "잘 익은 과육만 소량 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
         {
           "type": "education-guide",
           "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
@@ -3308,7 +4005,10 @@
       "search": {
         "tokens": [
           "peach",
-          "복숭아"
+          "복숭아",
+          "씨",
+          "복숭아 씨",
+          "복숭아(씨)"
         ]
       },
       "emergency": {
@@ -3398,23 +4098,28 @@
       }
     },
     {
-      "id": "foodNectarine",
-      "nameKo": "천도복숭아",
-      "nameEn": "Nectarine",
+      "id": "foodNectarine__flesh",
+      "nameKo": "천도복숭아 (과육)",
+      "nameEn": "Nectarine (Flesh)",
       "aliases": [
         "nectarine",
-        "천도복숭아"
+        "천도복숭아",
+        "천도복숭아 과육",
+        "천도복숭아과육"
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "과육은 가능하지만 핵 제거가 필요합니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "세척한 과육만 소량 급여하세요.",
       "reasonKo": [
         "천도복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 핵 제거 필수."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 핵 제거 필수.",
+        "과육 기준으로 분리된 항목입니다.",
+        "세척한 과육만 소량 급여하세요."
       ],
       "riskNotesKo": [
-        "핵 제거 필수"
+        "핵 제거 필수",
+        "세척한 과육만 소량 급여하세요."
       ],
       "safetyConditions": [
         {
@@ -3426,7 +4131,78 @@
           "sourceIndexes": [
             1
           ]
-        },
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [
+          "과육"
+        ],
+        "avoidParts": [],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": [
+          "껍질 세척 후 과육만 제공"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "nectarine",
+          "천도복숭아",
+          "과육",
+          "천도복숭아 과육",
+          "천도복숭아(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": [
+          "핵 섭취 여부를 점검하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "활동 저하"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodNectarine__pit",
+      "nameKo": "천도복숭아 (씨)",
+      "nameEn": "Nectarine (Pit)",
+      "aliases": [
+        "nectarine",
+        "천도복숭아",
+        "천도복숭아 씨",
+        "천도복숭아씨"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "핵은 급여하지 마세요.",
+      "reasonKo": [
+        "천도복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 핵 제거 필수.",
+        "씨 기준으로 분리된 항목입니다.",
+        "핵은 급여하지 마세요."
+      ],
+      "riskNotesKo": [
+        "핵 제거 필수",
+        "핵은 급여하지 마세요."
+      ],
+      "safetyConditions": [
         {
           "labelKo": "핵(모든 형태)",
           "part": "pit",
@@ -3439,13 +4215,11 @@
         }
       ],
       "portionsKo": {
-        "allowedParts": [
-          "과육"
-        ],
+        "allowedParts": [],
         "avoidParts": [
-          "핵"
+          "씨"
         ],
-        "frequency": "가끔 소량",
+        "frequency": "급여 금지",
         "notes": [],
         "examplesKo": [
           "껍질 세척 후 과육만 제공"
@@ -3461,18 +4235,15 @@
           "year": 2025,
           "publisher": "Chewy",
           "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
         }
       ],
       "search": {
         "tokens": [
           "nectarine",
-          "천도복숭아"
+          "천도복숭아",
+          "씨",
+          "천도복숭아 씨",
+          "천도복숭아(씨)"
         ]
       },
       "emergency": {
@@ -4231,25 +5002,30 @@
       }
     },
     {
-      "id": "foodChiliPepper",
-      "nameKo": "고추",
-      "nameEn": "Chili Pepper",
+      "id": "foodChiliPepper__flesh",
+      "nameKo": "고추 (과육)",
+      "nameEn": "Chili Pepper (Flesh)",
       "aliases": [
         "chili pepper",
         "chili",
         "pepper",
-        "고추"
+        "고추",
+        "고추 과육",
+        "고추과육"
       ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육 기준으로 대체로 안전하며 채소 보완식으로 활용 가능합니다.",
+      "oneLinerKo": "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다.",
       "reasonKo": [
         "고추 과육은 조류 식단에서 채소 보완식으로 자주 활용되며, 수의학 급여 가이드에서도 red/green/hot peppers가 권장 목록에 포함됩니다.",
-        "고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. 운영 원칙: 잎/줄기·양념/고농도 분말 금지."
+        "고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. 운영 원칙: 잎/줄기·양념/고농도 분말 금지.",
+        "과육 기준으로 분리된 항목입니다.",
+        "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다."
       ],
       "riskNotesKo": [
-        "잎/줄기·양념/고농도 분말 금지"
+        "잎/줄기·양념/고농도 분말 금지",
+        "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다."
       ],
       "safetyConditions": [
         {
@@ -4258,32 +5034,13 @@
           "prep": "raw",
           "level": "safe",
           "noteKo": "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다."
-        },
-        {
-          "labelKo": "잎/줄기(모든 형태)",
-          "part": "leaf",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "잎/줄기는 급여하지 마세요."
-        },
-        {
-          "labelKo": "줄기(모든 형태)",
-          "part": "stem",
-          "prep": "any",
-          "level": "danger",
-          "noteKo": "줄기는 급여하지 마세요."
         }
       ],
       "portionsKo": {
         "allowedParts": [
           "과육"
         ],
-        "avoidParts": [
-          "잎",
-          "줄기",
-          "양념된 형태",
-          "고농도 분말"
-        ],
+        "avoidParts": [],
         "frequency": "매일 소량 가능",
         "notes": [
           "채소 편식 방지를 위해 다른 채소와 교차 급여"
@@ -4322,7 +5079,206 @@
           "chili pepper",
           "chilipepper",
           "pepper",
-          "고추"
+          "고추",
+          "과육",
+          "고추 과육",
+          "고추(과육)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "양념/분말 형태가 아니라면 우선 과도한 추가 급여만 피하고 관찰하세요."
+        ],
+        "watchForKo": [
+          "구토/역류",
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상이 반복되거나 기력 저하가 동반되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodChiliPepper__leaf",
+      "nameKo": "고추 (잎)",
+      "nameEn": "Chili Pepper (Leaf)",
+      "aliases": [
+        "chili pepper",
+        "chili",
+        "pepper",
+        "고추",
+        "고추 잎",
+        "고추잎"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "잎/줄기는 급여하지 마세요.",
+      "reasonKo": [
+        "고추 과육은 조류 식단에서 채소 보완식으로 자주 활용되며, 수의학 급여 가이드에서도 red/green/hot peppers가 권장 목록에 포함됩니다.",
+        "고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. 운영 원칙: 잎/줄기·양념/고농도 분말 금지.",
+        "잎 기준으로 분리된 항목입니다.",
+        "잎/줄기는 급여하지 마세요."
+      ],
+      "riskNotesKo": [
+        "잎/줄기·양념/고농도 분말 금지",
+        "잎/줄기는 급여하지 마세요."
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "잎/줄기(모든 형태)",
+          "part": "leaf",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "잎/줄기는 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "잎"
+        ],
+        "frequency": "급여 금지",
+        "notes": [
+          "채소 편식 방지를 위해 다른 채소와 교차 급여"
+        ],
+        "examplesKo": [
+          "생과육 기준, 손톱 크기 조각부터 시작"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Fruits and Vegetables in Bird Diets",
+          "year": 2021,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/fruits-and-vegetables-in-bird-diets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "chili",
+          "chili pepper",
+          "chilipepper",
+          "pepper",
+          "고추",
+          "잎",
+          "고추 잎",
+          "고추(잎)"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": [
+          "양념/분말 형태가 아니라면 우선 과도한 추가 급여만 피하고 관찰하세요."
+        ],
+        "watchForKo": [
+          "구토/역류",
+          "묽은 변"
+        ],
+        "escalationTriggersKo": [
+          "증상이 반복되거나 기력 저하가 동반되면 진료기관 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodChiliPepper__stem",
+      "nameKo": "고추 (줄기)",
+      "nameEn": "Chili Pepper (Stem)",
+      "aliases": [
+        "chili pepper",
+        "chili",
+        "pepper",
+        "고추",
+        "고추 줄기",
+        "고추줄기"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "줄기는 급여하지 마세요.",
+      "reasonKo": [
+        "고추 과육은 조류 식단에서 채소 보완식으로 자주 활용되며, 수의학 급여 가이드에서도 red/green/hot peppers가 권장 목록에 포함됩니다.",
+        "고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. 운영 원칙: 잎/줄기·양념/고농도 분말 금지.",
+        "줄기 기준으로 분리된 항목입니다.",
+        "줄기는 급여하지 마세요."
+      ],
+      "riskNotesKo": [
+        "잎/줄기·양념/고농도 분말 금지",
+        "줄기는 급여하지 마세요."
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "줄기(모든 형태)",
+          "part": "stem",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "줄기는 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "줄기"
+        ],
+        "frequency": "급여 금지",
+        "notes": [
+          "채소 편식 방지를 위해 다른 채소와 교차 급여"
+        ],
+        "examplesKo": [
+          "생과육 기준, 손톱 크기 조각부터 시작"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Fruits and Vegetables in Bird Diets",
+          "year": 2021,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/fruits-and-vegetables-in-bird-diets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "chili",
+          "chili pepper",
+          "chilipepper",
+          "pepper",
+          "고추",
+          "줄기",
+          "고추 줄기",
+          "고추(줄기)"
         ]
       },
       "emergency": {
