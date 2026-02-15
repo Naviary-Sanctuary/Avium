@@ -63,86 +63,88 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
 
     return Scaffold(
       appBar: AppBar(title: Text(food.nameKo)),
-      body: SingleChildScrollView(
-        padding: const EdgeInsets.all(16),
-        child: Column(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            if (food.foodType == FoodType.mixed ||
-                food.foodType == FoodType.processed)
-              const MixedProcessedWarningBanner(),
-            _FirstView(food: food, level: result.resolvedLevel),
-            const SizedBox(height: 16),
-            if (food.safetyConditions.isNotEmpty)
-              _ConditionSelector(
-                selectedPart: effectivePart,
-                selectedPrep: effectivePrep,
-                options: food.safetyConditions,
-                onPartSelected: (part) {
-                  setState(() {
-                    _selectedPart = part;
-                  });
-                },
-                onPrepSelected: (prep) {
-                  setState(() {
-                    _selectedPrep = prep;
-                  });
-                },
-              ),
-            if (!result.isComplete && food.safetyConditions.isNotEmpty)
-              Padding(
-                padding: const EdgeInsets.only(top: 8),
-                child: Text(
-                  '조건 선택이 완전하지 않아 보수적으로 표시됩니다.',
-                  style: TextStyle(
-                    color: Theme.of(context).colorScheme.error,
-                    fontWeight: FontWeight.w600,
+      body: SelectionArea(
+        child: SingleChildScrollView(
+          padding: const EdgeInsets.all(16),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: <Widget>[
+              if (food.foodType == FoodType.mixed ||
+                  food.foodType == FoodType.processed)
+                const MixedProcessedWarningBanner(),
+              _FirstView(food: food, level: result.resolvedLevel),
+              const SizedBox(height: 16),
+              if (food.safetyConditions.isNotEmpty)
+                _ConditionSelector(
+                  selectedPart: effectivePart,
+                  selectedPrep: effectivePrep,
+                  options: food.safetyConditions,
+                  onPartSelected: (part) {
+                    setState(() {
+                      _selectedPart = part;
+                    });
+                  },
+                  onPrepSelected: (prep) {
+                    setState(() {
+                      _selectedPrep = prep;
+                    });
+                  },
+                ),
+              if (!result.isComplete && food.safetyConditions.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(top: 8),
+                  child: Text(
+                    '조건 선택이 완전하지 않아 보수적으로 표시됩니다.',
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.error,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
-              ),
-            if (result.isAmbiguous)
-              Padding(
-                padding: const EdgeInsets.only(top: 6),
-                child: Text(
-                  '조건이 애매해 보수적으로 상향된 결과를 표시합니다.',
-                  style: TextStyle(
-                    color: Theme.of(context).colorScheme.error,
-                    fontWeight: FontWeight.w600,
+              if (result.isAmbiguous)
+                Padding(
+                  padding: const EdgeInsets.only(top: 6),
+                  child: Text(
+                    '조건이 애매해 보수적으로 상향된 결과를 표시합니다.',
+                    style: TextStyle(
+                      color: Theme.of(context).colorScheme.error,
+                      fontWeight: FontWeight.w600,
+                    ),
                   ),
                 ),
+              if (food.safetyConditions.isNotEmpty)
+                Padding(
+                  padding: const EdgeInsets.only(top: 6),
+                  child: Text(result.note),
+                ),
+              const SizedBox(height: 20),
+              _Section(title: '왜?', lines: food.reasonKo),
+              _Section(title: '조건', lines: food.riskNotesKo),
+              _PortionSection(food: food),
+              if (food.confusables.isNotEmpty)
+                _Section(
+                  title: '헷갈리기 쉬운 음식',
+                  lines: food.confusables
+                      .map((item) => '${item.nameKo}: ${item.noteKo}')
+                      .toList(growable: false),
+                ),
+              _EvidenceSection(food: food),
+              const SizedBox(height: 12),
+              SizedBox(
+                width: double.infinity,
+                child: FilledButton.icon(
+                  onPressed: () {
+                    context.pushNamed(
+                      'emergency',
+                      queryParameters: <String, String>{'foodId': food.id},
+                    );
+                  },
+                  icon: const Icon(Icons.local_hospital_outlined),
+                  label: const Text('실수로 먹었어요'),
+                ),
               ),
-            if (food.safetyConditions.isNotEmpty)
-              Padding(
-                padding: const EdgeInsets.only(top: 6),
-                child: Text(result.note),
-              ),
-            const SizedBox(height: 20),
-            _Section(title: '왜?', lines: food.reasonKo),
-            _Section(title: '조건', lines: food.riskNotesKo),
-            _PortionSection(food: food),
-            if (food.confusables.isNotEmpty)
-              _Section(
-                title: '헷갈리기 쉬운 음식',
-                lines: food.confusables
-                    .map((item) => '${item.nameKo}: ${item.noteKo}')
-                    .toList(growable: false),
-              ),
-            _EvidenceSection(food: food),
-            const SizedBox(height: 12),
-            SizedBox(
-              width: double.infinity,
-              child: FilledButton.icon(
-                onPressed: () {
-                  context.pushNamed(
-                    'emergency',
-                    queryParameters: <String, String>{'foodId': food.id},
-                  );
-                },
-                icon: const Icon(Icons.local_hospital_outlined),
-                label: const Text('실수로 먹었어요'),
-              ),
-            ),
-          ],
+            ],
+          ),
         ),
       ),
     );
