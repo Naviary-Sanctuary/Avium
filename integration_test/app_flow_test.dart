@@ -79,11 +79,16 @@ Future<void> _dismissInitialNotice(WidgetTester tester) async {
   if (notice.evaluate().isEmpty) {
     return;
   }
-  final startButton = find.text('시작하기');
-  if (startButton.evaluate().isNotEmpty) {
-    await tester.tap(startButton);
+  final agreeAndStartButton = find.text('동의하고 시작하기');
+  if (agreeAndStartButton.evaluate().isNotEmpty) {
+    await tester.tap(agreeAndStartButton);
   } else {
-    await tester.tap(find.text('확인'));
+    final startButton = find.text('시작하기');
+    if (startButton.evaluate().isNotEmpty) {
+      await tester.tap(startButton);
+    } else {
+      await tester.tap(find.text('확인'));
+    }
   }
   await tester.pumpAndSettle();
 }

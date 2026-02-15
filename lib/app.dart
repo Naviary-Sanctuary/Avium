@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'core/navigation/app_router.dart';
+import 'core/pwa/pwa_install_service.dart';
 import 'core/state/app_state.dart';
 import 'core/state/app_state_scope.dart';
 import 'core/theme/app_theme.dart';
@@ -19,6 +20,7 @@ class _AviumAppState extends State<AviumApp> {
   @override
   void initState() {
     super.initState();
+    initializePwaInstallSupport();
     _appState = AppState()..initialize();
   }
 

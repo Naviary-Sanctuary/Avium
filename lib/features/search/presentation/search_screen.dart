@@ -1,8 +1,8 @@
-import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../../../core/pwa/pwa_install_service.dart';
 import '../../../core/state/app_state.dart';
 import '../../../core/state/app_state_scope.dart';
 import '../../../core/types/avium_types.dart';
@@ -244,9 +244,9 @@ class _SearchScreenState extends State<SearchScreen> {
         return;
       }
       appState.markInitialDisclaimerSeen();
-      final isMobileWeb = kIsWeb &&
-          (defaultTargetPlatform == TargetPlatform.iOS ||
-              defaultTargetPlatform == TargetPlatform.android);
+      final installInfo = getPwaInstallInfo();
+      final showInstallAction =
+          installInfo.isMobileWeb && !installInfo.isStandalone;
       await showDialog<void>(
         context: context,
         builder: (context) {
@@ -269,11 +269,11 @@ class _SearchScreenState extends State<SearchScreen> {
                   const Text('• 검색 탭에서 음식명/자음으로 바로 찾을 수 있습니다.'),
                   const Text('• 상세에서 부위·형태를 선택하면 결과가 더 정확해집니다.'),
                   const Text('• 증상이 있으면 긴급 대응 확인으로 바로 이동하세요.'),
-                  if (isMobileWeb) ...<Widget>[
+                  if (showInstallAction) ...<Widget>[
                     const SizedBox(height: 12),
                     Text(
                       '모바일 브라우저에서는 홈 화면에 추가해 사용하면 '
-                      '앱처럼 더 편리합니다.',
+                      '앱처럼 더 편리합니다. 아래 버튼으로 바로 진행하세요.',
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         color: Theme.of(context).colorScheme.primary,
@@ -291,9 +291,14 @@ class _SearchScreenState extends State<SearchScreen> {
               ),
             ),
             actions: <Widget>[
+              if (showInstallAction)
+                TextButton(
+                  onPressed: () => _onTapAddToHomeScreen(context),
+                  child: const Text('홈 화면에 추가하기'),
+                ),
               TextButton(
                 onPressed: () => Navigator.of(context).pop(),
-                child: const Text('시작하기'),
+                child: const Text('동의하고 시작하기'),
               ),
             ],
           );
@@ -301,6 +306,35 @@ class _SearchScreenState extends State<SearchScreen> {
       );
       _isShowingInitialDisclaimer = false;
     });
+  }
+
+  Future<void> _onTapAddToHomeScreen(BuildContext context) async {
+    final info = getPwaInstallInfo();
+    if (!info.isMobileWeb || info.isStandalone) {
+      return;
+    }
+
+    if (info.platform == PwaInstallPlatform.android && info.canPromptInstall) {
+      await promptPwaInstall();
+      if (!context.mounted) {
+        return;
+      }
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('설치 팝업을 열었습니다. 안내에 따라 진행해 주세요.')),
+      );
+      return;
+    }
+
+    if (!context.mounted) {
+      return;
+    }
+    await showModalBottomSheet<void>(
+      context: context,
+      showDragHandle: true,
+      builder: (context) {
+        return _AddToHomeGuideSheet(platform: info.platform);
+      },
+    );
   }
 
   Future<void> _openMailTemplate(BuildContext context, String query) async {
@@ -353,6 +387,62 @@ class _RiskFilterEmptyState extends StatelessWidget {
             ),
             SizedBox(height: 6),
             Text('위험도 필터를 변경하거나 전체로 돌려보세요.'),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _AddToHomeGuideSheet extends StatelessWidget {
+  const _AddToHomeGuideSheet({required this.platform});
+
+  final PwaInstallPlatform platform;
+
+  @override
+  Widget build(BuildContext context) {
+    final isIos = platform == PwaInstallPlatform.iosSafari;
+    final title = isIos ? 'iPhone 홈 화면 추가' : 'Android 홈 화면 추가';
+    final steps = isIos
+        ? const <String>[
+            'Safari 하단의 공유 버튼(□↑)을 누르세요.',
+            '"홈 화면에 추가"를 선택하세요.',
+            '추가 후 홈 화면에서 Avium을 실행하세요.',
+          ]
+        : const <String>[
+            '브라우저 메뉴(⋮)를 여세요.',
+            '"앱 설치" 또는 "홈 화면에 추가"를 선택하세요.',
+            '추가 후 홈 화면에서 Avium을 실행하세요.',
+          ];
+
+    return SafeArea(
+      child: Padding(
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 20),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Text(
+              title,
+              style: Theme.of(context).textTheme.titleLarge?.copyWith(
+                    fontWeight: FontWeight.w700,
+                  ),
+            ),
+            const SizedBox(height: 10),
+            ...steps.map(
+              (step) => Padding(
+                padding: const EdgeInsets.only(bottom: 6),
+                child: Text('• $step'),
+              ),
+            ),
+            const SizedBox(height: 8),
+            Align(
+              alignment: Alignment.centerRight,
+              child: FilledButton(
+                onPressed: () => Navigator.of(context).pop(),
+                child: const Text('확인'),
+              ),
+            ),
           ],
         ),
       ),
