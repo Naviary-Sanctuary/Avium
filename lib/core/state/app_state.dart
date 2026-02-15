@@ -94,6 +94,12 @@ class AppState extends ChangeNotifier {
     notifyListeners();
   }
 
+  void resetInitialDisclaimerSeen() {
+    _hasSeenInitialDisclaimer = false;
+    _preferences?.remove(_disclaimerSeenKey);
+    notifyListeners();
+  }
+
   FoodItem? getById(String id) {
     return _repository.getById(id);
   }

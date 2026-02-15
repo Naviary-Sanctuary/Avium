@@ -23,6 +23,7 @@ class _SearchScreenState extends State<SearchScreen> {
   int _tabIndex = 0;
   bool _isShowingInitialDisclaimer = false;
   _RiskFilterOption _riskFilter = _RiskFilterOption.all;
+  AppState? _appState;
 
   @override
   void initState() {
@@ -31,7 +32,21 @@ class _SearchScreenState extends State<SearchScreen> {
   }
 
   @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final nextAppState = AppStateScope.of(context);
+    if (identical(_appState, nextAppState)) {
+      return;
+    }
+    _appState?.removeListener(_onAppStateChanged);
+    _appState = nextAppState;
+    _appState?.addListener(_onAppStateChanged);
+    _onAppStateChanged();
+  }
+
+  @override
   void dispose() {
+    _appState?.removeListener(_onAppStateChanged);
     _controller.dispose();
     super.dispose();
   }
@@ -83,7 +98,6 @@ class _SearchScreenState extends State<SearchScreen> {
           final isZeroResult = hasQuery && results.isEmpty;
           final isFilterZeroResult =
               results.isNotEmpty && filteredResults.isEmpty;
-          _showInitialDisclaimerIfNeeded(context, appState);
 
           return Column(
             children: <Widget>[
@@ -199,6 +213,9 @@ class _SearchScreenState extends State<SearchScreen> {
                             meta: appState.meta,
                             onOpenGuide: () => context.pushNamed('guide'),
                             onOpenAppInfo: () => context.pushNamed('settings'),
+                            onReplayInitialGuide: () {
+                              appState.resetInitialDisclaimerSeen();
+                            },
                           ),
               ),
               NavigationBar(
@@ -233,75 +250,88 @@ class _SearchScreenState extends State<SearchScreen> {
     );
   }
 
+  void _onAppStateChanged() {
+    final appState = _appState;
+    if (!mounted || appState == null) {
+      return;
+    }
+    if (appState.isInitializing || appState.error != null) {
+      return;
+    }
+    _showInitialDisclaimerIfNeeded(context, appState);
+  }
+
   void _showInitialDisclaimerIfNeeded(BuildContext context, AppState appState) {
     if (appState.hasSeenInitialDisclaimer || _isShowingInitialDisclaimer) {
       return;
     }
     _isShowingInitialDisclaimer = true;
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-      if (!mounted || appState.hasSeenInitialDisclaimer) {
-        _isShowingInitialDisclaimer = false;
-        return;
-      }
-      final installInfo = getPwaInstallInfo();
-      final showInstallAction =
-          installInfo.isMobileWeb && !installInfo.isStandalone;
-      await showDialog<void>(
-        context: context,
-        barrierDismissible: false,
-        builder: (context) {
-          return AlertDialog(
-            title: const Text('처음 방문 안내'),
-            content: SingleChildScrollView(
-              child: Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  const Text(
-                    'Avium은 앵무새 급여 안전을 빠르게 확인하는 참고 앱입니다.',
-                  ),
-                  const SizedBox(height: 12),
-                  const Text(
-                    '이용 안내',
-                    style: TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  const SizedBox(height: 6),
-                  const Text('• 검색 탭에서 음식명/자음으로 바로 찾을 수 있습니다.'),
-                  const Text('• 상세에서 부위·형태를 선택하면 결과가 더 정확해집니다.'),
-                  const Text('• 증상이 있으면 긴급 대응 확인으로 바로 이동하세요.'),
-                  const Text('• 본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.'),
-                  if (showInstallAction) ...<Widget>[
-                    const SizedBox(height: 12),
-                    Text(
-                      '모바일 브라우저에서는 홈 화면에 추가해 사용하면 '
-                      '앱처럼 더 편리합니다. 아래 버튼으로 바로 진행하세요.',
-                      style: TextStyle(
-                        fontWeight: FontWeight.w600,
-                        color: Theme.of(context).colorScheme.primary,
-                      ),
+      try {
+        if (!mounted || appState.hasSeenInitialDisclaimer) {
+          return;
+        }
+        final installInfo = getPwaInstallInfo();
+        final showInstallAction =
+            installInfo.isMobileWeb && !installInfo.isStandalone;
+        await showDialog<void>(
+          context: context,
+          barrierDismissible: false,
+          builder: (context) {
+            return AlertDialog(
+              title: const Text('처음 방문 안내'),
+              content: SingleChildScrollView(
+                child: Column(
+                  mainAxisSize: MainAxisSize.min,
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    const Text(
+                      'Avium은 앵무새 급여 안전을 빠르게 확인하는 참고 앱입니다.',
                     ),
+                    const SizedBox(height: 12),
+                    const Text(
+                      '이용 안내',
+                      style: TextStyle(fontWeight: FontWeight.w700),
+                    ),
+                    const SizedBox(height: 6),
+                    const Text('• 검색 탭에서 음식명/자음으로 바로 찾을 수 있습니다.'),
+                    const Text('• 상세에서 부위·형태를 선택하면 결과가 더 정확해집니다.'),
+                    const Text('• 증상이 있으면 긴급 대응 확인으로 바로 이동하세요.'),
+                    const Text('• 본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.'),
+                    if (showInstallAction) ...<Widget>[
+                      const SizedBox(height: 12),
+                      Text(
+                        '모바일 브라우저에서는 홈 화면에 추가해 사용하면 '
+                        '앱처럼 더 편리합니다. 아래 버튼으로 바로 진행하세요.',
+                        style: TextStyle(
+                          fontWeight: FontWeight.w600,
+                          color: Theme.of(context).colorScheme.primary,
+                        ),
+                      ),
+                    ],
                   ],
-                ],
-              ),
-            ),
-            actions: <Widget>[
-              if (showInstallAction)
-                TextButton(
-                  onPressed: () => _onTapAddToHomeScreen(context),
-                  child: const Text('홈 화면에 추가하기'),
                 ),
-              TextButton(
-                onPressed: () {
-                  appState.markInitialDisclaimerSeen();
-                  Navigator.of(context).pop();
-                },
-                child: const Text('동의하고 시작하기'),
               ),
-            ],
-          );
-        },
-      );
-      _isShowingInitialDisclaimer = false;
+              actions: <Widget>[
+                if (showInstallAction)
+                  TextButton(
+                    onPressed: () => _onTapAddToHomeScreen(context),
+                    child: const Text('홈 화면에 추가하기'),
+                  ),
+                TextButton(
+                  onPressed: () {
+                    appState.markInitialDisclaimerSeen();
+                    Navigator.of(context).pop();
+                  },
+                  child: const Text('동의하고 시작하기'),
+                ),
+              ],
+            );
+          },
+        );
+      } finally {
+        _isShowingInitialDisclaimer = false;
+      }
     });
   }
 
@@ -735,11 +765,13 @@ class _InfoTab extends StatelessWidget {
     required this.meta,
     required this.onOpenGuide,
     required this.onOpenAppInfo,
+    required this.onReplayInitialGuide,
   });
 
   final FoodDbMeta? meta;
   final VoidCallback onOpenGuide;
   final VoidCallback onOpenAppInfo;
+  final VoidCallback onReplayInitialGuide;
 
   @override
   Widget build(BuildContext context) {
@@ -783,6 +815,12 @@ class _InfoTab extends StatelessWidget {
                   onPressed: onOpenAppInfo,
                   icon: const Icon(Icons.info_outline),
                   label: const Text('앱 정보 자세히'),
+                ),
+                const SizedBox(height: 10),
+                OutlinedButton.icon(
+                  onPressed: onReplayInitialGuide,
+                  icon: const Icon(Icons.refresh),
+                  label: const Text('첫 방문 안내 다시 보기'),
                 ),
               ],
             ),

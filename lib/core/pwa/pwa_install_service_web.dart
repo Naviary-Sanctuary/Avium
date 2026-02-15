@@ -41,10 +41,8 @@ PwaInstallInfo getPwaInstallInfo() {
       !userAgent.contains('fxios') &&
       !userAgent.contains('edgios');
   final isAndroid = userAgent.contains('android');
-  final dynamic navigator = html.window.navigator;
   final isStandalone =
-      html.window.matchMedia('(display-mode: standalone)').matches ||
-          navigator.standalone == true;
+      html.window.matchMedia('(display-mode: standalone)').matches;
 
   final platform = isIos && isSafari
       ? PwaInstallPlatform.iosSafari
