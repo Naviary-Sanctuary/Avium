@@ -36,6 +36,18 @@ flutter analyze
 flutter test
 ```
 
+웹(PWA) 로컬 실행:
+
+```bash
+flutter run -d chrome
+```
+
+웹(PWA) 프로덕션 빌드:
+
+```bash
+flutter build web --release
+```
+
 ## 데이터 토큰 생성
 
 ```bash
@@ -71,6 +83,7 @@ dart run tool/search_quality_report.dart \
 
 - 아키텍처: `docs/architecture.md`
 - 에이전트 온보딩: `docs/ai_agent_onboarding.md`
+- PWA 배포 가이드: `docs/pwa_deploy_guide_ko.md`
 - 데이터 출처: `docs/food_data_sources.md`
 - 출처 링크 점검: `docs/source_link_audit.md`
 - 릴리즈 노트 초안: `docs/release_notes_phase1_draft.md`
