@@ -243,12 +243,12 @@ class _SearchScreenState extends State<SearchScreen> {
         _isShowingInitialDisclaimer = false;
         return;
       }
-      appState.markInitialDisclaimerSeen();
       final installInfo = getPwaInstallInfo();
       final showInstallAction =
           installInfo.isMobileWeb && !installInfo.isStandalone;
       await showDialog<void>(
         context: context,
+        barrierDismissible: false,
         builder: (context) {
           return AlertDialog(
             title: const Text('처음 방문 안내'),
@@ -291,7 +291,10 @@ class _SearchScreenState extends State<SearchScreen> {
                   child: const Text('홈 화면에 추가하기'),
                 ),
               TextButton(
-                onPressed: () => Navigator.of(context).pop(),
+                onPressed: () {
+                  appState.markInitialDisclaimerSeen();
+                  Navigator.of(context).pop();
+                },
                 child: const Text('동의하고 시작하기'),
               ),
             ],
