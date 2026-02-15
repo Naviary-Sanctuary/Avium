@@ -5582,38 +5582,49 @@
       }
     },
     {
-      "id": "foodEggplant",
-      "nameKo": "가지",
-      "nameEn": "Eggplant",
+      "id": "foodEggplant__flesh",
+      "nameKo": "가지 (과육)",
+      "nameEn": "Eggplant (Flesh)",
       "aliases": [
         "eggplant",
         "aubergine",
-        "가지"
+        "가지",
+        "가지 과육",
+        "가지과육"
       ],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "과육은 제한적으로 가능하나 식물체 부위는 피하세요.",
+      "oneLinerKo": "과육은 익힌 형태로만 드물게 소량 급여를 고려하세요.",
       "reasonKo": [
         "가지는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 급여 금지."
+        "과육만 분리해 충분히 익힌 뒤 소량으로 제한해야 합니다. 운영 원칙: 과육만, 익힘 권장."
       ],
       "riskNotesKo": [
-        "잎/줄기 급여 금지"
+        "과육만, 익힘 권장"
       ],
-      "safetyConditions": [],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(익힘)",
+          "part": "flesh",
+          "prep": "cooked",
+          "level": "caution",
+          "noteKo": "익힌 과육만 드물게 소량 제공"
+        }
+      ],
       "portionsKo": {
         "allowedParts": [
-          "과육(소량)"
+          "과육(익힘)"
         ],
         "avoidParts": [
+          "생과육",
           "잎",
           "줄기"
         ],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": [
-          "익힌 과육 소량 제공"
+          "무염·무양념 익힌 과육만 소량"
         ]
       },
       "confusables": [],
@@ -5628,12 +5639,6 @@
           "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
         },
         {
-          "type": "education-guide",
-          "title": "What Do Parrots Eat?",
-          "publisher": "Chewy",
-          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
-        },
-        {
           "type": "hospital-guide",
           "title": "Cockatiels - Feeding",
           "year": 2024,
@@ -5645,13 +5650,17 @@
         "tokens": [
           "aubergine",
           "eggplant",
-          "가지"
+          "eggplant flesh",
+          "eggplantflesh",
+          "가지",
+          "가지 과육",
+          "가지과육"
         ]
       },
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": [
-          "식물체 부위 섭취 여부를 확인하세요."
+          "섭취량과 조리 여부를 확인하세요."
         ],
         "watchForKo": [
           "구토",
@@ -5659,6 +5668,166 @@
         ],
         "escalationTriggersKo": [
           "증상 시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodEggplant__leaf",
+      "nameKo": "가지 (잎)",
+      "nameEn": "Eggplant (Leaf)",
+      "aliases": [
+        "eggplant",
+        "aubergine",
+        "가지",
+        "가지 잎",
+        "가지잎"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "잎은 급여 금지입니다.",
+      "reasonKo": [
+        "가지의 잎 부위에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
+        "잎 섭취는 피하고 노출 시 즉시 상태를 관찰해야 합니다. 운영 원칙: 잎 급여 금지."
+      ],
+      "riskNotesKo": [
+        "잎 급여 금지"
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "잎(모든 형태)",
+          "part": "leaf",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "잎은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "잎"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "실수 섭취 시 응급 확인"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "aubergine",
+          "eggplant",
+          "eggplant leaf",
+          "eggplantleaf",
+          "가지",
+          "가지 잎",
+          "가지잎"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "high",
+        "whatToDoKo": [
+          "잎 노출량을 확인하고 추가 섭취를 차단하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "무기력",
+          "떨림"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 즉시 문의를 권장합니다."
+        ]
+      }
+    },
+    {
+      "id": "foodEggplant__stem",
+      "nameKo": "가지 (줄기)",
+      "nameEn": "Eggplant (Stem)",
+      "aliases": [
+        "eggplant",
+        "aubergine",
+        "가지",
+        "가지 줄기",
+        "가지줄기"
+      ],
+      "category": "vegetable",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "줄기는 급여 금지입니다.",
+      "reasonKo": [
+        "가지의 줄기 부위에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
+        "줄기 섭취는 피하고 노출 시 즉시 상태를 관찰해야 합니다. 운영 원칙: 줄기 급여 금지."
+      ],
+      "riskNotesKo": [
+        "줄기 급여 금지"
+      ],
+      "safetyConditions": [
+        {
+          "labelKo": "줄기(모든 형태)",
+          "part": "stem",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "줄기는 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": [
+          "줄기"
+        ],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": [
+          "실수 섭취 시 응급 확인"
+        ]
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-14",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "16 Foods That Are Harmful or Poisonous to Pet Birds",
+          "year": 2025,
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/food-and-nutrition/dont-feed-your-pet-bird-these-6-foods"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "aubergine",
+          "eggplant",
+          "eggplant stem",
+          "eggplantstem",
+          "가지",
+          "가지 줄기",
+          "가지줄기"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "high",
+        "whatToDoKo": [
+          "줄기 노출량을 확인하고 추가 섭취를 차단하세요."
+        ],
+        "watchForKo": [
+          "구토",
+          "무기력",
+          "떨림"
+        ],
+        "escalationTriggersKo": [
+          "증상 시 즉시 문의를 권장합니다."
         ]
       }
     },

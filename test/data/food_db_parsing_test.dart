@@ -26,6 +26,22 @@ void main() {
       db.foods.where((food) => food.id.startsWith('foodPlum__')).length,
       greaterThanOrEqualTo(2),
     );
+    expect(
+      db.foods.where((food) => food.id.startsWith('foodEggplant__')).length,
+      greaterThanOrEqualTo(3),
+    );
+    expect(
+      db.foods.any((food) => food.id == 'foodEggplant__leaf'),
+      isTrue,
+    );
+    expect(
+      db.foods.any((food) => food.id == 'foodEggplant__stem'),
+      isTrue,
+    );
+    expect(
+      db.foods.any((food) => food.id == 'foodEggplant__leaf_stem'),
+      isFalse,
+    );
   });
 
   test('every food has at least one traceable source url', () async {
