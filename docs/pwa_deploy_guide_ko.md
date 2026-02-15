@@ -47,7 +47,8 @@ flutter build web --release
 4. 배포 완료 후 발급 URL을 모바일에서 접속
 
 참고:
-- 이 저장소에는 `web/vercel.json`이 포함되어 있어 SPA 라우팅 새로고침 시
+- Git 연동 배포 시에는 저장소 루트의 `vercel.json`이 적용됩니다.
+- 이 저장소에는 SPA 라우팅 fallback 설정이 포함되어 있어 새로고침 시
   `index.html`로 리라이트됩니다.
 
 ### 공통 권장 설정
