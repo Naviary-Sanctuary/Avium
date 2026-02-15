@@ -79,14 +79,14 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "깨끗한 과육을 소량 제공하세요.",
+      "oneLinerKo": "깨끗한 과육을 제공하세요.",
       "reasonKo": [
         "사과 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗/심지 제거 권장.",
         "과육 기준으로 분리된 항목입니다.",
-        "깨끗한 과육을 소량 제공하세요."
+        "깨끗한 과육을 제공하세요."
       ],
-      "riskNotesKo": ["씨앗/심지 제거 권장", "깨끗한 과육을 소량 제공하세요."],
+      "riskNotesKo": ["씨앗/심지 제거 권장", "깨끗한 과육을 제공하세요."],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -99,13 +99,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": ["첫 급여는 한 입 이하로 시작"],
         "examplesKo": ["껍질 상태는 개체별 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -156,17 +156,12 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "danger",
-      "oneLinerKo": "씨앗은 제거하고 급여하지 마세요.",
+      "oneLinerKo": "씨앗은 급여하지 마세요.",
       "reasonKo": [
-        "사과 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗/심지 제거 권장.",
-        "씨앗 기준으로 분리된 항목입니다.",
-        "씨앗은 제거하고 급여하지 마세요."
+        "사과 씨앗에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 노출 위험이 있습니다.",
+        "씨앗은 작아도 반복 섭취 시 누적 위험과 질식 위험이 있어 급여하지 마세요. 운영 원칙: 씨앗/심지 완전 제거."
       ],
-      "riskNotesKo": [
-        "씨앗/심지 제거 권장",
-        "씨앗은 제거하고 급여하지 마세요."
-      ],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨앗/심지 완전 제거"],
       "safetyConditions": [
         {
           "labelKo": "씨앗(모든 형태)",
@@ -280,23 +275,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량의 생/익힌 당근은 대체로 안전합니다.",
+      "oneLinerKo": "생/익힌 당근은 대체로 안전합니다.",
       "reasonKo": [
         "당근은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여는 피하세요."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여는 피하세요."
       ],
       "riskNotesKo": ["과량 급여는 피하세요."],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["뿌리"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["가늘게 채 썰어 제공"]
       },
       "confusables": [],
       "evidenceLevel": "high",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -323,7 +318,7 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "소량은 가능하나 빈도 관리가 중요합니다.",
+      "oneLinerKo": "주의 급여 시 빈도 관리가 중요합니다.",
       "reasonKo": [
         "시금치는 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
         "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 연속 급여 지양."
@@ -630,14 +625,14 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육은 소량 제공하세요.",
+      "oneLinerKo": "과육은 제공하세요.",
       "reasonKo": [
         "배 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗 제거.",
         "과육 기준으로 분리된 항목입니다.",
-        "과육은 소량 제공하세요."
+        "과육은 제공하세요."
       ],
-      "riskNotesKo": ["씨앗 제거", "과육은 소량 제공하세요."],
+      "riskNotesKo": ["씨앗 제거", "과육은 제공하세요."],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -650,13 +645,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -686,14 +681,12 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "danger",
-      "oneLinerKo": "씨앗은 제거가 필요합니다.",
+      "oneLinerKo": "씨앗은 급여하지 마세요.",
       "reasonKo": [
-        "배 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗 제거.",
-        "씨앗 기준으로 분리된 항목입니다.",
-        "씨앗은 제거가 필요합니다."
+        "배 씨앗에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 노출 위험이 있습니다.",
+        "씨앗은 작아도 반복 섭취 시 누적 위험과 질식 위험이 있어 급여하지 마세요. 운영 원칙: 씨앗 완전 제거."
       ],
-      "riskNotesKo": ["씨앗 제거", "씨앗은 제거가 필요합니다."],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨앗 완전 제거"],
       "safetyConditions": [
         {
           "labelKo": "씨앗(모든 형태)",
@@ -745,8 +738,8 @@
       "oneLinerKo": "무염/무양념으로 소량 제공",
       "reasonKo": [
         "쌀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 양념 금지.",
-        "단, 점성 때문에 소낭 지체를 유발할 수 있으니 소량만 급여하세요.",
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 양념 금지.",
+        "단, 점성 때문에 소낭 지체를 유발할 수 있으니 급여하세요.",
         "기타 기준으로 분리된 항목입니다.",
         "무염/무양념으로 소량 제공",
         "소화 부담 가능성으로 주의"
@@ -769,13 +762,13 @@
       "portionsKo": {
         "allowedParts": [],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -815,14 +808,14 @@
       "oneLinerKo": "소화 부담 가능성으로 주의",
       "reasonKo": [
         "쌀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 양념 금지.",
+        "익힌 무양념 상태에서만 보완식으로 제한적으로 사용해야 합니다. 운영 원칙: 양념 금지.",
         "기타 기준으로 분리된 항목입니다.",
-        "무염/무양념으로 소량 제공",
+        "무염/무양념 형태만 제공",
         "소화 부담 가능성으로 주의"
       ],
       "riskNotesKo": [
         "양념 금지",
-        "무염/무양념으로 소량 제공",
+        "무염/무양념 형태만 제공",
         "소화 부담 가능성으로 주의"
       ],
       "safetyConditions": [
@@ -880,11 +873,11 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "빵은 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 혼합/가공식품 경고 대상.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 혼합/가공식품 경고 대상.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
       "riskNotesKo": ["혼합/가공식품 경고 대상", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
@@ -936,7 +929,7 @@
       "oneLinerKo": "고지방 식품으로 빈도 제한이 필요합니다.",
       "reasonKo": [
         "아몬드는 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 과량 급여 주의."
+        "무염·무가공 형태로 제한해 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 과량 급여 주의."
       ],
       "riskNotesKo": ["과량 급여 주의"],
       "safetyConditions": [],
@@ -975,11 +968,11 @@
       "aliases": ["peanut", "땅콩"],
       "category": "nut",
       "foodType": "processed",
-      "safetyLevel": "caution",
+      "safetyLevel": "safe",
       "oneLinerKo": "보관 상태/가공 형태에 따라 위험이 달라질 수 있습니다.",
       "reasonKo": [
         "땅콩은 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 품질 불명 제품 주의."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 품질 불명 제품 주의."
       ],
       "riskNotesKo": ["품질 불명 제품 주의"],
       "safetyConditions": [],
@@ -1246,23 +1239,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "무염/무가공 상태의 옥수수는 소량 급여가 가능합니다.",
+      "oneLinerKo": "무염/무가공 상태의 옥수수는 급여가 가능합니다.",
       "reasonKo": [
         "옥수수는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 버터/소금 첨가 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 버터/소금 첨가 금지."
       ],
       "riskNotesKo": ["버터/소금 첨가 금지"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["알갱이"],
         "avoidParts": ["가공 양념 제품"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -1285,17 +1278,16 @@
     },
     {
       "id": "foodSweetPotato__flesh",
-      "nameKo": "고구마 (과육)",
+      "nameKo": "고구마",
       "nameEn": "Sweet Potato (Flesh)",
-      "aliases": ["sweet potato", "고구마", "고구마 과육", "고구마과육"],
+      "aliases": ["sweet potato", "고구마"],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "caution",
+      "safetyLevel": "safe",
       "oneLinerKo": "무염으로 충분히 익혀 제공",
       "reasonKo": [
         "고구마는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 익힘 권장.",
-        "과육 기준으로 분리된 항목입니다.",
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 익힘 권장.",
         "무염으로 충분히 익혀 제공",
         "생 급여는 권장하지 않음"
       ],
@@ -1365,14 +1357,14 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 제공",
+      "oneLinerKo": "제공",
       "reasonKo": [
         "토마토는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
+        "식물체 비가식 부위를 완전히 제거한 뒤 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
         "과육 기준으로 분리된 항목입니다.",
-        "소량 제공"
+        "제공"
       ],
-      "riskNotesKo": ["잎/줄기 금지", "소량 제공"],
+      "riskNotesKo": ["잎/줄기 금지", "제공"],
       "safetyConditions": [
         {
           "labelKo": "익은 과육",
@@ -1385,13 +1377,13 @@
       "portionsKo": {
         "allowedParts": ["익은 과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -1430,7 +1422,7 @@
       "oneLinerKo": "급여 금지",
       "reasonKo": [
         "토마토는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
+        "식물체 비가식 부위를 완전히 제거한 뒤 제한 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
         "잎 기준으로 분리된 항목입니다.",
         "급여 금지"
       ],
@@ -1492,7 +1484,7 @@
       "oneLinerKo": "급여 금지",
       "reasonKo": [
         "토마토는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "식물체 비가식 부위를 완전히 제거한 뒤 소량 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
+        "식물체 비가식 부위를 완전히 제거한 뒤 제한 급여하는 보수적 접근이 필요합니다. 운영 원칙: 잎/줄기 금지.",
         "줄기 기준으로 분리된 항목입니다.",
         "급여 금지"
       ],
@@ -1554,7 +1546,7 @@
       "oneLinerKo": "종 구분이 어려워 보수적으로 접근하세요.",
       "reasonKo": [
         "버섯은 종·유통 상태에 따라 독성 편차가 커서 식별 오류 시 심각한 문제가 발생할 수 있습니다.",
-        "야생 채집 버섯은 배제하고, 식용 버섯도 익힌 형태를 소량으로 제한해야 합니다. 운영 원칙: 야생 버섯 금지."
+        "야생 채집 버섯은 배제하고, 식용 버섯도 익힌 형태로 제한적으로만 급여해야 합니다. 운영 원칙: 야생 버섯 금지."
       ],
       "riskNotesKo": ["야생 버섯 금지"],
       "safetyConditions": [],
@@ -1596,23 +1588,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량의 신선한 셀러리는 보조 급여가 가능합니다.",
+      "oneLinerKo": "신선한 셀러리는 보조 급여가 가능합니다.",
       "reasonKo": [
         "셀러리는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 질긴 섬유는 작게 절단."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 질긴 섬유는 작게 절단."
       ],
       "riskNotesKo": ["질긴 섬유는 작게 절단"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["줄기"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["잘게 썰어 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -1727,14 +1719,14 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "신선한 과육 소량 제공",
+      "oneLinerKo": "신선한 과육 제공",
       "reasonKo": [
         "망고 과육은 대체로 급여 가능하지만 씨·핵·질긴 껍질은 질식 및 장폐색 위험이 있습니다.",
-        "과육만 분리해 소량 제공하고 씨/핵·질긴 껍질은 완전히 제거해야 합니다. 운영 원칙: 씨/핵 제거 필수.",
+        "과육만 분리해 제공하고 씨/핵·질긴 껍질은 완전히 제거해야 합니다. 운영 원칙: 씨/핵 제거 필수.",
         "과육 기준으로 분리된 항목입니다.",
-        "신선한 과육 소량 제공"
+        "신선한 과육 제공"
       ],
-      "riskNotesKo": ["씨/핵 제거 필수", "신선한 과육 소량 제공"],
+      "riskNotesKo": ["씨/핵 제거 필수", "신선한 과육 제공"],
       "safetyConditions": [
         {
           "labelKo": "과육",
@@ -1747,7 +1739,7 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
@@ -1851,12 +1843,10 @@
       "safetyLevel": "danger",
       "oneLinerKo": "급여 금지",
       "reasonKo": [
-        "망고 씨/핵은 크고 단단해 질식 및 장폐색 위험이 큽니다. 또한 청산배당체 계열 위험 성분이 있습니다.",
-        "과육만 분리해 급여하고 씨/핵·질긴 껍질은 완전히 제거해야 합니다. 운영 원칙: 씨/핵 제거 필수.",
-        "씨 기준으로 분리된 항목입니다.",
-        "급여 금지"
+        "망고 씨/핵은 청산배당체 계열 위험 성분이 있으며, 크고 단단해 질식 및 장폐색 위험이 큽니다.",
+        "질긴 외피와 내부 성분은 소화에 부적합하므로 과육만 분리하고 씨/핵은 급여하지 마세요. 운영 원칙: 씨/핵 제거 필수."
       ],
-      "riskNotesKo": ["씨/핵 제거 필수", "급여 금지"],
+      "riskNotesKo": ["씨/핵 제거 필수", "질식/장폐색 위험"],
       "safetyConditions": [
         {
           "labelKo": "씨",
@@ -1913,7 +1903,7 @@
       "oneLinerKo": "충분히 익힌 과육 제공",
       "reasonKo": [
         "호박은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 무염 조리.",
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 무염 조리.",
         "과육 기준으로 분리된 항목입니다.",
         "충분히 익힌 과육 제공"
       ],
@@ -1930,13 +1920,13 @@
       "portionsKo": {
         "allowedParts": ["익힌 과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -2034,7 +2024,7 @@
       "oneLinerKo": "혼합식품은 성분 구성이 불명확해 보수적으로 판단해야 합니다.",
       "reasonKo": [
         "믹스넛은 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 혼합/가공식품 경고 대상."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 혼합/가공식품 경고 대상."
       ],
       "riskNotesKo": ["혼합/가공식품 경고 대상"],
       "safetyConditions": [],
@@ -2074,23 +2064,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "신선한 브로콜리는 소량 급여가 가능합니다.",
+      "oneLinerKo": "신선한 브로콜리는 급여가 가능합니다.",
       "reasonKo": [
         "브로콜리는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 주의."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 주의."
       ],
       "riskNotesKo": ["과량 급여 주의"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["꽃봉오리", "줄기"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -2117,23 +2107,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "수분 보충용으로 소량 급여가 가능합니다.",
+      "oneLinerKo": "수분 보충용으로 급여가 가능합니다.",
       "reasonKo": [
         "오이는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 주의."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 주의."
       ],
       "riskNotesKo": ["과량 급여 주의"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -2149,50 +2139,6 @@
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": ["대부분 경과 관찰로 충분합니다."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodOrange",
-      "nameKo": "오렌지",
-      "nameEn": "Orange",
-      "aliases": ["orange", "오렌지"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "산도가 높아 소량만 권장됩니다.",
-      "reasonKo": [
-        "오렌지는 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 처음 급여 소량."
-      ],
-      "riskNotesKo": ["처음 급여 소량"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["과육"],
-        "avoidParts": ["껍질"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": []
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        }
-      ],
-      "search": {
-        "tokens": ["orange", "오렌지"]
-      },
-      "emergency": {
-        "baseRisk": "low",
-        "whatToDoKo": ["소화기 증상을 관찰하세요."],
         "watchForKo": ["묽은 변"],
         "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
       }
@@ -2265,33 +2211,31 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "씨는 제거를 권장",
+      "oneLinerKo": "씨앗은 급여하지 않는 것이 안전합니다.",
       "reasonKo": [
-        "파파야는 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
-        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 씨는 제거.",
-        "씨앗 기준으로 분리된 항목입니다.",
-        "씨는 제거를 권장"
+        "파파야 씨앗은 자극성 성분(예: benzyl isothiocyanate 계열)과 거친 섬유질 때문에 소화기 자극을 유발할 수 있습니다.",
+        "영양상 이점이 낮고 작은 개체에서는 질식 위험도 있어 씨앗은 제거하는 편이 안전합니다. 운영 원칙: 씨앗 급여 지양."
       ],
-      "riskNotesKo": ["씨는 제거", "씨는 제거를 권장"],
+      "riskNotesKo": ["씨앗 급여 지양"],
       "safetyConditions": [
         {
           "labelKo": "씨",
           "part": "seeds",
           "prep": "any",
           "level": "caution",
-          "noteKo": "씨는 제거를 권장"
+          "noteKo": "씨앗은 급여하지 않는 것이 안전합니다."
         }
       ],
       "portionsKo": {
         "allowedParts": [],
-        "avoidParts": ["씨"],
-        "frequency": "가끔 소량",
+        "avoidParts": ["씨앗"],
+        "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -2311,152 +2255,10 @@
         ]
       },
       "emergency": {
-        "baseRisk": "low",
-        "whatToDoKo": ["반응을 관찰하세요."],
-        "watchForKo": ["묽은 변"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodQuinoa__cooked",
-      "nameKo": "퀴노아 (익힘)",
-      "nameEn": "Quinoa (Cooked)",
-      "aliases": [
-        "quinoa",
-        "퀴노아",
-        "퀴노아 기타",
-        "퀴노아기타",
-        "퀴노아 익힘",
-        "퀴노아익힘"
-      ],
-      "category": "grain",
-      "foodType": "whole",
-      "safetyLevel": "safe",
-      "oneLinerKo": "충분히 익힌 후 소량 제공",
-      "reasonKo": [
-        "퀴노아는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 익힘 필수.",
-        "기타 기준으로 분리된 항목입니다.",
-        "충분히 익힌 후 소량 제공",
-        "생 급여 지양"
-      ],
-      "riskNotesKo": ["익힘 필수", "충분히 익힌 후 소량 제공", "생 급여 지양"],
-      "safetyConditions": [
-        {
-          "labelKo": "익힘",
-          "part": "unknown",
-          "prep": "cooked",
-          "level": "safe",
-          "noteKo": "충분히 익힌 후 소량 제공"
-        }
-      ],
-      "portionsKo": {
-        "allowedParts": [],
-        "avoidParts": [],
-        "frequency": "가끔 소량",
-        "notes": [],
-        "examplesKo": []
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Lovebirds - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
-        }
-      ],
-      "search": {
-        "tokens": [
-          "quinoa",
-          "quinoa cooked",
-          "quinoacooked",
-          "퀴노아",
-          "퀴노아 기타",
-          "퀴노아 익힘",
-          "퀴노아기타",
-          "퀴노아익힘"
-        ]
-      },
-      "emergency": {
-        "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["식욕 저하"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodQuinoa__raw",
-      "nameKo": "퀴노아 (생)",
-      "nameEn": "Quinoa (Raw)",
-      "aliases": [
-        "quinoa",
-        "퀴노아",
-        "퀴노아 기타",
-        "퀴노아기타",
-        "퀴노아 생",
-        "퀴노아생"
-      ],
-      "category": "grain",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "생 급여 지양",
-      "reasonKo": [
-        "퀴노아는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 익힘 필수.",
-        "기타 기준으로 분리된 항목입니다.",
-        "충분히 익힌 후 소량 제공",
-        "생 급여 지양"
-      ],
-      "riskNotesKo": ["익힘 필수", "충분히 익힌 후 소량 제공", "생 급여 지양"],
-      "safetyConditions": [
-        {
-          "labelKo": "생",
-          "part": "unknown",
-          "prep": "raw",
-          "level": "caution",
-          "noteKo": "생 급여 지양"
-        }
-      ],
-      "portionsKo": {
-        "allowedParts": [],
-        "avoidParts": [],
-        "frequency": "가끔 소량",
-        "notes": [],
-        "examplesKo": []
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Lovebirds - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
-        }
-      ],
-      "search": {
-        "tokens": [
-          "quinoa",
-          "quinoa raw",
-          "quinoaraw",
-          "퀴노아",
-          "퀴노아 기타",
-          "퀴노아 생",
-          "퀴노아기타",
-          "퀴노아생"
-        ]
-      },
-      "emergency": {
-        "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["식욕 저하"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
+        "baseRisk": "medium",
+        "whatToDoKo": ["씨앗 추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "구토/역류", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
       }
     },
     {
@@ -2467,23 +2269,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "수분이 많은 채소로 소량 급여가 가능합니다.",
+      "oneLinerKo": "수분이 많은 채소로 급여가 가능합니다.",
       "reasonKo": [
         "상추는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 다양한 채소와 교차 급여."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 다양한 채소와 교차 급여."
       ],
       "riskNotesKo": ["다양한 채소와 교차 급여"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -2510,24 +2312,24 @@
       "aliases": ["sunflower seed", "해바라기씨"],
       "category": "nut",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "지방 함량이 높아 간식 비율 관리가 중요합니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "조류 간식 씨앗으로 급여 가능합니다.",
       "reasonKo": [
-        "해바라기씨는 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 빈도 제한."
+        "해바라기씨는 반려조류 급여에서 널리 쓰이는 씨앗 간식입니다.",
+        "다만 지방 함량이 높아 과량 급여 시 비만·지방간 위험이 커질 수 있으므로 빈도와 양을 관리하세요. 운영 원칙: 과량 급여 금지."
       ],
-      "riskNotesKo": ["빈도 제한"],
+      "riskNotesKo": ["과량 급여 금지", "무염/무가공 제품 사용"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["소량"],
-        "avoidParts": ["가염 제품"],
-        "frequency": "드물게 소량",
+        "allowedParts": ["씨앗"],
+        "avoidParts": ["가염/가향 제품"],
+        "frequency": "가끔 간식",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -2549,144 +2351,11 @@
       },
       "emergency": {
         "baseRisk": "low",
-        "whatToDoKo": ["지속 과섭취 여부를 확인하세요."],
+        "whatToDoKo": ["과량 급여를 멈추고 상태를 관찰하세요."],
         "watchForKo": ["체중 증가", "활력 저하"],
-        "escalationTriggersKo": ["장기 이상 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodEgg__cooked",
-      "nameKo": "달걀 (익힘)",
-      "nameEn": "Egg (Cooked)",
-      "aliases": [
-        "egg",
-        "달걀",
-        "달걀 기타",
-        "달걀기타",
-        "달걀 익힘",
-        "달걀익힘"
-      ],
-      "category": "other",
-      "foodType": "whole",
-      "safetyLevel": "safe",
-      "oneLinerKo": "완전히 익힌 형태만 소량",
-      "reasonKo": [
-        "달걀은 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 생식 지양.",
-        "기타 기준으로 분리된 항목입니다.",
-        "완전히 익힌 형태만 소량",
-        "생 급여는 지양"
-      ],
-      "riskNotesKo": ["생식 지양", "완전히 익힌 형태만 소량", "생 급여는 지양"],
-      "safetyConditions": [
-        {
-          "labelKo": "익힘",
-          "part": "unknown",
-          "prep": "cooked",
-          "level": "safe",
-          "noteKo": "완전히 익힌 형태만 소량"
-        }
-      ],
-      "portionsKo": {
-        "allowedParts": [],
-        "avoidParts": [],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": []
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        }
-      ],
-      "search": {
-        "tokens": [
-          "egg",
-          "egg cooked",
-          "eggcooked",
-          "달걀",
-          "달걀 기타",
-          "달걀 익힘",
-          "달걀기타",
-          "달걀익힘"
+        "escalationTriggersKo": [
+          "장기 이상 징후가 보이면 진료기관 문의를 권장합니다."
         ]
-      },
-      "emergency": {
-        "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["구토/역류"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodEgg__raw",
-      "nameKo": "달걀 (생)",
-      "nameEn": "Egg (Raw)",
-      "aliases": ["egg", "달걀", "달걀 기타", "달걀기타", "달걀 생", "달걀생"],
-      "category": "other",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "생 급여는 지양",
-      "reasonKo": [
-        "달걀은 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 생식 지양.",
-        "기타 기준으로 분리된 항목입니다.",
-        "완전히 익힌 형태만 소량",
-        "생 급여는 지양"
-      ],
-      "riskNotesKo": ["생식 지양", "완전히 익힌 형태만 소량", "생 급여는 지양"],
-      "safetyConditions": [
-        {
-          "labelKo": "생",
-          "part": "unknown",
-          "prep": "raw",
-          "level": "caution",
-          "noteKo": "생 급여는 지양"
-        }
-      ],
-      "portionsKo": {
-        "allowedParts": [],
-        "avoidParts": [],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": []
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        }
-      ],
-      "search": {
-        "tokens": [
-          "egg",
-          "egg raw",
-          "eggraw",
-          "달걀",
-          "달걀 기타",
-          "달걀 생",
-          "달걀기타",
-          "달걀생"
-        ]
-      },
-      "emergency": {
-        "baseRisk": "low",
-        "whatToDoKo": ["소화 반응을 관찰하세요."],
-        "watchForKo": ["구토/역류"],
-        "escalationTriggersKo": ["지속 시 문의를 권장합니다."]
       }
     },
     {
@@ -2700,7 +2369,7 @@
       "oneLinerKo": "염분/지방이 높아 일반 급여는 권장하지 않습니다.",
       "reasonKo": [
         "치즈는 유당과 지방, 가공첨가물 때문에 조류에서 소화 불편 또는 설사 위험이 있습니다.",
-        "무가당·무첨가 제품도 간식 수준의 극소량만 허용하는 보수적 관리가 필요합니다. 운영 원칙: 혼합/가공식품 주의."
+        "무가당·무첨가 제품도 간식 수준의 제한적으로 허용하는 보수적 관리가 필요합니다. 운영 원칙: 혼합/가공식품 주의."
       ],
       "riskNotesKo": ["혼합/가공식품 주의"],
       "safetyConditions": [],
@@ -2809,12 +2478,12 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육은 소량 급여가 가능합니다.",
+      "oneLinerKo": "과육은 급여가 가능합니다.",
       "reasonKo": [
         "살구 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 제공."
       ],
-      "riskNotesKo": ["씨/핵 제거 후 소량만 제공"],
+      "riskNotesKo": ["씨/핵 제거 후 제공"],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -2827,13 +2496,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["씨"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["씨를 완전히 제거한 뒤 잘게 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -2876,10 +2545,10 @@
       "safetyLevel": "danger",
       "oneLinerKo": "씨는 급여 금지입니다.",
       "reasonKo": [
-        "살구 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공."
+        "살구 씨/핵에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 중독 위험이 있습니다.",
+        "씨/핵 자체가 단단해 질식 및 장폐색 위험도 크므로 급여하지 마세요. 운영 원칙: 씨/핵 급여 금지."
       ],
-      "riskNotesKo": ["씨/핵 제거 후 소량만 제공"],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨/핵 급여 금지"],
       "safetyConditions": [
         {
           "labelKo": "씨(모든 형태)",
@@ -2894,11 +2563,11 @@
         "avoidParts": ["씨"],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": ["씨를 완전히 제거한 뒤 잘게 제공"]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -2939,17 +2608,14 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "세척한 과육만 소량 급여하세요.",
+      "oneLinerKo": "세척한 과육만 급여하세요.",
       "reasonKo": [
         "복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공.",
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 제공.",
         "과육 기준으로 분리된 항목입니다.",
-        "세척한 과육만 소량 급여하세요."
+        "세척한 과육만 급여하세요."
       ],
-      "riskNotesKo": [
-        "씨/핵 제거 후 소량만 제공",
-        "세척한 과육만 소량 급여하세요."
-      ],
+      "riskNotesKo": ["씨/핵 제거 후 제공", "세척한 과육만 급여하세요."],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -2962,13 +2628,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["잘 익은 과육만 소량 제공"]
+        "examplesKo": ["잘 익은 과육만 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3004,12 +2670,10 @@
       "safetyLevel": "danger",
       "oneLinerKo": "씨/핵은 급여하지 마세요.",
       "reasonKo": [
-        "복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 소량만 제공.",
-        "씨 기준으로 분리된 항목입니다.",
-        "씨/핵은 급여하지 마세요."
+        "복숭아 씨/핵에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 노출 위험이 있습니다.",
+        "단단한 씨/핵 자체가 질식 및 장폐색을 유발할 수 있어 급여 금지입니다. 운영 원칙: 씨/핵 완전 제거."
       ],
-      "riskNotesKo": ["씨/핵 제거 후 소량만 제공", "씨/핵은 급여하지 마세요."],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨/핵 완전 제거"],
       "safetyConditions": [
         {
           "labelKo": "씨/핵(모든 형태)",
@@ -3063,7 +2727,7 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육은 소량 급여가 가능합니다.",
+      "oneLinerKo": "과육은 급여가 가능합니다.",
       "reasonKo": [
         "자두 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 제공."
@@ -3081,13 +2745,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["씨"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["씨 제거 후 작게 잘라 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3130,10 +2794,10 @@
       "safetyLevel": "danger",
       "oneLinerKo": "씨는 급여 금지입니다.",
       "reasonKo": [
-        "자두 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 제공."
+        "자두 씨/핵에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 노출 위험이 있습니다.",
+        "단단한 씨/핵 자체가 질식 및 장폐색을 유발할 수 있어 급여 금지입니다. 운영 원칙: 씨/핵 완전 제거."
       ],
-      "riskNotesKo": ["씨/핵 제거 후 제공"],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨/핵 완전 제거"],
       "safetyConditions": [
         {
           "labelKo": "씨(모든 형태)",
@@ -3191,14 +2855,14 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "세척한 과육만 소량 급여하세요.",
+      "oneLinerKo": "세척한 과육만 급여하세요.",
       "reasonKo": [
         "천도복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 핵 제거 필수.",
         "과육 기준으로 분리된 항목입니다.",
-        "세척한 과육만 소량 급여하세요."
+        "세척한 과육만 급여하세요."
       ],
-      "riskNotesKo": ["핵 제거 필수", "세척한 과육만 소량 급여하세요."],
+      "riskNotesKo": ["핵 제거 필수", "세척한 과육만 급여하세요."],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -3211,13 +2875,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["껍질 세척 후 과육만 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3253,12 +2917,10 @@
       "safetyLevel": "danger",
       "oneLinerKo": "핵은 급여하지 마세요.",
       "reasonKo": [
-        "천도복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 핵 제거 필수.",
-        "씨 기준으로 분리된 항목입니다.",
-        "핵은 급여하지 마세요."
+        "천도복숭아 씨/핵에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 노출 위험이 있습니다.",
+        "단단한 씨/핵 자체가 질식 및 장폐색을 유발할 수 있어 급여 금지입니다. 운영 원칙: 씨/핵 완전 제거."
       ],
-      "riskNotesKo": ["핵 제거 필수", "핵은 급여하지 마세요."],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨/핵 완전 제거"],
       "safetyConditions": [
         {
           "labelKo": "핵(모든 형태)",
@@ -3312,12 +2974,12 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육은 소량 급여가 가능합니다.",
+      "oneLinerKo": "과육은 급여가 가능합니다.",
       "reasonKo": [
         "체리 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨 제거 후 소량."
+        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨 제거 후 ."
       ],
-      "riskNotesKo": ["씨 제거 후 소량"],
+      "riskNotesKo": ["씨 제거 후"],
       "safetyConditions": [
         {
           "labelKo": "과육(생)",
@@ -3330,13 +2992,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["씨"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["씨를 제거한 과육만 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "education-guide",
@@ -3379,10 +3041,10 @@
       "safetyLevel": "danger",
       "oneLinerKo": "씨는 급여 금지입니다.",
       "reasonKo": [
-        "체리 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨 제거 후 소량."
+        "체리 씨/핵에는 amygdalin(청산배당체)이 포함되어 분해 시 청산 노출 위험이 있습니다.",
+        "단단한 씨/핵 자체가 질식 및 장폐색을 유발할 수 있어 급여 금지입니다. 운영 원칙: 씨/핵 완전 제거."
       ],
-      "riskNotesKo": ["씨 제거 후 소량"],
+      "riskNotesKo": ["아미그달린(청산배당체) 위험", "씨/핵 완전 제거"],
       "safetyConditions": [
         {
           "labelKo": "씨(모든 형태)",
@@ -3485,136 +3147,6 @@
       }
     },
     {
-      "id": "foodGrapefruit",
-      "nameKo": "자몽",
-      "nameEn": "Grapefruit",
-      "aliases": ["grapefruit", "자몽"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "산도가 높은 감귤류로 보수적으로 제한하세요.",
-      "reasonKo": [
-        "자몽은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 감귤류는 과량 급여 금지."
-      ],
-      "riskNotesKo": ["감귤류는 과량 급여 금지"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["과육(소량)"],
-        "avoidParts": ["껍질", "씨"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["씨 제거 후 소량 테스트"]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        }
-      ],
-      "search": {
-        "tokens": ["grapefruit", "자몽"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["위장 자극 증상을 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상 시 급여 중단 후 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodLemon",
-      "nameKo": "레몬",
-      "nameEn": "Lemon",
-      "aliases": ["lemon", "레몬"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "산도가 높아 보수적으로 제한하세요.",
-      "reasonKo": [
-        "레몬은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트 후 판단."
-      ],
-      "riskNotesKo": ["소량 테스트 후 판단"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["과육(아주 소량)"],
-        "avoidParts": ["껍질", "씨"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["필요 시 소량만"]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "education-guide",
-          "title": "What Do Parrots Eat?",
-          "publisher": "Chewy",
-          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
-        }
-      ],
-      "search": {
-        "tokens": ["lemon", "레몬"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["급여 후 배변/식욕 변화를 관찰하세요."],
-        "watchForKo": ["묽은 변", "거부 반응"],
-        "escalationTriggersKo": ["지속 증상 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodLime",
-      "nameKo": "라임",
-      "nameEn": "Lime",
-      "aliases": ["lime", "라임"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "산도가 높아 보수적으로 제한하세요.",
-      "reasonKo": [
-        "라임은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 아주 소량 원칙."
-      ],
-      "riskNotesKo": ["아주 소량 원칙"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["과육(아주 소량)"],
-        "avoidParts": ["껍질", "씨"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["씨 제거 후 소량"]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "education-guide",
-          "title": "What Do Parrots Eat?",
-          "publisher": "Chewy",
-          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
-        }
-      ],
-      "search": {
-        "tokens": ["lime", "라임"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["위장 자극 징후를 관찰하세요."],
-        "watchForKo": ["묽은 변", "무기력"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
-      }
-    },
-    {
       "id": "foodPeas",
       "nameKo": "완두콩",
       "nameEn": "Peas",
@@ -3622,23 +3154,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하며 소량 간식으로 활용할 수 있습니다.",
+      "oneLinerKo": "대체로 안전하며 간식으로 활용할 수 있습니다.",
       "reasonKo": [
         "완두콩은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 신선도 유지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 신선도 유지."
       ],
       "riskNotesKo": ["신선도 유지"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["콩알"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["삶아 식힌 완두콩 소량 제공"]
+        "examplesKo": ["삶아 식힌 완두콩 제공"]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3668,20 +3200,20 @@
       "oneLinerKo": "대체로 안전한 채소군입니다.",
       "reasonKo": [
         "그린빈은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념/가공 형태 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념/가공 형태 금지."
       ],
       "riskNotesKo": ["양념/가공 형태 금지"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["꼬투리"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["잘게 썰어 제공"]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3711,7 +3243,7 @@
       "oneLinerKo": "옥살산 부담을 고려해 빈도를 제한하세요.",
       "reasonKo": [
         "근대(Swiss chard/silver beet)는 시금치와 유사하게 옥살산 부담이 높은 편으로, 연속 급여 시 미네랄 이용률에 영향을 줄 수 있습니다.",
-        "세척 후 매우 소량으로 시작하고 다른 녹황색 채소와 교차 급여하세요. 운영 원칙: 연속 급여 지양."
+        "세척 후 매우 반응을 보며 시작하고 다른 녹황색 채소와 교차 급여하세요. 운영 원칙: 연속 급여 지양."
       ],
       "riskNotesKo": ["연속 급여 지양"],
       "safetyConditions": [],
@@ -3757,23 +3289,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 간식으로 활용 가능합니다.",
+      "oneLinerKo": "채소 간식으로 활용 가능합니다.",
       "reasonKo": [
         "비트는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 매우 소량."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 매우 ."
       ],
-      "riskNotesKo": ["처음엔 매우 소량"],
+      "riskNotesKo": ["처음엔 매우"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["뿌리"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["익혀서 잘게 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3809,20 +3341,20 @@
       "oneLinerKo": "과육은 대체로 안전한 채소입니다.",
       "reasonKo": [
         "파프리카는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 식물 잎/줄기 부분은 피하세요."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 식물 잎/줄기 부분은 피하세요."
       ],
       "riskNotesKo": ["식물 잎/줄기 부분은 피하세요."],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["잎", "줄기"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["씨와 꼭지를 제거해 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3863,16 +3395,16 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다.",
+      "oneLinerKo": "씨 포함 과육은 채소 간식으로 제공 가능합니다.",
       "reasonKo": [
         "고추 과육은 조류 식단에서 채소 보완식으로 자주 활용되며, 수의학 급여 가이드에서도 red/green/hot peppers가 권장 목록에 포함됩니다.",
         "고추 과육은 일반 급여량에서 대체로 허용되지만, 잎·줄기와 양념/고농도 분말은 별도 위험 요인이므로 피해야 합니다. 운영 원칙: 잎/줄기·양념/고농도 분말 금지.",
         "과육 기준으로 분리된 항목입니다.",
-        "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다."
+        "씨 포함 과육은 채소 간식으로 제공 가능합니다."
       ],
       "riskNotesKo": [
         "잎/줄기·양념/고농도 분말 금지",
-        "씨 포함 과육은 소량 채소 간식으로 제공 가능합니다."
+        "씨 포함 과육은 채소 간식으로 제공 가능합니다."
       ],
       "safetyConditions": [
         {
@@ -3886,13 +3418,13 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": [],
-        "frequency": "매일 소량 가능",
+        "frequency": "매일 제공 가능",
         "notes": ["채소 편식 방지를 위해 다른 채소와 교차 급여"],
         "examplesKo": ["생과육 기준, 손톱 크기 조각부터 시작"]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -4122,23 +3654,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "채소 다양성 관점에서 소량 활용 가능합니다.",
+      "oneLinerKo": "채소 다양성 관점에서 활용 가능합니다.",
       "reasonKo": [
         "민들레는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 세척 상태 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 세척 상태 확인."
       ],
       "riskNotesKo": ["세척 상태 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["잎(소량)"],
+        "allowedParts": ["잎"],
         "avoidParts": ["오염 가능 부위"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
         "examplesKo": ["세척 후 잘게 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -4174,9 +3706,9 @@
       "oneLinerKo": "채소군으로 언급되지만 개체별 반응 확인이 필요합니다.",
       "reasonKo": [
         "밀크시슬은 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 소량 테스트 원칙."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 반응 테스트 원칙."
       ],
-      "riskNotesKo": ["소량 테스트 원칙"],
+      "riskNotesKo": ["반응 테스트 원칙"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎(소량)"],
@@ -4220,10 +3752,10 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "과육은 익힌 형태로만 드물게 소량 급여를 고려하세요.",
+      "oneLinerKo": "과육은 익힌 형태로만 드물게 급여를 고려하세요.",
       "reasonKo": [
         "가지는 과육 자체는 제한 급여가 가능해도 잎·줄기 등 식물체에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
-        "과육만 분리해 충분히 익힌 뒤 소량으로 제한해야 합니다. 운영 원칙: 과육만, 익힘 권장."
+        "과육만 분리해 충분히 익힌 뒤 제한적으로 급여해야 합니다. 운영 원칙: 과육만, 익힘 권장."
       ],
       "riskNotesKo": ["과육만, 익힘 권장"],
       "safetyConditions": [
@@ -4519,11 +4051,11 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "쿠키는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 가공식품 회피 권장.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 가공식품 회피 권장.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
       "riskNotesKo": ["가공식품 회피 권장", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
@@ -4570,11 +4102,11 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "크래커는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 가공식품 회피 권장.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 가공식품 회피 권장.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
       "riskNotesKo": ["가공식품 회피 권장", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
@@ -4677,7 +4209,7 @@
       "oneLinerKo": "생콩은 급여 금지입니다.",
       "reasonKo": [
         "생콩에는 피토헤마글루티닌(lectin) 등 열에 약한 독성 성분이 있어 소화기 자극과 전신 악화를 유발할 수 있습니다.",
-        "완전히 익히지 않은 형태는 금지하고, 조리된 콩도 소량 기준으로만 검토해야 합니다. 운영 원칙: 익힌 형태만 제한적으로 고려."
+        "완전히 익히지 않은 형태는 금지하고, 조리된 콩도 제한 급여 기준으로만 검토해야 합니다. 운영 원칙: 익힌 형태만 제한적으로 고려."
       ],
       "riskNotesKo": ["익힌 형태만 제한적으로 고려"],
       "safetyConditions": [],
@@ -4740,7 +4272,7 @@
       "oneLinerKo": "곰팡이 오염 위험 때문에 피하는 것이 좋습니다.",
       "reasonKo": [
         "껍질째 땅콩은 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 껍질째 급여 금지."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 껍질째 급여 금지."
       ],
       "riskNotesKo": ["껍질째 급여 금지"],
       "safetyConditions": [],
@@ -5200,7 +4732,7 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육은 소량 급여가 가능합니다.",
+      "oneLinerKo": "과육은 급여가 가능합니다.",
       "reasonKo": [
         "감 씨는 단단하고 크기가 커 질식 및 장폐색 위험이 큽니다.",
         "과육만 분리해 급여하고 씨는 완전히 제거해야 합니다. 운영 원칙: 씨 제거 필수."
@@ -5218,9 +4750,9 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["씨"],
-        "frequency": "드물게 소량",
+        "frequency": "드물게 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
@@ -5323,104 +4855,6 @@
       }
     },
     {
-      "id": "foodMandarin",
-      "nameKo": "만다린",
-      "nameEn": "Mandarin",
-      "aliases": ["mandarin", "만다린"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "감귤류는 소량으로 제한하세요.",
-      "reasonKo": [
-        "만다린은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트."
-      ],
-      "riskNotesKo": ["소량 테스트"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["과육(소량)"],
-        "avoidParts": ["껍질", "씨"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        },
-        {
-          "type": "education-guide",
-          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
-          "publisher": "Chewy",
-          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
-        }
-      ],
-      "search": {
-        "tokens": ["mandarin", "만다린"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["처음 급여 시 소량으로 시작하고 반응을 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodTangerine",
-      "nameKo": "귤",
-      "nameEn": "Tangerine",
-      "aliases": ["tangerine", "귤"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "감귤류는 소량만 급여하세요.",
-      "reasonKo": [
-        "귤은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 급여."
-      ],
-      "riskNotesKo": ["소량 급여"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["과육(소량)"],
-        "avoidParts": ["껍질", "씨"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        },
-        {
-          "type": "education-guide",
-          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
-          "publisher": "Chewy",
-          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
-        }
-      ],
-      "search": {
-        "tokens": ["tangerine", "귤"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["처음 급여 시 소량으로 시작하고 반응을 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
-      }
-    },
-    {
       "id": "foodCoconut",
       "nameKo": "코코넛",
       "nameEn": "Coconut",
@@ -5428,11 +4862,11 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
-        "코코넛은 지방 밀도가 높아 소량이라도 열량 과잉과 소화기 부담을 유발할 수 있습니다.",
-        "가당 코코넛 제품은 당류 부담이 추가되므로 피하고, 과육도 드물게 소량만 고려하세요. 운영 원칙: 고지방/가당 제품 주의.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "코코넛은 지방 밀도가 높아 과도한 급여 시 열량 과잉과 소화기 부담을 유발할 수 있습니다.",
+        "가당 코코넛 제품은 당류 부담이 추가되므로 피하고, 과육도 간헐적으로만 제공하세요. 운영 원칙: 고지방/가당 제품 주의.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
       "riskNotesKo": ["고지방/가당 제품 주의", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
@@ -5511,7 +4945,7 @@
         }
       ],
       "search": {
-        "tokens": ["cantaloupe", "캔털루프", "칸탈루프", "머스크멜론"]
+        "tokens": ["cantaloupe", "머스크멜론", "칸탈루프", "캔털루프"]
       },
       "emergency": {
         "baseRisk": "low",
@@ -5631,20 +5065,20 @@
       "oneLinerKo": "대체로 안전한 채소군입니다.",
       "reasonKo": [
         "콜리플라워는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 없이 제공."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 없이 제공."
       ],
       "riskNotesKo": ["양념 없이 제공"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["꽃", "줄기(소량)"],
+        "allowedParts": ["꽃", "줄기"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5678,23 +5112,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "케일은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 세척 후 소량 제공."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 세척 후 제공."
       ],
-      "riskNotesKo": ["세척 후 소량 제공"],
+      "riskNotesKo": ["세척 후 제공"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5728,23 +5162,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "양배추는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5778,23 +5212,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "청경채는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 세척 후 급여."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 세척 후 급여."
       ],
       "riskNotesKo": ["세척 후 급여"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["잎", "줄기(소량)"],
+        "allowedParts": ["잎", "줄기"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5828,23 +5262,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "아스파라거스는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 없이 제공."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 없이 제공."
       ],
       "riskNotesKo": ["양념 없이 제공"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["줄기(소량)"],
+        "allowedParts": ["줄기"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5878,23 +5312,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "무는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 생식은 소량부터."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 생 급여 지양."
       ],
-      "riskNotesKo": ["생식은 소량부터"],
+      "riskNotesKo": ["생 급여 지양"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["뿌리"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5928,23 +5362,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "순무는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 소량."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 ."
       ],
-      "riskNotesKo": ["처음엔 소량"],
+      "riskNotesKo": ["처음엔"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["뿌리"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5981,20 +5415,20 @@
       "oneLinerKo": "대체로 안전한 채소군입니다.",
       "reasonKo": [
         "주키니는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 없이 제공."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 없이 제공."
       ],
       "riskNotesKo": ["양념 없이 제공"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -6028,23 +5462,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여에 활용 가능합니다.",
+      "oneLinerKo": "채소 급여에 활용 가능합니다.",
       "reasonKo": [
         "방울양배추는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 소량 급여."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 급여."
       ],
-      "riskNotesKo": ["처음엔 소량 급여"],
+      "riskNotesKo": ["처음엔 급여"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -6086,20 +5520,20 @@
       "oneLinerKo": "대체로 안전한 채소군입니다.",
       "reasonKo": [
         "버터넛 스쿼시는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 형태 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념 형태 금지."
       ],
       "riskNotesKo": ["양념 형태 금지"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -6138,23 +5572,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "곡물 보완식으로 소량 활용 가능합니다.",
+      "oneLinerKo": "곡물 보완식으로 활용 가능합니다.",
       "reasonKo": [
         "귀리는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 가공 당첨가 제품 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 가공 당첨가 제품 금지."
       ],
       "riskNotesKo": ["가공 당첨가 제품 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["플레인 귀리(소량)"],
+        "allowedParts": ["플레인 귀리"],
         "avoidParts": ["가당 시리얼"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -6188,23 +5622,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "곡물 보완식으로 소량 활용 가능합니다.",
+      "oneLinerKo": "곡물 보완식으로 활용 가능합니다.",
       "reasonKo": [
         "보리는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 가공 당첨가 제품 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 가공 당첨가 제품 금지."
       ],
       "riskNotesKo": ["가공 당첨가 제품 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["익힌 보리(소량)"],
+        "allowedParts": ["익힌 보리"],
         "avoidParts": ["가공 과자류"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -6240,17 +5674,17 @@
       "safetyLevel": "safe",
       "oneLinerKo": "대표적인 조류용 곡물로, 과량만 피하면 보완 급여에 활용할 수 있습니다.",
       "reasonKo": [
-        "기장(밀렛)은 반려조류 급여에서 널리 쓰이는 곡물로, 무염·무가당 형태를 소량 보완식으로 활용할 수 있습니다.",
+        "기장(밀렛)은 반려조류 급여에서 널리 쓰이는 곡물로, 무염·무가당 형태를 보완식으로 활용할 수 있습니다.",
         "선호도가 높아 단일 곡물 편식으로 기울 수 있으므로 주식 사료를 우선하고 간식 비율만 관리하세요. 운영 원칙: 단일 곡물 편식 방지."
       ],
       "riskNotesKo": ["단일 곡물 편식 방지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["플레인 기장(소량)"],
+        "allowedParts": ["플레인 기장"],
         "avoidParts": ["가당/염분 가공품"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["주식 사료를 해치지 않는 범위에서 간식으로 소량 제공"]
+        "examplesKo": ["주식 사료를 해치지 않는 범위에서 간식으로 제공"]
       },
       "confusables": [],
       "evidenceLevel": "medium",
@@ -6288,23 +5722,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "곡물 보완식으로 소량 활용 가능합니다.",
+      "oneLinerKo": "곡물 보완식으로 활용 가능합니다.",
       "reasonKo": [
         "메밀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 양념/가공 형태 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 양념/가공 형태 금지."
       ],
       "riskNotesKo": ["양념/가공 형태 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["익힌 메밀(소량)"],
+        "allowedParts": ["익힌 메밀"],
         "avoidParts": ["양념면"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -6332,23 +5766,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "익힌 곡물을 소량 보완식으로 사용할 수 있습니다.",
+      "oneLinerKo": "익힌 곡물을 보완식으로 사용할 수 있습니다.",
       "reasonKo": [
         "현미는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 익힌 형태로만 제공."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 익힌 형태로만 제공."
       ],
       "riskNotesKo": ["익힌 형태로만 제공"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["익힌 현미(소량)"],
+        "allowedParts": ["익힌 현미"],
         "avoidParts": ["양념 볶음밥"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["상태를 관찰하며 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -6382,11 +5816,11 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "파스타는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 양념 파스타 금지.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 양념 파스타 금지.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
       "riskNotesKo": ["양념 파스타 금지", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
@@ -6433,10 +5867,10 @@
       "category": "other",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "양념 없는 살코기만 극소량 가능할 수 있습니다.",
+      "oneLinerKo": "양념 없는 살코기만 제한적으로 고려하세요.",
       "reasonKo": [
         "익힌 닭고기는 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 양념/기름/뼈 금지."
+        "완전히 익힌 무양념 조리 기준을 지키고 간헐 급여로 제한해야 합니다. 운영 원칙: 양념/기름/뼈 금지."
       ],
       "riskNotesKo": ["양념/기름/뼈 금지"],
       "safetyConditions": [],
@@ -6490,10 +5924,10 @@
       "category": "other",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "양념 없는 살코기만 극소량 고려하세요.",
+      "oneLinerKo": "양념 없는 살코기만 제한적으로 고려하세요.",
       "reasonKo": [
         "익힌 칠면조고기는 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 양념/가공육 금지."
+        "완전히 익힌 무양념 조리 기준을 지키고 간헐 급여로 제한해야 합니다. 운영 원칙: 양념/가공육 금지."
       ],
       "riskNotesKo": ["양념/가공육 금지"],
       "safetyConditions": [],
@@ -6547,10 +5981,10 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "익힌 형태로만 소량 고려하세요.",
+      "oneLinerKo": "익힌 형태로만 제한적으로 고려하세요.",
       "reasonKo": [
         "렌틸콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 생콩 급여 금지."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 생콩 급여 금지."
       ],
       "riskNotesKo": ["생콩 급여 금지"],
       "safetyConditions": [],
@@ -6597,10 +6031,10 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "익힌 형태로만 소량 고려하세요.",
+      "oneLinerKo": "익힌 형태로만 제한적으로 고려하세요.",
       "reasonKo": [
         "병아리콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 생콩/양념형태 금지."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 생콩/양념형태 금지."
       ],
       "riskNotesKo": ["생콩/양념형태 금지"],
       "safetyConditions": [],
@@ -6820,10 +6254,10 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "스타프루트에는 고농도 옥살산과 caramboxin이 포함될 수 있어 신장 기능이 취약한 개체에서 신경·신장 독성 위험이 보고됩니다.",
-        "일상 급여는 피하고 불가피한 경우에도 극소량 테스트 수준으로만 제한하세요. 운영 원칙: 권장하지 않음."
+        "일상 급여는 피하고 불가피한 경우에도 반응 테스트 수준으로 제한하세요. 운영 원칙: 권장하지 않음."
       ],
       "riskNotesKo": ["권장하지 않음"],
       "safetyConditions": [],
@@ -7102,120 +6536,6 @@
       }
     },
     {
-      "id": "foodPomelo",
-      "nameKo": "포멜로",
-      "nameEn": "Pomelo",
-      "aliases": ["pomelo", "포멜로"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
-      "reasonKo": [
-        "포멜로는 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
-      ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "hospital-guide",
-          "title": "Lovebirds - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["pomelo", "포멜로"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodKumquat",
-      "nameKo": "금귤",
-      "nameEn": "Kumquat",
-      "aliases": ["kumquat", "금귤"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
-      "reasonKo": [
-        "금귤은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
-      ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "hospital-guide",
-          "title": "Lovebirds - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["kumquat", "금귤"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
-      }
-    },
-    {
       "id": "foodGooseberry",
       "nameKo": "구스베리",
       "nameEn": "Gooseberry",
@@ -7452,23 +6772,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "아티초크는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -7509,23 +6829,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "루꼴라는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -7566,23 +6886,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "앤다이브는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -7623,23 +6943,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "에스카롤은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -7920,12 +7240,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "펜넬은 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -7977,12 +7297,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "파슬리는 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8034,23 +7354,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "고수는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8091,23 +7411,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "바질은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8148,12 +7468,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "민트는 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8205,12 +7525,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "오레가노는 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8262,12 +7582,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "타임은 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8319,12 +7639,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "로즈마리는 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8376,23 +7696,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "파로는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 과량 급여 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8433,23 +7753,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "불구르는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 과량 급여 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8490,13 +7810,13 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "쿠스쿠스는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 초기 소량 테스트 권장.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 초기 반응 확인.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장", "과량 급여 시 비만 위험"],
+      "riskNotesKo": ["초기 반응 확인", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8548,23 +7868,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "아마란스는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 과량 급여 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8605,23 +7925,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "호밀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 과량 급여 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8662,23 +7982,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 보완 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 보완 급여를 권장합니다.",
       "reasonKo": [
         "스펠트는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 과량 급여 금지."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음 급여 시 아주 소량부터 시작하세요."]
+        "examplesKo": ["처음 급여 시 상태를 관찰하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8719,12 +8039,12 @@
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "호두는 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8776,12 +8096,12 @@
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "캐슈넛은 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8833,12 +8153,12 @@
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "헤이즐넛은 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8890,12 +8210,12 @@
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "피칸은 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -8947,12 +8267,12 @@
       "category": "nut",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "피스타치오는 지방 밀도가 높아 과량 급여 시 비만·지방간·영양 불균형 위험이 빠르게 증가합니다.",
-        "무염·무가공 소량만 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "무염·무가공 제한적으로 사용하고 산패·곰팡이(아플라톡신) 가능성을 항상 확인해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -9004,13 +8324,13 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "치아씨는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 초기 소량 테스트 권장.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 초기 반응 확인.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장", "과량 급여 시 비만 위험"],
+      "riskNotesKo": ["초기 반응 확인", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -9062,12 +8382,12 @@
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "두부는 조류 대상 안전 자료가 제한적이어서 보수적 급여 기준이 필요합니다.",
-        "양·빈도·형태를 엄격히 제한하고 이상 신호가 있으면 즉시 중단하세요. 운영 원칙: 초기 소량 테스트 권장."
+        "양·빈도·형태를 엄격히 제한하고 이상 신호가 있으면 즉시 중단하세요. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -9119,12 +8439,12 @@
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "템페는 조류 대상 안전 자료가 제한적이어서 보수적 급여 기준이 필요합니다.",
-        "양·빈도·형태를 엄격히 제한하고 이상 신호가 있으면 즉시 중단하세요. 운영 원칙: 초기 소량 테스트 권장."
+        "양·빈도·형태를 엄격히 제한하고 이상 신호가 있으면 즉시 중단하세요. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -9176,12 +8496,12 @@
       "category": "other",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "익힌 연어는 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "완전히 익힌 무양념 조리 기준을 지키고 간헐 급여로 제한해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -9240,12 +8560,12 @@
       "category": "other",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
+      "oneLinerKo": "개체 차이를 고려해 주의 급여가 필요합니다.",
       "reasonKo": [
         "익힌 참치는 조리 상태에 따라 단백질 보완용으로 사용할 수 있지만 지방·염분·조리첨가물 영향이 큽니다.",
-        "완전히 익힌 무양념 조리 기준을 지키고 아주 소량 간헐 급여로 제한해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "완전히 익힌 무양념 조리 기준을 지키고 간헐 급여로 제한해야 합니다. 운영 원칙: 초기 반응 확인."
       ],
-      "riskNotesKo": ["초기 소량 테스트 권장"],
+      "riskNotesKo": ["초기 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -9647,206 +8967,6 @@
       }
     },
     {
-      "id": "foodBloodOrange",
-      "nameKo": "블러드오렌지",
-      "nameEn": "Blood Orange",
-      "aliases": ["blood orange", "블러드오렌지"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
-      "reasonKo": [
-        "블러드오렌지는 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
-      ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["blood orange", "bloodorange", "블러드오렌지"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodClementine",
-      "nameKo": "클레멘타인",
-      "nameEn": "Clementine",
-      "aliases": ["clementine", "클레멘타인"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
-      "reasonKo": [
-        "클레멘타인은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
-      ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["clementine", "클레멘타인"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodYuzu",
-      "nameKo": "유자",
-      "nameEn": "Yuzu",
-      "aliases": ["yuzu", "유자"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
-      "reasonKo": [
-        "유자는 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
-      ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["yuzu", "유자"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodCalamansi",
-      "nameKo": "칼라만시",
-      "nameEn": "Calamansi",
-      "aliases": ["calamansi", "칼라만시"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
-      "reasonKo": [
-        "칼라만시는 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
-      ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["calamansi", "칼라만시"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
-      }
-    },
-    {
       "id": "foodMangosteen",
       "nameKo": "망고스틴",
       "nameEn": "Mangosteen",
@@ -10061,7 +9181,7 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "사워솝의 씨와 잎에는 annonacin 등 신경독성 관련 성분이 보고되어 반려조류 급여 시 보수적 접근이 필요합니다.",
-        "씨·껍질·잎은 피하고 과육도 일상 급여는 권장하지 않습니다. 운영 원칙: 씨/잎 급여 금지, 과육 극소량만 고려."
+        "씨·껍질·잎은 피하고 과육도 일상 급여는 권장하지 않습니다. 운영 원칙: 씨/잎 급여 금지, 과육 제한적으로 고려."
       ],
       "riskNotesKo": ["씨/잎 급여 금지", "과육도 권장하지 않음"],
       "safetyConditions": [],
@@ -10149,56 +9269,6 @@
         "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
         "watchForKo": ["묽은 변", "식욕 저하"],
         "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
-      }
-    },
-    {
-      "id": "foodUgliFruit",
-      "nameKo": "어글리프룻",
-      "nameEn": "Ugli Fruit",
-      "aliases": ["ugli fruit", "어글리프룻"],
-      "category": "fruit",
-      "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
-      "reasonKo": [
-        "어글리프룻은 산도와 정유 성분 농도가 높아 일부 개체에서 모이주머니·위장 자극을 유발할 수 있습니다.",
-        "과일 간식 범위에서 매우 소량으로만 테스트하고 반응을 확인해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
-      ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
-      "safetyConditions": [],
-      "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
-        "frequency": "드물게 소량",
-        "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
-      },
-      "confusables": [],
-      "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
-      "sources": [
-        {
-          "type": "hospital-guide",
-          "title": "Cockatiels - Feeding",
-          "year": 2024,
-          "publisher": "VCA Animal Hospitals",
-          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
-        },
-        {
-          "type": "welfare-guide",
-          "title": "What should I feed my birds?",
-          "publisher": "RSPCA Australia",
-          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
-        }
-      ],
-      "search": {
-        "tokens": ["ugli fruit", "uglifruit", "어글리프룻"]
-      },
-      "emergency": {
-        "baseRisk": "medium",
-        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
-        "watchForKo": ["묽은 변", "식욕 저하"],
-        "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
       }
     },
     {
@@ -10465,9 +9535,9 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육을 소량 간식으로 활용할 수 있습니다.",
+      "oneLinerKo": "과육을 간식으로 활용할 수 있습니다.",
       "reasonKo": [
-        "허니듀는 멜론류 과육으로, 세척한 가식부를 소량 간식으로 제공할 수 있습니다.",
+        "허니듀는 멜론류 과육으로, 세척한 가식부를 간식으로 제공할 수 있습니다.",
         "씨와 껍질은 제거하고 과량 급여를 피하세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": ["과량 급여 금지"],
@@ -10475,9 +9545,9 @@
       "portionsKo": {
         "allowedParts": ["과육"],
         "avoidParts": ["씨", "껍질"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
@@ -11504,9 +10574,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "토란은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -11554,9 +10624,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "얌은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -11604,9 +10674,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "파스닙은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -11654,9 +10724,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "스웨덴순무는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -11704,9 +10774,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "히카마는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -11751,23 +10821,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "물냉이는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11801,23 +10871,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "치커리는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11851,23 +10921,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "라디키오는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11901,19 +10971,19 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "세척한 잎을 소량 채소 급여에 활용할 수 있습니다.",
+      "oneLinerKo": "세척한 잎을 채소 급여에 활용할 수 있습니다.",
       "reasonKo": [
         "콜라드그린은 다양한 채소 식단에서 활용되는 잎채소로, 시금치·근대 대비 옥살산 부담이 낮은 편으로 알려져 있습니다.",
-        "세척 후 소량부터 시작하고 채소를 교차 급여하면 균형 관리에 도움이 됩니다. 운영 원칙: 세척 후 소량 제공."
+        "세척 후 상태를 관찰하며 시작하고 채소를 교차 급여하면 균형 관리에 도움이 됩니다. 운영 원칙: 세척 후 제공."
       ],
-      "riskNotesKo": ["세척 후 소량 제공"],
+      "riskNotesKo": ["세척 후 제공"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["잘게 썰어 소량 제공"]
+        "examplesKo": ["잘게 썰어 제공"]
       },
       "confusables": [],
       "evidenceLevel": "low",
@@ -11954,9 +11024,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "겨자잎은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12004,9 +11074,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "순무잎은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12054,9 +11124,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "비트잎은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12104,9 +11174,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "셀러리악은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12154,9 +11224,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "죽순은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12201,23 +11271,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "연근은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -12254,9 +11324,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "에다마메는 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12304,9 +11374,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "검은콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12354,9 +11424,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "강낭콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12404,9 +11474,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "핀토콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12454,9 +11524,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "리마콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12504,9 +11574,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "네이비콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12554,9 +11624,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "녹두는 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12604,9 +11674,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "팥은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12654,9 +11724,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "대두는 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 소량 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12701,23 +11771,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "배추는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -12751,23 +11821,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "로메인상추는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -12804,9 +11874,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "아이스버그상추는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12851,23 +11921,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "콜라비는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -12904,9 +11974,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "스냅완두는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -12954,9 +12024,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "스노우피는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -13004,9 +12074,9 @@
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
         "완두순은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -13051,23 +12121,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "브로콜리니는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13101,23 +12171,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "도토리호박은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13151,23 +12221,23 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "스파게티호박은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13201,23 +12271,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "수수는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13251,23 +12321,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "테프는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13301,23 +12371,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "포니오는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13351,23 +12421,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "야생쌀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13401,23 +12471,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "흑미는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13451,23 +12521,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "홍미는 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13501,23 +12571,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "오트브랜은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13551,23 +12621,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "대체로 안전하나 소량 급여를 권장합니다.",
+      "oneLinerKo": "대체로 안전하나 급여를 권장합니다.",
       "reasonKo": [
         "미강은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
-        "익힌 무양념 상태에서만 보완식으로 소량 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 테스트 후 반응 확인."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인"],
+      "riskNotesKo": ["테스트 후 반응 확인"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
+        "allowedParts": ["가식부"],
         "avoidParts": ["양념/가공 형태"],
-        "frequency": "가끔 소량",
+        "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음엔 매우 부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13601,13 +12671,13 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "옥수수가루는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 초기 반응 확인.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인", "과량 급여 시 비만 위험"],
+      "riskNotesKo": ["초기 반응 확인", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -13652,13 +12722,13 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "폴렌타는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 초기 반응 확인.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인", "과량 급여 시 비만 위험"],
+      "riskNotesKo": ["초기 반응 확인", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -13703,13 +12773,13 @@
       "category": "grain",
       "foodType": "processed",
       "safetyLevel": "safe",
-      "oneLinerKo": "소량 급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
+      "oneLinerKo": "급여는 가능하지만 과량 급여 시 비만 위험이 있습니다.",
       "reasonKo": [
         "세몰리나는 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인.",
-        "소량 급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
+        "무염·무양념·완전 조리 조건에서만 보완식으로 제한해 사용해야 합니다. 운영 원칙: 초기 반응 확인.",
+        "급여는 가능하지만 과량 급여 시 비만 및 영양 불균형 위험이 커질 수 있습니다."
       ],
-      "riskNotesKo": ["소량 테스트 후 반응 확인", "과량 급여 시 비만 위험"],
+      "riskNotesKo": ["초기 반응 확인", "과량 급여 시 비만 위험"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["가식부(소량)"],
@@ -13744,6 +12814,1820 @@
         "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
         "watchForKo": ["묽은 변", "식욕 저하"],
         "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodQuinoa",
+      "nameKo": "퀴노아",
+      "nameEn": "Quinoa",
+      "aliases": ["quinoa", "퀴노아"],
+      "category": "grain",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "완전히 익힌 형태만 급여를 고려하세요.",
+      "reasonKo": [
+        "퀴노아는 생 상태에서 사포닌 및 소화 저해 요인 때문에 위장 자극이 생길 수 있습니다.",
+        "충분히 세척하고 완전히 익힌 무양념 형태에서만 제한 급여를 고려하세요. 운영 원칙: 생 급여 지양."
+      ],
+      "riskNotesKo": ["생 급여 지양", "충분한 세척·완전 익힘"],
+      "safetyConditions": [
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 세척 후 완전히 익힌 무양념 형태만 제공하세요."
+        },
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생 퀴노아는 급여하지 않는 것이 안전합니다."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["완전히 익힌 곡물"],
+        "avoidParts": ["생 퀴노아"],
+        "frequency": "가끔 소량",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        }
+      ],
+      "search": {
+        "tokens": ["quinoa", "퀴노아"]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodEgg",
+      "nameKo": "달걀",
+      "nameEn": "Egg",
+      "aliases": ["egg", "달걀", "계란"],
+      "category": "other",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "완전히 익힌 형태만 급여를 고려하세요.",
+      "reasonKo": [
+        "생달걀은 세균 오염(예: Salmonella) 위험과 흰자 avidin에 의한 비오틴 이용 저하 위험이 있어 반복 급여에 부적절합니다.",
+        "무양념으로 완전히 익힌 형태만 제한 급여를 고려하세요. 운영 원칙: 생달걀 급여 지양."
+      ],
+      "riskNotesKo": ["생달걀 급여 지양", "완전 익힘 원칙"],
+      "safetyConditions": [
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "완전히 익힌 무양념 형태만 제공하세요."
+        },
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생달걀은 급여하지 않는 것이 안전합니다."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["완전히 익힌 달걀(무양념)"],
+        "avoidParts": ["생 달걀"],
+        "frequency": "드물게 소량",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "medium",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": ["egg", "계란", "달걀"]
+      },
+      "emergency": {
+        "baseRisk": "low",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodOrange__flesh",
+      "nameKo": "오렌지 (과육)",
+      "nameEn": "Orange (Flesh)",
+      "aliases": ["orange", "오렌지", "오렌지 과육", "오렌지과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "오렌지 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "orange",
+          "orange flesh",
+          "orangeflesh",
+          "오렌지",
+          "오렌지 과육",
+          "오렌지과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodGrapefruit__flesh",
+      "nameKo": "자몽 (과육)",
+      "nameEn": "Grapefruit (Flesh)",
+      "aliases": ["grapefruit", "자몽", "자몽 과육", "자몽과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "자몽 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "grapefruit",
+          "grapefruit flesh",
+          "grapefruitflesh",
+          "자몽",
+          "자몽 과육",
+          "자몽과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodLemon__flesh",
+      "nameKo": "레몬 (과육)",
+      "nameEn": "Lemon (Flesh)",
+      "aliases": ["lemon", "레몬", "레몬 과육", "레몬과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "레몬 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lemon",
+          "lemon flesh",
+          "lemonflesh",
+          "레몬",
+          "레몬 과육",
+          "레몬과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodLime__flesh",
+      "nameKo": "라임 (과육)",
+      "nameEn": "Lime (Flesh)",
+      "aliases": ["lime", "라임", "라임 과육", "라임과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "라임 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lime",
+          "lime flesh",
+          "limeflesh",
+          "라임",
+          "라임 과육",
+          "라임과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodMandarin__flesh",
+      "nameKo": "만다린 (과육)",
+      "nameEn": "Mandarin (Flesh)",
+      "aliases": ["mandarin", "만다린", "만다린 과육", "만다린과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "만다린 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "mandarin",
+          "mandarin flesh",
+          "mandarinflesh",
+          "만다린",
+          "만다린 과육",
+          "만다린과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodTangerine__flesh",
+      "nameKo": "귤 (과육)",
+      "nameEn": "Tangerine (Flesh)",
+      "aliases": ["tangerine", "귤", "귤 과육", "귤과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "귤 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "tangerine",
+          "tangerine flesh",
+          "tangerineflesh",
+          "귤",
+          "귤 과육",
+          "귤과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodPomelo__flesh",
+      "nameKo": "포멜로 (과육)",
+      "nameEn": "Pomelo (Flesh)",
+      "aliases": ["pomelo", "포멜로", "포멜로 과육", "포멜로과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "포멜로 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pomelo",
+          "pomelo flesh",
+          "pomeloflesh",
+          "포멜로",
+          "포멜로 과육",
+          "포멜로과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodKumquat__flesh",
+      "nameKo": "금귤 (과육)",
+      "nameEn": "Kumquat (Flesh)",
+      "aliases": ["kumquat", "금귤", "금귤 과육", "금귤과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "금귤 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "kumquat",
+          "kumquat flesh",
+          "kumquatflesh",
+          "금귤",
+          "금귤 과육",
+          "금귤과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodBloodOrange__flesh",
+      "nameKo": "블러드오렌지 (과육)",
+      "nameEn": "Blood Orange (Flesh)",
+      "aliases": [
+        "blood orange",
+        "블러드오렌지",
+        "블러드오렌지 과육",
+        "블러드오렌지과육"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "블러드오렌지 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "blood orange",
+          "blood orange flesh",
+          "bloodorange",
+          "bloodorangeflesh",
+          "블러드오렌지",
+          "블러드오렌지 과육",
+          "블러드오렌지과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodClementine__flesh",
+      "nameKo": "클레멘타인 (과육)",
+      "nameEn": "Clementine (Flesh)",
+      "aliases": [
+        "clementine",
+        "클레멘타인",
+        "클레멘타인 과육",
+        "클레멘타인과육"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "클레멘타인 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "clementine",
+          "clementine flesh",
+          "clementineflesh",
+          "클레멘타인",
+          "클레멘타인 과육",
+          "클레멘타인과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodYuzu__flesh",
+      "nameKo": "유자 (과육)",
+      "nameEn": "Yuzu (Flesh)",
+      "aliases": ["yuzu", "유자", "유자 과육", "유자과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "유자 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "yuzu",
+          "yuzu flesh",
+          "yuzuflesh",
+          "유자",
+          "유자 과육",
+          "유자과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodCalamansi__flesh",
+      "nameKo": "칼라만시 (과육)",
+      "nameEn": "Calamansi (Flesh)",
+      "aliases": ["calamansi", "칼라만시", "칼라만시 과육", "칼라만시과육"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "칼라만시 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "calamansi",
+          "calamansi flesh",
+          "calamansiflesh",
+          "칼라만시",
+          "칼라만시 과육",
+          "칼라만시과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodUgliFruit__flesh",
+      "nameKo": "어글리프룻 (과육)",
+      "nameEn": "Ugli Fruit (Flesh)",
+      "aliases": [
+        "ugli fruit",
+        "어글리프룻",
+        "어글리프룻 과육",
+        "어글리프룻과육"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "caution",
+      "oneLinerKo": "과육은 주의 급여가 필요합니다.",
+      "reasonKo": [
+        "어글리프룻 과육은 산도 때문에 일부 개체에서 소화기 자극이 생길 수 있습니다.",
+        "껍질·흰 속·씨는 제외하고 과육만 급여 여부를 판단하세요. 운영 원칙: 껍질/씨 제거."
+      ],
+      "riskNotesKo": ["껍질/씨 제거"],
+      "safetyConditions": [
+        {
+          "labelKo": "과육(생)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "껍질·씨를 제거한 과육만 고려하세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": ["과육"],
+        "avoidParts": ["껍질", "씨"],
+        "frequency": "주의 급여",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "ugli fruit",
+          "ugli fruit flesh",
+          "uglifruit",
+          "uglifruitflesh",
+          "어글리프룻",
+          "어글리프룻 과육",
+          "어글리프룻과육"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 급여를 멈추고 상태를 관찰하세요."],
+        "watchForKo": ["묽은 변", "식욕 저하"],
+        "escalationTriggersKo": ["증상이 지속되면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodOrange__peel",
+      "nameKo": "오렌지 (껍질)",
+      "nameEn": "Orange (Peel)",
+      "aliases": ["orange", "오렌지", "오렌지 껍질", "오렌지껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "오렌지 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "orange",
+          "orange peel",
+          "orangepeel",
+          "오렌지",
+          "오렌지 껍질",
+          "오렌지껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodGrapefruit__peel",
+      "nameKo": "자몽 (껍질)",
+      "nameEn": "Grapefruit (Peel)",
+      "aliases": ["grapefruit", "자몽", "자몽 껍질", "자몽껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "자몽 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "grapefruit",
+          "grapefruit peel",
+          "grapefruitpeel",
+          "자몽",
+          "자몽 껍질",
+          "자몽껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodLemon__peel",
+      "nameKo": "레몬 (껍질)",
+      "nameEn": "Lemon (Peel)",
+      "aliases": ["lemon", "레몬", "레몬 껍질", "레몬껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "레몬 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lemon",
+          "lemon peel",
+          "lemonpeel",
+          "레몬",
+          "레몬 껍질",
+          "레몬껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodLime__peel",
+      "nameKo": "라임 (껍질)",
+      "nameEn": "Lime (Peel)",
+      "aliases": ["lime", "라임", "라임 껍질", "라임껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "라임 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "education-guide",
+          "title": "What Do Parrots Eat?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/parrot/what-do-parrots-eat"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "lime",
+          "lime peel",
+          "limepeel",
+          "라임",
+          "라임 껍질",
+          "라임껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodMandarin__peel",
+      "nameKo": "만다린 (껍질)",
+      "nameEn": "Mandarin (Peel)",
+      "aliases": ["mandarin", "만다린", "만다린 껍질", "만다린껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "만다린 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "mandarin",
+          "mandarin peel",
+          "mandarinpeel",
+          "만다린",
+          "만다린 껍질",
+          "만다린껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodTangerine__peel",
+      "nameKo": "귤 (껍질)",
+      "nameEn": "Tangerine (Peel)",
+      "aliases": ["tangerine", "귤", "귤 껍질", "귤껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "귤 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        },
+        {
+          "type": "education-guide",
+          "title": "Seeds vs Pellets: Which Is Better for Your Pet Bird?",
+          "publisher": "Chewy",
+          "url": "https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "tangerine",
+          "tangerine peel",
+          "tangerinepeel",
+          "귤",
+          "귤 껍질",
+          "귤껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodPomelo__peel",
+      "nameKo": "포멜로 (껍질)",
+      "nameEn": "Pomelo (Peel)",
+      "aliases": ["pomelo", "포멜로", "포멜로 껍질", "포멜로껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "포멜로 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "pomelo",
+          "pomelo peel",
+          "pomelopeel",
+          "포멜로",
+          "포멜로 껍질",
+          "포멜로껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodKumquat__peel",
+      "nameKo": "금귤 (껍질)",
+      "nameEn": "Kumquat (Peel)",
+      "aliases": ["kumquat", "금귤", "금귤 껍질", "금귤껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "금귤 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "hospital-guide",
+          "title": "Lovebirds - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/lovebirds-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "kumquat",
+          "kumquat peel",
+          "kumquatpeel",
+          "금귤",
+          "금귤 껍질",
+          "금귤껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodBloodOrange__peel",
+      "nameKo": "블러드오렌지 (껍질)",
+      "nameEn": "Blood Orange (Peel)",
+      "aliases": [
+        "blood orange",
+        "블러드오렌지",
+        "블러드오렌지 껍질",
+        "블러드오렌지껍질"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "블러드오렌지 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "blood orange",
+          "blood orange peel",
+          "bloodorange",
+          "bloodorangepeel",
+          "블러드오렌지",
+          "블러드오렌지 껍질",
+          "블러드오렌지껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodClementine__peel",
+      "nameKo": "클레멘타인 (껍질)",
+      "nameEn": "Clementine (Peel)",
+      "aliases": [
+        "clementine",
+        "클레멘타인",
+        "클레멘타인 껍질",
+        "클레멘타인껍질"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "클레멘타인 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "clementine",
+          "clementine peel",
+          "clementinepeel",
+          "클레멘타인",
+          "클레멘타인 껍질",
+          "클레멘타인껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodYuzu__peel",
+      "nameKo": "유자 (껍질)",
+      "nameEn": "Yuzu (Peel)",
+      "aliases": ["yuzu", "유자", "유자 껍질", "유자껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "유자 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "yuzu",
+          "yuzu peel",
+          "yuzupeel",
+          "유자",
+          "유자 껍질",
+          "유자껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodCalamansi__peel",
+      "nameKo": "칼라만시 (껍질)",
+      "nameEn": "Calamansi (Peel)",
+      "aliases": ["calamansi", "칼라만시", "칼라만시 껍질", "칼라만시껍질"],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "칼라만시 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "calamansi",
+          "calamansi peel",
+          "calamansipeel",
+          "칼라만시",
+          "칼라만시 껍질",
+          "칼라만시껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
+      }
+    },
+    {
+      "id": "foodUgliFruit__peel",
+      "nameKo": "어글리프룻 (껍질)",
+      "nameEn": "Ugli Fruit (Peel)",
+      "aliases": [
+        "ugli fruit",
+        "어글리프룻",
+        "어글리프룻 껍질",
+        "어글리프룻껍질"
+      ],
+      "category": "fruit",
+      "foodType": "whole",
+      "safetyLevel": "danger",
+      "oneLinerKo": "껍질은 급여하지 마세요.",
+      "reasonKo": [
+        "어글리프룻 껍질은 정유 성분 농도가 높아 소화기 자극 위험이 큽니다.",
+        "껍질 표면 잔류물 관리도 어렵기 때문에 반려조류 급여에서는 금지하는 편이 안전합니다. 운영 원칙: 껍질 급여 금지."
+      ],
+      "riskNotesKo": ["껍질 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "껍질(모든 형태)",
+          "part": "peel",
+          "prep": "any",
+          "level": "danger",
+          "noteKo": "껍질은 급여하지 마세요."
+        }
+      ],
+      "portionsKo": {
+        "allowedParts": [],
+        "avoidParts": ["껍질"],
+        "frequency": "급여 금지",
+        "notes": [],
+        "examplesKo": []
+      },
+      "confusables": [],
+      "evidenceLevel": "low",
+      "reviewedAt": "2026-02-15",
+      "sources": [
+        {
+          "type": "hospital-guide",
+          "title": "Cockatiels - Feeding",
+          "year": 2024,
+          "publisher": "VCA Animal Hospitals",
+          "url": "https://vcahospitals.com/know-your-pet/cockatiels-feeding"
+        },
+        {
+          "type": "welfare-guide",
+          "title": "What should I feed my birds?",
+          "publisher": "RSPCA Australia",
+          "url": "https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/"
+        }
+      ],
+      "search": {
+        "tokens": [
+          "ugli fruit",
+          "ugli fruit peel",
+          "uglifruit",
+          "uglifruitpeel",
+          "어글리프룻",
+          "어글리프룻 껍질",
+          "어글리프룻껍질"
+        ]
+      },
+      "emergency": {
+        "baseRisk": "medium",
+        "whatToDoKo": ["추가 섭취를 막고 상태를 관찰하세요."],
+        "watchForKo": ["구토/역류", "묽은 변", "무기력"],
+        "escalationTriggersKo": ["증상이 나타나면 진료기관 문의를 권장합니다."]
       }
     }
   ]
