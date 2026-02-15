@@ -43,6 +43,195 @@
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
+  <script>
+    (function () {
+      const ua = navigator.userAgent || '';
+      const lowerUa = ua.toLowerCase();
+      const candidates = [
+        { name: 'KakaoTalk', re: /KAKAOTALK/i },
+        { name: 'Instagram', re: /Instagram/i },
+        { name: 'Facebook', re: /(FBAN|FBAV|FB_IAB|FB4A|FBIOS)/i },
+        { name: 'LINE', re: /Line\//i },
+        { name: 'NAVER', re: /(NAVER\(inapp|NAVER)/i },
+        { name: 'Daum', re: /DaumApps/i },
+        { name: 'TikTok', re: /TikTok/i },
+        { name: 'WeChat', re: /MicroMessenger/i },
+        { name: 'LinkedIn', re: /LinkedInApp/i },
+        { name: 'X', re: /Twitter/i },
+        { name: 'Reddit', re: /Reddit/i },
+        { name: 'Pinterest', re: /Pinterest/i },
+        { name: 'Snapchat', re: /Snapchat/i },
+      ];
+      const matched = candidates.find((item) => item.re.test(ua));
+      const hasAndroidWebViewToken = /; wv\)/i.test(ua) || /\bwv\b/i.test(ua);
+      const isIos = /iPhone|iPad|iPod/i.test(ua);
+      const isKnownIosBrowser = /(Safari|CriOS|FxiOS|EdgiOS|OPiOS)/i.test(ua);
+      const isLikelyIosInApp = isIos && !isKnownIosBrowser;
+      const isInApp = Boolean(
+        matched || hasAndroidWebViewToken || isLikelyIosInApp
+      );
+      const appName = matched ? matched.name : null;
+      const inAppReason = matched
+        ? 'ua-match-' + matched.name
+        : hasAndroidWebViewToken
+          ? 'android-webview-token'
+          : isLikelyIosInApp
+            ? 'ios-webview-heuristic'
+            : 'not-detected';
+
+      let firstFrameSeen = false;
+      let fallbackShown = false;
+
+      function copyLink() {
+        const url = window.location.href;
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+          navigator.clipboard.writeText(url).then(() => {
+            alert('링크를 복사했습니다.');
+          }).catch(() => {
+            window.prompt('아래 링크를 복사해 주세요.', url);
+          });
+          return;
+        }
+        window.prompt('아래 링크를 복사해 주세요.', url);
+      }
+
+      function openExternalBrowser() {
+        const url = window.location.href;
+        if (/KAKAOTALK/i.test(ua)) {
+          window.location.href =
+            'kakaotalk://web/openExternal?url=' + encodeURIComponent(url);
+          setTimeout(() => {
+            window.open(url, '_blank');
+          }, 600);
+          return;
+        }
+        if (lowerUa.includes('android')) {
+          const withoutScheme = url.replace(/^https?:\/\//i, '');
+          window.location.href =
+            'intent://' +
+            withoutScheme +
+            '#Intent;scheme=https;package=com.android.chrome;end';
+          setTimeout(() => {
+            window.open(url, '_blank');
+          }, 600);
+          return;
+        }
+        window.open(url, '_blank');
+      }
+
+      function showFallbackOverlay(reason) {
+        if (fallbackShown || firstFrameSeen || !isInApp) {
+          return;
+        }
+        fallbackShown = true;
+
+        const root = document.createElement('div');
+        root.id = 'avium-inapp-fallback';
+        root.style.position = 'fixed';
+        root.style.inset = '0';
+        root.style.zIndex = '999999';
+        root.style.background = '#fff';
+        root.style.color = '#111';
+        root.style.display = 'flex';
+        root.style.alignItems = 'center';
+        root.style.justifyContent = 'center';
+        root.style.padding = '20px';
+        root.style.fontFamily = '-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif';
+
+        const card = document.createElement('div');
+        card.style.maxWidth = '520px';
+        card.style.width = '100%';
+        card.style.border = '1px solid #ddd';
+        card.style.borderRadius = '14px';
+        card.style.padding = '20px';
+        card.style.boxShadow = '0 8px 24px rgba(0,0,0,0.12)';
+
+        const title = document.createElement('h2');
+        title.textContent = '인앱브라우저 호환성 안내';
+        title.style.margin = '0 0 10px 0';
+        title.style.fontSize = '20px';
+
+        const body = document.createElement('p');
+        body.textContent =
+          (appName ? appName + ' 인앱브라우저에서' : '현재 인앱브라우저에서') +
+          ' 초기 렌더링이 실패할 수 있습니다. 외부 브라우저(Chrome/Safari)로 열어주세요.';
+        body.style.margin = '0 0 14px 0';
+        body.style.lineHeight = '1.5';
+
+        const reasonText = document.createElement('p');
+        reasonText.textContent = '감지 사유: ' + reason;
+        reasonText.style.margin = '0 0 16px 0';
+        reasonText.style.fontSize = '12px';
+        reasonText.style.color = '#666';
+
+        const row = document.createElement('div');
+        row.style.display = 'flex';
+        row.style.gap = '10px';
+        row.style.flexWrap = 'wrap';
+
+        const openBtn = document.createElement('button');
+        openBtn.textContent = '외부 브라우저로 열기';
+        openBtn.style.padding = '10px 14px';
+        openBtn.style.borderRadius = '10px';
+        openBtn.style.border = '0';
+        openBtn.style.background = '#111';
+        openBtn.style.color = '#fff';
+        openBtn.style.cursor = 'pointer';
+        openBtn.onclick = openExternalBrowser;
+
+        const copyBtn = document.createElement('button');
+        copyBtn.textContent = '링크 복사';
+        copyBtn.style.padding = '10px 14px';
+        copyBtn.style.borderRadius = '10px';
+        copyBtn.style.border = '1px solid #ccc';
+        copyBtn.style.background = '#fff';
+        copyBtn.style.color = '#111';
+        copyBtn.style.cursor = 'pointer';
+        copyBtn.onclick = copyLink;
+
+        row.appendChild(openBtn);
+        row.appendChild(copyBtn);
+        card.appendChild(title);
+        card.appendChild(body);
+        card.appendChild(reasonText);
+        card.appendChild(row);
+        root.appendChild(card);
+        document.body.appendChild(root);
+      }
+
+      window.addEventListener(
+        'flutter-first-frame',
+        function () {
+          firstFrameSeen = true;
+          const overlay = document.getElementById('avium-inapp-fallback');
+          if (overlay) {
+            overlay.remove();
+          }
+        },
+        { once: true }
+      );
+
+      // If Flutter does not paint the first frame quickly in in-app browsers,
+      // show a deterministic recovery path to open in external browser.
+      setTimeout(function () {
+        if (!firstFrameSeen) {
+          showFallbackOverlay('first-frame-timeout:' + inAppReason);
+        }
+      }, 7000);
+
+      window.addEventListener(
+        'error',
+        function () {
+          showFallbackOverlay('window-error');
+        },
+        true
+      );
+
+      window.addEventListener('unhandledrejection', function () {
+        showFallbackOverlay('unhandledrejection');
+      });
+    })();
+  </script>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>

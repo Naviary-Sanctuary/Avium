@@ -49,6 +49,11 @@ flutter run -d chrome
 flutter build web --release
 ```
 
+인앱브라우저(카카오톡, Instagram, Facebook, LINE, NAVER, Daum, TikTok,
+WeChat, LinkedIn, X, Reddit, Pinterest, Snapchat) 첫 진입에서는
+렌더링 실패가 감지되면 외부 브라우저(Chrome/Safari)로 여는 복구 UI를
+표시합니다.
+
 ## 데이터 토큰 생성
 
 ```bash

@@ -73,6 +73,9 @@ flutter build web --release
 - iOS PWA는 네이티브 앱 대비 기능 제한이 있습니다.
 - 푸시/백그라운드 동작은 플랫폼 제약을 받습니다.
 - 정식 앱스토어 등록 대비 신뢰도(설치 경고/탐색성)는 낮을 수 있습니다.
+- 인앱브라우저(카카오톡, Instagram, Facebook, LINE, NAVER, Daum, TikTok,
+  WeChat, LinkedIn, X, Reddit, Pinterest, Snapchat)는 첫 진입 렌더링
+  실패 가능성이 있어 외부 브라우저 전환 동선을 함께 점검해야 합니다.
 
 ## 6. 배포 전 체크리스트
 
@@ -81,3 +84,5 @@ flutter build web --release
 3. `flutter build web --release` 성공
 4. 실제 모바일 브라우저(Android/iOS)에서 설치 동작 점검
 5. 핵심 플로우(검색/상세/응급/정보) 점검
+6. 주요 인앱브라우저(카카오톡, Instagram, Facebook, NAVER 등) 첫 진입
+   시 초기 렌더링/외부 브라우저 전환 버튼 동작 점검
