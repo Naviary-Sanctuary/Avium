@@ -31,6 +31,25 @@ flutter build web --release
 - Netlify
 - GitHub Pages
 
+### Vercel 빠른 배포(대시보드 업로드)
+
+1. 로컬에서 빌드
+
+```bash
+flutter build web --release
+```
+
+2. Vercel 접속 후 새 프로젝트 생성
+- https://vercel.com/new
+
+3. `build/web` 폴더를 드래그 앤 드롭으로 업로드
+
+4. 배포 완료 후 발급 URL을 모바일에서 접속
+
+참고:
+- 이 저장소에는 `web/vercel.json`이 포함되어 있어 SPA 라우팅 새로고침 시
+  `index.html`로 리라이트됩니다.
+
 ### 공통 권장 설정
 
 - HTTPS 강제
