@@ -2479,13 +2479,13 @@
       "safetyLevel": "danger",
       "oneLinerKo": "급여 금지",
       "reasonKo": [
-        "망고 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거.",
+        "망고 씨/핵은 크고 단단해 질식 및 장폐색 위험이 큽니다.",
+        "과육만 분리해 급여하고 씨/핵·질긴 껍질은 완전히 제거해야 합니다. 운영 원칙: 씨/핵 제거 필수.",
         "씨 기준으로 분리된 항목입니다.",
         "급여 금지"
       ],
       "riskNotesKo": [
-        "씨/껍질 제거",
+        "씨/핵 제거 필수",
         "급여 금지"
       ],
       "safetyConditions": [
@@ -2500,7 +2500,8 @@
       "portionsKo": {
         "allowedParts": [],
         "avoidParts": [
-          "씨"
+          "씨",
+          "핵"
         ],
         "frequency": "급여 금지",
         "notes": [],
@@ -2508,7 +2509,7 @@
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -2531,13 +2532,15 @@
       "emergency": {
         "baseRisk": "medium",
         "whatToDoKo": [
-          "씨/껍질 섭취 여부를 확인하세요."
+          "씨/핵 섭취 여부를 확인하고 추가 섭취를 막으세요."
         ],
         "watchForKo": [
-          "구토/역류"
+          "구토/역류",
+          "식욕 저하",
+          "무기력"
         ],
         "escalationTriggersKo": [
-          "증상 발생 시 문의를 권장합니다."
+          "증상 발생 시 진료기관 문의를 권장합니다."
         ]
       }
     },
@@ -3995,13 +3998,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "잘 익은 과육만 소량 제공"
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "education-guide",
@@ -5294,13 +5295,11 @@
         "notes": [
           "채소 편식 방지를 위해 다른 채소와 교차 급여"
         ],
-        "examplesKo": [
-          "생과육 기준, 손톱 크기 조각부터 시작"
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5336,13 +5335,14 @@
         ]
       },
       "emergency": {
-        "baseRisk": "low",
+        "baseRisk": "medium",
         "whatToDoKo": [
-          "양념/분말 형태가 아니라면 우선 과도한 추가 급여만 피하고 관찰하세요."
+          "추가 섭취를 막고 상태를 관찰하세요."
         ],
         "watchForKo": [
           "구토/역류",
-          "묽은 변"
+          "묽은 변",
+          "무기력"
         ],
         "escalationTriggersKo": [
           "증상이 반복되거나 기력 저하가 동반되면 진료기관 문의를 권장합니다."
@@ -5393,13 +5393,11 @@
         "notes": [
           "채소 편식 방지를 위해 다른 채소와 교차 급여"
         ],
-        "examplesKo": [
-          "생과육 기준, 손톱 크기 조각부터 시작"
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -5435,13 +5433,14 @@
         ]
       },
       "emergency": {
-        "baseRisk": "low",
+        "baseRisk": "medium",
         "whatToDoKo": [
-          "양념/분말 형태가 아니라면 우선 과도한 추가 급여만 피하고 관찰하세요."
+          "추가 섭취를 막고 상태를 관찰하세요."
         ],
         "watchForKo": [
           "구토/역류",
-          "묽은 변"
+          "묽은 변",
+          "무기력"
         ],
         "escalationTriggersKo": [
           "증상이 반복되거나 기력 저하가 동반되면 진료기관 문의를 권장합니다."
@@ -7047,11 +7046,12 @@
       "safetyLevel": "danger",
       "oneLinerKo": "씨는 급여 금지입니다.",
       "reasonKo": [
-        "감 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨 제거 후 제공."
+        "감 씨는 단단하고 크기가 커 질식 및 장폐색 위험이 큽니다.",
+        "과육만 분리해 급여하고 씨는 완전히 제거해야 합니다. 운영 원칙: 씨 제거 필수."
       ],
       "riskNotesKo": [
-        "씨 제거 후 제공"
+        "씨 제거 필수",
+        "급여 금지"
       ],
       "safetyConditions": [
         {
@@ -7069,13 +7069,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "소량부터 시작해 반응을 확인하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -7101,7 +7099,7 @@
         ]
       },
       "emergency": {
-        "baseRisk": "high",
+        "baseRisk": "medium",
         "whatToDoKo": [
           "씨 섭취가 의심되면 추가 섭취를 막고 상태를 관찰하세요."
         ],
