@@ -7,6 +7,7 @@ class SafetyCondition {
     required this.prep,
     required this.level,
     required this.noteKo,
+    this.sourceIndexes = const <int>[],
   });
 
   final String labelKo;
@@ -14,6 +15,7 @@ class SafetyCondition {
   final PrepType prep;
   final SafetyLevel level;
   final String noteKo;
+  final List<int> sourceIndexes;
 
   factory SafetyCondition.fromJson(Map<String, dynamic> json) {
     return SafetyCondition(
@@ -22,6 +24,10 @@ class SafetyCondition {
       prep: PrepType.fromJson(json['prep'] as String),
       level: SafetyLevel.fromJson(json['level'] as String),
       noteKo: json['noteKo'] as String,
+      sourceIndexes:
+          (json['sourceIndexes'] as List<dynamic>? ?? const <dynamic>[])
+              .map((value) => value is int ? value : int.parse('$value'))
+              .toList(growable: false),
     );
   }
 
@@ -32,6 +38,7 @@ class SafetyCondition {
       'prep': prep.name,
       'level': level.name,
       'noteKo': noteKo,
+      if (sourceIndexes.isNotEmpty) 'sourceIndexes': sourceIndexes,
     };
   }
 }

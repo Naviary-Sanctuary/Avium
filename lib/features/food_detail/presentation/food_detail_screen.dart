@@ -39,11 +39,26 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
       );
     }
 
+    final partOptions = food.safetyConditions
+        .map((item) => item.part)
+        .toSet()
+        .toList(growable: false)
+      ..sort((a, b) => a.index.compareTo(b.index));
+    final prepOptions = food.safetyConditions
+        .map((item) => item.prep)
+        .toSet()
+        .toList(growable: false)
+      ..sort((a, b) => a.index.compareTo(b.index));
+    final effectivePart =
+        _selectedPart ?? (partOptions.length == 1 ? partOptions.first : null);
+    final effectivePrep =
+        _selectedPrep ?? (prepOptions.length == 1 ? prepOptions.first : null);
+
     final result = _matcher.match(
       representativeLevel: food.safetyLevel,
       conditions: food.safetyConditions,
-      selectedPart: _selectedPart,
-      selectedPrep: _selectedPrep,
+      selectedPart: effectivePart,
+      selectedPrep: effectivePrep,
     );
 
     return Scaffold(
@@ -60,8 +75,8 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
             const SizedBox(height: 16),
             if (food.safetyConditions.isNotEmpty)
               _ConditionSelector(
-                selectedPart: _selectedPart,
-                selectedPrep: _selectedPrep,
+                selectedPart: effectivePart,
+                selectedPrep: effectivePrep,
                 options: food.safetyConditions,
                 onPartSelected: (part) {
                   setState(() {
@@ -216,41 +231,49 @@ class _ConditionSelector extends StatelessWidget {
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 8),
-        Text('부위', style: Theme.of(context).textTheme.labelLarge),
-        const SizedBox(height: 6),
-        Wrap(
-          spacing: 8,
-          runSpacing: 8,
-          children: partOptions
-              .map(
-                (part) => ChoiceChip(
-                  label: Text(part.labelKo),
-                  selected: selectedPart == part,
-                  onSelected: (selected) {
-                    onPartSelected(selected ? part : null);
-                  },
-                ),
-              )
-              .toList(growable: false),
-        ),
+        if (partOptions.length == 1)
+          Text('부위: ${partOptions.first.labelKo}')
+        else ...<Widget>[
+          Text('부위', style: Theme.of(context).textTheme.labelLarge),
+          const SizedBox(height: 6),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: partOptions
+                .map(
+                  (part) => ChoiceChip(
+                    label: Text(part.labelKo),
+                    selected: selectedPart == part,
+                    onSelected: (selected) {
+                      onPartSelected(selected ? part : null);
+                    },
+                  ),
+                )
+                .toList(growable: false),
+          ),
+        ],
         const SizedBox(height: 10),
-        Text('형태·조리', style: Theme.of(context).textTheme.labelLarge),
-        const SizedBox(height: 6),
-        Wrap(
-          spacing: 8,
-          runSpacing: 8,
-          children: prepOptions
-              .map(
-                (prep) => ChoiceChip(
-                  label: Text(prep.labelKo),
-                  selected: selectedPrep == prep,
-                  onSelected: (selected) {
-                    onPrepSelected(selected ? prep : null);
-                  },
-                ),
-              )
-              .toList(growable: false),
-        ),
+        if (prepOptions.length == 1)
+          Text('형태·조리: ${prepOptions.first.labelKo}')
+        else ...<Widget>[
+          Text('형태·조리', style: Theme.of(context).textTheme.labelLarge),
+          const SizedBox(height: 6),
+          Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: prepOptions
+                .map(
+                  (prep) => ChoiceChip(
+                    label: Text(prep.labelKo),
+                    selected: selectedPrep == prep,
+                    onSelected: (selected) {
+                      onPrepSelected(selected ? prep : null);
+                    },
+                  ),
+                )
+                .toList(growable: false),
+          ),
+        ],
       ],
     );
   }

@@ -14,7 +14,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
-  testWidgets('shows mixed warning and incomplete-selection warning', (
+  testWidgets('shows mixed warning and auto-resolves single condition', (
     WidgetTester tester,
   ) async {
     final appState = AppState(
@@ -33,7 +33,9 @@ void main() {
     );
 
     expect(find.text('혼합/가공식품 주의'), findsOneWidget);
-    expect(find.text('조건 선택이 완전하지 않아 보수적으로 표시됩니다.'), findsOneWidget);
+    expect(find.text('조건 선택이 완전하지 않아 보수적으로 표시됩니다.'), findsNothing);
+    expect(find.text('부위: 과육'), findsOneWidget);
+    expect(find.text('형태·조리: 생'), findsOneWidget);
     expect(find.text('본 내용은 참고 정보이며 진단/치료를 대체하지 않습니다.'), findsOneWidget);
   });
 }
