@@ -262,13 +262,14 @@ class _SearchScreenState extends State<SearchScreen> {
                   ),
                   const SizedBox(height: 12),
                   const Text(
-                    '사용 가이드',
+                    '이용 안내',
                     style: TextStyle(fontWeight: FontWeight.w700),
                   ),
                   const SizedBox(height: 6),
                   const Text('• 검색 탭에서 음식명/자음으로 바로 찾을 수 있습니다.'),
                   const Text('• 상세에서 부위·형태를 선택하면 결과가 더 정확해집니다.'),
                   const Text('• 증상이 있으면 긴급 대응 확인으로 바로 이동하세요.'),
+                  const Text('• 본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.'),
                   if (showInstallAction) ...<Widget>[
                     const SizedBox(height: 12),
                     Text(
@@ -280,13 +281,6 @@ class _SearchScreenState extends State<SearchScreen> {
                       ),
                     ),
                   ],
-                  const SizedBox(height: 12),
-                  const Text(
-                    '참고 안내',
-                    style: TextStyle(fontWeight: FontWeight.w700),
-                  ),
-                  const SizedBox(height: 6),
-                  const Text('본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.'),
                 ],
               ),
             ),
