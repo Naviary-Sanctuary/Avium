@@ -15,7 +15,7 @@ Avium은 앵무새를 키우는 분들이 일상에서 급여 안전도와 응�
 - Flutter (Dart)
 - 라우팅: `go_router`
 - 상태관리: Flutter 내장(`ChangeNotifier`, `ValueNotifier`)
-- 데이터 저장소: 번들 JSON(`assets/data/foods.v1_2_0.json`)
+- 데이터 저장소: 번들 JSON(`assets/data/foods.json`)
 
 ## 프로젝트 구조
 
@@ -52,7 +52,7 @@ flutter build web --release
 ## 데이터 토큰 생성
 
 ```bash
-dart run tool/generate_search_tokens.dart --input assets/data/foods.v1_2_0.json
+dart run tool/generate_search_tokens.dart --input assets/data/foods.json
 ```
 
 검증 모드:
@@ -61,6 +61,20 @@ dart run tool/generate_search_tokens.dart --input assets/data/foods.v1_2_0.json
 dart run tool/generate_search_tokens.dart --check
 ```
 
+## 데이터 카피/위험도 기준
+
+- `oneLinerKo`는 항목별 위험 요인을 직접 설명하는 문장으로 작성합니다.
+- `oneLinerKo`에는 동일한 문장을 반복 사용하지 않습니다.
+- `~~는 급여 금지입니다.` 같은 고정 금지형 문장 대신 위험 원인을 먼저 설명합니다.
+- `safetyLevel` 기준:
+  - `safe`: 먹어도 안전한 범주(과량 시 비만 가능성은 `reasonKo`/`riskNotesKo`로 안내)
+  - `caution`: 양/빈도 누적 시 부담 또는 증상 가능성이 있는 범주
+  - `danger`: 독성/질병 유발 등 신체 위험이 뚜렷한 범주
+- `baseRisk` 기준:
+  - `low`: 먹어도 대체로 괜찮은 항목
+  - `medium`: 먹었을 때 증상이 나타날 수 있는 항목
+  - `high`: 먹었을 때 치명적일 수 있는 항목
+
 ## 검색 성능/품질 점검 (로컬 전용)
 
 아래 두 검사는 시간이 오래 걸릴 수 있어 GitHub Actions CI에서는 실행하지 않고, 로컬에서만 실행합니다.
@@ -68,14 +82,14 @@ dart run tool/generate_search_tokens.dart --check
 검색 벤치마크:
 
 ```bash
-dart run tool/search_benchmark.dart --input assets/data/foods.v1_2_0.json
+dart run tool/search_benchmark.dart --input assets/data/foods.json
 ```
 
 검색 품질 리포트:
 
 ```bash
 dart run tool/search_quality_report.dart \
-  --input assets/data/foods.v1_2_0.json \
+  --input assets/data/foods.json \
   --min-top1 0.80 \
   --min-top3 0.95
 ```

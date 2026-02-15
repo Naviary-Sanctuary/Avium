@@ -5,7 +5,7 @@ import 'package:avium/data/search/search_tokenizer.dart';
 
 Future<void> main(List<String> args) async {
   final checkMode = args.contains('--check');
-  final inputPath = _readArg(args, '--input') ?? 'assets/data/foods.v1_2_0.json';
+  final inputPath = _readArg(args, '--input') ?? 'assets/data/foods.json';
 
   final file = File(inputPath);
   if (!file.existsSync()) {

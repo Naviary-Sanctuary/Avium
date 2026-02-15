@@ -3,10 +3,12 @@
 > License notice: This file is part of Avium curated data assets and follows
 > `LICENSE_DATA.md` (not MIT).
 
-- Date: 2026-02-14
+- Date: 2026-02-15
 - Method: Playwright browser navigation (`page.goto`, `domcontentloaded`, timeout 30s)
-- Scope: `assets/data/foods.v1_2_0.json` 내 출처 URL 12개(중복 제거)
+- Scope: `assets/data/foods.json` 내 출처 URL 12개(중복 제거)
 - Result: 11/12 reachable (HTTP 200), 1개는 봇 방어(HTTP 429)로 자동 점검 제한
+- Note: `1.2.1` 리비전에서는 출처 URL 자체 변경이 없어 기존 링크 점검 결과를
+  유지합니다.
 
 | URL | HTTP | Final URL | Title |
 | --- | --- | --- | --- |

@@ -7,7 +7,7 @@ import 'package:avium/data/search/search_service.dart';
 
 Future<void> main(List<String> args) async {
   final inputPath =
-      _readArg(args, '--input') ?? 'assets/data/foods.v1_2_0.json';
+      _readArg(args, '--input') ?? 'assets/data/foods.json';
   final minTop1 = double.parse(_readArg(args, '--min-top1') ?? '0.80');
   final minTop3 = double.parse(_readArg(args, '--min-top3') ?? '0.95');
 

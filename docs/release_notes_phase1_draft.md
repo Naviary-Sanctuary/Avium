@@ -7,6 +7,9 @@
 - Detail screen with condition chips (part x prep) and conservative fallback rules
 - Emergency mode with rule-based risk output (Low/Medium/High)
 - Beginner feeding guide and settings metadata (`dataVersion`, `reviewedAt`)
+- Data copy/risk criteria revision (`1.2.1`): all `oneLinerKo` rewritten,
+  `danger` base risk unified to `high`, and processed-food reclassification
+  applied for bread/jam (`safe -> caution`)
 
 ## Safety messaging
 

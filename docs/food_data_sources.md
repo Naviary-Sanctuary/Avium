@@ -3,8 +3,16 @@
 > License notice: This file is part of Avium curated data assets and follows
 > `LICENSE_DATA.md` (not MIT).
 
-- 데이터 파일: `assets/data/foods.v1_2_0.json`
-- 기준일: 2026-02-14
+- 데이터 파일: `assets/data/foods.json`
+- 기준일: 2026-02-15
+- 데이터 리비전: `meta.dataVersion = 1.2.1`
+
+## 데이터 문구/위험도 운영 기준
+
+- `oneLinerKo`는 항목별 고유 문장으로 작성하며 동일 문장을 반복하지 않습니다.
+- `oneLinerKo`는 금지 여부만 단정하지 않고, 위험 원인을 먼저 설명합니다.
+- `safetyLevel`은 `safe/caution/danger` 정의에 맞춰 부여합니다.
+- `baseRisk`는 `low/medium/high` 기준으로 항목별 증상 가능성과 중증도를 반영합니다.
 
 ## 출처 목록(중복 제거)
 

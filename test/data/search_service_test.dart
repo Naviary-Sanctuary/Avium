@@ -10,7 +10,7 @@ void main() {
   const service = SearchService();
 
   setUpAll(() async {
-    final file = File('assets/data/foods.v1_2_0.json');
+    final file = File('assets/data/foods.json');
     final raw = await file.readAsString();
     db = FoodDb.fromJson(jsonDecode(raw) as Map<String, dynamic>);
   });

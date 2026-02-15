@@ -3,7 +3,7 @@ import 'dart:io';
 
 Future<void> main(List<String> args) async {
   final inputPath =
-      _readArg(args, '--input') ?? 'assets/data/foods.v1_2_0.json';
+      _readArg(args, '--input') ?? 'assets/data/foods.json';
 
   final file = File(inputPath);
   if (!file.existsSync()) {

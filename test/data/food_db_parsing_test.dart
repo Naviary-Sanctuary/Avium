@@ -6,13 +6,13 @@ import 'package:flutter_test/flutter_test.dart';
 
 void main() {
   test('parses bundled food db schema', () async {
-    final file = File('assets/data/foods.v1_2_0.json');
+    final file = File('assets/data/foods.json');
     final raw = await file.readAsString();
     final map = jsonDecode(raw) as Map<String, dynamic>;
 
     final db = FoodDb.fromJson(map);
 
-    expect(db.meta.dataVersion, '1.2.0');
+    expect(db.meta.dataVersion, '1.2.1');
     expect(db.foods.length, greaterThanOrEqualTo(100));
     expect(
       db.foods.where((food) => food.id.startsWith('foodApple__')).length,
@@ -45,7 +45,7 @@ void main() {
   });
 
   test('every food has at least one traceable source url', () async {
-    final file = File('assets/data/foods.v1_2_0.json');
+    final file = File('assets/data/foods.json');
     final raw = await file.readAsString();
     final map = jsonDecode(raw) as Map<String, dynamic>;
 
