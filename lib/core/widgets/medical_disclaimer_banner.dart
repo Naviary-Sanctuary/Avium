@@ -49,7 +49,7 @@ class MedicalDisclaimerBanner extends StatelessWidget {
                 const SizedBox(height: 8),
                 Text('콘텐츠 마지막 검토일: $reviewedAt'),
                 const SizedBox(height: 8),
-                const Text('• 이 정보는 보호자 참고용입니다.'),
+                const Text('• 이 정보는 참고용입니다.'),
                 const Text('• 진단/치료/처방을 대신하지 않습니다.'),
                 const Text('• 이상 증상이 있으면 즉시 진료기관에 문의하세요.'),
               ],

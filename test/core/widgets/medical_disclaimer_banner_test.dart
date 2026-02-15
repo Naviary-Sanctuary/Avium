@@ -21,7 +21,7 @@ void main() {
     await tester.pumpAndSettle();
 
     expect(find.text('참고 안내'), findsOneWidget);
-    expect(find.textContaining('보호자 참고용'), findsOneWidget);
+    expect(find.textContaining('이 정보는 참고용입니다.'), findsOneWidget);
     expect(find.textContaining('진단/치료/처방'), findsOneWidget);
   });
 }

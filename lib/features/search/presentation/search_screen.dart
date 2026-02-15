@@ -286,7 +286,8 @@ class _SearchScreenState extends State<SearchScreen> {
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     const Text(
-                      'Avium은 앵무새 급여 안전을 빠르게 확인하는 참고 앱입니다.',
+                      'Avium은 앵무새를 키우는 분들이 급여 전후 안전 정보를 '
+                      '빠르게 확인할 수 있는 참고 앱입니다.',
                     ),
                     const SizedBox(height: 12),
                     const Text(
@@ -294,10 +295,16 @@ class _SearchScreenState extends State<SearchScreen> {
                       style: TextStyle(fontWeight: FontWeight.w700),
                     ),
                     const SizedBox(height: 6),
-                    const Text('• 검색 탭에서 음식명/자음으로 바로 찾을 수 있습니다.'),
+                    const Text(
+                      '• 자주 급여하는 음식도 검색 탭에서 음식명/자음으로 '
+                      '바로 찾을 수 있습니다.',
+                    ),
                     const Text('• 상세에서 부위·형태를 선택하면 결과가 더 정확해집니다.'),
-                    const Text('• 증상이 있으면 긴급 대응 확인으로 바로 이동하세요.'),
-                    const Text('• 본 앱 정보는 참고용이며 진단/치료를 대체하지 않습니다.'),
+                    const Text('• 먹은 뒤 이상 반응이 보이면 긴급 대응 확인으로 이동하세요.'),
+                    const Text(
+                      '• 본 앱 정보는 상황 판단을 돕는 참고용이며 '
+                      '진단/치료를 대체하지 않습니다.',
+                    ),
                     if (showInstallAction) ...<Widget>[
                       const SizedBox(height: 12),
                       Text(
@@ -791,7 +798,10 @@ class _InfoTab extends StatelessWidget {
                       ),
                 ),
                 const SizedBox(height: 8),
-                const Text('Avium은 Naviary에서 제공하는 오프라인 참고 앱입니다.'),
+                const Text(
+                  'Avium은 Naviary에서 제공하는 앵무새 급여/안전 정보 '
+                  '오프라인 참고 앱입니다.',
+                ),
                 const SizedBox(height: 10),
                 FilledButton.icon(
                   onPressed: _openNaviarySite,
@@ -838,8 +848,11 @@ class _InfoTab extends StatelessWidget {
                   style: TextStyle(fontWeight: FontWeight.w800),
                 ),
                 SizedBox(height: 8),
-                Text('• 이 앱은 의료 앱이 아니며 진단/치료를 제공하지 않습니다.'),
-                Text('• 절대적인 판단 기준으로 사용하지 마세요.'),
+                Text(
+                  '• 이 앱은 상황 판단을 돕는 참고 앱이며 '
+                  '진단/치료를 제공하지 않습니다.',
+                ),
+                Text('• 개체 차이가 크므로 절대적인 판단 기준으로 사용하지 마세요.'),
                 Text('• 불안하거나 증상이 있으면 즉시 진료기관에 문의하세요.'),
               ],
             ),

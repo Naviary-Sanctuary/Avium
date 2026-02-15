@@ -42,7 +42,9 @@ class SettingsScreen extends StatelessWidget {
                 style: Theme.of(context).textTheme.titleMedium,
               ),
               const SizedBox(height: 6),
-              const Text('• 이 앱은 참고용 정보 앱입니다.'),
+              const Text(
+                '• 이 앱은 앵무새 급여/안전 판단을 돕는 참고용 정보 앱입니다.',
+              ),
               const Text('• 증상이 있거나 불안하면 바로 진료기관에 문의하세요.'),
             ],
           );

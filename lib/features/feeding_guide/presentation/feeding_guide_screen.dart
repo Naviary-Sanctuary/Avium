@@ -11,7 +11,7 @@ class FeedingGuideScreen extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         children: const <Widget>[
           _GuideCard(
-            title: '권장 비율(입문 기준)',
+            title: '급여 권장 비율',
             lines: <String>[
               '펠렛 60~80%',
               '신선식 15~30%',
@@ -19,7 +19,7 @@ class FeedingGuideScreen extends StatelessWidget {
             ],
           ),
           _GuideCard(
-            title: '초보자 5가지 기본 원칙',
+            title: '건강한 앵무새를 위한 급여 5가지 기본 원칙',
             lines: <String>[
               '주식은 펠렛 중심으로 유지하세요.',
               '새 식품은 한 번에 하나씩 소량 도입하세요.',
@@ -31,7 +31,7 @@ class FeedingGuideScreen extends StatelessWidget {
           _GuideCard(
             title: '이용 안내',
             lines: <String>[
-              '본 가이드는 입문자를 위한 일반 원칙입니다.',
+              '본 가이드는 건강한 앵무새를 위한 쉬운 기본 원칙입니다.',
               '종/연령/질환/개체차에 따라 달라질 수 있습니다.',
               '로리/로리킷 등 식성이 뚜렷한 그룹은 별도 가이드가 필요합니다.',
             ],
