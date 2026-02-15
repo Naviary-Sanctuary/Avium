@@ -1,4 +1,4 @@
-package com.example.avium
+package io.naviary.avium
 
 import io.flutter.embedding.android.FlutterActivity
 
