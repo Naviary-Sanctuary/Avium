@@ -518,20 +518,22 @@ class _HomeLanding extends StatelessWidget {
     }
 
     final today = DateTime.now();
-    final recommendFoods = _pickDailyItems(
-      foods.where((food) => food.safetyLevel == SafetyLevel.safe).toList(),
-      today,
-      count: 2,
-    );
-    final riskyFoods = _pickDailyItems(
-      foods.where((food) => food.safetyLevel == SafetyLevel.danger).toList(),
-      today,
-      count: 2,
-    );
-
     return LayoutBuilder(
       builder: (context, constraints) {
         final isWide = constraints.maxWidth >= 640;
+        final itemCount = isWide ? 4 : 2;
+        final recommendFoods = _pickDailyItems(
+          foods.where((food) => food.safetyLevel == SafetyLevel.safe).toList(),
+          today,
+          count: itemCount,
+        );
+        final riskyFoods = _pickDailyItems(
+          foods
+              .where((food) => food.safetyLevel == SafetyLevel.danger)
+              .toList(),
+          today,
+          count: itemCount,
+        );
 
         return Padding(
           padding: const EdgeInsets.all(12),
@@ -577,45 +579,21 @@ class _HomeLanding extends StatelessWidget {
               ),
               const SizedBox(height: 10),
               Expanded(
-                child: isWide
-                    ? Row(
-                        children: <Widget>[
-                          Expanded(
-                            child: _DailyFoodSectionCard(
-                              title: '오늘의 추천 음식',
-                              foods: recommendFoods,
-                              onOpenFood: onOpenFood,
-                            ),
-                          ),
-                          const SizedBox(width: 10),
-                          Expanded(
-                            child: _DailyFoodSectionCard(
-                              title: '오늘의 위험 음식',
-                              foods: riskyFoods,
-                              onOpenFood: onOpenFood,
-                            ),
-                          ),
-                        ],
-                      )
-                    : Column(
-                        children: <Widget>[
-                          Expanded(
-                            child: _DailyFoodSectionCard(
-                              title: '오늘의 추천 음식',
-                              foods: recommendFoods,
-                              onOpenFood: onOpenFood,
-                            ),
-                          ),
-                          const SizedBox(height: 10),
-                          Expanded(
-                            child: _DailyFoodSectionCard(
-                              title: '오늘의 위험 음식',
-                              foods: riskyFoods,
-                              onOpenFood: onOpenFood,
-                            ),
-                          ),
-                        ],
-                      ),
+                child: ListView(
+                  children: <Widget>[
+                    _DailyFoodSectionCard(
+                      title: '오늘의 추천 음식',
+                      foods: recommendFoods,
+                      onOpenFood: onOpenFood,
+                    ),
+                    const SizedBox(height: 10),
+                    _DailyFoodSectionCard(
+                      title: '오늘의 위험 음식',
+                      foods: riskyFoods,
+                      onOpenFood: onOpenFood,
+                    ),
+                  ],
+                ),
               ),
             ],
           ),
@@ -678,16 +656,10 @@ class _DailyFoodSectionCard extends StatelessWidget {
                   ?.copyWith(fontWeight: FontWeight.w800),
             ),
             const SizedBox(height: 8),
-            Expanded(
-              child: Column(
-                children: foods
-                    .map(
-                      (food) => _CompactFoodTile(
-                        food: food,
-                        onTap: () => onOpenFood(food),
-                      ),
-                    )
-                    .toList(growable: false),
+            ...foods.map(
+              (food) => _CompactFoodTile(
+                food: food,
+                onTap: () => onOpenFood(food),
               ),
             ),
           ],
@@ -708,48 +680,45 @@ class _CompactFoodTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Expanded(
-      child: Padding(
-        padding: const EdgeInsets.only(bottom: 8),
-        child: Semantics(
-          button: true,
-          label: '${food.nameKo} 상세 보기',
-          child: InkWell(
-            borderRadius: BorderRadius.circular(12),
-            onTap: onTap,
-            child: Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(12),
-                border:
-                    Border.all(color: Theme.of(context).colorScheme.outline),
-              ),
-              child: Row(
-                children: <Widget>[
-                  Expanded(
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Text(
-                          food.nameKo,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                          style: const TextStyle(fontWeight: FontWeight.w700),
-                        ),
-                        const SizedBox(height: 2),
-                        Text(
-                          food.oneLinerKo,
-                          maxLines: 1,
-                          overflow: TextOverflow.ellipsis,
-                        ),
-                      ],
-                    ),
+    return Padding(
+      padding: const EdgeInsets.only(bottom: 8),
+      child: Semantics(
+        button: true,
+        label: '${food.nameKo} 상세 보기',
+        child: InkWell(
+          borderRadius: BorderRadius.circular(12),
+          onTap: onTap,
+          child: Container(
+            padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 10),
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: Theme.of(context).colorScheme.outline),
+            ),
+            child: Row(
+              children: <Widget>[
+                Expanded(
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                      Text(
+                        food.nameKo,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                        style: const TextStyle(fontWeight: FontWeight.w700),
+                      ),
+                      const SizedBox(height: 2),
+                      Text(
+                        food.oneLinerKo,
+                        maxLines: 1,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                    ],
                   ),
-                  const SizedBox(width: 8),
-                  SafetyBadge(level: food.safetyLevel),
-                ],
-              ),
+                ),
+                const SizedBox(width: 8),
+                SafetyBadge(level: food.safetyLevel),
+              ],
             ),
           ),
         ),
