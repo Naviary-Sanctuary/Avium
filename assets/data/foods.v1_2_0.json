@@ -727,27 +727,32 @@
       "category": "fruit",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "개체별 반응 차이가 있어 보수적으로 접근하세요.",
+      "oneLinerKo": "세척한 과육을 매우 소량으로 시작하세요.",
       "reasonKo": [
-        "포도는 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
-        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 처음 급여는 지양."
+        "포도는 당분과 유기산 비중이 높은 과일이므로 과량 급여 시 소화기 부담과 열량 과잉 위험이 있습니다.",
+        "처음 급여는 금지보다 소량 테스트가 적절하며, 세척한 과육만 드물게 제공하세요. 운영 원칙: 처음엔 아주 소량 테스트."
       ],
       "riskNotesKo": [
-        "처음 급여는 지양"
+        "처음엔 아주 소량 테스트"
       ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": [],
-        "avoidParts": [
-          "초기 급여"
+        "allowedParts": [
+          "과육(세척 후 소량)"
         ],
-        "frequency": "권장하지 않음",
+        "avoidParts": [
+          "건포도",
+          "과량 급여"
+        ],
+        "frequency": "가끔 소량",
         "notes": [],
-        "examplesKo": []
+        "examplesKo": [
+          "처음에는 아주 작은 조각 1개부터 시작"
+        ]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -1606,28 +1611,28 @@
       ],
       "category": "other",
       "foodType": "processed",
-      "safetyLevel": "caution",
-      "oneLinerKo": "당분 농도가 높아 일반 급여는 권장하지 않습니다.",
+      "safetyLevel": "danger",
+      "oneLinerKo": "보툴리즘 및 고당도 위험으로 급여하지 마세요.",
       "reasonKo": [
-        "꿀은 당밀도가 높아 소량이라도 일일 열량과 혈당 부담을 빠르게 올릴 수 있습니다.",
-        "정기 급여보다 드문 보상 간식으로 제한하고 주식 비중을 침해하지 않게 관리해야 합니다. 운영 원칙: 상시 급여 금지."
+        "꿀은 비살균 제품에서 Clostridium botulinum 포자 오염 가능성을 배제하기 어렵고, 조류에서 신경·호흡기 이상 위험이 있습니다.",
+        "당분 농도도 매우 높아 대사 부담이 커지므로 예방적으로 급여 금지를 권장합니다. 운영 원칙: 꿀/벌꿀 가공품 급여 금지."
       ],
       "riskNotesKo": [
-        "상시 급여 금지"
+        "꿀/벌꿀 가공품 급여 금지"
       ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [],
         "avoidParts": [
-          "상시 급여"
+          "전체"
         ],
-        "frequency": "권장하지 않음",
+        "frequency": "급여 금지",
         "notes": [],
         "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -1647,15 +1652,17 @@
         ]
       },
       "emergency": {
-        "baseRisk": "low",
+        "baseRisk": "high",
         "whatToDoKo": [
-          "과섭취 여부를 관찰하세요."
+          "추가 섭취를 즉시 차단하세요."
         ],
         "watchForKo": [
-          "설사"
+          "무기력",
+          "호흡 이상",
+          "신경 증상"
         ],
         "escalationTriggersKo": [
-          "증상 지속 시 문의를 권장합니다."
+          "이상 증상이 보이면 즉시 진료기관 문의를 권장합니다."
         ]
       }
     },
@@ -2318,13 +2325,13 @@
       "safetyLevel": "safe",
       "oneLinerKo": "신선한 과육 소량 제공",
       "reasonKo": [
-        "망고 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거.",
+        "망고 과육은 대체로 급여 가능하지만 씨·핵·질긴 껍질은 질식 및 장폐색 위험이 있습니다.",
+        "과육만 분리해 소량 제공하고 씨/핵·질긴 껍질은 완전히 제거해야 합니다. 운영 원칙: 씨/핵 제거 필수.",
         "과육 기준으로 분리된 항목입니다.",
         "신선한 과육 소량 제공"
       ],
       "riskNotesKo": [
-        "씨/껍질 제거",
+        "씨/핵 제거 필수",
         "신선한 과육 소량 제공"
       ],
       "safetyConditions": [
@@ -2347,7 +2354,7 @@
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -4934,32 +4941,32 @@
       ],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "safe",
-      "oneLinerKo": "소량 채소 급여로 활용 가능합니다.",
+      "safetyLevel": "caution",
+      "oneLinerKo": "옥살산 부담을 고려해 빈도를 제한하세요.",
       "reasonKo": [
-        "근대는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 소량으로 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 깨끗이 세척 후 제공."
+        "근대(Swiss chard/silver beet)는 시금치와 유사하게 옥살산 부담이 높은 편으로, 연속 급여 시 미네랄 이용률에 영향을 줄 수 있습니다.",
+        "세척 후 매우 소량으로 시작하고 다른 녹황색 채소와 교차 급여하세요. 운영 원칙: 연속 급여 지양."
       ],
       "riskNotesKo": [
-        "깨끗이 세척 후 제공"
+        "연속 급여 지양"
       ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [
-          "잎"
+          "잎(소량)"
         ],
         "avoidParts": [
-          "양념된 형태"
+          "연속/과량 급여"
         ],
-        "frequency": "가끔 소량",
+        "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": [
-          "잘게 썰어 소량 제공"
+          "주 1회 이하 소량"
         ]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -4985,13 +4992,14 @@
       "emergency": {
         "baseRisk": "low",
         "whatToDoKo": [
-          "새 음식은 소량부터 시작하세요."
+          "추가 급여를 멈추고 상태를 관찰하세요."
         ],
         "watchForKo": [
-          "변 상태 변화"
+          "묽은 변",
+          "식욕 저하"
         ],
         "escalationTriggersKo": [
-          "이상 지속 시 문의를 권장합니다."
+          "증상 지속 시 문의를 권장합니다."
         ]
       }
     },
@@ -6955,11 +6963,11 @@
       "safetyLevel": "safe",
       "oneLinerKo": "과육은 소량 급여가 가능합니다.",
       "reasonKo": [
-        "감 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
-        "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨 제거 후 제공."
+        "감 씨는 단단하고 크기가 커 질식 및 장폐색 위험이 큽니다.",
+        "과육만 분리해 급여하고 씨는 완전히 제거해야 합니다. 운영 원칙: 씨 제거 필수."
       ],
       "riskNotesKo": [
-        "씨 제거 후 제공"
+        "씨 제거 필수"
       ],
       "safetyConditions": [
         {
@@ -6985,7 +6993,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -7095,14 +7103,15 @@
       "emergency": {
         "baseRisk": "high",
         "whatToDoKo": [
-          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+          "씨 섭취가 의심되면 추가 섭취를 막고 상태를 관찰하세요."
         ],
         "watchForKo": [
-          "묽은 변",
-          "식욕 저하"
+          "구토/역류",
+          "식욕 저하",
+          "무기력"
         ],
         "escalationTriggersKo": [
-          "증상이 지속되면 진료기관 문의를 권장합니다."
+          "증상 발생 시 진료기관 문의를 권장합니다."
         ]
       }
     },
@@ -7261,11 +7270,11 @@
       "safetyLevel": "caution",
       "oneLinerKo": "지방 함량을 고려해 소량만 급여하세요.",
       "reasonKo": [
-        "코코넛은 당밀도가 높아 소량이라도 일일 열량과 혈당 부담을 빠르게 올릴 수 있습니다.",
-        "정기 급여보다 드문 보상 간식으로 제한하고 주식 비중을 침해하지 않게 관리해야 합니다. 운영 원칙: 고지방 주의."
+        "코코넛은 지방 밀도가 높아 소량이라도 열량 과잉과 소화기 부담을 유발할 수 있습니다.",
+        "가당 코코넛 제품은 당류 부담이 추가되므로 피하고, 과육도 드물게 소량만 고려하세요. 운영 원칙: 고지방/가당 제품 주의."
       ],
       "riskNotesKo": [
-        "고지방 주의"
+        "고지방/가당 제품 주의"
       ],
       "safetyConditions": [],
       "portionsKo": {
@@ -7283,7 +7292,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -7324,8 +7333,9 @@
       "nameEn": "Cantaloupe",
       "aliases": [
         "cantaloupe",
-        "멜론",
-        "캔털루프"
+        "캔털루프",
+        "칸탈루프",
+        "머스크멜론"
       ],
       "category": "fruit",
       "foodType": "whole",
@@ -7355,7 +7365,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "welfare-guide",
@@ -7374,8 +7384,9 @@
       "search": {
         "tokens": [
           "cantaloupe",
-          "멜론",
-          "캔털루프"
+          "캔털루프",
+          "칸탈루프",
+          "머스크멜론"
         ]
       },
       "emergency": {
@@ -8404,18 +8415,19 @@
       "nameEn": "Millet",
       "aliases": [
         "millet",
-        "기장"
+        "기장",
+        "밀렛"
       ],
       "category": "grain",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "선호도가 높아 과량 급여를 피하세요.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "대표적인 조류용 곡물로, 과량만 피하면 보완 급여에 활용할 수 있습니다.",
       "reasonKo": [
-        "기장은 전분 비중이 높거나 가공도가 높아 소화 속도와 영양 균형에 영향을 줄 수 있습니다.",
-        "무염·무양념·완전 조리 조건에서만 소량 보완식으로 사용해야 합니다. 운영 원칙: 단일 곡물 위주 급여 금지."
+        "기장(밀렛)은 반려조류 급여에서 널리 쓰이는 곡물로, 무염·무가당 형태를 소량 보완식으로 활용할 수 있습니다.",
+        "선호도가 높아 단일 곡물 편식으로 기울 수 있으므로 주식 사료를 우선하고 간식 비율만 관리하세요. 운영 원칙: 단일 곡물 편식 방지."
       ],
       "riskNotesKo": [
-        "단일 곡물 위주 급여 금지"
+        "단일 곡물 편식 방지"
       ],
       "safetyConditions": [],
       "portionsKo": {
@@ -8423,17 +8435,17 @@
           "플레인 기장(소량)"
         ],
         "avoidParts": [
-          "가당 시리얼"
+          "가당/염분 가공품"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": [
-          "소량부터 시작해 반응을 확인하세요."
+          "주식 사료를 해치지 않는 범위에서 간식으로 소량 제공"
         ]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -8452,17 +8464,17 @@
       "search": {
         "tokens": [
           "millet",
-          "기장"
+          "기장",
+          "밀렛"
         ]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "low",
         "whatToDoKo": [
-          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
+          "과량 급여를 멈추고 수분 섭취를 관찰하세요."
         ],
         "watchForKo": [
-          "묽은 변",
-          "식욕 저하"
+          "묽은 변"
         ],
         "escalationTriggersKo": [
           "증상이 지속되면 진료기관 문의를 권장합니다."
@@ -9232,21 +9244,19 @@
       "safetyLevel": "caution",
       "oneLinerKo": "개체 차이를 고려해 소량/주의 급여가 필요합니다.",
       "reasonKo": [
-        "스타프루트는 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
-        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 초기 소량 테스트 권장."
+        "스타프루트에는 고농도 옥살산과 caramboxin이 포함될 수 있어 신장 기능이 취약한 개체에서 신경·신장 독성 위험이 보고됩니다.",
+        "일상 급여는 피하고 불가피한 경우에도 극소량 테스트 수준으로만 제한하세요. 운영 원칙: 권장하지 않음."
       ],
       "riskNotesKo": [
-        "초기 소량 테스트 권장"
+        "권장하지 않음"
       ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": [
-          "가식부(소량)"
-        ],
+        "allowedParts": [],
         "avoidParts": [
-          "양념/가공 형태"
+          "전체"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": [
           "처음 급여 시 아주 소량부터 시작하세요."
@@ -9254,7 +9264,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -10417,13 +10427,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "high",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "reference",
@@ -10521,13 +10529,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "high",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "reference",
@@ -10626,13 +10632,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "high",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "reference",
@@ -12618,13 +12622,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -12716,13 +12718,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -12891,13 +12891,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -12988,13 +12986,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음 급여 시 아주 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -13641,21 +13637,24 @@
       "safetyLevel": "caution",
       "oneLinerKo": "주의 급여가 필요합니다.",
       "reasonKo": [
-        "사워솝은 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
-        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "사워솝의 씨와 잎에는 annonacin 등 신경독성 관련 성분이 보고되어 반려조류 급여 시 보수적 접근이 필요합니다.",
+        "씨·껍질·잎은 피하고 과육도 일상 급여는 권장하지 않습니다. 운영 원칙: 씨/잎 급여 금지, 과육 극소량만 고려."
       ],
       "riskNotesKo": [
-        "소량 테스트 후 반응 확인"
+        "씨/잎 급여 금지",
+        "과육도 권장하지 않음"
       ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [
-          "가식부(소량)"
+          "과육(극소량)"
         ],
         "avoidParts": [
-          "양념/가공 형태"
+          "씨",
+          "껍질",
+          "잎"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": [
           "처음엔 매우 소량부터 시작하세요."
@@ -13663,7 +13662,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13852,32 +13851,28 @@
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
+      "safetyLevel": "danger",
+      "oneLinerKo": "독성 성분 가능성 때문에 급여하지 마세요.",
       "reasonKo": [
-        "엘더베리는 과일군 특성상 당분·유기산 비중이 높아 과량 급여 시 장내 발효와 영양 불균형을 만들 수 있습니다.",
-        "과육 중심으로 소량만 제공하고 주식(균형 사료) 비율을 우선 유지해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "엘더베리 식물의 잎·줄기·미숙 과실·씨에는 cyanogenic glycosides(sambunigrin) 및 렉틴 계열 성분이 포함될 수 있어 위장·신경계 위험이 있습니다.",
+        "성숙·가열 조건에서 위험이 낮아질 수 있다는 보고가 있어도 반려조류 급여에서는 부위·숙성·가공 편차 관리가 어려워 예방적으로 금지합니다. 운영 원칙: 급여 금지."
       ],
       "riskNotesKo": [
-        "소량 테스트 후 반응 확인"
+        "급여 금지"
       ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": [
-          "가식부(소량)"
-        ],
+        "allowedParts": [],
         "avoidParts": [
-          "양념/가공 형태"
+          "전체"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -13900,16 +13895,17 @@
         ]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "high",
         "whatToDoKo": [
-          "추가 급여를 멈추고 상태를 관찰하세요."
+          "추가 섭취를 즉시 차단하세요."
         ],
         "watchForKo": [
+          "구토/역류",
           "묽은 변",
-          "식욕 저하"
+          "무기력"
         ],
         "escalationTriggersKo": [
-          "증상 지속 시 문의를 권장합니다."
+          "증상이 나타나면 즉시 진료기관 문의를 권장합니다."
         ]
       }
     },
@@ -14211,24 +14207,25 @@
       ],
       "category": "fruit",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "과육을 소량 간식으로 활용할 수 있습니다.",
       "reasonKo": [
-        "허니듀는 당밀도가 높아 소량이라도 일일 열량과 혈당 부담을 빠르게 올릴 수 있습니다.",
-        "정기 급여보다 드문 보상 간식으로 제한하고 주식 비중을 침해하지 않게 관리해야 합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "허니듀는 멜론류 과육으로, 세척한 가식부를 소량 간식으로 제공할 수 있습니다.",
+        "씨와 껍질은 제거하고 과량 급여를 피하세요. 운영 원칙: 과량 급여 금지."
       ],
       "riskNotesKo": [
-        "소량 테스트 후 반응 확인"
+        "과량 급여 금지"
       ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [
-          "가식부(소량)"
+          "과육"
         ],
         "avoidParts": [
-          "양념/가공 형태"
+          "씨",
+          "껍질"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": [
           "처음엔 매우 소량부터 시작하세요."
@@ -14236,7 +14233,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -14259,16 +14256,16 @@
         ]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "low",
         "whatToDoKo": [
-          "추가 급여를 멈추고 상태를 관찰하세요."
+          "처음 급여 시 소량으로 시작하고 반응을 관찰하세요."
         ],
         "watchForKo": [
           "묽은 변",
           "식욕 저하"
         ],
         "escalationTriggersKo": [
-          "증상 지속 시 문의를 권장합니다."
+          "증상이 지속되면 진료기관 문의를 권장합니다."
         ]
       }
     },
@@ -14873,13 +14870,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -15107,13 +15102,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -15196,13 +15189,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -15285,13 +15276,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -15430,32 +15419,28 @@
       ],
       "category": "drink",
       "foodType": "processed",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
+      "safetyLevel": "danger",
+      "oneLinerKo": "발효 음료 특성상 급여하지 마세요.",
       "reasonKo": [
-        "콤부차는 액상 형태로 당류·산도·첨가물이 빠르게 흡수되어 혈당 및 소화기 부담을 키울 수 있습니다.",
-        "섬유질 완충이 없는 음료는 일상 급여보다 회피가 안전하며, 필요 시에도 극소량만 고려하세요. 운영 원칙: 소량 테스트 후 반응 확인."
+        "콤부차는 발효 과정에서 알코올·카페인·유기산이 포함될 수 있어 체중이 작은 조류에 신경계 및 소화기 부담을 줄 수 있습니다.",
+        "제품별 성분 편차가 커 안전량을 설정하기 어려우므로 예방적으로 급여 금지를 권장합니다. 운영 원칙: 급여 금지."
       ],
       "riskNotesKo": [
-        "소량 테스트 후 반응 확인"
+        "급여 금지"
       ],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": [
-          "가식부(소량)"
-        ],
+        "allowedParts": [],
         "avoidParts": [
-          "양념/가공 형태"
+          "전체"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -15478,16 +15463,17 @@
         ]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "high",
         "whatToDoKo": [
-          "추가 급여를 멈추고 상태를 관찰하세요."
+          "추가 섭취를 즉시 차단하세요."
         ],
         "watchForKo": [
-          "묽은 변",
-          "식욕 저하"
+          "흥분",
+          "구토/역류",
+          "호흡 이상"
         ],
         "escalationTriggersKo": [
-          "증상 지속 시 문의를 권장합니다."
+          "이상 증상이 보이면 즉시 진료기관 문의를 권장합니다."
         ]
       }
     },
@@ -15589,13 +15575,11 @@
         ],
         "frequency": "급여 금지",
         "notes": [],
-        "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
-        ]
+        "examplesKo": []
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "veterinary-article",
@@ -16229,32 +16213,32 @@
       ],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "caution",
-      "oneLinerKo": "주의 급여가 필요합니다.",
+      "safetyLevel": "safe",
+      "oneLinerKo": "세척한 잎을 소량 채소 급여에 활용할 수 있습니다.",
       "reasonKo": [
-        "콜라드그린은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 소량 테스트 후 반응 확인."
+        "콜라드그린은 다양한 채소 식단에서 활용되는 잎채소로, 시금치·근대 대비 옥살산 부담이 낮은 편으로 알려져 있습니다.",
+        "세척 후 소량부터 시작하고 채소를 교차 급여하면 균형 관리에 도움이 됩니다. 운영 원칙: 세척 후 소량 제공."
       ],
       "riskNotesKo": [
-        "소량 테스트 후 반응 확인"
+        "세척 후 소량 제공"
       ],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": [
-          "가식부(소량)"
+          "잎"
         ],
         "avoidParts": [
           "양념/가공 형태"
         ],
-        "frequency": "드물게 소량",
+        "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": [
-          "처음엔 매우 소량부터 시작하세요."
+          "잘게 썰어 소량 제공"
         ]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-15",
       "sources": [
         {
           "type": "hospital-guide",
@@ -16278,16 +16262,15 @@
         ]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "low",
         "whatToDoKo": [
-          "추가 급여를 멈추고 상태를 관찰하세요."
+          "새 음식은 소량부터 시작하세요."
         ],
         "watchForKo": [
-          "묽은 변",
-          "식욕 저하"
+          "변 상태 변화"
         ],
         "escalationTriggersKo": [
-          "증상 지속 시 문의를 권장합니다."
+          "이상 지속 시 문의를 권장합니다."
         ]
       }
     },
