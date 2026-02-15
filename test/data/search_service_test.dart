@@ -18,7 +18,7 @@ void main() {
   test('prefix match ranks first', () {
     final results = service.search(db.foods, '사과');
 
-    expect(results.first.id, 'foodApple');
+    expect(results.first.id, 'foodApple__flesh');
   });
 
   test('contains match works', () {
@@ -39,12 +39,12 @@ void main() {
 
     expect(ids, contains('foodAvocado'));
     expect(ids, isNot(contains('foodHoney')));
-    expect(ids, isNot(contains('foodRice')));
+    expect(ids.where((id) => id.startsWith('foodRice__')), isEmpty);
   });
 
   test('multi consonant query ranks closest initial match first', () {
     final results = service.search(db.foods, 'ㅅㄱ');
 
-    expect(results.first.id, 'foodApple');
+    expect(results.first.id, 'foodApple__flesh');
   });
 }

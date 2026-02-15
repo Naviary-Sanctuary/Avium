@@ -6,10 +6,12 @@ class SearchService {
 
   final int fuzzyCandidateLimit;
   static final RegExp _singleJamoPattern = RegExp(r'^[ㄱ-ㅎㅏ-ㅣ]+$');
+  static final RegExp _singleConsonantPattern = RegExp(r'^[ㄱ-ㅎ]$');
 
   List<FoodItem> search(List<FoodItem> foods, String query) {
     final normalized = StringNormalizer.normalize(query);
     final noSpace = StringNormalizer.normalizeNoSpace(query);
+    final isSingleConsonantQuery = _singleConsonantPattern.hasMatch(noSpace);
     if (normalized.isEmpty || noSpace.isEmpty) {
       return foods;
     }
@@ -23,6 +25,9 @@ class SearchService {
         continue;
       }
 
+      if (isSingleConsonantQuery) {
+        continue;
+      }
       final containsScore = _containsScore(tokens, normalized, noSpace);
       if (containsScore != null) {
         scored.add(_ScoredFood(food, 1, containsScore));

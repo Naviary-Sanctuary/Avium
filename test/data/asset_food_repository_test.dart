@@ -67,7 +67,6 @@ final String _expandedDbJson = jsonEncode(
             'prep': 'raw',
             'level': 'safe',
             'noteKo': '과육은 소량 급여 가능',
-            'sourceIndexes': <int>[0],
           },
         ],
         'portionsKo': <String, dynamic>{
@@ -116,7 +115,6 @@ final String _expandedDbJson = jsonEncode(
             'prep': 'any',
             'level': 'danger',
             'noteKo': '씨앗은 급여 금지',
-            'sourceIndexes': <int>[0],
           },
         ],
         'portionsKo': <String, dynamic>{

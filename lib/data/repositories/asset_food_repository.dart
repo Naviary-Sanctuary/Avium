@@ -9,7 +9,7 @@ import 'food_repository.dart';
 
 class AssetFoodRepository implements FoodRepository {
   AssetFoodRepository({
-    this.assetPath = 'assets/data/foods.v1_2_0.expanded.json',
+    this.assetPath = 'assets/data/foods.v1_2_0.json',
     AssetBundle? assetBundle,
     SearchService? searchService,
   })  : _assetBundle = assetBundle ?? rootBundle,
