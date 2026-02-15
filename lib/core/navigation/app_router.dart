@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
@@ -16,40 +17,64 @@ final class AppRouter {
         GoRoute(
           path: '/',
           name: 'home',
-          builder: (BuildContext context, GoRouterState state) {
-            return const SearchScreen();
+          pageBuilder: (BuildContext context, GoRouterState state) {
+            return _buildPage(state: state, child: const SearchScreen());
           },
         ),
         GoRoute(
           path: '/food/:id',
           name: 'food-detail',
-          builder: (BuildContext context, GoRouterState state) {
+          pageBuilder: (BuildContext context, GoRouterState state) {
             final id = state.pathParameters['id'] ?? 'unknown';
-            return FoodDetailScreen(foodId: id);
+            return _buildPage(
+              state: state,
+              child: FoodDetailScreen(foodId: id),
+            );
           },
         ),
         GoRoute(
           path: '/emergency',
           name: 'emergency',
-          builder: (BuildContext context, GoRouterState state) {
-            return EmergencyScreen(foodId: state.uri.queryParameters['foodId']);
+          pageBuilder: (BuildContext context, GoRouterState state) {
+            return _buildPage(
+              state: state,
+              child:
+                  EmergencyScreen(foodId: state.uri.queryParameters['foodId']),
+            );
           },
         ),
         GoRoute(
           path: '/guide',
           name: 'guide',
-          builder: (BuildContext context, GoRouterState state) {
-            return const FeedingGuideScreen();
+          pageBuilder: (BuildContext context, GoRouterState state) {
+            return _buildPage(state: state, child: const FeedingGuideScreen());
           },
         ),
         GoRoute(
           path: '/settings',
           name: 'settings',
-          builder: (BuildContext context, GoRouterState state) {
-            return const SettingsScreen();
+          pageBuilder: (BuildContext context, GoRouterState state) {
+            return _buildPage(state: state, child: const SettingsScreen());
           },
         ),
       ],
+    );
+  }
+
+  static Page<void> _buildPage({
+    required GoRouterState state,
+    required Widget child,
+  }) {
+    if (kIsWeb) {
+      return NoTransitionPage<void>(
+        key: state.pageKey,
+        child: child,
+      );
+    }
+
+    return MaterialPage<void>(
+      key: state.pageKey,
+      child: child,
     );
   }
 }

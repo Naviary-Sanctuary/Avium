@@ -14,6 +14,7 @@ class AviumApp extends StatefulWidget {
 
 class _AviumAppState extends State<AviumApp> {
   late final AppState _appState;
+  late final router = AppRouter.create();
 
   @override
   void initState() {
@@ -36,7 +37,7 @@ class _AviumAppState extends State<AviumApp> {
         themeMode: ThemeMode.system,
         theme: AppTheme.light,
         darkTheme: AppTheme.dark,
-        routerConfig: AppRouter.create(),
+        routerConfig: router,
         debugShowCheckedModeBanner: false,
       ),
     );
