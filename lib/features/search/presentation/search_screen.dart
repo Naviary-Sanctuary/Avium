@@ -282,7 +282,7 @@ class _SearchScreenState extends State<SearchScreen> {
                   ],
                   const SizedBox(height: 12),
                   const Text(
-                    '면책 안내',
+                    '참고 안내',
                     style: TextStyle(fontWeight: FontWeight.w700),
                   ),
                   const SizedBox(height: 6),
