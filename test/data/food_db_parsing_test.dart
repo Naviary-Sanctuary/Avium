@@ -13,10 +13,34 @@ void main() {
     final db = FoodDb.fromJson(map);
 
     expect(db.meta.dataVersion, '1.2.0');
-    expect(db.foods.length, greaterThanOrEqualTo(30));
+    expect(db.foods.length, greaterThanOrEqualTo(100));
     expect(
-      db.foods.where((food) => food.id == 'foodApple').length,
-      1,
+      db.foods.where((food) => food.id.startsWith('foodApple__')).length,
+      greaterThanOrEqualTo(1),
+    );
+    expect(
+      db.foods.where((food) => food.id.startsWith('foodApricot__')).length,
+      greaterThanOrEqualTo(2),
+    );
+    expect(
+      db.foods.where((food) => food.id.startsWith('foodPlum__')).length,
+      greaterThanOrEqualTo(2),
+    );
+    expect(
+      db.foods.where((food) => food.id.startsWith('foodEggplant__')).length,
+      greaterThanOrEqualTo(3),
+    );
+    expect(
+      db.foods.any((food) => food.id == 'foodEggplant__leaf'),
+      isTrue,
+    );
+    expect(
+      db.foods.any((food) => food.id == 'foodEggplant__stem'),
+      isTrue,
+    );
+    expect(
+      db.foods.any((food) => food.id == 'foodEggplant__leaf_stem'),
+      isFalse,
     );
   });
 

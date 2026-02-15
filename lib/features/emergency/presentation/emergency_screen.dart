@@ -38,6 +38,22 @@ class _EmergencyScreenState extends State<EmergencyScreen> {
   @override
   Widget build(BuildContext context) {
     final selectedFood = _resolveFood();
+    final partOptions = selectedFood?.safetyConditions
+            .map((condition) => condition.part)
+            .toSet()
+            .toList() ??
+        <PartType>[];
+    partOptions.sort((a, b) => a.index.compareTo(b.index));
+    final prepOptions = selectedFood?.safetyConditions
+            .map((condition) => condition.prep)
+            .toSet()
+            .toList() ??
+        <PrepType>[];
+    prepOptions.sort((a, b) => a.index.compareTo(b.index));
+    final effectivePart =
+        _partType ?? (partOptions.length == 1 ? partOptions.first : null);
+    final effectivePrep =
+        _prepType ?? (prepOptions.length == 1 ? prepOptions.first : null);
 
     final baseRisk =
         selectedFood?.emergency.baseRisk ?? EmergencyRiskLevel.medium;
@@ -46,8 +62,8 @@ class _EmergencyScreenState extends State<EmergencyScreen> {
         : _conditionMatcher.match(
             representativeLevel: selectedFood.safetyLevel,
             conditions: selectedFood.safetyConditions,
-            selectedPart: _partType,
-            selectedPrep: _prepType,
+            selectedPart: effectivePart,
+            selectedPrep: effectivePrep,
           );
     final adjustedRisk = _adjustedBaseRisk(
       baseRisk: baseRisk,
@@ -118,8 +134,8 @@ class _EmergencyScreenState extends State<EmergencyScreen> {
           if (selectedFood != null && selectedFood.safetyConditions.isNotEmpty)
             _ConditionInput(
               food: selectedFood,
-              selectedPart: _partType,
-              selectedPrep: _prepType,
+              selectedPart: effectivePart,
+              selectedPrep: effectivePrep,
               onPartChanged: (value) {
                 setState(() {
                   _partType = value;
@@ -301,33 +317,45 @@ class _ConditionInput extends StatelessWidget {
       padding: const EdgeInsets.only(top: 12),
       child: Column(
         children: <Widget>[
-          DropdownButtonFormField<PartType>(
-            initialValue: selectedPart,
-            hint: const Text('부위 선택(선택)'),
-            items: parts
-                .map(
-                  (part) => DropdownMenuItem<PartType>(
-                    value: part,
-                    child: Text(part.labelKo),
-                  ),
-                )
-                .toList(growable: false),
-            onChanged: onPartChanged,
-          ),
+          if (parts.length == 1)
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Text('부위: ${parts.first.labelKo}'),
+            )
+          else
+            DropdownButtonFormField<PartType>(
+              initialValue: selectedPart,
+              hint: const Text('부위 선택(선택)'),
+              items: parts
+                  .map(
+                    (part) => DropdownMenuItem<PartType>(
+                      value: part,
+                      child: Text(part.labelKo),
+                    ),
+                  )
+                  .toList(growable: false),
+              onChanged: onPartChanged,
+            ),
           const SizedBox(height: 8),
-          DropdownButtonFormField<PrepType>(
-            initialValue: selectedPrep,
-            hint: const Text('형태·조리 선택(선택)'),
-            items: preps
-                .map(
-                  (prep) => DropdownMenuItem<PrepType>(
-                    value: prep,
-                    child: Text(prep.labelKo),
-                  ),
-                )
-                .toList(growable: false),
-            onChanged: onPrepChanged,
-          ),
+          if (preps.length == 1)
+            Align(
+              alignment: Alignment.centerLeft,
+              child: Text('형태·조리: ${preps.first.labelKo}'),
+            )
+          else
+            DropdownButtonFormField<PrepType>(
+              initialValue: selectedPrep,
+              hint: const Text('형태·조리 선택(선택)'),
+              items: preps
+                  .map(
+                    (prep) => DropdownMenuItem<PrepType>(
+                      value: prep,
+                      child: Text(prep.labelKo),
+                    ),
+                  )
+                  .toList(growable: false),
+              onChanged: onPrepChanged,
+            ),
         ],
       ),
     );
