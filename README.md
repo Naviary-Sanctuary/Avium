@@ -79,3 +79,9 @@ dart run tool/search_quality_report.dart \
 
 - 코드: MIT (`LICENSE`)
 - 데이터/출처 매핑 문서: 별도 라이선스 (`LICENSE_DATA.md`)
+
+## 배포 서명 보안
+
+- 실제 비밀값은 `android/key.properties`에 두고 Git에는 커밋하지 않습니다.
+- 샘플은 `android/key.properties.example`을 사용하세요.
+- 릴리즈 빌드(`appbundle/apk release`) 시 서명 설정이 없으면 빌드가 실패하도록 구성되어 있습니다.
