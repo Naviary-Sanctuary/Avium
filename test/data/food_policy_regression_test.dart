@@ -38,6 +38,18 @@ void main() {
     }
   });
 
+  test('oneLinerKo does not start with name + 은/는 pattern', () {
+    final leadingTopicMarker = RegExp(r'^[가-힣A-Za-z0-9()\\-]+(?:은|는)\\s');
+
+    for (final food in db.foods) {
+      expect(
+        leadingTopicMarker.hasMatch(food.oneLinerKo),
+        isFalse,
+        reason: '${food.id} starts with forbidden topic marker',
+      );
+    }
+  });
+
   test('danger items use high baseRisk', () {
     for (final food
         in db.foods.where((item) => item.safetyLevel.name == 'danger')) {
@@ -56,5 +68,56 @@ void main() {
     expect(byId['foodJam']?.safetyLevel.name, 'caution');
     expect(byId['foodPasta']?.safetyLevel.name, 'safe');
     expect(byId['foodCouscous']?.safetyLevel.name, 'safe');
+  });
+
+  test('agreed nut and tofu overrides are preserved', () {
+    final byId = {for (final food in db.foods) food.id: food};
+
+    const expected = <String, ({String level, String baseRisk})>{
+      'foodWalnut': (level: 'safe', baseRisk: 'low'),
+      'foodCashew': (level: 'safe', baseRisk: 'low'),
+      'foodHazelnut': (level: 'safe', baseRisk: 'low'),
+      'foodPecan': (level: 'safe', baseRisk: 'low'),
+      'foodPistachio': (level: 'safe', baseRisk: 'low'),
+      'foodPeanutInShell': (level: 'safe', baseRisk: 'low'),
+      'foodTofu': (level: 'safe', baseRisk: 'low'),
+      'foodPeanut': (level: 'safe', baseRisk: 'low'),
+      'foodMixedNuts': (level: 'caution', baseRisk: 'medium'),
+      'foodTempeh': (level: 'caution', baseRisk: 'medium'),
+    };
+
+    for (final entry in expected.entries) {
+      final item = byId[entry.key];
+      expect(item, isNotNull, reason: '${entry.key} is missing');
+      expect(
+        item?.safetyLevel.name,
+        entry.value.level,
+        reason: '${entry.key} safetyLevel mismatch',
+      );
+      expect(
+        item?.emergency.baseRisk.name,
+        entry.value.baseRisk,
+        reason: '${entry.key} baseRisk mismatch',
+      );
+    }
+  });
+
+  test('oxalate leafy greens remain caution', () {
+    final byId = {for (final food in db.foods) food.id: food};
+    const oxalateLeafyIds = <String>[
+      'foodSpinach',
+      'foodSilverBeet',
+      'foodMustardGreens',
+      'foodTurnipGreens',
+      'foodBeetGreens',
+    ];
+
+    for (final id in oxalateLeafyIds) {
+      expect(
+        byId[id]?.safetyLevel.name,
+        'caution',
+        reason: '$id should remain caution',
+      );
+    }
   });
 }

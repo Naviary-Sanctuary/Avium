@@ -73,13 +73,24 @@ dart run tool/search_quality_report.dart --input assets/data/foods.json --min-to
 ## 8. 안전도/리스크 판정 기준
 
 - `safetyLevel`
-  - `safe`: 먹어도 안전한 것. 과량 섭취로 비만/대사 부담이 생기면 `reasonKo`에 기록
-  - `caution`: 양·빈도 누적 시 신체 부담 또는 증상 가능성이 있는 것
+  - `safe`: 비독성 항목으로 급여 가능하되 과량 부담은 빈도/문구로 관리하는 것
+  - `caution`: 아래 중 하나에 해당하는 것
+    - 소량에서도 개체별 즉시 증상 가능성이 있는 항목
+    - 조리/전처리 미흡 시 위험이 커지는 항목(예: 생콩류)
+    - 공장 가공/혼합/첨가물 편차가 큰 항목
   - `danger`: 독성/질병 유발 등 신체 위험이 뚜렷한 것
 - `baseRisk`
   - `low`: 먹어도 대체로 괜찮은 것
   - `medium`: 먹었을 때 증상이 있을 수 있는 것
   - `high`: 먹었을 때 치명적일 수 있는 것
+- `1.2.2` 리비전 메모
+  - 단일 견과류 6종(`foodWalnut`, `foodCashew`, `foodHazelnut`,
+    `foodPecan`, `foodPistachio`, `foodPeanutInShell`)은 `safe`로 조정
+  - `foodMixedNuts`는 `caution` 유지
+  - `foodTofu`는 `safe`, `foodTempeh`는 `caution` 유지
+  - 옥살산 채소군(`foodSpinach`, `foodSilverBeet`,
+    `foodMustardGreens`, `foodTurnipGreens`, `foodBeetGreens`)은
+    `caution` 유지
 
 ## 9. 출처/링크 검증 정책
 

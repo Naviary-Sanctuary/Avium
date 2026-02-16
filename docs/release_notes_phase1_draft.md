@@ -7,9 +7,12 @@
 - Detail screen with condition chips (part x prep) and conservative fallback rules
 - Emergency mode with rule-based risk output (Low/Medium/High)
 - Beginner feeding guide and settings metadata (`dataVersion`, `reviewedAt`)
-- Data copy/risk criteria revision (`1.2.1`): all `oneLinerKo` rewritten,
-  `danger` base risk unified to `high`, and processed-food reclassification
-  applied for bread/jam (`safe -> caution`)
+- Data copy/risk criteria revision (`1.2.2`):
+  - `safe/caution` 경계를
+    `즉시 증상 가능성/조리-전처리 리스크/가공-첨가물 편차` 중심으로 재정의
+  - 단일 견과류 6종 및 두부를 `safe`로 조정
+  - `foodMixedNuts`, `foodTempeh`, 옥살산 채소군은 `caution` 유지
+  - `danger` 항목 `baseRisk=high` 규칙 유지
 
 ## Safety messaging
 

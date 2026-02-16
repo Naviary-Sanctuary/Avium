@@ -72,13 +72,20 @@ dart run tool/generate_search_tokens.dart --check
 - `oneLinerKo`에는 동일한 문장을 반복 사용하지 않습니다.
 - `~~는 급여 금지입니다.` 같은 고정 금지형 문장 대신 위험 원인을 먼저 설명합니다.
 - `safetyLevel` 기준:
-  - `safe`: 먹어도 안전한 범주(과량 시 비만 가능성은 `reasonKo`/`riskNotesKo`로 안내)
-  - `caution`: 양/빈도 누적 시 부담 또는 증상 가능성이 있는 범주
+  - `safe`: 비독성 항목으로 급여 가능하되, 과량 부담은 `reasonKo`/`riskNotesKo`
+    /`portionsKo.frequency`로 제한하는 범주
+  - `caution`: 소량에서도 증상 가능성이 있거나 조리/전처리 실패 시 위험해질 수
+    있거나 공장 가공/혼합/첨가물 편차가 큰 범주
   - `danger`: 독성/질병 유발 등 신체 위험이 뚜렷한 범주
 - `baseRisk` 기준:
   - `low`: 먹어도 대체로 괜찮은 항목
   - `medium`: 먹었을 때 증상이 나타날 수 있는 항목
   - `high`: 먹었을 때 치명적일 수 있는 항목
+- `1.2.2` 리비전 정책:
+  - 단일 견과류(호두/캐슈넛/헤이즐넛/피칸/피스타치오/껍질땅콩)는 `safe`
+  - `foodMixedNuts`는 가공 혼합식품 리스크로 `caution` 유지
+  - `foodTofu`는 `safe`, `foodTempeh`는 발효 편차 리스크로 `caution` 유지
+  - 시금치/근대/겨자잎/순무잎/비트잎은 옥살산 부담으로 `caution` 유지
 
 ## 검색 성능/품질 점검 (로컬 전용)
 

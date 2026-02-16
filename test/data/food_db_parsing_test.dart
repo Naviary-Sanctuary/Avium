@@ -12,7 +12,7 @@ void main() {
 
     final db = FoodDb.fromJson(map);
 
-    expect(db.meta.dataVersion, '1.2.1');
+    expect(db.meta.dataVersion, '1.2.2');
     expect(db.foods.length, greaterThanOrEqualTo(100));
     expect(
       db.foods.where((food) => food.id.startsWith('foodApple__')).length,
