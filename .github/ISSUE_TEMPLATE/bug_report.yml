@@ -1,0 +1,86 @@
+name: Bug report
+description: Report a reproducible bug in Avium.
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        감사합니다. 재현 가능한 버그를 자세히 적어 주시면
+        해결 속도가 빨라집니다.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-check
+      options:
+        - label: 기존 이슈/PR 중복 여부를 확인했습니다.
+          required: true
+        - label: 최신 `main` 기준으로 재현을 확인했습니다.
+          required: true
+
+  - type: input
+    id: app_version
+    attributes:
+      label: App version
+      description: 예) v1.2.2
+      placeholder: v1.2.2
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Android
+        - iOS
+        - Web (Chrome)
+        - macOS
+        - Windows
+        - Linux
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: 재현 절차를 번호로 작성해 주세요.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      placeholder: 기대한 동작을 설명해 주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+      placeholder: 실제 동작을 설명해 주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / stack trace
+      description: 로그가 있으면 붙여 주세요.
+      render: shell
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: 스크린샷, 영상, 네트워크/기기 조건 등을 작성해 주세요.

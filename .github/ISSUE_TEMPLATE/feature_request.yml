@@ -1,0 +1,65 @@
+name: Feature request
+description: Suggest an improvement or a new feature.
+title: "[Feature] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제안 감사합니다. 문제 정의와 기대 효과를 함께 적어 주시면
+        우선순위 판단에 큰 도움이 됩니다.
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Pre-check
+      options:
+        - label: 기존 이슈/PR과 중복되지 않는지 확인했습니다.
+          required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem statement
+      description: 현재 어떤 불편/한계가 있나요?
+      placeholder: |
+        현재 ...
+        그래서 ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed solution
+      description: 원하는 동작과 UX를 구체적으로 작성해 주세요.
+      placeholder: |
+        다음과 같이 개선하면 좋겠습니다.
+        - ...
+        - ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: 고려했던 대안이 있다면 적어 주세요.
+
+  - type: dropdown
+    id: impact
+    attributes:
+      label: Expected impact
+      options:
+        - High (many users / safety-critical)
+        - Medium
+        - Low
+    validations:
+      required: true
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional context
+      description: 참고 링크, 디자인, 데이터 근거를 적어 주세요.

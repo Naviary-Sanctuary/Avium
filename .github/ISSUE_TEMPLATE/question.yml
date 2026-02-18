@@ -1,0 +1,35 @@
+name: Question
+description: Ask a usage, architecture, or contribution question.
+title: "[Question] "
+labels:
+  - question
+body:
+  - type: markdown
+    attributes:
+      value: |
+        사용법 또는 개발 관련 질문을 남겨 주세요.
+        가능한 한 맥락과 시도한 내용을 함께 작성해 주세요.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Question
+      placeholder: 궁금한 내용을 작성해 주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: 코드 위치, 실행 환경, 시도한 방법 등을 적어 주세요.
+      placeholder: |
+        - Environment:
+        - Related file/path:
+        - Tried:
+
+  - type: textarea
+    id: additional
+    attributes:
+      label: Additional details
+      description: 로그, 스크린샷, 참고 링크를 추가해 주세요.
