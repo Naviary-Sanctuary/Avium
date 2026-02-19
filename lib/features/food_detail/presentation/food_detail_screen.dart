@@ -74,7 +74,9 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
                 const MixedProcessedWarningBanner(),
               _FirstView(food: food, level: result.resolvedLevel),
               const SizedBox(height: 16),
-              if (food.safetyConditions.isNotEmpty)
+              if (food.safetyConditions.isNotEmpty) ...<Widget>[
+                const _DetailCheckNoticeCard(),
+                const SizedBox(height: 12),
                 _ConditionSelector(
                   selectedPart: effectivePart,
                   selectedPrep: effectivePrep,
@@ -90,26 +92,14 @@ class _FoodDetailScreenState extends State<FoodDetailScreen> {
                     });
                   },
                 ),
-              if (!result.isComplete && food.safetyConditions.isNotEmpty)
+              ],
+              if (food.safetyConditions.isNotEmpty &&
+                  (!result.isComplete || result.isAmbiguous))
                 Padding(
                   padding: const EdgeInsets.only(top: 8),
-                  child: Text(
-                    '조건 선택이 완전하지 않아 보수적으로 표시됩니다.',
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.error,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                ),
-              if (result.isAmbiguous)
-                Padding(
-                  padding: const EdgeInsets.only(top: 6),
-                  child: Text(
-                    '조건이 애매해 보수적으로 상향된 결과를 표시합니다.',
-                    style: TextStyle(
-                      color: Theme.of(context).colorScheme.error,
-                      fontWeight: FontWeight.w600,
-                    ),
+                  child: _ConditionStatusWarningCard(
+                    isComplete: result.isComplete,
+                    isAmbiguous: result.isAmbiguous,
                   ),
                 ),
               if (food.safetyConditions.isNotEmpty)
@@ -197,6 +187,109 @@ class _FirstView extends StatelessWidget {
   }
 }
 
+class _DetailCheckNoticeCard extends StatelessWidget {
+  const _DetailCheckNoticeCard();
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final onSecondaryContainer = scheme.onSecondaryContainer;
+    return Card(
+      color: scheme.secondaryContainer.withValues(alpha: 0.45),
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Row(
+              children: <Widget>[
+                Icon(Icons.rule_folder_outlined, color: onSecondaryContainer),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    '최종 판단 전 필수 확인',
+                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                          color: onSecondaryContainer,
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              '• 부위와 형태·조리를 먼저 선택해 주세요.',
+              style: TextStyle(color: onSecondaryContainer),
+            ),
+            Text(
+              '• 아래 급여 팁의 가능/피할 부위를 함께 확인해 주세요.',
+              style: TextStyle(color: onSecondaryContainer),
+            ),
+            Text(
+              '• 같은 음식도 씨앗·껍질·잎에 따라 결과가 달라질 수 있습니다.',
+              style: TextStyle(color: onSecondaryContainer),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+class _ConditionStatusWarningCard extends StatelessWidget {
+  const _ConditionStatusWarningCard({
+    required this.isComplete,
+    required this.isAmbiguous,
+  });
+
+  final bool isComplete;
+  final bool isAmbiguous;
+
+  @override
+  Widget build(BuildContext context) {
+    final messages = <String>[
+      if (!isComplete) '부위/형태 선택이 완전하지 않아 보수적으로 표시됩니다.',
+      if (isAmbiguous) '조건이 애매해 더 위험한 쪽으로 상향된 결과를 표시합니다.',
+    ];
+    final scheme = Theme.of(context).colorScheme;
+    final onErrorContainer = scheme.onErrorContainer;
+
+    return Card(
+      color: scheme.errorContainer.withValues(alpha: 0.5),
+      child: Padding(
+        padding: const EdgeInsets.all(12),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Row(
+              children: <Widget>[
+                Icon(Icons.warning_amber_rounded, color: onErrorContainer),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    '주의',
+                    style: Theme.of(context).textTheme.titleSmall?.copyWith(
+                          color: onErrorContainer,
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            ...messages.map(
+              (message) => Text(
+                '• $message',
+                style: TextStyle(color: onErrorContainer),
+              ),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _ConditionSelector extends StatelessWidget {
   const _ConditionSelector({
     required this.selectedPart,
@@ -229,7 +322,7 @@ class _ConditionSelector extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: <Widget>[
         Text(
-          '조건 선택',
+          '필수 조건 선택',
           style: Theme.of(context).textTheme.titleMedium,
         ),
         const SizedBox(height: 8),

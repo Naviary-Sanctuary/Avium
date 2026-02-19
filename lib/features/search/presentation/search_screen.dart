@@ -170,6 +170,8 @@ class _SearchScreenState extends State<SearchScreen> {
                                       ),
                                     ),
                                   ),
+                                const SizedBox(height: 8),
+                                const _MainSafetyNoticeCard(),
                                 const SizedBox(height: 12),
                                 Expanded(
                                   child: isZeroResult
@@ -540,6 +542,64 @@ enum _RiskFilterOption {
   final String label;
 }
 
+class _MainSafetyNoticeCard extends StatelessWidget {
+  const _MainSafetyNoticeCard();
+
+  @override
+  Widget build(BuildContext context) {
+    final scheme = Theme.of(context).colorScheme;
+    final onErrorContainer = scheme.onErrorContainer;
+    return Card(
+      color: scheme.errorContainer.withValues(alpha: 0.5),
+      child: Padding(
+        padding: const EdgeInsets.all(14),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: <Widget>[
+            Row(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: <Widget>[
+                Icon(
+                  Icons.warning_amber_rounded,
+                  color: onErrorContainer,
+                ),
+                const SizedBox(width: 8),
+                Expanded(
+                  child: Text(
+                    '중요 안내',
+                    style: Theme.of(context).textTheme.titleMedium?.copyWith(
+                          color: onErrorContainer,
+                          fontWeight: FontWeight.w800,
+                        ),
+                  ),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              '앱 정보는 참고용이며 데이터/개체 차이로 오류가 있을 수 있습니다.',
+              style: TextStyle(color: onErrorContainer),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              '반드시 음식 상세에서 부위·형태·급여량을 확인한 뒤 판단해 주세요.',
+              style: TextStyle(
+                color: onErrorContainer,
+                fontWeight: FontWeight.w700,
+              ),
+            ),
+            const SizedBox(height: 4),
+            Text(
+              '초보자 주의: 같은 음식도 씨앗·껍질·잎은 결과가 다를 수 있습니다.',
+              style: TextStyle(color: onErrorContainer),
+            ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
 class _HomeLanding extends StatelessWidget {
   const _HomeLanding({
     required this.foods,
@@ -579,6 +639,8 @@ class _HomeLanding extends StatelessWidget {
           padding: const EdgeInsets.all(12),
           child: Column(
             children: <Widget>[
+              const _MainSafetyNoticeCard(),
+              const SizedBox(height: 10),
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(14),
