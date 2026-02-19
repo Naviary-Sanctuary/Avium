@@ -11377,23 +11377,23 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 우려가 있어 연속 급여를 피하고 반응을 확인해야 합니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "피토헤마글루티닌 같은 렉틴 독소 위험이 있어 충분히 삶은 뒤에만 아주 소량 급여해야 합니다.",
       "reasonKo": [
-        "강낭콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "강낭콩은 생·반생 상태에서 피토헤마글루티닌(phytohemagglutinin) 등 렉틴 독소로 구토·설사·무기력 같은 급성 증상을 유발할 수 있습니다.",
+        "급여가 필요하면 충분히 삶아 독성 성분을 낮춘 뒤 무염 상태로 소량만 제공하고, 주식 대체로 사용하면 안 됩니다. 운영 원칙: 충분히 삶은 뒤 소량 급여."
       ],
-      "riskNotesKo": ["반응 확인"],
+      "riskNotesKo": ["충분히 삶은 뒤 소량 급여"],
       "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶은 콩(소량)"],
+        "avoidParts": ["생/덜 익은 콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["충분히 삶아 식힌 강낭콩 1~2알부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
