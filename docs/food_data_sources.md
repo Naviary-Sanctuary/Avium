@@ -4,8 +4,8 @@
 > `LICENSE_DATA.md` (not MIT).
 
 - 데이터 파일: `assets/data/foods.json`
-- 기준일: 2026-02-16
-- 데이터 리비전: `meta.dataVersion = 1.2.2`
+- 기준일: 2026-02-19
+- 데이터 리비전: `meta.dataVersion = 1.2.3`
 
 ## 데이터 문구/위험도 운영 기준
 
@@ -17,6 +17,21 @@
     편차 중 하나 이상에 해당
   - `danger`: 독성/질병 유발 등 명확한 신체 위험
 - `baseRisk`는 `low/medium/high` 기준으로 항목별 증상 가능성과 중증도를 반영합니다.
+
+## 1.2.3 리비전 범위 (콩류/근대군 조리 조건 재정비)
+
+- 조리 필수 콩류 11종(`foodPeas`, `foodLentils`, `foodChickpeas`,
+  `foodBlackBean`, `foodKidneyBean`, `foodPintoBean`, `foodLimaBean`,
+  `foodNavyBean`, `foodMungBean`, `foodAdzukiBean`, `foodSoybean`)의 대표
+  배지는 `caution` 유지
+- 위 항목에 `safetyConditions`를 추가해 `raw=caution`, `cooked=safe`로
+  통일하고 문구/급여 조건을 `충분히 삶아 식힌 무염 소량` 원칙으로 정비
+- 옥살산 채소군 5종(`foodSpinach`, `foodSilverBeet`,
+  `foodMustardGreens`, `foodTurnipGreens`, `foodBeetGreens`)도 동일하게
+  `raw=caution`, `cooked=safe` 조건을 추가하고 익힘 우선 급여 원칙으로 통일
+- `foodGreenBean` 표기 혼선을 줄이기 위해 `nameKo`를
+  `그린빈(풋강낭콩)`으로 조정하고 별칭에서 `강낭콩` 단독 키워드 제거
+- `foodUncookedBeans`는 `danger` 정책 유지
 
 ## 1.2.2 리비전 범위 (safetyLevel 재검토)
 
@@ -157,7 +172,7 @@
   - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
   - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
-- 그린빈 (`foodGreenBean`)
+- 그린빈(풋강낭콩) (`foodGreenBean`)
   - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
 - 근대 (`foodSilverBeet`)

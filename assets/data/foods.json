@@ -1,7 +1,7 @@
 {
   "meta": {
-    "dataVersion": "1.2.2",
-    "reviewedAt": "2026-02-16",
+    "dataVersion": "1.2.3",
+    "reviewedAt": "2026-02-19",
     "distributionPolicyKo": [
       "현재 버전에서는 서버 동기화가 없습니다.",
       "DB는 앱 번들에 포함되며 변경은 앱 업데이트로 배포됩니다.",
@@ -317,23 +317,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "옥살산 가능성이 있어 양과 빈도를 엄격히 조절해야 합니다.",
+      "oneLinerKo": "시금치는 생으로 많이 주면 옥살산 부담이 커질 수 있어 데쳐 식힌 뒤 소량 급여가 안전합니다.",
       "reasonKo": [
-        "시금치는 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 연속 급여 지양."
+        "시금치는 수산(옥살산)과 미네랄 결합 성분이 높아 생급여·연속 급여 시 칼슘 이용률 저하 우려가 있습니다.",
+        "데쳐 식힌 잎을 무양념으로 드물게 소량 급여하고 다른 녹황색 채소와 교차 급여하세요. 운영 원칙: 익힘 우선·연속 급여 지양."
       ],
-      "riskNotesKo": ["연속 급여 지양"],
-      "safetyConditions": [],
+      "riskNotesKo": ["익힘 우선·연속 급여 지양", "무양념 소량 급여"],
+      "safetyConditions": [
+        {
+          "labelKo": "생잎",
+          "part": "leaf",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생잎 급여는 피하고 필요 시 데쳐 식힌 뒤 소량으로 전환하세요."
+        },
+        {
+          "labelKo": "익힌잎",
+          "part": "leaf",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "데쳐 식힌 무양념 잎만 소량으로 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["잎"],
-        "avoidParts": ["대량 급여"],
-        "frequency": "가끔 소량",
-        "notes": ["다른 채소와 번갈아 제공"],
-        "examplesKo": ["주 1회 이하 소량"]
+        "allowedParts": ["데쳐 식힌 시금치 잎(소량)"],
+        "avoidParts": ["생 시금치 잎", "양념/가공 형태", "연속/과량 급여"],
+        "frequency": "드물게 소량",
+        "notes": ["다른 잎채소와 교차 급여"],
+        "examplesKo": ["주 1회 이하로 데친 잎을 소량 급여하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-01",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -627,6 +642,7 @@
       "oneLinerKo": "비교적 안전하지만 씨·심지 혼입 이슈를 피하려면 소량 원칙을 지키는 것이 좋습니다.",
       "reasonKo": [
         "배 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "수분이 많아 과다 급여 시 설사를 할 수 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨앗 제거."
       ],
       "riskNotesKo": ["씨앗 제거"],
@@ -736,7 +752,7 @@
       "reasonKo": [
         "쌀은 곡물군으로 탄수화물 비중이 높아 과량 급여 시 칼로리 편중과 미량영양소 불균형이 생길 수 있습니다.",
         "익힌 무양념 상태에서만 보완식으로 사용해야 합니다. 운영 원칙: 양념 금지.",
-        "점성이 높아지면 소낭 지체를 유발할 수 있으므로 한 번에 많은 양을 뭉쳐 주지 말고 소량 급여 후 반응을 관찰하세요."
+        "점성이 높아 소낭 지체를 유발할 수 있으므로 한 번에 많은 양을 뭉쳐 주지 말고 소량 급여 후 반응을 관찰하세요."
       ],
       "riskNotesKo": [
         "양념 금지",
@@ -1179,7 +1195,7 @@
       "category": "other",
       "foodType": "processed",
       "safetyLevel": "danger",
-      "oneLinerKo": "당분 과다 때문에 신체에 위험합니다.",
+      "oneLinerKo": "당분 과다와 독성 위험 때문에 신체에 위험합니다.",
       "reasonKo": [
         "꿀은 비살균 제품에서 Clostridium botulinum 포자 오염 가능성을 배제하기 어렵고, 조류에서 신경·호흡기 이상 위험이 있습니다.",
         "당분 농도도 매우 높아 대사 부담이 커지므로 예방적으로 급여 금지를 권장합니다. 운영 원칙: 꿀/벌꿀 가공품 급여 금지."
@@ -1271,32 +1287,16 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "급여 자체는 가능하나 소화기 자극 부담을 줄이도록 양을 적게 유지해야 합니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "세척한 과육은 소량 급여가 가능하며, 처음에는 한두 조각으로 반응을 확인하세요.",
       "reasonKo": [
-        "고구마는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 익힘 권장.",
-        "생 급여는 권장하지 않음"
+        "고구마 과육은 조류 식단에서 소량 보완식으로 활용할 수 있습니다.",
+        "세척한 과육을 무양념 상태로 소량 제공하고, 처음에는 반응을 확인하며 양을 늘리세요. 운영 원칙: 소량 반응 확인."
       ],
-      "riskNotesKo": ["익힘 권장", "생 급여는 권장하지 않음"],
-      "safetyConditions": [
-        {
-          "labelKo": "익힘",
-          "part": "flesh",
-          "prep": "cooked",
-          "level": "safe",
-          "noteKo": "무염으로 충분히 익혀 제공"
-        },
-        {
-          "labelKo": "생",
-          "part": "flesh",
-          "prep": "raw",
-          "level": "caution",
-          "noteKo": "생 급여는 권장하지 않음"
-        }
-      ],
+      "riskNotesKo": ["양념 없이 소량 제공", "소량 반응 확인"],
+      "safetyConditions": [],
       "portionsKo": {
-        "allowedParts": ["익힌 과육"],
-        "avoidParts": [],
+        "allowedParts": ["과육"],
+        "avoidParts": ["양념된 형태"],
         "frequency": "가끔 소량",
         "notes": [],
         "examplesKo": []
@@ -1337,7 +1337,7 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
-      "oneLinerKo": "과육만 분리하면 소량 급여가 가능하지만 잎·줄기 혼입을 막고 빈도를 낮게 유지해야 합니다.",
+      "oneLinerKo": "과육은 소량 급여가 가능하지만 잎·줄기 혼입을 막고 빈도를 낮게 유지해야 합니다.",
       "reasonKo": [
         "토마토 과육 자체는 제한 급여가 가능하지만 잎·줄기 부위에는 솔라닌 계열 위험 성분이 존재할 수 있습니다.",
         "과육만 분리한 무양념 형태를 기준으로 소량만 제공하고 잎·줄기·덜 익은 부위는 제외하세요. 운영 원칙: 과육만 급여."
@@ -1516,11 +1516,11 @@
       "aliases": ["mushroom", "버섯"],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "caution",
+      "safetyLevel": "danger",
       "oneLinerKo": "개체별 소화 반응 변수가 커서 상태를 보며 제한적으로 급여해야 합니다.",
       "reasonKo": [
         "버섯은 종·유통 상태에 따라 독성 편차가 커서 식별 오류 시 심각한 문제가 발생할 수 있습니다.",
-        "야생 채집 버섯은 배제하고, 식용 버섯도 익힌 형태로 제한적으로만 급여해야 합니다. 운영 원칙: 야생 버섯 금지."
+        "야생 채집 버섯은 배제하고, 식용 버섯도 가급적 제한하는 것이 좋습니다. 운영 원칙: 야생 버섯 금지."
       ],
       "riskNotesKo": ["야생 버섯 금지"],
       "safetyConditions": [],
@@ -1548,7 +1548,7 @@
         "tokens": ["mushroom", "버섯"]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "high",
         "whatToDoKo": ["종을 확신하기 어렵다면 즉시 문의를 준비하세요."],
         "watchForKo": ["무기력", "구토/역류"],
         "escalationTriggersKo": ["종 미상 섭취 시 문의를 권장합니다."]
@@ -1754,7 +1754,7 @@
       "safetyLevel": "caution",
       "oneLinerKo": "껍질 성분과 잔류물 노출 우려가 있어 연속 급여를 피하고 반응을 확인해야 합니다.",
       "reasonKo": [
-        "망고 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "망고 껍질은 정유 성분이 있고 잔류물 노출 우려가 있어 가급적이면 급여를 하지 않는 것을 권장합니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/껍질 제거."
       ],
       "riskNotesKo": ["씨/껍질 제거"],
@@ -1770,7 +1770,7 @@
       "portionsKo": {
         "allowedParts": [],
         "avoidParts": ["껍질"],
-        "frequency": "가끔 소량",
+        "frequency": "권장하지 않음",
         "notes": [],
         "examplesKo": []
       },
@@ -1872,7 +1872,7 @@
       "safetyLevel": "safe",
       "oneLinerKo": "비교적 안전하지만 소화기 자극 이슈를 피하려면 소량 원칙을 지키는 것이 좋습니다.",
       "reasonKo": [
-        "호박은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
+        "호박은 안전하여 급여 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
         "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 무염 조리."
       ],
       "riskNotesKo": ["무염 조리"],
@@ -2577,6 +2577,7 @@
       "oneLinerKo": "급여 자체는 가능하나 씨·심지 혼입 부담을 줄이도록 양을 적게 유지해야 합니다. 배변 상태가 달라지면 즉시 급여를 멈추세요.",
       "reasonKo": [
         "복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "또한 당분이 높고 과즙이 많아 과다 급여 시 설사를 할 수 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 제공."
       ],
       "riskNotesKo": ["씨/핵 제거 후 제공"],
@@ -2694,6 +2695,7 @@
       "oneLinerKo": "비교적 안전하지만 씨·심지 혼입 이슈를 피하려면 소량 원칙을 지키는 것이 좋습니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
       "reasonKo": [
         "자두 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "또한 당분이 높고 과즙이 많아 과다 급여 시 설사를 할 수 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 씨/핵 제거 후 제공."
       ],
       "riskNotesKo": ["씨/핵 제거 후 제공"],
@@ -2822,6 +2824,7 @@
       "oneLinerKo": "기본 급여가 가능해도 씨·심지 혼입 문제를 막기 위해 빈도와 양을 함께 관리하세요.",
       "reasonKo": [
         "천도복숭아 과육은 비교적 안전할 수 있지만 씨·핵에는 청산배당체 계열 위험 성분 또는 질식 위험이 있습니다.",
+        "또한 당분이 높고 과즙이 많아 과다 급여 시 설사를 할 수 있습니다.",
         "씨·핵·심지를 완전히 제거한 과육만 제한적으로 급여해야 합니다. 운영 원칙: 핵 제거 필수."
       ],
       "riskNotesKo": ["핵 제거 필수"],
@@ -3076,10 +3079,10 @@
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["과육"],
-        "avoidParts": ["씨", "껍질"],
+        "avoidParts": ["껍질"],
         "frequency": "가끔 소량",
         "notes": [],
-        "examplesKo": ["씨 제거 후 아주 소량"]
+        "examplesKo": ["소량 급여"]
       },
       "confusables": [],
       "evidenceLevel": "low",
@@ -3115,24 +3118,39 @@
       "aliases": ["peas", "pea", "완두콩"],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "safe",
-      "oneLinerKo": "안전 범주에 가깝지만 소화기 자극 가능성이 있어 처음에는 천천히 소량으로 시작하세요. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "safetyLevel": "caution",
+      "oneLinerKo": "생 완두콩은 소화기 부담을 키울 수 있어 반드시 삶아 식힌 뒤 소량만 급여해야 합니다.",
       "reasonKo": [
-        "완두콩은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 신선도 유지."
+        "완두콩은 생 상태에서 소화 저해 성분과 렉틴 반응으로 일부 개체에 위장 자극을 일으킬 수 있습니다.",
+        "충분히 삶아 식힌 무염 콩알만 드물게 소량 급여하고, 생·덜 익은 상태와 양념 제품은 제외하세요. 운영 원칙: 완전 익힘 후 소량 급여."
       ],
-      "riskNotesKo": ["신선도 유지"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘 후 소량 급여", "생·덜 익은 완두콩 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["콩알"],
-        "avoidParts": ["양념된 형태"],
-        "frequency": "가끔 제공",
+        "allowedParts": ["충분히 삶아 식힌 완두콩(소량)"],
+        "avoidParts": ["생/덜 익은 완두콩", "양념/가공 형태"],
+        "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["삶아 식힌 완두콩 제공"]
+        "examplesKo": ["삶아 식힌 콩알 1~2개부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-15",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3153,29 +3171,52 @@
     },
     {
       "id": "foodGreenBean",
-      "nameKo": "강낭콩",
+      "nameKo": "그린빈(풋강낭콩)",
       "nameEn": "Green Bean",
-      "aliases": ["green bean", "greenbean", "강낭콩", "강낭콩꼬투리"],
+      "aliases": [
+        "green bean",
+        "greenbean",
+        "string bean",
+        "snap bean",
+        "그린빈",
+        "풋강낭콩",
+        "강낭콩꼬투리"
+      ],
       "category": "vegetable",
       "foodType": "whole",
-      "safetyLevel": "safe",
-      "oneLinerKo": "대체로 먹여도 괜찮지만 소화기 자극 위험을 낮추려면 과량 급여를 피해야 합니다. 배변 상태가 달라지면 즉시 급여를 멈추세요.",
+      "safetyLevel": "caution",
+      "oneLinerKo": "꼬투리는 안전하고, 풋강낭콩(씨앗)은 소화저해성분 때문에 소량·반응 관찰이 필요합니다.",
       "reasonKo": [
-        "강낭콩은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념/가공 형태 금지."
+        "꼬투리(과육)는 콩 씨앗류와 달리 비교적 안전한 채소로 분류됩니다. 섬유질이 많아 과량 시 소화 부담은 있으나 위험 성분은 없습니다.",
+        "풋강낭콩 씨앗에는 레크틴·피틴산 등 소화저해성분이 있어 익히지 않으면 개체별 반응이 있을 수 있습니다. 꼬투리만 세척 후 잘게 썰어 소량 급여하고, 양념/가공 제품은 제외하세요."
       ],
-      "riskNotesKo": ["양념/가공 형태 금지"],
-      "safetyConditions": [],
+      "riskNotesKo": ["꼬투리만 급여", "씨앗 형태 주의", "양념/가공 형태 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "꼬투리(과육)",
+          "part": "flesh",
+          "prep": "any",
+          "level": "safe",
+          "noteKo": "세척 후 잘게 썰어 소량 제공하세요."
+        },
+        {
+          "labelKo": "씨앗(풋강낭콩)",
+          "part": "seeds",
+          "prep": "any",
+          "level": "caution",
+          "noteKo": "소화저해성분이 있어 익히거나 소량만 급여하고 반응을 관찰하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["꼬투리"],
-        "avoidParts": ["양념된 형태"],
+        "allowedParts": ["꼬투리(소량)"],
+        "avoidParts": ["씨앗", "양념/가공 형태"],
         "frequency": "가끔 제공",
         "notes": [],
-        "examplesKo": ["잘게 썰어 제공"]
+        "examplesKo": ["잘게 썬 풋강낭콩 꼬투리를 소량 제공하세요."]
       },
       "confusables": [],
       "evidenceLevel": "medium",
-      "reviewedAt": "2026-02-15",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3185,7 +3226,19 @@
         }
       ],
       "search": {
-        "tokens": ["green bean", "greenbean", "강낭콩꼬투리", "강낭콩"]
+        "tokens": [
+          "green bean",
+          "greenbean",
+          "snap bean",
+          "snapbean",
+          "string bean",
+          "stringbean",
+          "강낭콩꼬투리",
+          "그린빈",
+          "그린빈 풋강낭콩",
+          "그린빈풋강낭콩",
+          "풋강낭콩"
+        ]
       },
       "emergency": {
         "baseRisk": "low",
@@ -3202,23 +3255,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "옥살산 위험이 있어 일상 간식으로 반복 급여하면 부담이 커질 수 있습니다.",
+      "oneLinerKo": "근대는 생잎의 옥살산 부담을 낮추기 위해 데쳐 식힌 뒤 소량만 급여하는 것이 좋습니다.",
       "reasonKo": [
-        "근대(Swiss chard/silver beet)는 시금치와 유사하게 옥살산 부담이 높은 편으로, 연속 급여 시 미네랄 이용률에 영향을 줄 수 있습니다.",
-        "세척 후 소량 급여로 반응을 보며 시작하고 다른 녹황색 채소와 교차 급여하세요. 운영 원칙: 연속 급여 지양."
+        "근대(Swiss chard)는 생 상태에서 옥살산 부담이 높아 연속 급여 시 미네랄 이용률에 영향을 줄 수 있습니다.",
+        "데쳐 식힌 잎을 무양념으로 드물게 소량 제공하고, 같은 채소를 연속으로 주지 마세요. 운영 원칙: 익힘 우선·교차 급여."
       ],
-      "riskNotesKo": ["연속 급여 지양"],
-      "safetyConditions": [],
+      "riskNotesKo": ["익힘 우선·교차 급여", "연속 급여 지양"],
+      "safetyConditions": [
+        {
+          "labelKo": "생잎",
+          "part": "leaf",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생잎 급여는 피하고 필요 시 데쳐 식힌 뒤 소량으로 전환하세요."
+        },
+        {
+          "labelKo": "익힌잎",
+          "part": "leaf",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "데쳐 식힌 무양념 잎만 소량으로 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["잎(소량)"],
-        "avoidParts": ["연속/과량 급여"],
+        "allowedParts": ["데쳐 식힌 근대 잎(소량)"],
+        "avoidParts": ["생 근대 잎", "양념/가공 형태", "연속/과량 급여"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["주 1회 이하 소량"]
+        "examplesKo": ["데친 잎을 잘게 썰어 주 1회 이하로 제공하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-15",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3650,12 +3718,12 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "산도·정유 위험이 있어 일상 간식으로 반복 급여하면 부담이 커질 수 있습니다.",
+      "oneLinerKo": "명확한 조류 독성 성분 근거는 제한적이지만 가공 추출물 성분 편차가 커 보수적으로 접근해야 합니다.",
       "reasonKo": [
-        "밀크시슬은 향기 성분과 정유 농도가 있어 개체에 따라 모이주머니·위장 자극 또는 기호성 거부가 발생할 수 있습니다.",
-        "향신채소류는 미량 테스트 후 반응을 확인하는 방식으로만 급여해야 합니다. 운영 원칙: 반응 테스트 원칙."
+        "밀크시슬(silymarin)은 조류 급여 연구가 제한적이며, 보고된 실험에서도 일관된 임상 이득이나 안전 범위가 충분히 확립되지는 않았습니다.",
+        "사람용 추출물·보충제에는 알코올·감미료·용매가 포함될 수 있어 원물(세척한 잎) 기준 극소량 테스트만 권장합니다. 운영 원칙: 가공 추출물 금지·원물 소량 테스트."
       ],
-      "riskNotesKo": ["반응 테스트 원칙"],
+      "riskNotesKo": ["가공 추출물 금지·원물 소량 테스트"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["잎(소량)"],
@@ -3666,7 +3734,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "welfare-guide",
@@ -3685,7 +3753,7 @@
         "tokens": ["milk thistle", "milkthistle", "밀크시슬"]
       },
       "emergency": {
-        "baseRisk": "medium",
+        "baseRisk": "low",
         "whatToDoKo": ["급여 후 반응을 관찰하세요."],
         "watchForKo": ["식욕 저하", "묽은 변"],
         "escalationTriggersKo": ["증상 지속 시 문의를 권장합니다."]
@@ -4167,7 +4235,7 @@
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "education-guide",
@@ -5273,9 +5341,9 @@
       "oneLinerKo": "급여 자체는 가능하나 소화기 자극 부담을 줄이도록 양을 적게 유지해야 합니다. 같은 날 다른 새 음식과 함께 주지 않는 것이 좋습니다.",
       "reasonKo": [
         "무는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 생 급여 지양."
+        "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 처음엔 소량 테스트."
       ],
-      "riskNotesKo": ["생 급여 지양"],
+      "riskNotesKo": ["처음엔 소량 테스트"],
       "safetyConditions": [],
       "portionsKo": {
         "allowedParts": ["뿌리"],
@@ -5939,23 +6007,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 반응이 나타날 수 있으므로 급여 전후 컨디션을 꼭 확인하세요.",
+      "oneLinerKo": "렌틸콩은 생·반생 상태에서 부담이 커질 수 있어 충분히 삶아 식힌 뒤에만 제한 급여해야 합니다.",
       "reasonKo": [
-        "렌틸콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 생콩 급여 금지."
+        "렌틸콩은 생·반생 상태에서 렉틴과 소화 저해 성분 때문에 구토·묽은 변 같은 소화기 반응을 유발할 수 있습니다.",
+        "충분히 삶아 식힌 무염 형태만 드물게 소량 급여하고, 주식 대체나 연속 급여는 피하세요. 운영 원칙: 생급여 금지·완전 익힘."
       ],
-      "riskNotesKo": ["생콩 급여 금지"],
-      "safetyConditions": [],
+      "riskNotesKo": ["생급여 금지·완전 익힘", "주식 대체 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["충분히 익힌 렌틸콩(소량)"],
-        "avoidParts": ["생 렌틸콩"],
+        "allowedParts": ["충분히 삶아 식힌 렌틸콩(소량)"],
+        "avoidParts": ["생/덜 익은 렌틸콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["삶은 렌틸콩 소량을 단독으로 반응 확인하며 주세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -5989,23 +6072,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 가능성이 있어 양과 빈도를 엄격히 조절해야 합니다.",
+      "oneLinerKo": "병아리콩은 생으로 주면 소화기 자극 위험이 있어 삶아 식힌 상태에서만 소량 급여해야 합니다.",
       "reasonKo": [
-        "병아리콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 생콩/양념형태 금지."
+        "병아리콩은 생·반생 상태에서 렉틴과 소화 저해 성분이 남아 복부 불편과 변 상태 변화를 일으킬 수 있습니다.",
+        "완전히 삶아 식힌 무염 콩만 드물게 소량 사용하고, 후무스 같은 양념 가공품은 제외하세요. 운영 원칙: 생급여·양념형태 금지."
       ],
-      "riskNotesKo": ["생콩/양념형태 금지"],
-      "safetyConditions": [],
+      "riskNotesKo": ["생급여·양념형태 금지", "완전 익힘 후 소량"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["충분히 익힌 병아리콩(소량)"],
-        "avoidParts": ["생 병아리콩", "양념 후무스"],
+        "allowedParts": ["충분히 삶아 식힌 병아리콩(소량)"],
+        "avoidParts": ["생/덜 익은 병아리콩", "양념 후무스/가공품"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["소량부터 시작해 반응을 확인하세요."]
+        "examplesKo": ["삶은 병아리콩을 으깨 소량부터 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -10527,23 +10625,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "소화기 자극 가능성이 있어 양과 빈도를 엄격히 조절해야 합니다.",
+      "oneLinerKo": "생토란의 수산칼슘 결정 자극 위험이 있어 반드시 완전 가열 후 소량만 급여해야 합니다.",
       "reasonKo": [
-        "토란은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
+        "토란의 생 가식부에는 불용성 수산칼슘 결정(raphide)이 있어 입안·식도·모이주머니 자극과 통증을 유발할 수 있습니다.",
+        "충분히 삶아 식힌 뒤 무양념 소량만 허용하고, 생·반생 형태는 금지합니다. 운영 원칙: 생급여 금지·완전 익힘."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["생급여 금지·완전 익힘"],
+      "safetyConditions": [
+        {
+          "labelKo": "생 가식부",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "수산칼슘 결정 자극 위험으로 급여 금지"
+        },
+        {
+          "labelKo": "익힌 가식부",
+          "part": "flesh",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무양념 소량만 허용"
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["익힌 가식부(소량)"],
+        "avoidParts": ["생/반생 가식부", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -10727,23 +10840,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "소화기 자극 위험이 있어 일상 간식으로 반복 급여하면 부담이 커질 수 있습니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "가식부(뿌리)는 비교적 안전하지만 씨·잎·줄기의 rotenone 위험 때문에 손질 기준을 엄격히 지켜야 합니다.",
       "reasonKo": [
-        "히카마는 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
+        "히카마는 뿌리 가식부에는 rotenone이 검출되지 않거나 매우 낮지만, 씨·잎·줄기에는 rotenone/rotenoid가 보고되어 독성 위험이 있습니다.",
+        "껍질을 벗긴 뿌리 과육만 소량 급여하고 씨·잎·줄기 및 불명 부위는 급여하지 마세요. 운영 원칙: 씨/잎/줄기 금지."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["씨/잎/줄기 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "뿌리 과육(생, 껍질 제거)",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "safe",
+          "noteKo": "세척 후 껍질·씨·줄기를 완전히 제거"
+        },
+        {
+          "labelKo": "뿌리 과육(익힘)",
+          "part": "flesh",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "무양념으로 충분히 익혀 소량 제공"
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["뿌리 과육(껍질 제거)"],
+        "avoidParts": ["씨", "잎", "줄기", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -10977,23 +11105,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "옥살산 가능성이 있어 양과 빈도를 엄격히 조절해야 합니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "겨자잎은 생으로 반복 급여하면 부담이 커질 수 있어 데쳐 식힌 뒤 소량 급여가 권장됩니다.",
       "reasonKo": [
-        "겨자잎은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 반응 확인."
+        "겨자잎은 옥살산과 자극성 식물 성분 때문에 생급여 시 일부 개체에서 소화기 불편이 나타날 수 있습니다.",
+        "데쳐 식힌 잎을 무양념으로 소량 제공하고 연속 급여는 피하세요. 운영 원칙: 익힘 우선·저빈도 급여."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["익힘 우선·저빈도 급여", "연속 급여 지양"],
+      "safetyConditions": [
+        {
+          "labelKo": "생잎",
+          "part": "leaf",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생잎 급여는 피하고 필요 시 데쳐 식힌 뒤 소량으로 전환하세요."
+        },
+        {
+          "labelKo": "익힌잎",
+          "part": "leaf",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "데쳐 식힌 무양념 잎만 소량으로 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["데쳐 식힌 겨자잎(소량)"],
+        "avoidParts": ["생 겨자잎", "양념/가공 형태", "연속/과량 급여"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["처음에는 데친 잎을 아주 소량만 급여하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11027,23 +11170,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "옥살산 위험이 있어 일상 간식으로 반복 급여하면 부담이 커질 수 있습니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "순무잎은 생급여 시 옥살산 부담이 커질 수 있어 데쳐 식힌 후 드물게 소량 급여해야 합니다.",
       "reasonKo": [
-        "순무잎은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 반응 확인."
+        "순무잎은 옥살산과 섬유질 농도가 높아 생으로 많이 주면 변 상태 변화와 미네랄 이용 저하 우려가 있습니다.",
+        "데쳐 식힌 잎을 무양념으로 소량만 사용하고 다른 채소와 번갈아 급여하세요. 운영 원칙: 익힘 우선·연속 급여 금지."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["익힘 우선·연속 급여 금지", "무양념 소량 급여"],
+      "safetyConditions": [
+        {
+          "labelKo": "생잎",
+          "part": "leaf",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생잎 급여는 피하고 필요 시 데쳐 식힌 뒤 소량으로 전환하세요."
+        },
+        {
+          "labelKo": "익힌잎",
+          "part": "leaf",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "데쳐 식힌 무양념 잎만 소량으로 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["데쳐 식힌 순무잎(소량)"],
+        "avoidParts": ["생 순무잎", "양념/가공 형태", "연속/과량 급여"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["데친 순무잎은 주 1회 이하 소량으로 제한하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11077,23 +11235,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "옥살산 우려가 있어 연속 급여를 피하고 반응을 확인해야 합니다.",
+      "oneLinerKo": "비트잎은 생으로 주면 옥살산 부담이 증가할 수 있어 데쳐 식힌 잎을 소량으로만 급여하세요.",
       "reasonKo": [
-        "비트잎은 수산(옥살산) 또는 미네랄 결합 성분이 높아 칼슘 이용률에 영향을 줄 수 있습니다.",
-        "연속 급여를 피하고 다른 녹황색 채소와 교차 급여하는 방식이 안전합니다. 운영 원칙: 반응 확인."
+        "비트잎은 옥살산과 미네랄 결합 성분이 높아 생급여·반복 급여 시 칼슘 이용률 저하 우려가 있습니다.",
+        "데쳐 식힌 무양념 잎만 드물게 소량 급여하고, 같은 날 다른 고옥살산 채소와 중복 급여를 피하세요. 운영 원칙: 익힘 우선·교차 급여."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["익힘 우선·교차 급여", "고옥살산 채소 중복 급여 지양"],
+      "safetyConditions": [
+        {
+          "labelKo": "생잎",
+          "part": "leaf",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생잎 급여는 피하고 필요 시 데쳐 식힌 뒤 소량으로 전환하세요."
+        },
+        {
+          "labelKo": "익힌잎",
+          "part": "leaf",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "데쳐 식힌 무양념 잎만 소량으로 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["데쳐 식힌 비트잎(소량)"],
+        "avoidParts": ["생 비트잎", "양념/가공 형태", "연속/과량 급여"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["데친 비트잎은 단독으로 소량만 급여하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11177,23 +11350,38 @@
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "소화기 자극 가능성이 있어 양과 빈도를 엄격히 조절해야 합니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "생 죽순의 taxiphyllin(시안배당체) 위험이 있어 충분한 삶기 없이 급여하면 위험할 수 있습니다.",
       "reasonKo": [
-        "죽순은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
-        "세척·손질 후 반응을 보며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 반응 확인."
+        "죽순에는 taxiphyllin(시안배당체)이 있어 전처리·가열이 불충분하면 청산(HCN) 노출 위험이 있습니다.",
+        "끓는 물에 충분히 삶아 독성 성분을 줄인 뒤 무양념 소량만 허용하고, 생·절임 원물은 피하세요. 운영 원칙: 생급여 금지·충분한 가열."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["생급여 금지·충분한 가열"],
+      "safetyConditions": [
+        {
+          "labelKo": "생 죽순",
+          "part": "flesh",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "시안배당체 위험으로 급여 금지"
+        },
+        {
+          "labelKo": "삶은 죽순",
+          "part": "flesh",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무양념 소량만 허용"
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶은 가식부(소량)"],
+        "avoidParts": ["생/절임 원물", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
         "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11327,23 +11515,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 우려가 있어 연속 급여를 피하고 반응을 확인해야 합니다.",
+      "oneLinerKo": "검은콩은 생 상태 독성 성분 부담이 있어 반드시 삶아 식힌 뒤 제한적으로 급여해야 합니다.",
       "reasonKo": [
-        "검은콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "검은콩은 생·반생 상태에서 렉틴 노출 위험이 있어 급성 소화기 증상을 유발할 수 있습니다.",
+        "충분히 삶아 식힌 무염 형태만 드물게 소량 급여하고 연속 급여는 피하세요. 운영 원칙: 완전 익힘·반응 관찰."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘·반응 관찰", "연속 급여 지양"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 검은콩(소량)"],
+        "avoidParts": ["생/덜 익은 검은콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 검은콩 1~2알부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11377,19 +11580,34 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "피토헤마글루티닌 같은 렉틴 독소 위험이 있어 충분히 삶은 뒤에만 아주 소량 급여해야 합니다.",
+      "oneLinerKo": "강낭콩은 피토헤마글루티닌 부담이 있어 생·반생 상태는 피하고 충분히 삶은 뒤에만 소량 급여해야 합니다.",
       "reasonKo": [
-        "강낭콩은 생·반생 상태에서 피토헤마글루티닌(phytohemagglutinin) 등 렉틴 독소로 구토·설사·무기력 같은 급성 증상을 유발할 수 있습니다.",
-        "급여가 필요하면 충분히 삶아 독성 성분을 낮춘 뒤 무염 상태로 소량만 제공하고, 주식 대체로 사용하면 안 됩니다. 운영 원칙: 충분히 삶은 뒤 소량 급여."
+        "강낭콩은 생·반생 상태에서 피토헤마글루티닌(phytohemagglutinin) 등 렉틴 독소로 구토·설사·무기력을 유발할 수 있습니다.",
+        "충분히 삶아 식힌 무염 콩만 드물게 소량 급여하고 주식 대체로 쓰지 마세요. 운영 원칙: 생·덜 익은 강낭콩 금지."
       ],
-      "riskNotesKo": ["충분히 삶은 뒤 소량 급여"],
-      "safetyConditions": [],
+      "riskNotesKo": ["생·덜 익은 강낭콩 금지", "완전 익힘 후 소량"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["충분히 삶은 콩(소량)"],
-        "avoidParts": ["생/덜 익은 콩", "양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 강낭콩(소량)"],
+        "avoidParts": ["생/덜 익은 강낭콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["충분히 삶아 식힌 강낭콩 1~2알부터 시작하세요."]
+        "examplesKo": ["완전히 삶아 식힌 강낭콩 1~2알부터 시작하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
@@ -11427,23 +11645,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 반응이 나타날 수 있으므로 급여 전후 컨디션을 꼭 확인하세요. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "핀토콩은 생 상태에서 렉틴 부담이 남아 있어 삶아 식힌 상태에서만 드물게 소량 급여해야 합니다.",
       "reasonKo": [
-        "핀토콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "핀토콩은 생·반생 상태에서 렉틴과 소화 저해 성분이 남아 소화기 자극을 일으킬 수 있습니다.",
+        "완전히 삶아 식힌 무염 콩만 제한 급여하고, 다른 단백질원과 같은 날 과다 급여하지 마세요. 운영 원칙: 완전 익힘 우선."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘 우선", "동일일 과다 급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 핀토콩(소량)"],
+        "avoidParts": ["생/덜 익은 핀토콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 핀토콩 소량을 단독으로 먼저 급여하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11477,23 +11710,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 변수가 커서 상태를 보며 제한적으로 급여해야 합니다.",
+      "oneLinerKo": "리마콩은 생·반생 상태 변수가 커서 충분히 삶아 식힌 뒤 소량으로만 급여하는 편이 안전합니다.",
       "reasonKo": [
-        "리마콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "리마콩은 생 상태에서 렉틴과 항영양 성분으로 소화기 자극 가능성이 커질 수 있습니다.",
+        "충분히 삶아 식힌 무염 콩을 드물게 소량만 제공하고 연속 급여는 피하세요. 운영 원칙: 완전 익힘 후 제한 급여."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘 후 제한 급여", "연속 급여 지양"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 리마콩(소량)"],
+        "avoidParts": ["생/덜 익은 리마콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 리마콩을 잘게 나눠 아주 소량부터 주세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11527,23 +11775,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 부담이 누적될 수 있어 드물게 소량만 다루는 편이 안전합니다.",
+      "oneLinerKo": "네이비콩은 생 상태 독성 부담을 줄이기 위해 반드시 삶아 식힌 뒤 소량만 급여해야 합니다.",
       "reasonKo": [
-        "네이비콩은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "네이비콩은 생·반생 상태에서 렉틴과 소화 저해 성분으로 위장 반응 위험이 높아질 수 있습니다.",
+        "완전히 삶아 식힌 무염 콩만 드물게 소량 급여하고, 간식 빈도는 낮게 유지하세요. 운영 원칙: 생급여 금지."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["생급여 금지", "완전 익힘 후 소량"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 네이비콩(소량)"],
+        "avoidParts": ["생/덜 익은 네이비콩", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 네이비콩은 주 1회 이하 소량으로 제한하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11577,23 +11840,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 우려가 있어 연속 급여를 피하고 반응을 확인해야 합니다. 배변 상태가 달라지면 즉시 급여를 멈추세요.",
+      "oneLinerKo": "녹두는 생 상태에서 소화 저해 성분 부담이 있어 충분히 삶아 식힌 뒤 제한적으로 급여해야 합니다.",
       "reasonKo": [
-        "녹두는 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "녹두는 생·반생 상태에서 렉틴과 소화 저해 성분이 남아 변 상태 악화를 일으킬 수 있습니다.",
+        "충분히 삶아 식힌 무염 형태만 소량 급여하고, 급여 후 배변과 활동량을 확인하세요. 운영 원칙: 완전 익힘·반응 관찰."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘·반응 관찰", "생/덜 익은 형태 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 녹두(소량)"],
+        "avoidParts": ["생/덜 익은 녹두", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 녹두를 으깨 소량부터 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11627,23 +11905,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 부담이 누적될 수 있어 드물게 소량만 다루는 편이 안전합니다. 급여 후 활동량 변화를 꼭 살펴보세요.",
+      "oneLinerKo": "팥은 생으로 주면 소화기 부담이 커질 수 있어 충분히 삶아 식힌 뒤 소량만 급여해야 합니다.",
       "reasonKo": [
-        "팥은 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "팥은 생·반생 상태에서 렉틴과 항영양 성분이 남아 위장 자극을 유발할 수 있습니다.",
+        "완전히 삶아 식힌 무염 팥만 드물게 소량 급여하고 단맛을 더한 조리 형태는 피하세요. 운영 원칙: 완전 익힘·무가당."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘·무가당", "생급여 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 팥(소량)"],
+        "avoidParts": ["생/덜 익은 팥", "당분/양념 가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 팥을 소량만 단독으로 급여하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",
@@ -11677,23 +11970,38 @@
       "category": "grain",
       "foodType": "whole",
       "safetyLevel": "caution",
-      "oneLinerKo": "생콩 독성 성분 위험이 있어 일상 간식으로 반복 급여하면 부담이 커질 수 있습니다.",
+      "oneLinerKo": "대두는 생 상태 독성 성분 부담이 있어 반드시 삶아 식힌 무염 형태로만 제한 급여해야 합니다.",
       "reasonKo": [
-        "대두는 단백질원으로 활용 가능하지만 생·반생 상태에서는 렉틴/소화 저해 성분이 부담이 될 수 있습니다.",
-        "완전 가열 후 무염으로 제한 급여해야 하며 주식 대체로 사용하면 안 됩니다. 운영 원칙: 반응 확인."
+        "대두는 생·반생 상태에서 렉틴과 트립신 저해 성분 때문에 소화기와 영양 흡수에 부담을 줄 수 있습니다.",
+        "충분히 삶아 식힌 무염 대두만 드물게 소량 급여하고 반복 급여는 피하세요. 운영 원칙: 완전 익힘·저빈도 급여."
       ],
-      "riskNotesKo": ["반응 확인"],
-      "safetyConditions": [],
+      "riskNotesKo": ["완전 익힘·저빈도 급여", "생/덜 익은 대두 금지"],
+      "safetyConditions": [
+        {
+          "labelKo": "생",
+          "part": "unknown",
+          "prep": "raw",
+          "level": "caution",
+          "noteKo": "생·덜 익은 상태는 급여하지 말고 조리 후 여부를 확인하세요."
+        },
+        {
+          "labelKo": "익힘",
+          "part": "unknown",
+          "prep": "cooked",
+          "level": "safe",
+          "noteKo": "충분히 삶아 식힌 무염 상태에서만 소량 급여하세요."
+        }
+      ],
       "portionsKo": {
-        "allowedParts": ["가식부(소량)"],
-        "avoidParts": ["양념/가공 형태"],
+        "allowedParts": ["충분히 삶아 식힌 대두(소량)"],
+        "avoidParts": ["생/덜 익은 대두", "양념/가공 형태"],
         "frequency": "드물게 소량",
         "notes": [],
-        "examplesKo": ["처음엔 매우 소량부터 시작하세요."]
+        "examplesKo": ["삶은 대두 1~2알부터 반응을 확인하세요."]
       },
       "confusables": [],
       "evidenceLevel": "low",
-      "reviewedAt": "2026-02-14",
+      "reviewedAt": "2026-02-19",
       "sources": [
         {
           "type": "hospital-guide",

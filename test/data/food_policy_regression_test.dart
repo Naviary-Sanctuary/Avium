@@ -120,4 +120,158 @@ void main() {
       );
     }
   });
+
+  test('cook-required beans and leafy greens keep caution representative level',
+      () {
+    final byId = {for (final food in db.foods) food.id: food};
+    const cookRequiredBeanIds = <String>[
+      'foodPeas',
+      'foodLentils',
+      'foodChickpeas',
+      'foodBlackBean',
+      'foodKidneyBean',
+      'foodPintoBean',
+      'foodLimaBean',
+      'foodNavyBean',
+      'foodMungBean',
+      'foodAdzukiBean',
+      'foodSoybean',
+    ];
+    const cookRequiredLeafyIds = <String>[
+      'foodSpinach',
+      'foodSilverBeet',
+      'foodMustardGreens',
+      'foodTurnipGreens',
+      'foodBeetGreens',
+    ];
+
+    for (final id in <String>[
+      ...cookRequiredBeanIds,
+      ...cookRequiredLeafyIds
+    ]) {
+      expect(
+        byId[id]?.safetyLevel.name,
+        'caution',
+        reason: '$id should keep caution as representative level',
+      );
+    }
+  });
+
+  test('cook-required items define raw caution and cooked safe conditions', () {
+    final byId = {for (final food in db.foods) food.id: food};
+    const cookRequiredBeanIds = <String>[
+      'foodPeas',
+      'foodLentils',
+      'foodChickpeas',
+      'foodBlackBean',
+      'foodKidneyBean',
+      'foodPintoBean',
+      'foodLimaBean',
+      'foodNavyBean',
+      'foodMungBean',
+      'foodAdzukiBean',
+      'foodSoybean',
+    ];
+    const cookRequiredLeafyIds = <String>[
+      'foodSpinach',
+      'foodSilverBeet',
+      'foodMustardGreens',
+      'foodTurnipGreens',
+      'foodBeetGreens',
+    ];
+
+    for (final id in cookRequiredBeanIds) {
+      final item = byId[id];
+      expect(item, isNotNull, reason: '$id should exist');
+      final raw = item!.safetyConditions
+          .where((condition) => condition.prep.name == 'raw')
+          .toList(growable: false);
+      final cooked = item.safetyConditions
+          .where((condition) => condition.prep.name == 'cooked')
+          .toList(growable: false);
+      expect(raw, isNotEmpty, reason: '$id should define raw condition');
+      expect(cooked, isNotEmpty, reason: '$id should define cooked condition');
+      expect(raw.first.level.name, 'caution', reason: '$id raw level mismatch');
+      expect(cooked.first.level.name, 'safe',
+          reason: '$id cooked level mismatch');
+      expect(raw.first.part.name, 'unknown', reason: '$id raw part mismatch');
+      expect(cooked.first.part.name, 'unknown',
+          reason: '$id cooked part mismatch');
+    }
+
+    for (final id in cookRequiredLeafyIds) {
+      final item = byId[id];
+      expect(item, isNotNull, reason: '$id should exist');
+      final raw = item!.safetyConditions
+          .where((condition) => condition.prep.name == 'raw')
+          .toList(growable: false);
+      final cooked = item.safetyConditions
+          .where((condition) => condition.prep.name == 'cooked')
+          .toList(growable: false);
+      expect(raw, isNotEmpty, reason: '$id should define raw condition');
+      expect(cooked, isNotEmpty, reason: '$id should define cooked condition');
+      expect(raw.first.level.name, 'caution', reason: '$id raw level mismatch');
+      expect(cooked.first.level.name, 'safe',
+          reason: '$id cooked level mismatch');
+      expect(raw.first.part.name, 'leaf', reason: '$id raw part mismatch');
+      expect(cooked.first.part.name, 'leaf',
+          reason: '$id cooked part mismatch');
+    }
+  });
+
+  test('safe items do not declare raw non-safe conditions', () {
+    for (final food
+        in db.foods.where((item) => item.safetyLevel.name == 'safe')) {
+      final rawNonSafe = food.safetyConditions.where((condition) {
+        return condition.prep.name == 'raw' && condition.level.name != 'safe';
+      });
+
+      expect(
+        rawNonSafe,
+        isEmpty,
+        reason: '${food.id} is safe but has raw non-safe condition',
+      );
+    }
+  });
+
+  test('safe items do not use raw feeding discouraged phrases', () {
+    const discouragedRawPhrases = <String>[
+      '생 급여 지양',
+      '생 급여는 권장하지 않음',
+    ];
+
+    for (final food
+        in db.foods.where((item) => item.safetyLevel.name == 'safe')) {
+      final combinedText = <String>[
+        food.oneLinerKo,
+        ...food.reasonKo,
+        ...food.riskNotesKo,
+      ].join(' ');
+
+      for (final phrase in discouragedRawPhrases) {
+        expect(
+          combinedText.contains(phrase),
+          isFalse,
+          reason: '${food.id} includes discouraged-raw phrase: $phrase',
+        );
+      }
+    }
+  });
+
+  test('uncooked beans remain danger with high baseRisk', () {
+    final byId = {for (final food in db.foods) food.id: food};
+    final uncookedBeans = byId['foodUncookedBeans'];
+    expect(uncookedBeans, isNotNull, reason: 'foodUncookedBeans is missing');
+    expect(uncookedBeans?.safetyLevel.name, 'danger');
+    expect(uncookedBeans?.emergency.baseRisk.name, 'high');
+  });
+
+  test('green bean naming split avoids kidney bean keyword collision', () {
+    final byId = {for (final food in db.foods) food.id: food};
+    final greenBean = byId['foodGreenBean'];
+    expect(greenBean, isNotNull, reason: 'foodGreenBean is missing');
+    expect(greenBean?.nameKo, '그린빈(풋강낭콩)');
+    expect(greenBean?.aliases.contains('풋강낭콩'), isTrue);
+    expect(greenBean?.aliases.contains('강낭콩'), isFalse);
+  });
 }
