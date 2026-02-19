@@ -3153,15 +3153,15 @@
     },
     {
       "id": "foodGreenBean",
-      "nameKo": "그린빈",
+      "nameKo": "강낭콩",
       "nameEn": "Green Bean",
-      "aliases": ["green bean", "greenbean", "그린빈", "강낭콩꼬투리"],
+      "aliases": ["green bean", "greenbean", "강낭콩", "강낭콩꼬투리"],
       "category": "vegetable",
       "foodType": "whole",
       "safetyLevel": "safe",
       "oneLinerKo": "대체로 먹여도 괜찮지만 소화기 자극 위험을 낮추려면 과량 급여를 피해야 합니다. 배변 상태가 달라지면 즉시 급여를 멈추세요.",
       "reasonKo": [
-        "그린빈은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
+        "강낭콩은 채소로 활용 가능하지만 섬유질·식물성 화합물 농도에 따라 소화 반응 차이가 큽니다.",
         "세척·손질 후 상태를 관찰하며 시작하고 이상 반응이 없을 때만 범위를 넓히세요. 운영 원칙: 양념/가공 형태 금지."
       ],
       "riskNotesKo": ["양념/가공 형태 금지"],
@@ -3185,7 +3185,7 @@
         }
       ],
       "search": {
-        "tokens": ["green bean", "greenbean", "강낭콩꼬투리", "그린빈"]
+        "tokens": ["green bean", "greenbean", "강낭콩꼬투리", "강낭콩"]
       },
       "emergency": {
         "baseRisk": "low",
