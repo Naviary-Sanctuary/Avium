@@ -22,6 +22,7 @@ class _SearchScreenState extends State<SearchScreen> {
   late final TextEditingController _controller;
   int _tabIndex = 0;
   bool _isShowingInitialDisclaimer = false;
+  bool _isMainSafetyNoticeVisible = true;
   _RiskFilterOption _riskFilter = _RiskFilterOption.all;
   AppState? _appState;
 
@@ -105,6 +106,12 @@ class _SearchScreenState extends State<SearchScreen> {
                 child: _tabIndex == 0
                     ? _HomeLanding(
                         foods: appState.allFoods,
+                        showMainSafetyNotice: _isMainSafetyNoticeVisible,
+                        onDismissMainSafetyNotice: () {
+                          setState(() {
+                            _isMainSafetyNoticeVisible = false;
+                          });
+                        },
                         onGoSearch: () {
                           setState(() {
                             _tabIndex = 1;
@@ -170,8 +177,6 @@ class _SearchScreenState extends State<SearchScreen> {
                                       ),
                                     ),
                                   ),
-                                const SizedBox(height: 8),
-                                const _MainSafetyNoticeCard(),
                                 const SizedBox(height: 12),
                                 Expanded(
                                   child: isZeroResult
@@ -543,7 +548,9 @@ enum _RiskFilterOption {
 }
 
 class _MainSafetyNoticeCard extends StatelessWidget {
-  const _MainSafetyNoticeCard();
+  const _MainSafetyNoticeCard({required this.onClose});
+
+  final VoidCallback onClose;
 
   @override
   Widget build(BuildContext context) {
@@ -572,6 +579,12 @@ class _MainSafetyNoticeCard extends StatelessWidget {
                           fontWeight: FontWeight.w800,
                         ),
                   ),
+                ),
+                IconButton(
+                  onPressed: onClose,
+                  icon: const Icon(Icons.close),
+                  tooltip: '중요 안내 닫기',
+                  visualDensity: VisualDensity.compact,
                 ),
               ],
             ),
@@ -603,11 +616,15 @@ class _MainSafetyNoticeCard extends StatelessWidget {
 class _HomeLanding extends StatelessWidget {
   const _HomeLanding({
     required this.foods,
+    required this.showMainSafetyNotice,
+    required this.onDismissMainSafetyNotice,
     required this.onGoSearch,
     required this.onOpenFood,
   });
 
   final List<FoodItem> foods;
+  final bool showMainSafetyNotice;
+  final VoidCallback onDismissMainSafetyNotice;
   final VoidCallback onGoSearch;
   final ValueChanged<FoodItem> onOpenFood;
 
@@ -639,8 +656,10 @@ class _HomeLanding extends StatelessWidget {
           padding: const EdgeInsets.all(12),
           child: Column(
             children: <Widget>[
-              const _MainSafetyNoticeCard(),
-              const SizedBox(height: 10),
+              if (showMainSafetyNotice) ...<Widget>[
+                _MainSafetyNoticeCard(onClose: onDismissMainSafetyNotice),
+                const SizedBox(height: 10),
+              ],
               Card(
                 child: Padding(
                   padding: const EdgeInsets.all(14),
