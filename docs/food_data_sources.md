@@ -4,8 +4,8 @@
 > `LICENSE_DATA.md` (not MIT).
 
 - 데이터 파일: `assets/data/foods.json`
-- 기준일: 2026-02-19
-- 데이터 리비전: `meta.dataVersion = 1.2.3`
+- 기준일: 2026-03-08
+- 데이터 리비전: `meta.dataVersion = 1.2.6`
 
 ## 데이터 문구/위험도 운영 기준
 
@@ -17,6 +17,26 @@
     편차 중 하나 이상에 해당
   - `danger`: 독성/질병 유발 등 명확한 신체 위험
 - `baseRisk`는 `low/medium/high` 기준으로 항목별 증상 가능성과 중증도를 반영합니다.
+
+## 1.2.6 리비전 범위 (버섯 danger 복원 + 안전 식품 5종 추가)
+
+- 사용자 보수 기준에 맞춰 `foodMushroom`을 다시 `danger`로 복원하고 `baseRisk=high`로 재정렬
+- 신규 `safe` 항목 5종 추가: `foodBrazilNut`, `foodPumpkin__seeds`, `foodHempSeed`, `foodWholeWheat`, `foodSafflowerSeed`
+- 신규 항목은 모두 `무염/무가공`, `드물게 소량`, `주식 대체 금지` 원칙으로 정리
+- 신규 출처는 일반 식단 원칙 링크보다 해당 식품명을 직접 언급하는 기존 승인 URL 위주로 정리
+
+## 1.2.5 리비전 범위 (버섯 급여 문구 추가 보수화)
+
+- `foodMushroom`의 대표 레벨은 `caution` 유지
+- 다만 식용 재배종 익힘 조건도 `safe`가 아닌 `caution`으로 유지하고, 문구를 `권장하지 않음/극소량 시험 수준` 중심으로 강화
+- `allowedParts`를 비우고 `frequency`를 `권장하지 않음`으로 조정해 사용자에게 긍정 급여 신호가 과하게 전달되지 않도록 정리
+
+## 1.2.4 리비전 범위 (버섯 분류 보수 조정)
+
+- `foodMushroom`은 `danger -> caution`으로 조정
+- 일반적인 식용 재배종 버섯은 일률적 독성 식품이 아니라는 Lafeber 조류 가이드를 반영
+- `safetyConditions`에 `cooked=caution`, `wild/unknown=danger`를 적용해 야생 버섯과 식용 재배종을 분리
+- `emergency.baseRisk`는 `high -> medium`으로 조정하되, 야생/종 미상 버섯은 여전히 고위험으로 안내
 
 ## 1.2.3 리비전 범위 (콩류/근대군 조리 조건 재정비)
 
@@ -390,7 +410,9 @@
   - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
 - 버섯 (`foodMushroom`)
   - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
-  - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+- 브라질너트 (`foodBrazilNut`)
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
 - 버터넛 스쿼시 (`foodButternutSquash`)
   - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
@@ -777,6 +799,8 @@
   - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
   - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
   - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
+- 통밀 (`foodWholeWheat`)
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
 - 치즈 (`foodCheese`)
   - Foods Toxic To Pet Birds: https://lafeber.com/pet-birds/foods-toxic-pet-birds/
   - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
@@ -1005,6 +1029,8 @@
   - Toxic Foods for Birds: https://www.petmd.com/bird/foods-are-toxic-birds
   - What should I feed my birds?: https://kb.rspca.org.au/knowledge-base/what-should-i-feed-my-birds/
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
+- 햄프씨드 (`foodHempSeed`)
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
 - 허니듀 (`foodHoneydew`)
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
   - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding
@@ -1035,6 +1061,11 @@
 - 호박 (`foodPumpkin`)
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
   - Lovebirds - Feeding: https://vcahospitals.com/know-your-pet/lovebirds-feeding
+- 호박씨 (`foodPumpkin__seeds`)
+  - What Do Parrots Eat?: https://www.chewy.com/education/bird/parrot/what-do-parrots-eat
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
+- 홍화씨 (`foodSafflowerSeed`)
+  - Seeds vs Pellets: Which Is Better for Your Pet Bird?: https://www.chewy.com/education/bird/feed-and-nutrition/seeds-vs-pellets
 - 홍미 (`foodRedRice`)
   - Feeding a Pet Bird: https://www.merckvetmanual.com/bird-owners/choosing-and-taking-care-of-a-pet-bird/feeding-a-pet-bird
   - Cockatiels - Feeding: https://vcahospitals.com/know-your-pet/cockatiels-feeding

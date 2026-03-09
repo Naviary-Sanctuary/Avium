@@ -16,7 +16,7 @@ void main() {
 
   test('oneLinerKo count and uniqueness are preserved', () {
     final oneLiners = db.foods.map((food) => food.oneLinerKo).toList();
-    expect(oneLiners.length, 261);
+    expect(oneLiners.length, 266);
     expect(oneLiners.toSet().length, oneLiners.length);
   });
 
